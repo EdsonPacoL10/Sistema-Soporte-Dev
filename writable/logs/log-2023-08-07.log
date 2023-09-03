@@ -1,0 +1,226 @@
+CRITICAL - 2023-08-07 19:51:25 --> Call to undefined function site_urxxl()
+in APPPATH\Views\index.php on line 233.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Views/index', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('Views/index')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:00:34 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'Home/otra_vista', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('Home/otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/otra_vista')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:06 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'Home/otra_vista', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('Home/otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/otra_vista')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:07 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'Home/otra_vista', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('Home/otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/otra_vista')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:08 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/AdminLTELogo.png', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/AdminLTELogo.png')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/AdminLTELogo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:08 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user1-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user1-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user1-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:08 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user3-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user3-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user3-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:08 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user7-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user7-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user7-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:08 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user8-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user8-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user8-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:08 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user2-160x160.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user2-160x160.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user2-160x160.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:09 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user6-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user6-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user6-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:09 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user5-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user5-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user5-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:10 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'Home/otra_vista', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('Home/otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/otra_vista')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:27 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'Home/otra_vista', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('Home/otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/otra_vista')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:30 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'Home/otra_vista', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('Home/otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/otra_vista')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/AdminLTELogo.png', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/AdminLTELogo.png')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/AdminLTELogo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user1-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user1-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user1-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user2-160x160.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user2-160x160.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user2-160x160.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user3-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user3-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user3-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user8-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user8-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user8-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user7-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user7-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user7-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user6-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user6-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user6-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:31 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'dist/img/user5-128x128.jpg', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dist/img/user5-128x128.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('dist/img/user5-128x128.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:01:34 --> preg_match(): Unknown modifier '$'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'$\'', 'C:\\laragon\\www\\Soporte-Dev-EP\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^#$#u', 'Home/otra_vista', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('Home/otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/otra_vista')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 20:19:46 --> Invalid file: "otra_vista.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('otra_vista.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('otra_vista', [], true)
+ 3 APPPATH\Controllers\ControllerSolicitud.php(9): view('otra_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerSolicitud->otra_vista()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSolicitud))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

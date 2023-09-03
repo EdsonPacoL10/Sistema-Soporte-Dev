@@ -1,0 +1,618 @@
+INFO - 2023-08-19 16:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:11:00 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:11:46 --> Undefined variable $ticket
+in APPPATH\Views\index.php on line 4.
+ 1 APPPATH\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ticket', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:12:04 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:12:05 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:15:03 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:15:13 --> Undefined variable $funcionario
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $funcionario', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:16:08 --> Undefined variable $ticket
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ticket', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:16:30 --> Attempt to read property "nomFuncionario" on array
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nomFuncionario" on array', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:31:12 --> Undefined array key 0
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:31:44 --> Undefined array key 0
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 16:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:57:55 --> Undefined array key "nomfuncionario"
+in APPPATH\Views\ActualizarAdmin.php on line 3.
+ 1 APPPATH\Views\ActualizarAdmin.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomfuncionario"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(96): view('ActualizarAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 16:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 16:58:02 --> Undefined array key "nomfuncionario"
+in APPPATH\Views\ActualizarAdmin.php on line 3.
+ 1 APPPATH\Views\ActualizarAdmin.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomfuncionario"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(96): view('ActualizarAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 18:05:01 --> Undefined array key "nomfuncionario"
+in APPPATH\Views\ActualizarAdmin.php on line 3.
+ 1 APPPATH\Views\ActualizarAdmin.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomfuncionario"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(96): view('ActualizarAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 18:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 18:05:14 --> Undefined array key "nomfuncionario"
+in APPPATH\Views\ActualizarAdmin.php on line 3.
+ 1 APPPATH\Views\ActualizarAdmin.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomfuncionario"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(96): view('ActualizarAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 18:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 18:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 18:12:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's.created_at 
+		FROM solicitud s
+		JOIN entidad e ON s.id_entidad = e.id
+		JO' at line 12 in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n\t\t\ts.i...', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n\t\t\ts.i...')
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n\t\t\ts.i...')
+#3 C:\laragon\www\Soporte-Dev-EP\app\Models\AdminModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT \r\n\t\t\ts.i...')
+#4 C:\laragon\www\Soporte-Dev-EP\app\Controllers\ControllerAdmin.php(12): App\Models\AdminModel->listarNombres()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+#7 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-19 18:12:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's.created_at 
+		FROM solicitud s
+		JOIN entidad e ON s.id_entidad = e.id
+		JO' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 
+			s.id,
+			s.funcionario AS nomFuncionario,
+		   e.nombre AS nomEntidad,
+		   s.oficina AS nomOficina,
+		 c.nombre AS clasificacion,
+		   c2.nombre AS categoria,
+		 s.descripcion_problema AS descripcion,
+		   p.nombre AS nombrePrioridad,
+			e2.nombre AS nombreEstado,
+		  sr.observacion as respuesta 
+		  s.created_at 
+		FROM solicitud s
+		JOIN entidad e ON s.id_entidad = e.id
+		JOIN clasificacion c ON s.id_clasificacion = c.id
+		JOIN categoria c2 ON s.id_categoria = c2.id
+		JOIN prioridad p ON s.id_prioridad = p.id
+		JOIN estado e2 ON s.id_estado = e2.id
+		JOIN soporte_respuesta sr ON s.respuesta = sr.id_solicitud
+		WHERE s.delete_at IS NULL;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+			s.id,
+			s.funcionario AS nomFuncionario,
+		   e.nombre AS nomEntidad,
+		   s.oficina AS nomOficina,
+		 c.nombre AS clasificacion,
+		   c2.nombre AS categoria,
+		 s.descripcion_problema AS descripcion,
+		   p.nombre AS nombrePrioridad,
+			e2.nombre AS nombreEstado,
+		  sr.observacion as respuesta 
+		  s.created_at 
+		FROM solicitud s
+		JOIN entidad e ON s.id_entidad = e.id
+		JOIN clasificacion c ON s.id_clasificacion = c.id
+		JOIN categoria c2 ON s.id_categoria = c2.id
+		JOIN prioridad p ON s.id_prioridad = p.id
+		JOIN estado e2 ON s.id_estado = e2.id
+		JOIN soporte_respuesta sr ON s.respuesta = sr.id_solicitud
+		WHERE s.delete_at IS NULL;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+			s.id,
+			s.funcionario AS nomFuncionario,
+		   e.nombre AS nomEntidad,
+		   s.oficina AS nomOficina,
+		 c.nombre AS clasificacion,
+		   c2.nombre AS categoria,
+		 s.descripcion_problema AS descripcion,
+		   p.nombre AS nombrePrioridad,
+			e2.nombre AS nombreEstado,
+		  sr.observacion as respuesta 
+		  s.created_at 
+		FROM solicitud s
+		JOIN entidad e ON s.id_entidad = e.id
+		JOIN clasificacion c ON s.id_clasificacion = c.id
+		JOIN categoria c2 ON s.id_categoria = c2.id
+		JOIN prioridad p ON s.id_prioridad = p.id
+		JOIN estado e2 ON s.id_estado = e2.id
+		JOIN soporte_respuesta sr ON s.respuesta = sr.id_solicitud
+		WHERE s.delete_at IS NULL;')
+ 4 APPPATH\Models\AdminModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT 
+			s.id,
+			s.funcionario AS nomFuncionario,
+		   e.nombre AS nomEntidad,
+		   s.oficina AS nomOficina,
+		 c.nombre AS clasificacion,
+		   c2.nombre AS categoria,
+		 s.descripcion_problema AS descripcion,
+		   p.nombre AS nombrePrioridad,
+			e2.nombre AS nombreEstado,
+		  sr.observacion as respuesta 
+		  s.created_at 
+		FROM solicitud s
+		JOIN entidad e ON s.id_entidad = e.id
+		JOIN clasificacion c ON s.id_clasificacion = c.id
+		JOIN categoria c2 ON s.id_categoria = c2.id
+		JOIN prioridad p ON s.id_prioridad = p.id
+		JOIN estado e2 ON s.id_estado = e2.id
+		JOIN soporte_respuesta sr ON s.respuesta = sr.id_solicitud
+		WHERE s.delete_at IS NULL;')
+ 5 APPPATH\Controllers\ControllerAdmin.php(12): App\Models\AdminModel->listarNombres()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 18:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 18:15:06 --> Undefined property: stdClass::$created_at
+in APPPATH\Views\index.php on line 524.
+ 1 APPPATH\Views\index.php(524): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$created_at', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 524)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 18:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 18:15:49 --> Undefined array key "nomfuncionario"
+in APPPATH\Views\ActualizarAdmin.php on line 3.
+ 1 APPPATH\Views\ActualizarAdmin.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomfuncionario"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\ActualizarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(118): view('ActualizarAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 18:23:23 --> Invalid file: "ActualizarAdmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ActualizarAdmin.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 3 APPPATH\Controllers\ControllerAdmin.php(118): view('ActualizarAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 18:23:24 --> Invalid file: "ActualizarAdmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ActualizarAdmin.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 3 APPPATH\Controllers\ControllerAdmin.php(118): view('ActualizarAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 18:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 18:23:30 --> Invalid file: "ActualizarAdmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ActualizarAdmin.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('ActualizarAdmin', [], true)
+ 3 APPPATH\Controllers\ControllerAdmin.php(118): view('ActualizarAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 18:25:39 --> Undefined variable $id
+in APPPATH\Views\RespuestaSolicitud.php on line 48.
+ 1 APPPATH\Views\RespuestaSolicitud.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('RespuestaSolicitud', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(118): view('RespuestaSolicitud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 18:49:13 --> Undefined array key "id"
+in APPPATH\Controllers\ControllerAdmin.php on line 98.
+ 1 APPPATH\Controllers\ControllerAdmin.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 18:51:20 --> Undefined array key "id"
+in APPPATH\Controllers\ControllerAdmin.php on line 98.
+ 1 APPPATH\Controllers\ControllerAdmin.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:01:26 --> Undefined array key "id"
+in APPPATH\Controllers\ControllerAdmin.php on line 98.
+ 1 APPPATH\Controllers\ControllerAdmin.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:07:26 --> Undefined variable $mensaje
+in APPPATH\Views\RespuestaSolicitud.php on line 110.
+ 1 APPPATH\Views\RespuestaSolicitud.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('RespuestaSolicitud', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(83): view('RespuestaSolicitud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:11:09 --> Undefined variable $mensaje
+in APPPATH\Views\RespuestaSolicitud.php on line 110.
+ 1 APPPATH\Views\RespuestaSolicitud.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('RespuestaSolicitud', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(91): view('RespuestaSolicitud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:11:10 --> Undefined variable $mensaje
+in APPPATH\Views\RespuestaSolicitud.php on line 110.
+ 1 APPPATH\Views\RespuestaSolicitud.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('RespuestaSolicitud', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(91): view('RespuestaSolicitud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 19:13:10 --> Undefined array key "id"
+in APPPATH\Controllers\ControllerAdmin.php on line 64.
+ 1 APPPATH\Controllers\ControllerAdmin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:13:17 --> Undefined variable $mensaje
+in APPPATH\Views\RespuestaSolicitud.php on line 110.
+ 1 APPPATH\Views\RespuestaSolicitud.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('RespuestaSolicitud', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(87): view('RespuestaSolicitud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 19:13:22 --> Undefined array key "id"
+in APPPATH\Controllers\ControllerAdmin.php on line 64.
+ 1 APPPATH\Controllers\ControllerAdmin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 19:14:02 --> Undefined variable $mensaje
+in APPPATH\Views\RespuestaSolicitud.php on line 110.
+ 1 APPPATH\Views\RespuestaSolicitud.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\RespuestaSolicitud.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('RespuestaSolicitud', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(87): view('RespuestaSolicitud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->obtenerNombre('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 19:14:35 --> mysqli_sql_exception: Unknown column 'id_funcionario' in 'field list' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `so...', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 C:\laragon\www\Soporte-Dev-EP\app\Models\AdminModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Soporte-Dev-EP\app\Controllers\ControllerAdmin.php(48): App\Models\AdminModel->insertar(Array)
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\ControllerAdmin->crear()
+#7 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+#8 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-19 19:14:35 --> Unknown column 'id_funcionario' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'\', 0, \'\', 0, \'\', \'\', 0, 0, \'\', 1, 1, \'respuesta\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'\', 0, \'\', 0, \'\', \'\', 0, 0, \'\', 1, 1, \'respuesta\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'\', 0, \'\', 0, \'\', \'\', 0, 0, \'\', 1, 1, \'respuesta\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (:id_funcionario:, :funcionario:, :id_entidad:, :entidad:, :id_oficina:, :oficina:, :dependencia:, :id_clasificacion:, :id_categoria:, :descripcion_problema:, :id_prioridad:, :id_estado:, :respuesta:, :imagen01:, :imagen02:, :imagen03:)', [...], false)
+ 5 APPPATH\Models\AdminModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ControllerAdmin.php(48): App\Models\AdminModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->crear()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 19:15:19 --> mysqli_sql_exception: Unknown column 'id_funcionario' in 'field list' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `so...', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 C:\laragon\www\Soporte-Dev-EP\app\Models\AdminModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Soporte-Dev-EP\app\Controllers\ControllerAdmin.php(48): App\Models\AdminModel->insertar(Array)
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\ControllerAdmin->crear()
+#7 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+#8 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-19 19:15:19 --> Unknown column 'id_funcionario' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'cd\', 0, \'scsc\', 0, \'c\', \'sccs\', 0, 0, \'cs\', 1, 1, \'respuesta\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'cd\', 0, \'scsc\', 0, \'c\', \'sccs\', 0, 0, \'cs\', 1, 1, \'respuesta\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'cd\', 0, \'scsc\', 0, \'c\', \'sccs\', 0, 0, \'cs\', 1, 1, \'respuesta\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (:id_funcionario:, :funcionario:, :id_entidad:, :entidad:, :id_oficina:, :oficina:, :dependencia:, :id_clasificacion:, :id_categoria:, :descripcion_problema:, :id_prioridad:, :id_estado:, :respuesta:, :imagen01:, :imagen02:, :imagen03:)', [...], false)
+ 5 APPPATH\Models\AdminModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ControllerAdmin.php(48): App\Models\AdminModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->crear()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-19 19:21:12 --> mysqli_sql_exception: Unknown column 'id_funcionario' in 'field list' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `so...', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 C:\laragon\www\Soporte-Dev-EP\app\Models\AdminModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Soporte-Dev-EP\app\Controllers\ControllerAdmin.php(48): App\Models\AdminModel->insertar(Array)
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\ControllerAdmin->crear()
+#7 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+#8 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-19 19:21:12 --> Unknown column 'id_funcionario' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'cd\', 0, \'scsc\', 0, \'c\', \'sccs\', 0, 0, \'cs\', 1, 1, \'respuesta\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'cd\', 0, \'scsc\', 0, \'c\', \'sccs\', 0, 0, \'cs\', 1, 1, \'respuesta\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (0, \'cd\', 0, \'scsc\', 0, \'c\', \'sccs\', 0, 0, \'cs\', 1, 1, \'respuesta\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `soporte_respuesta` (`id_funcionario`, `funcionario`, `id_entidad`, `entidad`, `id_oficina`, `oficina`, `dependencia`, `id_clasificacion`, `id_categoria`, `descripcion_problema`, `id_prioridad`, `id_estado`, `respuesta`, `imagen01`, `imagen02`, `imagen03`) VALUES (:id_funcionario:, :funcionario:, :id_entidad:, :entidad:, :id_oficina:, :oficina:, :dependencia:, :id_clasificacion:, :id_categoria:, :descripcion_problema:, :id_prioridad:, :id_estado:, :respuesta:, :imagen01:, :imagen02:, :imagen03:)', [...], false)
+ 5 APPPATH\Models\AdminModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ControllerAdmin.php(48): App\Models\AdminModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->crear()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 19:21:38 --> Undefined array key "id"
+in APPPATH\Controllers\ControllerAdmin.php on line 61.
+ 1 APPPATH\Controllers\ControllerAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:23:41 --> Undefined array key "id_solicitud"
+in APPPATH\Controllers\ControllerAdmin.php on line 61.
+ 1 APPPATH\Controllers\ControllerAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_solicitud"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:24:17 --> Undefined array key "id_solicitud"
+in APPPATH\Controllers\ControllerAdmin.php on line 61.
+ 1 APPPATH\Controllers\ControllerAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_solicitud"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 19:26:11 --> Undefined array key "id_solicitud"
+in APPPATH\Controllers\ControllerAdmin.php on line 61.
+ 1 APPPATH\Controllers\ControllerAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_solicitud"', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerAdmin.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 19:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 19:56:29 --> Undefined array key 0
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(23): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 19:56:29 --> Undefined array key 0
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(23): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 19:57:15 --> Undefined array key 0
+in APPPATH\Views\index.php on line 321.
+ 1 APPPATH\Views\index.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ControllerAdmin.php(23): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-19 19:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

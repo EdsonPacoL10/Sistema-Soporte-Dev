@@ -1,0 +1,72 @@
+CRITICAL - 2023-08-10 14:11:20 --> Invalid file: "Calendario/calendario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Calendario/calendario.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Calendario/calendario', [], true)
+ 3 APPPATH\Controllers\ControllerSolicitud.php(26): view('Calendario/calendario')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerSolicitud->calendario()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSolicitud))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 14:17:49 --> Invalid file: "Calendario/calendario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Calendario/calendario.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Calendario/calendario', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('Calendario/calendario')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->calendario()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 14:22:07 --> Invalid file: "Recurso/Recurso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recurso/Recurso.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Recurso/Recurso', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('Recurso/Recurso')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Recurso()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 14:23:09 --> Invalid file: "Recurso/Recurso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recurso/Recurso.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Recurso/Recurso', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('Recurso/Recurso')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Recurso()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 14:23:10 --> Invalid file: "Recurso/Recurso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recurso/Recurso.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Recurso/Recurso', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('Recurso/Recurso')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Recurso()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 14:23:11 --> Invalid file: "Recurso/Recurso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recurso/Recurso.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Recurso/Recurso', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('Recurso/Recurso')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Recurso()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 14:23:11 --> Invalid file: "Recurso/Recurso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recurso/Recurso.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Recurso/Recurso', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('Recurso/Recurso')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Recurso()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 14:24:44 --> Invalid file: "Recursos/Driver.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recursos/Driver.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Recursos/Driver', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('Recursos/Driver')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Driver()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1056 @@
+CRITICAL - 2023-08-31 00:26:24 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:26:27 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:26:49 --> Attempt to read property "id" on array
+in APPPATH\Controllers\SolicitudesController.php on line 22.
+ 1 APPPATH\Controllers\SolicitudesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:27:22 --> Attempt to read property "id" on array
+in APPPATH\Controllers\SolicitudesController.php on line 22.
+ 1 APPPATH\Controllers\SolicitudesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:27:23 --> Attempt to read property "id" on array
+in APPPATH\Controllers\SolicitudesController.php on line 22.
+ 1 APPPATH\Controllers\SolicitudesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:27:38 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\SolicitudesController.php on line 36.
+ 1 APPPATH\Controllers\SolicitudesController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:27:39 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\SolicitudesController.php on line 36.
+ 1 APPPATH\Controllers\SolicitudesController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:28:57 --> syntax error, unexpected token ","
+in APPPATH\Controllers\SolicitudesController.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SolicitudesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SolicitudesController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\SolicitudesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:24:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(234): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\SolicitudesController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->fetchData()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:44:53 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(11): view('vistas_solicitudes/solicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:45:50 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:45:57 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:46:01 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:46:37 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:46:38 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:47:15 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:47:16 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:47:38 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:47:39 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:47:41 --> Undefined variable $data
+in APPPATH\Views\vistas_solicitudes\solicitudes.php on line 3453.
+ 1 APPPATH\Views\vistas_solicitudes\solicitudes.php(3453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php', 3453)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\vistas_solicitudes\\solicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vistas_solicitudes/solicitudes', [], true)
+ 5 APPPATH\Controllers\SolicitudesController.php(15): view('vistas_solicitudes/solicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 04:10:51 --> Invalid file: "Administrador/Administrador.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Administrador/Administrador.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/Administrador', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Administrador/Administrador')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:26:25 --> Undefined property: stdClass::$nombre
+in APPPATH\Views\Administrador\administrador.php on line 47.
+ 1 APPPATH\Views\Administrador\administrador.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:27:09 --> Undefined property: stdClass::$id_nombre
+in APPPATH\Views\Administrador\administrador.php on line 51.
+ 1 APPPATH\Views\Administrador\administrador.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_nombre', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:28:06 --> Undefined property: stdClass::$id_nombre
+in APPPATH\Views\Administrador\administrador.php on line 51.
+ 1 APPPATH\Views\Administrador\administrador.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_nombre', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:28:08 --> Undefined property: stdClass::$id_nombre
+in APPPATH\Views\Administrador\administrador.php on line 51.
+ 1 APPPATH\Views\Administrador\administrador.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_nombre', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:28:09 --> Undefined property: stdClass::$id_nombre
+in APPPATH\Views\Administrador\administrador.php on line 51.
+ 1 APPPATH\Views\Administrador\administrador.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_nombre', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:28:09 --> Undefined property: stdClass::$id_nombre
+in APPPATH\Views\Administrador\administrador.php on line 51.
+ 1 APPPATH\Views\Administrador\administrador.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_nombre', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:28:11 --> Undefined property: stdClass::$id_nombre
+in APPPATH\Views\Administrador\administrador.php on line 51.
+ 1 APPPATH\Views\Administrador\administrador.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_nombre', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 04:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 04:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 04:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 04:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 04:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 04:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:58:11 --> Invalid file: "Administrador/ListaSolicitud.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Administrador/ListaSolicitud.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitud', [], true)
+ 3 APPPATH\Controllers\AdminController.php(24): view('Administrador/ListaSolicitud', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 04:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 04:58:51 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:01:14 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:02:04 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:02:05 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:04:13 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:04:15 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:05:36 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:07:22 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:08:21 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5251.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5251)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:08:26 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5251.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5251)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:01 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:02 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:02 --> Undefined variable $data1
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:19 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:20 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:21 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:23 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:24 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:24 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:11:24 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:12:51 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:12:52 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:12:53 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:12:53 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:12:54 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:13:09 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:13:27 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:13:31 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:13:33 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:15:18 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:15:19 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:17:09 --> Undefined property: App\Controllers\AdminController::$infor
+in APPPATH\Controllers\AdminController.php on line 23.
+ 1 APPPATH\Controllers\AdminController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\AdminController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:17:31 --> Undefined variable $key
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:18:08 --> Undefined variable $key
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:18:24 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:18:25 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:18:25 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:18:26 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:18:55 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:20:21 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:21:05 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:21:18 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:21:21 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:21:22 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:21:23 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:23:18 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:23:19 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:23:19 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:23:20 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 05:23:20 --> Undefined variable $infor
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 5252.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(5252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infor', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 5252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 05:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 05:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 05:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 13:07:42 --> Undefined property: stdClass::$id
+in APPPATH\Views\Administrador\administrador.php on line 47.
+ 1 APPPATH\Views\Administrador\administrador.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/administrador', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('Administrador/administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-31 13:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 13:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 14:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 15:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 16:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 18:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 19:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 20:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 21:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

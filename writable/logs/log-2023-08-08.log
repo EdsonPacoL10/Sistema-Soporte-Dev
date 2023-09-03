@@ -1,0 +1,227 @@
+CRITICAL - 2023-08-08 00:54:31 --> Invalid file: "MonitorSistema.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('MonitorSistema.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('MonitorSistema', [], true)
+ 3 APPPATH\Controllers\ControllerSolicitud.php(13): view('MonitorSistema')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerSolicitud->MonitorSistema()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSolicitud))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:13:43 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 481.
+ 1 APPPATH\Views\index.php(481): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 481)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:14:48 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:16:46 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:21:29 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:25:04 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:29:21 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:30:40 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:30:41 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:30:42 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:30:43 --> Undefined variable $registros
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:33:19 --> Undefined variable $connection
+in APPPATH\Controllers\ControllerSolicitud.php on line 9.
+ 1 APPPATH\Controllers\ControllerSolicitud.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerSolicitud.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerSolicitud->SolicitudSoporte()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSolicitud))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:35:36 --> Undefined variable $connection
+in APPPATH\Controllers\ControllerSolicitud.php on line 25.
+ 1 APPPATH\Controllers\ControllerSolicitud.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Controllers\\ControllerSolicitud.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerSolicitud->MonitorSistema()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSolicitud))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:53:13 --> Cannot call constructor
+in APPPATH\Controllers\ControllerSolicitud.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerSolicitud->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:53:15 --> Cannot call constructor
+in APPPATH\Controllers\ControllerSolicitud.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerSolicitud->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:54:39 --> Cannot call constructor
+in APPPATH\Controllers\ControllerSolicitud.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerSolicitud->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:54:41 --> Cannot call constructor
+in APPPATH\Controllers\ControllerSolicitud.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerSolicitud->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:54:41 --> Cannot call constructor
+in APPPATH\Controllers\ControllerSolicitud.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerSolicitud->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:56:24 --> Undefined variable $usuarios
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:56:51 --> Undefined variable $usuarios
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 03:02:08 --> Undefined variable $usuarios
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 03:02:09 --> Undefined variable $usuarios
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 03:10:29 --> Undefined variable $usuarios
+in APPPATH\Views\index.php on line 479.
+ 1 APPPATH\Views\index.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 479)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 16:44:38 --> Invalid file: "Recursos/recursos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recursos/recursos.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Recursos/recursos', [], true)
+ 3 APPPATH\Controllers\ControllerSolicitud.php(31): view('Recursos/recursos')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerSolicitud->recursos()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSolicitud))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

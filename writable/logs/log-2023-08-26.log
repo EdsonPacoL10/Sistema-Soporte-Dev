@@ -1,0 +1,20 @@
+CRITICAL - 2023-08-26 02:48:24 --> Undefined variable $datos
+in APPPATH\Views\index.php on line 463.
+ 1 APPPATH\Views\index.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\index.php', 463)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 18:24:22 --> Invalid file: "vista_solicitudes/solicitudes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vista_solicitudes/solicitudes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_solicitudes/solicitudes', [], true)
+ 3 APPPATH\Controllers\SolicitudesController.php(9): view('vista_solicitudes/solicitudes')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->lista()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

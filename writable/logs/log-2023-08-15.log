@@ -1,0 +1,302 @@
+ERROR - 2023-08-15 13:47:53 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('127.0.0.1', 'root', '', 'soporteDV', 3306, '', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-15 13:47:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'soportedv'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-15 13:48:15 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('127.0.0.1', 'root', '', 'soporteDV', 3306, '', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-15 13:48:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'soportedv'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-15 13:49:11 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('127.0.0.1', 'root', '', 'soporteDV', 3306, '', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-15 13:49:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'soportedv'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-15 13:49:13 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('127.0.0.1', 'root', '', 'soporteDV', 3306, '', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-15 13:49:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'soportedv'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-15 13:49:14 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('127.0.0.1', 'root', '', 'soporteDV', 3306, '', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'soportedv' in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#3 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-15 13:49:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'soportedv'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-15 13:50:35 --> mysqli_sql_exception: Table 'soporte.solicitud_de_soporte' doesn't exist in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID,AREA,...', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID,AREA,...')
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID,AREA,...')
+#3 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-15 13:50:35 --> Table 'soporte.solicitud_de_soporte' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-15 13:50:47 --> mysqli_sql_exception: Table 'soporte.solicitud_de_soporte' doesn't exist in C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\Soporte-Dev-EP\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID,AREA,...', 0)
+#1 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID,AREA,...')
+#2 C:\laragon\www\Soporte-Dev-EP\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID,AREA,...')
+#3 C:\laragon\www\Soporte-Dev-EP\app\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,...')
+#4 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#5 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Soporte-Dev-EP\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Soporte-Dev-EP\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-15 13:50:47 --> Table 'soporte.solicitud_de_soporte' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseConnection->query('SELECT ID,AREA,DEPARTAMENTO,NOMBRE,CARGO,FECHA,HORA,DESCRIPCION,ANYDESK,EQUIPO,IMAGEN01,IMAGEN02,IMAGEN03 FROM SOLICITUD_DE_SOPORTE;')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 14:12:38 --> Undefined property: stdClass::$image01
+in APPPATH\Views\SolicitudSoporte.php on line 478.
+ 1 APPPATH\Views\SolicitudSoporte.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$image01', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 478)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('SolicitudSoporte', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->SolicitudSoporte()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 16:27:07 --> Class "App\Models\ItemModel" not found
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 18:31:15 --> Undefined variable $solicitud
+in APPPATH\Views\SolicitudSoporte.php on line 475.
+ 1 APPPATH\Views\SolicitudSoporte.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $solicitud', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 475)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('SolicitudSoporte')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 20:10:11 --> Undefined variable $SOLICITUD_DE_SOPORTE
+in APPPATH\Views\index.php on line 465.
+ 1 APPPATH\Views\index.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $SOLICITUD_DE_SOPORTE', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php', 465)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 20:11:35 --> Undefined variable $solicitud
+in APPPATH\Views\SolicitudSoporte.php on line 475.
+ 1 APPPATH\Views\SolicitudSoporte.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $solicitud', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 475)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('SolicitudSoporte')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 20:12:20 --> Undefined variable $solicitud
+in APPPATH\Views\SolicitudSoporte.php on line 475.
+ 1 APPPATH\Views\SolicitudSoporte.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $solicitud', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 475)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('SolicitudSoporte')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 20:12:22 --> Undefined variable $solicitud
+in APPPATH\Views\SolicitudSoporte.php on line 475.
+ 1 APPPATH\Views\SolicitudSoporte.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $solicitud', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 475)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('SolicitudSoporte')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 20:12:24 --> Undefined variable $solicitud
+in APPPATH\Views\SolicitudSoporte.php on line 475.
+ 1 APPPATH\Views\SolicitudSoporte.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $solicitud', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 475)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('SolicitudSoporte')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 20:12:35 --> Undefined variable $solicitud
+in APPPATH\Views\SolicitudSoporte.php on line 475.
+ 1 APPPATH\Views\SolicitudSoporte.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $solicitud', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 475)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('SolicitudSoporte')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 20:44:24 --> Undefined variable $total
+in APPPATH\Views\SolicitudSoporte.php on line 100.
+ 1 APPPATH\Views\SolicitudSoporte.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php', 100)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Soporte-Dev-EP\\app\\Views\\SolicitudSoporte.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('SolicitudSoporte', [...], true)
+ 5 APPPATH\Controllers\Home.php(27): view('SolicitudSoporte', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->SolicitudSoporte()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,435 @@
+CRITICAL - 2023-08-29 00:26:57 --> require_once(C:\laragon\www\proyecto-metronic\public\recursos/datatables/server.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SolicitudesController.php on line 34.
+ 1 APPPATH\Controllers\SolicitudesController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\laragon\\www\\proyecto-metronic\\public\\recursos/datatables/server.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 34)
+ 2 APPPATH\Controllers\SolicitudesController.php(34): require_once()
+ 3 APPPATH\Controllers\SolicitudesController.php(30): App\Controllers\SolicitudesController->datatables('[{"id":"1","funcionario":"Pedro","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"mal conexino","observacion":"no"},{"id":"2","funcionario":"juan","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"no conecta a internte","observacion":"1"},{"id":"3","funcionario":"de","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"dede","observacion":"1"},{"id":"4","funcionario":"prueba05","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"05","observacion":"no"},{"id":"5","funcionario":"prueba06","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"prueba06","observacion":"no"},{"id":"6","funcionario":"prueba07","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"no corre","observacion":"si"},{"id":"7","funcionario":"","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"","observacion":"Sin respuesta"},{"id":"8","funcionario":"maria","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"no da respuestya","observacion":"ya se viene en camino"}]', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:27:03 --> require_once(C:\laragon\www\proyecto-metronic\public\recursos/datatables/server.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SolicitudesController.php on line 34.
+ 1 APPPATH\Controllers\SolicitudesController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\laragon\\www\\proyecto-metronic\\public\\recursos/datatables/server.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 34)
+ 2 APPPATH\Controllers\SolicitudesController.php(34): require_once()
+ 3 APPPATH\Controllers\SolicitudesController.php(30): App\Controllers\SolicitudesController->datatables('[{"id":"1","funcionario":"Pedro","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"mal conexino","observacion":"no"},{"id":"2","funcionario":"juan","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"no conecta a internte","observacion":"1"},{"id":"3","funcionario":"de","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"dede","observacion":"1"},{"id":"4","funcionario":"prueba05","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"05","observacion":"no"},{"id":"5","funcionario":"prueba06","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"prueba06","observacion":"no"},{"id":"6","funcionario":"prueba07","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"no corre","observacion":"si"},{"id":"7","funcionario":"","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"","observacion":"Sin respuesta"},{"id":"8","funcionario":"maria","nombre_prioridad":"Alta","nombre_estado":"Activo","descripcion_problema":"no da respuestya","observacion":"ya se viene en camino"}]', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:30:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:30:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:31:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:32:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:33:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:33:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:34:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:34:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:34:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(18): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:41:28 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:42:07 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:42:08 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:42:36 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:42:38 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:43:01 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:43:03 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:45:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:46:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:53:33 --> A table must be specified when creating a new Query Builder.
+in SYSTEMPATH\Database\BaseBuilder.php on line 307.
+ 1 SYSTEMPATH\Database\BaseConnection.php(888): CodeIgniter\Database\BaseBuilder->__construct(null, Object(CodeIgniter\Database\MySQLi\Connection))
+ 2 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 3 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 4 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:54:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:55:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:55:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:55:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:55:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:55:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:55:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:57:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:57:42 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 00:59:15 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 01:00:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SolicitudesController.php(15): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:17:56 --> Undefined array key "Actions"
+in APPPATH\Controllers\SolicitudesController.php on line 26.
+ 1 APPPATH\Controllers\SolicitudesController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Actions"', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:17:56 --> Undefined array key "Actions"
+in APPPATH\Controllers\SolicitudesController.php on line 26.
+ 1 APPPATH\Controllers\SolicitudesController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Actions"', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:38:30 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:39:35 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:40:07 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:40:59 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:41:44 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:41:45 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:41:45 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:41:46 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:41:47 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:41:47 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:41:49 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:42:53 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:43:27 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:44:29 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:44:30 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:44:48 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:44:50 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:45:01 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:49:00 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:49:01 --> Object of class App\Models\CrudModel could not be converted to string
+in APPPATH\Controllers\SolicitudesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 03:50:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\SolicitudesController.php on line 19.
+ 1 APPPATH\Controllers\SolicitudesController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\SolicitudesController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 04:04:12 --> Call to undefined method App\Controllers\SolicitudesController::echo()
+in APPPATH\Controllers\SolicitudesController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 04:04:14 --> Call to undefined method App\Controllers\SolicitudesController::echo()
+in APPPATH\Controllers\SolicitudesController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 04:07:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\CrudModel.php on line 12.
+ 1 APPPATH\Controllers\SolicitudesController.php(17): App\Models\CrudModel->listarNombres()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 04:07:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\CrudModel.php on line 12.
+ 1 APPPATH\Controllers\SolicitudesController.php(17): App\Models\CrudModel->listarNombres()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 04:07:46 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SolicitudesController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SolicitudesController->tabla_solicitudes()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudesController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
