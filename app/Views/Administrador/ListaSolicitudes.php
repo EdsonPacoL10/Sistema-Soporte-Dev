@@ -45,6 +45,39 @@ License: For each use you must have a valid license purchased only from above li
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!-- Incluye Dropzone.js desde un CDN -->
 
+    <style>
+        /* Estilo para el encabezado de la tabla */
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Estilo para las celdas de la columna 'entidad' */
+        td:nth-child(2) {
+            font-weight: bold;
+        }
+
+        /* Estilo para las celdas de la columna 'nombres' */
+        td:nth-child(3) {
+            color: blue;
+        }
+
+        /* Estilo para las celdas de la columna 'oficina' */
+        td:nth-child(4) {
+            background-color: #f0f0f0;
+        }
+
+        /* Estilo para las celdas de la columna 'descripcion_problema' */
+        td:nth-child(5) {
+            text-transform: uppercase;
+        }
+
+        /* Estilo para las celdas de la columna 'respuesta' */
+        td:nth-child(6) {
+            font-style: italic;
+        }
+    </style>
+
 
 </head>
 <!--end::Head-->
@@ -53,19 +86,19 @@ License: For each use you must have a valid license purchased only from above li
 <body data-kt-name="metronic" id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled">
     <!--begin::Theme mode setup on page load-->
     <script>
-    if (document.documentElement) {
-        const defaultThemeMode = "system";
-        const name = document.body.getAttribute("data-kt-name");
-        let themeMode = localStorage.getItem("kt_" + (name !== null ? name + "_" : "") + "theme_mode_value");
-        if (themeMode === null) {
-            if (defaultThemeMode === "system") {
-                themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-            } else {
-                themeMode = defaultThemeMode;
+        if (document.documentElement) {
+            const defaultThemeMode = "system";
+            const name = document.body.getAttribute("data-kt-name");
+            let themeMode = localStorage.getItem("kt_" + (name !== null ? name + "_" : "") + "theme_mode_value");
+            if (themeMode === null) {
+                if (defaultThemeMode === "system") {
+                    themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+                } else {
+                    themeMode = defaultThemeMode;
+                }
             }
+            document.documentElement.setAttribute("data-theme", themeMode);
         }
-        document.documentElement.setAttribute("data-theme", themeMode);
-    }
     </script>
     <!--end::Theme mode setup on page load-->
     <!--begin::Main-->
@@ -5790,7 +5823,7 @@ License: For each use you must have a valid license purchased only from above li
                                             </svg>
                                         </span>
                                         <!--end::Svg Icon-->
-                                        <input type="text" data-kt-user-table-filter="search"
+                                        <input id="search-input" type="text" data-kt-user-table-filter="search"
                                             class="form-control form-control-solid w-250px ps-14"
                                             placeholder="Buscar Solicitud" />
                                     </div>
@@ -6073,13 +6106,13 @@ License: For each use you must have a valid license purchased only from above li
                                                                 <!--end::Label-->
                                                                 <!--begin::Image placeholder-->
                                                                 <style>
-                                                                .image-input-placeholder {
-                                                                    background-image: url('assets/media/svg/files/blank-image.svg');
-                                                                }
+                                                                    .image-input-placeholder {
+                                                                        background-image: url('assets/media/svg/files/blank-image.svg');
+                                                                    }
 
-                                                                [data-theme="dark"] .image-input-placeholder {
-                                                                    background-image: url('assets/media/svg/files/blank-image-dark.svg');
-                                                                }
+                                                                    [data-theme="dark"] .image-input-placeholder {
+                                                                        background-image: url('assets/media/svg/files/blank-image-dark.svg');
+                                                                    }
                                                                 </style>
                                                                 <!--end::Image placeholder-->
                                                                 <!--begin::Image input-->
@@ -6321,25 +6354,18 @@ License: For each use you must have a valid license purchased only from above li
                             <!--begin::Card body-->
                             <div class="card-body py-4">
                                 <!--begin::Table-->
-                                <table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_table_users">
+                                <table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_table_use">
                                     <!--begin::Table head-->
                                     <thead>
                                         <!--begin::Table row-->
                                         <tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
-                                            <th class="w-10px pe-2">
-                                                <div
-                                                    class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                                    <input class="form-check-input" type="checkbox" data-kt-check="true"
-                                                        data-kt-check-target="#kt_table_users .form-check-input"
-                                                        value="1" />
-                                                </div>
-                                            </th>
-                                            <th class="min-w-125px">User</th>
-                                            <th class="min-w-125px">Role</th>
-                                            <th class="min-w-125px">Last login</th>
-                                            <th class="min-w-125px">Two-step</th>
-                                            <th class="min-w-125px">Joined Date</th>
-                                            <th class="min-w-125px">Joined Date</th>
+                                            <th class="min-w-125px">id</th>
+                                            <th class="min-w-125px">funcionario</th>
+                                            <th class="min-w-125px">entidad</th>
+                                            <th class="min-w-125px">oficina </th>
+                                            <th class="min-w-125px">descripcion_problema</th>
+                                            <th class="min-w-125px">respuesta</th>
+
                                             <th class="text-end min-w-100px">Actions</th>
                                         </tr>
                                         <!--end::Table row-->
@@ -6348,97 +6374,7 @@ License: For each use you must have a valid license purchased only from above li
                                     <!--begin::Table body-->
                                     <tbody class="text-gray-600 fw-semibold">
 
-                                        <?php foreach ($datos as $key): ?>
 
-                                        <tr>
-                                            <!--begin::Checkbox-->
-                                            <td>
-                                                <div
-                                                    class="form-check form-check-sm form-check-custom form-check-solid">
-                                                    <input class="form-check-input" type="checkbox" value="1" />
-                                                </div>
-                                            </td>
-                                            <!--end::Checkbox-->
-                                            <!--begin::User=-->
-                                            <td class="d-flex align-items-center">
-                                                <!--begin:: Avatar -->
-                                                <div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-                                                    <a href="../../demo19/dist/apps/user-management/users/view.html">
-                                                        <div class="symbol-label">
-                                                            <img src="assets/media/avatars/300-9.jpg"
-                                                                alt="Francis Mitcham" class="w-100" />
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <!--end::Avatar-->
-                                                <!--begin::User details-->
-                                                <div class="d-flex flex-column">
-                                                    <a href="../../demo19/dist/apps/user-management/users/view.html"
-                                                        class="text-gray-800 text-hover-primary mb-1">Francis
-                                                        Mitcham</a>
-                                                    <span>f.mit@kpmg.com</span>
-                                                </div>
-                                                <!--begin::User details-->
-                                            </td>
-                                            <!--end::User=-->
-                                            <!--begin::Role=-->
-                                            <td><?php echo $key->funcionario; ?></td>
-                                            <!--end::Role=-->
-                                            <!--begin::Last login=-->
-                                            <td>
-                                                <div class="badge badge-light fw-bold">
-                                                    <?php echo $key->entidad; ?>
-                                                </div>
-                                            </td>
-                                            <!--end::Last login=-->
-                                            <!--begin::Two step=-->
-                                            <td><?php echo $key->oficina; ?></td>
-                                            <!--end::Two step=-->
-                                            <!--begin::Joined-->
-                                            <td><?php echo $key->descripcion_problema; ?></td>
-                                            <!--begin::Joined-->
-                                            <!--begin::Joined-->
-                                            <td><?php echo $key->respuesta; ?></td>
-                                            <!--begin::Joined-->
-                                            <!--begin::Action=-->
-                                            <td class="text-end">
-                                                <a href="#" class="btn btn-light btn-active-light-primary btn-sm"
-                                                    data-kt-menu-trigger="click"
-                                                    data-kt-menu-placement="bottom-end">Actions
-                                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-                                                    <span class="svg-icon svg-icon-5 m-0">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z"
-                                                                fill="currentColor" />
-                                                        </svg>
-                                                    </span>
-                                                    <!--end::Svg Icon-->
-                                                </a>
-                                                <!--begin::Menu-->
-                                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4"
-                                                    data-kt-menu="true">
-                                                    <!--begin::Menu item-->
-                                                    <div class="menu-item px-3">
-                                                        <a href="../../demo19/dist/apps/user-management/users/view.html"
-                                                            class="menu-link px-3">Edit</a>
-                                                    </div>
-                                                    <!--end::Menu item-->
-                                                    <!--begin::Menu item-->
-                                                    <div class="menu-item px-3">
-                                                        <a href="#" class="menu-link px-3"
-                                                            data-kt-users-table-filter="delete_row">Delete</a>
-                                                    </div>
-                                                    <!--end::Menu item-->
-                                                </div>
-                                                <!--end::Menu-->
-                                            </td>
-                                            <!--end::Action=-->
-                                        </tr>
-                                        <!--end::Table row-->
-
-                                        <?php endforeach; ?>
 
                                     </tbody>
                                     <!--end::Table body-->
@@ -9536,9 +9472,9 @@ License: For each use you must have a valid license purchased only from above li
                                                                 title="Son todos los equipos que pueden ser persibidos con el sentido del tacto como ej:Monitos,PC,Impresora y etc..."></i></span>
                                                     </span>
                                                 </span>
-												
+
                                                 <select id="hardware" class="form-select" name="hardware">
-													
+
                                                     <option value="sin" selected>Seleccione</option>
                                                     <option value="opcion1">Opción 2</option>
                                                     <option value="opcino2">Opción 3</option>
@@ -11406,11 +11342,46 @@ License: For each use you must have a valid license purchased only from above li
     </div>
 
 
+
+    <div class="modal fade" id="editar_venta_modal" tabindex="-1" role="dialog" aria-labelledby="editar_venta_modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editar_venta_modalLabel">Editar Venta</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del formulario de edición -->
+                <form id="formulario_edicion">
+                    <div class="mb-3">
+                        <label for="modal_id" class="form-label">ID:</label>
+                        <input type="text" class="form-control" id="modal_id" name="modal_id" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modal_nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="modal_nombre" name="modal_nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="modal_descripcion" class="form-label">Descripción:</label>
+                        <textarea class="form-control" id="modal_descripcion" name="modal_descripcion"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="guardar_edicion">Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     <!--end::Modal - Invite Friend-->
     <!--end::Modals-->
     <!--begin::Javascript-->
     <script>
-    var hostUrl = "assets/";
+        var hostUrl = "assets/";
     </script>
     <!--begin::Global Javascript Bundle(used by all pages)-->
     <script src="assets/plugins/global/plugins.bundle.js"></script>
@@ -11435,94 +11406,187 @@ License: For each use you must have a valid license purchased only from above li
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
     <script>
-    $("#kt_table_users").DataTable({
-        destroy: true,
-        "pagingType": "full_numbers",
-        "lengthMenu": [
-            [5, 10, 25, 50, 100, 200, -1],
-            [5, 10, 25, 50, 100, 200, "Todos"]
-        ]
-    });
-    Dropzone.autoDiscover = false;
-    var arrayFiles = [];
-    var countArrayFiles = 0;
 
-    $(".dropzone").dropzone({
-        url: "/crear", // Reemplaza con la URL correcta
-        addRemoveLinks: true,
-        acceptedFiles: "image/jpeg, image/png",
-        maxFilesize: 1, // Tamaño máximo en MB
-        maxFiles: 1,
-        dictDefaultMessage: "Arrastre o suelte tus imágenes aquí, Recomendado: 500px * 500px, tamaño máximo 1 MB",
-        init: function() {
-            var myDropzone = this;
+        "use strict";
+        var table;
+        var dt;
 
-            this.on("addedfile", function(file) {
-                countArrayFiles++;
-                setTimeout(function() {
-                    arrayFiles.push({
-                        "file": file.dataURL,
-                        "type": file.type,
-                        "width": file.width,
-                        "height": file.height
-                    });
-                }, 100 * countArrayFiles);
+        $(document).ready(function () {
+
+            dt = $('#kt_table_use').DataTable({
+
+
+                searchDelay: 500,
+                processing: true,
+                serverSide: true,
+                order: [[0, 'asc']],
+                stateSave: true,
+                select: {
+                    style: 'multi',
+                    selector: 'td:first-child input[type="checkbox"]',
+                    className: 'row-selected'
+                },
+                'ajax': {
+
+                    url: "listaajax"
+                },
+                'columns': [
+
+                    { data: 'id' },
+                    { data: 'entidad' },
+                    { data: 'nombres' },
+                    { data: 'oficina' },
+                    { data: 'descripcion_problema' },
+                    { data: 'respuesta' },
+                    { data: 'Actions' },
+                ],
+                columnDefs: [
+                    {
+                        targets: 6,
+                        orderable: false,
+                        render: function (data) {
+                            return ` <div class="text-end">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-light btn-active-light-primary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Acción
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" data-bs-toggle="modal" href="#editar_venta_modal" data-id="" data-nombre="" data-url="acevm" id="editar">Editar</a>
+                            <a class="dropdown-item" href="javascript:;" id="eliminar" data-kt-users-table-filter="delete_row" data-id="" data-nombre="">Eliminar</a>
+                        </div>
+                    </div>
+                </div>`;
+                        }
+                    },
+                ],
+
+
             });
 
-            this.on("removedfile", function(file) {
-                var index = arrayFiles.findIndex(function(item) {
-                    return item.file === file.dataURL;
+            handleSearchDatatable();
+            recargarTabla();
+        });
+
+
+
+        $(document).ready(function () {
+    // Evento de clic para el botón "Editar" en la fila de la tabla
+    $(document).on('click', '#editar', function () {
+        // Captura los datos de la fila
+        var id = $(this).closest('tr').data('id');
+        var entidad = $(this).closest('tr').data('entidad');
+        var respuesta = $(this).closest('tr').data('respuesta');
+
+        // Llena el modal de edición con los datos capturados
+        $('#modal_id').val(id);
+        $('#modal_nombre').val(entidad);
+        $('#modal_descripcion').val(respuesta);
+
+        // Abre el modal de edición
+        $('#editar_venta_modal').modal('show');
+    });
+
+    // Evento de clic para guardar los cambios en el formulario de edición
+    $(document).on('click', '#guardar_edicion', function () {
+        // Aquí puedes implementar la lógica para guardar los cambios en el elemento editado
+        // Por ejemplo, puedes hacer una solicitud AJAX para enviar los datos al servidor.
+
+        // Cierra el modal después de guardar los cambios
+        $('#editar_venta_modal').modal('hide');
+    });
+}); 
+        
+        var handleSearchDatatable = function () {
+            const filterSearch = document.querySelector("#search-input");
+            filterSearch.addEventListener('keyup', function (e) {
+                dt.search(e.target.value).draw();
+            });
+        }
+
+        function recargarTabla() {
+            dt.ajax.reload();
+        }
+      
+        Dropzone.autoDiscover = false;
+        var arrayFiles = [];
+        var countArrayFiles = 0;
+
+        $(".dropzone").dropzone({
+            url: "/crear", // Reemplaza con la URL correcta
+            addRemoveLinks: true,
+            acceptedFiles: "image/jpeg, image/png",
+            maxFilesize: 1, // Tamaño máximo en MB
+            maxFiles: 1,
+            dictDefaultMessage: "Arrastre o suelte tus imágenes aquí, Recomendado: 500px * 500px, tamaño máximo 1 MB",
+            init: function () {
+                var myDropzone = this;
+
+                this.on("addedfile", function (file) {
+                    countArrayFiles++;
+                    setTimeout(function () {
+                        arrayFiles.push({
+                            "file": file.dataURL,
+                            "type": file.type,
+                            "width": file.width,
+                            "height": file.height
+                        });
+                    }, 100 * countArrayFiles);
                 });
 
-                if (index !== -1) {
-                    arrayFiles.splice(index, 1);
-                }
-            });
-			
-        }
-    });
+                this.on("removedfile", function (file) {
+                    var index = arrayFiles.findIndex(function (item) {
+                        return item.file === file.dataURL;
+                    });
 
-    // Manejar el envío de datos sin el uso de un formulario
-    $('#saveBtn').click(function() {
-        // Obtener los valores de los campos de texto, botones de radio, área de texto y el combo
-        var otherData = {
-            codigo: document.getElementById("codigo").value,
-            funcionario: document.getElementById("funcionario").value,
-			entidad: document.getElementById("entidad").value,
-			oficina: document.getElementById("oficina").value,
-			dependencia: document.getElementById("dependencia").value,
-			hardware: document.getElementById("hardware").value,
-			telefonia: document.getElementById("telefonia").value,
-			software: document.getElementById("software").value,
-			otros: document.getElementById("otros").value,
-            prioridad: document.querySelector("input[name='prioridad']:checked").value,
-			descripcion: document.getElementById("descripcion").value,
-		
-        };
+                    if (index !== -1) {
+                        arrayFiles.splice(index, 1);
+                    }
+                });
 
-        // Combinar los datos en un objeto único
-        var formData = {
-            files: arrayFiles,
-            otherData: otherData
-        };
-
-        // Convertir el objeto en una cadena JSON
-        var jsonData = JSON.stringify(formData);
-
-        console.log("JSON enviado al servidor:", jsonData);
-
-        // Enviar los datos mediante una solicitud AJAX
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "/crear", true);
-        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                // Manejar la respuesta del servidor si es necesario
-                console.log(xhr.responseText);
             }
-        };
-        xhr.send(jsonData);
-    });
+        });
+
+        // Manejar el envío de datos sin el uso de un formulario
+        $('#saveBtn').click(function () {
+            // Obtener los valores de los campos de texto, botones de radio, área de texto y el combo
+            var otherData = {
+                codigo: document.getElementById("codigo").value,
+                funcionario: document.getElementById("funcionario").value,
+                entidad: document.getElementById("entidad").value,
+                oficina: document.getElementById("oficina").value,
+                dependencia: document.getElementById("dependencia").value,
+                hardware: document.getElementById("hardware").value,
+                telefonia: document.getElementById("telefonia").value,
+                software: document.getElementById("software").value,
+                otros: document.getElementById("otros").value,
+                prioridad: document.querySelector("input[name='prioridad']:checked").value,
+                descripcion: document.getElementById("descripcion").value,
+
+            };
+
+            // Combinar los datos en un objeto único
+            var formData = {
+                files: arrayFiles,
+                otherData: otherData
+            };
+
+            // Convertir el objeto en una cadena JSON
+            var jsonData = JSON.stringify(formData);
+
+            console.log("JSON enviado al servidor:", jsonData);
+
+            // Enviar los datos mediante una solicitud AJAX
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/crear", true);
+            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Manejar la respuesta del servidor si es necesario
+                    console.log(xhr.responseText);
+                }
+            };
+            xhr.send(jsonData);
+        });
     </script>
 </body>
 <!--end::Body-->

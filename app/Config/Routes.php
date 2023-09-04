@@ -41,6 +41,9 @@ $routes->get('/index', 'Home::index');
 $routes->get('/administrador', 'AdminController::index');
 $routes->get('/listaSolicitud', 'AdminController::lista');
 //listado de solicitudes
+
+$routes->get('/listaajax', 'Home::getData');
+
 $routes->get('/obtenerNombre/(:any)', 'Home::obtenerNombre/$1');
 $routes->get('/eliminar/(:any)', 'Home::eliminar/$1');
 $routes->get('/crear1', 'Home::crear');

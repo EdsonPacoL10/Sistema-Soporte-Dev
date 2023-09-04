@@ -297,3 +297,294 @@ in APPPATH\Controllers\Home.php on line 49.
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 INFO - 2023-09-03 04:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 04:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 04:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 04:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 04:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-03 22:37:18 --> mysqli_sql_exception: Unknown column 's.descripcion_problema' in 'field list' in C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcion...', 0)
+#1 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcion...')
+#2 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcion...')
+#3 C:\laragon\www\proyecto-metronic\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcion...', Array, false)
+#4 C:\laragon\www\proyecto-metronic\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyecto-metronic\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\proyecto-metronic\app\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\proyecto-metronic\app\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+#8 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+#9 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyecto-metronic\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-03 22:37:18 --> Unknown column 's.descripcion_problema' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-03 22:38:37 --> mysqli_sql_exception: Unknown column 's.descripcion_problema' in 'field list' in C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcion...', 0)
+#1 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcion...')
+#2 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcion...')
+#3 C:\laragon\www\proyecto-metronic\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcion...', Array, false)
+#4 C:\laragon\www\proyecto-metronic\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyecto-metronic\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\proyecto-metronic\app\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\proyecto-metronic\app\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+#8 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+#9 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyecto-metronic\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-03 22:38:37 --> Unknown column 's.descripcion_problema' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-03 22:40:01 --> mysqli_sql_exception: Unknown column 's.descripcion_problema' in 'field list' in C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcion...', 0)
+#1 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcion...')
+#2 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcion...')
+#3 C:\laragon\www\proyecto-metronic\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcion...', Array, false)
+#4 C:\laragon\www\proyecto-metronic\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyecto-metronic\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\proyecto-metronic\app\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\proyecto-metronic\app\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+#8 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+#9 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyecto-metronic\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-03 22:40:01 --> Unknown column 's.descripcion_problema' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-03 22:40:03 --> mysqli_sql_exception: Unknown column 's.descripcion_problema' in 'field list' in C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcion...', 0)
+#1 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcion...')
+#2 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcion...')
+#3 C:\laragon\www\proyecto-metronic\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcion...', Array, false)
+#4 C:\laragon\www\proyecto-metronic\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyecto-metronic\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\proyecto-metronic\app\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\proyecto-metronic\app\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+#8 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+#9 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyecto-metronic\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-03 22:40:03 --> Unknown column 's.descripcion_problema' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-03 22:40:04 --> mysqli_sql_exception: Unknown column 's.descripcion_problema' in 'field list' in C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcion...', 0)
+#1 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcion...')
+#2 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcion...')
+#3 C:\laragon\www\proyecto-metronic\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcion...', Array, false)
+#4 C:\laragon\www\proyecto-metronic\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyecto-metronic\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\proyecto-metronic\app\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\proyecto-metronic\app\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+#8 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+#9 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyecto-metronic\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-03 22:40:04 --> Unknown column 's.descripcion_problema' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`descripcion_problema`, `s`.`respuesta`
+FROM `solicitud`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-03 22:40:52 --> mysqli_sql_exception: Unknown column 's.respuesta' in 'field list' in C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\proyecto-metronic\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcion...', 0)
+#1 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcion...')
+#2 C:\laragon\www\proyecto-metronic\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcion...')
+#3 C:\laragon\www\proyecto-metronic\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcion...', Array, false)
+#4 C:\laragon\www\proyecto-metronic\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyecto-metronic\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\proyecto-metronic\app\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\proyecto-metronic\app\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+#8 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+#9 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\laragon\www\proyecto-metronic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyecto-metronic\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-03 22:40:52 --> Unknown column 's.respuesta' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`respuesta`
+FROM `solicitud`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `funcionario`, `entidad`, `oficina`, `s`.`respuesta`
+FROM `solicitud`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `funcionario`, `entidad`, `oficina`, `s`.`respuesta`
+FROM `solicitud`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `funcionario`, `entidad`, `oficina`, `s`.`respuesta`
+FROM `solicitud`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CrudModel.php(12): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(15): App\Models\CrudModel->listarNombres()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-03 22:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 22:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-03 23:10:21 --> Undefined variable $data
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 6344.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(6344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 6344)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-03 23:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-03 23:13:42 --> Attempt to read property "funcionario" on array
+in APPPATH\Views\Administrador\ListaSolicitudes.php on line 6385.
+ 1 APPPATH\Views\Administrador\ListaSolicitudes.php(6385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "funcionario" on array', 'C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php', 6385)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\proyecto-metronic\\app\\Views\\Administrador\\ListaSolicitudes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Administrador/ListaSolicitudes', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('Administrador/ListaSolicitudes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-03 23:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-03 23:46:46 --> Undefined property: stdClass::$file
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-03 23:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-03 23:49:34 --> Undefined property: stdClass::$file
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 23:49:50 --> Undefined property: stdClass::$file
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-03 23:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-03 23:53:26 --> Undefined property: stdClass::$file
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-03 23:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-03 23:56:09 --> Undefined property: stdClass::$file
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'C:\\laragon\\www\\proyecto-metronic\\app\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-03 23:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-03 23:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

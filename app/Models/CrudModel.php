@@ -7,8 +7,8 @@
 
 		
 		public function listarNombres() {
-			$Nombres = $this->db->query("select funcionario, entidad ,oficina ,s.descripcion_problema, s.respuesta from solicitud s ");
-			return $Nombres->getResult();
+			$Nombres = $this->db->query("select id, funcionario, entidad ,oficina ,s.descripcion_problema, s.respuesta from solicitud s ");
+			return $Nombres->getResultArray();
 		}
 		public function insertarDatos($datos) {
 			$Nombres = $this->db->table('solicitud');
