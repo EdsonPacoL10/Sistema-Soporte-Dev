@@ -40,14 +40,20 @@ $routes->get('/index', 'Home::index');
 //rutas administrador
 $routes->get('/administrador', 'AdminController::index');
 $routes->get('/listaSolicitud', 'AdminController::lista');
-//listado de solicitudes
-
+//ajax creado para la data
 $routes->get('/listaajax', 'Home::getData');
+
+
+// Sector de usuarios donde realizan la solicitud de soporte 
+$routes->get('/NuevaSolicitud', 'SolicitudesController::index');
+$routes->get('/SolicitudesRealizadas', 'SolicitudesController::getData');
+$routes->post('/crear', 'SolicitudesController::crear');
+
 
 $routes->get('/obtenerNombre/(:any)', 'Home::obtenerNombre/$1');
 $routes->get('/eliminar/(:any)', 'Home::eliminar/$1');
 $routes->get('/crear1', 'Home::crear');
-$routes->post('/crear', 'Home::crear');
+$routes->post('/crear1', 'Home::crear');
 $routes->post('/actualizar', 'Home::actualizar');
 
 /*
