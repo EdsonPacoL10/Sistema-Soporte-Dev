@@ -7,7 +7,9 @@
 
 		
 		public function listarNombres() {
-			$Nombres = $this->db->query("select id, funcionario, entidad ,oficina ,s.descripcion_problema, s.respuesta from solicitud s ");
+			$Nombres = $this->db->query("SELECT id, funcionario, entidad, oficina, s.descripcion_problema, imagen01, s.respuesta 
+			FROM solicitud s 
+			WHERE imagen01 LIKE '%uploads%' ");
 			return $Nombres->getResultArray();
 		}
 		public function insertarDatos($datos) {

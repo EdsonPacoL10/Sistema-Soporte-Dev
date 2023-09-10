@@ -2104,10 +2104,10 @@ License: For each use you must have a valid license purchased only from above li
                                         <div class="d-flex flex-column">
                                             <div class="fw-bold d-flex align-items-center fs-5">Max Smith
                                                 <span
-                                                    class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Pro</span>
+                                                    class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Usu</span>
                                             </div>
                                             <a href="#"
-                                                class="fw-semibold text-muted text-hover-primary fs-7">max@kt.com</a>
+                                                class="fw-semibold text-muted text-hover-primary fs-7"><?= session()->get('type') ?></a>
                                         </div>
                                         <!--end::Username-->
                                     </div>
@@ -2266,8 +2266,8 @@ License: For each use you must have a valid license purchased only from above li
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-5">
-                                    <a href="../../demo19/dist/authentication/flows/basic/sign-in.html"
-                                        class="menu-link px-5">Sign Out</a>
+                                    <a href="<?php echo base_url('/salir') ?>"
+                                        class="menu-link px-5">Cerrar Sesion</a>
                                 </div>
                                 <!--end::Menu item-->
                             </div>
@@ -2885,12 +2885,18 @@ License: For each use you must have a valid license purchased only from above li
                                     <thead>
                                         <!--begin::Table row-->
                                         <tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
-                                            <th class="min-w-125px">id</th>
-                                            <th class="min-w-125px">funcionario</th>
-                                            <th class="min-w-125px">entidad</th>
-                                            <th class="min-w-125px">oficina </th>
-                                            <th class="min-w-125px">descripcion_problema</th>
-                                            <th class="min-w-125px">respuesta</th>
+                                        <th class="w-10px pe-2">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
+                                                <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_datatable_deposito .form-check-input" value="1" />
+                                            </div>
+                                        </th>
+                                            <th class="min-w-125px">Funcioario</th>
+                                            <th class="min-w-125px">Entidad</th>
+                                            <th class="min-w-125px">Oficina</th>
+                                            <th class="min-w-125px">Fecha </th>
+                                            <th class="min-w-125px">Descripcion</th>
+                                            <th class="min-w-125px">Respuestas</th>
+                                            <th class="min-w-125px">Imagenen</th>
 
                                             <th class="text-end min-w-100px">Actions</th>
                                         </tr>
@@ -5730,7 +5736,7 @@ License: For each use you must have a valid license purchased only from above li
                 <!--begin::Modal header-->
                 <div class="modal-header">
                     <!--begin::Modal title-->
-                    <h2>Create App</h2>
+                    <h2>Crear Item</h2>
                     <!--end::Modal title-->
                     <!--begin::Close-->
                     <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
@@ -5928,9 +5934,9 @@ License: For each use you must have a valid license purchased only from above li
                                             <select id="entidad" class="form-select" name="entidad">
                                                 <option value="" selected>Seleccione</option>
                                                 <?php foreach ($datosEntidad as $dato): ?>
-                                                        <option value="<?php echo $dato->id; ?>">
-                                                            <?php echo $dato->nombre; ?>
-                                                        </option>
+                                                                <option value="<?php echo $dato->id; ?>">
+                                                                    <?php echo $dato->nombre; ?>
+                                                                </option>
                                                 <?php endforeach; ?>
                                             </select>
                                             <!--end::Input-->
@@ -6005,16 +6011,16 @@ License: For each use you must have a valid license purchased only from above li
                                                                 title="Son todos los equipos que pueden ser persibidos con el sentido del tacto como ej:Monitos,PC,Impresora y etc..."></i></span>
                                                     </span>
                                                 </span>
+                                                <input type="radio" checked="checked" name="categoria" id="radioHardware" value="1">
 
-                                                
                                                     <select id="hardware" class="form-select" name="hardware">
                                                         <option value="" selected>Seleccione</option>
                                                         <?php foreach ($datosCategoria as $dato): ?>
-                                                            <?php if ($dato->idClasificacion == 1 ): ?>
-                                                                <option value="<?php echo $dato->idCategoria; ?>">
-                                                                    <?php echo $dato->nomCat; ?>
-                                                                </option>
-                                                            <?php endif; ?>
+                                                                    <?php if ($dato->idClasificacion == 1): ?>
+                                                                                <option value="<?php echo $dato->idCategoria; ?>">
+                                                                                    <?php echo $dato->nomCat; ?>
+                                                                                </option>
+                                                                    <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </select>
                                                
@@ -6035,14 +6041,15 @@ License: For each use you must have a valid license purchased only from above li
                                                                 title="Son todos los sistemas de comunicacion telefonica como ser: Telefonos,Correo y etc..."></i></span>
                                                     </span>
                                                 </span>
+                                                <input type="radio" name="categoria" id="radioTelefonia" value="2">
                                                 <select id="telefonia" class="form-select" name="telefonia">
                                                         <option value="" selected>Seleccione</option>
                                                         <?php foreach ($datosCategoria as $dato): ?>
-                                                            <?php if ($dato->idClasificacion == 2 ): ?>
-                                                                <option value="<?php echo $dato->idCategoria; ?>">
-                                                                    <?php echo $dato->nomCat; ?>
-                                                                </option>
-                                                            <?php endif; ?>
+                                                                    <?php if ($dato->idClasificacion == 2): ?>
+                                                                                <option value="<?php echo $dato->idCategoria; ?>">
+                                                                                    <?php echo $dato->nomCat; ?>
+                                                                                </option>
+                                                                    <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </select>
 
@@ -6064,14 +6071,16 @@ License: For each use you must have a valid license purchased only from above li
                                                                 title="Son problemas que no son persibidos con el sentido del tacto como ej: Sistemas del funcionamiento de la computadora, sitios web, falta de internet en la computadora y etc..."></i></span>
                                                     </span>
                                                 </span>
+                                                <input type="radio" name="categoria" id="radioSoftware" value="3">
+                                              
                                                 <select id="software" class="form-select" name="software">
                                                         <option value="" selected>Seleccione</option>
                                                         <?php foreach ($datosCategoria as $dato): ?>
-                                                            <?php if ($dato->idClasificacion == 3 ): ?>
-                                                                <option value="<?php echo $dato->idCategoria; ?>">
-                                                                    <?php echo $dato->nomCat; ?>
-                                                                </option>
-                                                            <?php endif; ?>
+                                                                    <?php if ($dato->idClasificacion == 3): ?>
+                                                                                <option value="<?php echo $dato->idCategoria; ?>">
+                                                                                    <?php echo $dato->nomCat; ?>
+                                                                                </option>
+                                                                    <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </select>
                                                
@@ -6092,15 +6101,16 @@ License: For each use you must have a valid license purchased only from above li
                                                                 title="Si no encuentra ninguna opcion que se adecue a su situacion puede ver en esta lista "></i></span>
                                                     </span>
                                                 </span>
-
+                                                <input type="radio" name="categoria" id="radioOtros" value="4">
+                                              
                                                 <select id="otros" class="form-select" name="otros">
                                                         <option value="" selected>Seleccione</option>
                                                         <?php foreach ($datosCategoria as $dato): ?>
-                                                            <?php if ($dato->idClasificacion == 4 ): ?>
-                                                                <option value="<?php echo $dato->idCategoria; ?>">
-                                                                    <?php echo $dato->nomCat; ?>
-                                                                </option>
-                                                            <?php endif; ?>
+                                                                    <?php if ($dato->idClasificacion == 4): ?>
+                                                                                <option value="<?php echo $dato->idCategoria; ?>">
+                                                                                    <?php echo $dato->nomCat; ?>
+                                                                                </option>
+                                                                    <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </select>
 
@@ -6343,7 +6353,7 @@ License: For each use you must have a valid license purchased only from above li
                                                 <span
                                                     class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
                                         </button>
-                                        <button type="button" class="btn btn-lg btn-primary"
+                                        <button type="button" class="btn btn-lg btn-primary" id="btnCont" name="btnCont"
                                             data-kt-stepper-action="next">Continue
                                             <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                                             <span class="svg-icon svg-icon-3 ms-1 me-0">
@@ -7934,6 +7944,38 @@ License: For each use you must have a valid license purchased only from above li
     </div>
 </div>
 
+
+<div class="modal fade" id="imagenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Agregamos la clase modal-lg para hacer la imagen más grande -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">VISTA DE LA IMAGEN</h3>
+                <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                        <span class="svg-icon svg-icon-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
+                                    transform="rotate(-45 6 17.3137)" fill="currentColor" />
+                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+                                    fill="currentColor" />
+                            </svg>
+                        </span>
+                        <!--end::Svg Icon-->
+                    </div>
+          
+            </div>
+           
+            <div class="modal-body text-center"> <!-- Centramos la imagen horizontalmente -->
+                <img src="" alt="Imagen" id="imagenModalContent" style="max-width: 90%; max-height: 90vh;"> <!-- Hacemos que la imagen tenga un tamaño máximo y una altura máxima -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
     <!--end::Modal - Invite Friend-->
     <!--end::Modals-->
     <!--begin::Javascript-->
@@ -7989,29 +8031,58 @@ License: For each use you must have a valid license purchased only from above li
                     selector: 'td:first-child input[type="checkbox"]',
                     className: 'row-selected'
                 },
-                'ajax': {
+                ajax: {
 
                     url: "SolicitudesRealizadas"
                 },
-                'columns': [
+                columns: [
 
-                    { data: 'id' },
+                   {
+                data: 'id',
+                orderable: false,
+                render: function(data) {
+                    return `
+                        <div class="form-check form-check-sm form-check-custom form-check-solid">
+                            <input class="form-check-input" type="checkbox" value="${data}" />
+                        </div>`;
+                }
+            },
                     { data: 'entidad' },
                     { data: 'nombres' },
                     { data: 'oficina' },
                     { data: 'descripcion_problema' },
+                    { data: "imagen01", "render": function (data, type, row) {
+                        return '<img src="' + data + '" alt="Imagen" width="50">';
+                    } },
                     { data: 'respuesta' },
              
                 ],
-                columnDefs: [
-                    {
+                
+            columnDefs: [
+            {
+                // Estilo para la columna 'entidad' (reemplaza '0' con el índice de la columna)
+                targets: 1,
+                render: function(data, type, row) {
+                    // Puedes aplicar un estilo CSS aquí o cualquier otra modificación
+                    return '<div style="background-color: yellow; padding: 5px;">' + data + '</div>';
+                }
+            },
+            {
+                // Estilo para la columna 'descripcion_problema' (reemplaza '0' con el índice de la columna)
+                targets: 4,
+                render: function(data, type, row) {
+                    // Puedes aplicar un estilo CSS aquí o cualquier otra modificación
+                    return '<div class="otra-clase-css">' + data + '</div>';
+                }
+            },
+            {
                         targets: 6,
                         orderable: false,
                         render: function (data) {
                             return ` <div class="text-end">
                     <div class="btn-group">
                         <button type="button" class="btn btn-light btn-active-light-primary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Acción
+                            AcciÃ³n
                         </button>
                         <div class="dropdown-menu dropdown-menu-end">
                             <a class="dropdown-item" data-bs-toggle="modal" href="#editar_venta_modal" data-id="" data-nombre="" data-url="acevm" id="editar">Editar</a>
@@ -8021,15 +8092,20 @@ License: For each use you must have a valid license purchased only from above li
                 </div>`;
                         }
                     },
-                ],
+        ],
 
 
             });
 
+            $('#kt_table_use tbody').on('click', 'img', function () {
+            var imageUrl = $(this).attr('src');
+            $('#imagenModalContent').attr('src', imageUrl);
+            $('#imagenModal').modal('show');
+        });
+
             handleSearchDatatable();
             recargarTabla();
         });
-
 
 /********************************************************************************
  * son los botones que controlan las acciones de editar en la lista y el modal
@@ -8163,12 +8239,15 @@ License: For each use you must have a valid license purchased only from above li
 /********************************************************************************
  * animacion y juego de los botones de seleccion del formulario 
 ********************************************************************************* */
-       
-       // Obtener referencias a los elementos select
+       // Obtener referencias a los elementos select y radios
 const hardwareSelect = document.getElementById('hardware');
 const telefoniaSelect = document.getElementById('telefonia');
 const softwareSelect = document.getElementById('software');
 const otrosSelect = document.getElementById('otros');
+const radioHardware = document.getElementById('radioHardware');
+const radioTelefonia = document.getElementById('radioTelefonia');
+const radioSoftware = document.getElementById('radioSoftware');
+const radioOtros = document.getElementById('radioOtros');
 
 // Agregar un evento 'change' a cada select
 hardwareSelect.addEventListener('change', handleSelectChange);
@@ -8189,8 +8268,34 @@ function handleSelectChange(event) {
     }
   });
 
-  // Si deseas llamar a la función deshabilitarOtrosSelect aquí, puedes hacerlo según tu lógica específica.
-  // deshabilitarOtrosSelect(event.target);
+  // Verificar si el select actual tiene valor diferente de nulo
+  if (event.target.value !== '') {
+    // Deshabilitar los radios excepto el correspondiente al select actual
+    [radioHardware, radioTelefonia, radioSoftware, radioOtros].forEach(radio => {
+      radio.disabled = radio !== getRadioForSelect(event.target);
+    });
+  } else {
+    // Habilitar todos los radios
+    [radioHardware, radioTelefonia, radioSoftware, radioOtros].forEach(radio => {
+      radio.disabled = false;
+    });
+  }
+}
+
+// Función para obtener el radio correspondiente a un select
+function getRadioForSelect(select) {
+  switch (select.id) {
+    case 'hardware':
+      return radioHardware;
+    case 'telefonia':
+      return radioTelefonia;
+    case 'software':
+      return radioSoftware;
+    case 'otros':
+      return radioOtros;
+    default:
+      return null;
+  }
 }
 /********************************************************************************
  * validacion de campos
@@ -8252,6 +8357,15 @@ function validarSoloLetras(input) {
             Swal.fire('Gracias por confirmar', '', 'success');
         } else {
             // El checkbox no está marcado (valor 0)
+            Swal.fire({
+            title: '¡Debe confirmar!',
+            text: 'Por favor, marque la casilla de confirmación antes de continuar.',
+            icon: 'warning',
+            confirmButtonText: 'OK',
+            customClass: {
+                confirmButton: 'btn btn-light'
+            }
+        });
             saveBtn.disabled = true; // Deshabilitar el botón "Save"
         }
     }
@@ -8259,7 +8373,8 @@ function validarSoloLetras(input) {
 
 
 
-   
+      
+    
 
 
 

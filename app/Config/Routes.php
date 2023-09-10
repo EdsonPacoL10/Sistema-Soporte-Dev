@@ -34,9 +34,10 @@ $routes->set404Override();
 
 
 //ruta de login inicio 
-$routes->get('/', 'LoginController::login');
+$routes->get('/', 'LoginController::index');
 $routes->get('/index', 'Home::index');
-
+$routes->post('/datoLogin', 'LoginController::login');
+$routes->get('/salir', 'LoginController::salir');
 //rutas administrador
 $routes->get('/administrador', 'AdminController::index');
 $routes->get('/listaSolicitud', 'AdminController::lista');

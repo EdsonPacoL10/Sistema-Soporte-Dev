@@ -36,10 +36,12 @@ class SolicitudesController extends BaseController
 			if (is_object($value)) {
 				
 			$value->id ;
-			$value->funcionario ;
+			$value->funcionario;
+		
 			$value->entidad ;
 			$value->oficina;
 			$value->descripcion_problema ;
+			$value->imagen01 = base_url($value->imagen01);
 			$value->respuesta;
 		
 		}}
@@ -51,6 +53,7 @@ class SolicitudesController extends BaseController
 			'nombres'     => true,
 			'oficina'    => true,
 			'descripcion_problema'    => true,
+			'imagen01'=>true,
 			'respuesta'    => true,
 		
 		];
