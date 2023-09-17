@@ -20,7 +20,35 @@
 			  ");
 			return $Nombres->getResult();
 		}
-
+		public function Entidades() {
+			$Nombres = $this->db->query("select id , nombre  from entidad e 
+			  ");
+			return $Nombres->getResult();
+		}
+		public function SolicitudesPorEntidad($entidad) {
+			// Utiliza una sentencia preparada para evitar la inyección de SQL
+			$sql = "SELECT id, funcionario, id_entidad, oficina, s.descripcion_problema, updated_at as fecha, imagen01, s.respuesta
+					FROM solicitud s
+					WHERE id_entidad = ? AND imagen01 LIKE '%uploads%';";
+		
+			// Ejecuta la consulta utilizando CodeIgniter Query Builder
+			$query = $this->db->query($sql, [$entidad]);
+		
+			// Devuelve los resultados como un array
+			return $query->getResultArray();
+		}
+		public function Armado($entidad){
+			$sql = "SELECT id,nombre 
+			FROM entidad e  
+			WHERE id = ?;";
+		
+			// Ejecuta la consulta utilizando CodeIgniter Query Builder
+			$query = $this->db->query($sql, [$entidad]);
+		
+			// Devuelve los resultados como un array
+			return $query->getResult();
+		}
+		
 		public function insertarDatos($datos) {
 			$Nombres = $this->db->table('solicitud');
 			$Nombres->insert($datos);

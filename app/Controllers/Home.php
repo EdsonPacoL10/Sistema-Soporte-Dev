@@ -109,6 +109,7 @@ class Home extends BaseController
 			$entidad = $json_data->otherData->entidad;
 			$oficina = $json_data->otherData->oficina;
 			$dependencia = $json_data->otherData->dependencia;
+			$Clasificacion = $json_data->otherData->claficacion;
 			$hardware = $json_data->otherData->hardware;
 			$telefonia = $json_data->otherData->telefonia;
 			$software = $json_data->otherData->software;
@@ -116,6 +117,17 @@ class Home extends BaseController
 			$prioridad = $json_data->otherData->prioridad;
 			$descripcion = $json_data->otherData->descripcion;
 
+			$id_categoria = "";
+
+				if (!empty($hardware)) {
+					$id_categoria = $hardware;
+				} elseif (!empty($telefonia)) {
+					$id_categoria = $telefonia;
+				} elseif (!empty($software)) {
+					$id_categoria = $software;
+				} elseif (!empty($otros)) {
+					$id_categoria = $otros;
+				}
 			// Procesar la imagen (guardarla en la carpeta "uploads" y obtener su nombre)
 			$imagenes = $json_data->files[0]->file;
 			$nombresImagenes = $this->procesarImagen($imagenes);
@@ -132,34 +144,18 @@ class Home extends BaseController
 							'id_oficina' => "1",
 							'oficina' => $oficina,
 							'dependencia' => $dependencia,
-							'id_clasificacion' => "hardware",
-							'id_categoria' => $hardware,
-							//'telefonia' => $telefonia,
-							//'software' => $software,
-							//'otros' => $otros,
+							'id_clasificacion' => $Clasificacion,
+							'id_categoria' => $id_categoria,
 							'descripcion_problema' => $descripcion,
 							'id_prioridad' => $prioridad,
 							'id_estado' =>"activo",
 							'respuesta' =>"Sin respuesta",
 							'imagen01'=> $nombresImagenes
 						];
-						// foreach ($nombreimagen as $index => $nombreImagen) {
-						// 	$datos["imagen01" . ($index + 1)] = $nombreImagen;
-						// }
-
-						// Insertar datos en la base de datos
+					
 						$tuModelo->insertarDatos($datos);
-
 						// Devolver una respuesta JSON
 						return $this->response->setStatusCode(ResponseInterface::HTTP_CREATED)->setJSON(['message' => 'Datos insertados con éxito']);
-
-
-
-            // Realiza las acciones que necesites con los datos
-
-            // Puedes devolver una respuesta, como un mensaje de éxito
-           // $response = ['status' => 'success', 'message' => 'Datos JSON recibidos correctamente'];
-            //return $this->response->setJSON($response);
         } else {
             // Hubo un problema al recibir los datos JSON
             // Puedes devolver una respuesta de error

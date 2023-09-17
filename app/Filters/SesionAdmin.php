@@ -8,10 +8,18 @@ class SesionAdmin implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
-        // Do something here
-        if(session('type') != 'administrador') {
-        	return redirect()->to(base_url('/'));
+
+       
+
+        // Obtener el tipo de usuario desde la sesión (puedes personalizar esto según tu lógica)
+        $userType = session('type');
+
+        // Verificar si el usuario es un invitado
+        if ($userType !== 'administrador') {
+            // Si el tipo de usuario no es 'invitado', denegar el acceso
+            return redirect()->to(base_url('/')); // Puedes redirigir a la página de inicio o a una página de acceso denegado
         }
+       
     }
 
     //--------------------------------------------------------------------

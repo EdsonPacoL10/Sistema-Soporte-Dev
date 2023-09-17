@@ -4105,7 +4105,7 @@ License: For each use you must have a valid license purchased only from above li
                                 class="menu-item here show menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
                                 <!--begin:Menu link-->
                                 <span class="menu-link py-3">
-                                    <span class="menu-title">Apps</span>
+                                    <span class="menu-title">App</span>
                                     <span class="menu-arrow d-lg-none"></span>
                                 </span>
                                 <!--end:Menu link-->
@@ -4816,7 +4816,7 @@ License: For each use you must have a valid license purchased only from above li
                                                             <span class="menu-bullet">
                                                                 <span class="bullet bullet-dot"></span>
                                                             </span>
-                                                            <span class="menu-title">Users List</span>
+                                                            <span class="menu-title">add users</span>
                                                         </a>
                                                         <!--end:Menu link-->
                                                     </div>
@@ -5658,7 +5658,7 @@ License: For each use you must have a valid license purchased only from above li
                             <li class="breadcrumb-item text-gray-600">Users</li>
                             <!--end::Item-->
                             <!--begin::Item-->
-                            <li class="breadcrumb-item text-gray-500">Users List</li>
+                            <li class="breadcrumb-item text-gray-500"><?php echo $ListadoFiltrado[0]->nombre; ?></li>
                             <!--end::Item-->
                         </ul>
                         <!--end::Breadcrumb-->
@@ -11406,7 +11406,7 @@ License: For each use you must have a valid license purchased only from above li
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
     <script>
-
+        var datoAFiltrar = '<?php echo $ListadoFiltrado[0]->id; ?>';    
         "use strict";
         var table;
         var dt;
@@ -11427,8 +11427,12 @@ License: For each use you must have a valid license purchased only from above li
                     className: 'row-selected'
                 },
                 'ajax': {
-
-                    url: "listaajax"
+                    // Aquí puedes proporcionar la URL del controlador que maneja la solicitud AJAX
+                    url: "/listaajaxItemsEntidad",
+                    data: function (d) {
+                        // Envía el dato que deseas filtrar como un parámetro GET
+                        d.dato_a_filtrar = datoAFiltrar;
+                    }
                 },
                 'columns': [
 

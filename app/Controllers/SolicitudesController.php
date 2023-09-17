@@ -37,24 +37,26 @@ class SolicitudesController extends BaseController
 				
 			$value->id ;
 			$value->funcionario;
-		
 			$value->entidad ;
 			$value->oficina;
+			$value->fecha;
 			$value->descripcion_problema ;
-			$value->imagen01 = base_url($value->imagen01);
 			$value->respuesta;
+			$value->imagen01 = base_url($value->imagen01);
+			
 		
 		}}
 
 		$columnas = [
 			
 			'id'     	  => true,
-			'entidad'     	  => true,
-			'nombres'     => true,
+			'funcionario'     	  => true,
+			'entidad'     => true,
 			'oficina'    => true,
-			'descripcion_problema'    => true,
-			'imagen01'=>true,
-			'respuesta'    => true,
+			'fecha'    => true,
+			'descripcion_problema'=>true,
+			'respuesta'=>true,
+			'imagen01'    => true,
 		
 		];
 
@@ -72,17 +74,32 @@ class SolicitudesController extends BaseController
             // Ahora puedes acceder a los datos en $json_data
 
             // Ejemplo: Acceder al campo 'nombre' enviado desde la vista
+			$id = $json_data->otherData->id;
             $codigo = $json_data->otherData->codigo;
 			$funcionario = $json_data->otherData->funcionario;
+			$id_entidad = $json_data->otherData->id_entidad;
 			$entidad = $json_data->otherData->entidad;
 			$oficina = $json_data->otherData->oficina;
 			$dependencia = $json_data->otherData->dependencia;
+			$categoria = $json_data->otherData->categoria;
 			$hardware = $json_data->otherData->hardware;
 			$telefonia = $json_data->otherData->telefonia;
 			$software = $json_data->otherData->software;
 			$otros = $json_data->otherData->otros;
 			$prioridad = $json_data->otherData->prioridad;
 			$descripcion = $json_data->otherData->descripcion;
+
+			$id_categoria = "";
+
+				if (!empty($hardware)) {
+					$id_categoria = $hardware;
+				} elseif (!empty($telefonia)) {
+					$id_categoria = $telefonia;
+				} elseif (!empty($software)) {
+					$id_categoria = $software;
+				} elseif (!empty($otros)) {
+					$id_categoria = $otros;
+				}
 
 			// Procesar la imagen (guardarla en la carpeta "uploads" y obtener su nombre)
 			if (isset($json_data->files) && is_array($json_data->files) && count($json_data->files) > 0) {
@@ -99,21 +116,18 @@ class SolicitudesController extends BaseController
 
 						// Preparar datos para insertar en la base de datos
 						$datos = [
-							'id_funcionario' => $codigo,
+							'id_funcionario' => $id,
 							'funcionario' => $funcionario,
-							'id_entidad' => "1",
+							'id_entidad' => $id_entidad,
 							'entidad' => $entidad,
-							'id_oficina' => "1",
 							'oficina' => $oficina,
+							'cargo' => $codigo,
 							'dependencia' => $dependencia,
-							'id_clasificacion' => "hardware",
-							'id_categoria' => $hardware,
-							//'telefonia' => $telefonia,
-							//'software' => $software,
-							//'otros' => $otros,
+							'id_clasificacion' => $categoria,
+							'id_categoria' => $id_categoria,
 							'descripcion_problema' => $descripcion,
-							'id_prioridad' => $prioridad,
-							'id_estado' =>"activo",
+							'prioridad' => $prioridad,
+							'estado' =>"activo",
 							'respuesta' =>"Sin respuesta",
 							'imagen01'=> $nombresImagenes
 						];
@@ -146,7 +160,37 @@ class SolicitudesController extends BaseController
 	return($file);
 	
     }
-
+//sector de ayuda al usuario 
+	public function Ayuda(){
+		$Crud = new DatosModel();
+			$datos = $Crud->DatosUsuarios();
+	
+			
+		
+	
+			$datos = [
+						"datos" => $datos
+					];
+	
+			return view('Usuarios/AyudaUsuario',$datos);
+	
+	}
+	public function AyudaDocumentacion(){
+		$Crud = new DatosModel();
+			$datos = $Crud->DatosUsuarios();
+	
+			
+		
+	
+			$datos = [
+						"datos" => $datos
+					];
+	
+			return view('Usuarios/DocumentacionAyuda',$datos);
+	
+	}
+	
+//manejo de datablas con el server
     public function datatables($datos, $columnas){
 		
 		require_once(FCPATH.'recursos/datatables/server.php');
@@ -224,4 +268,5 @@ class SolicitudesController extends BaseController
 		header('Access-Control-Allow-Headers: Content-Type, Content-Range, Content-Disposition, Content-Description');
 		echo json_encode( $result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 	}
+
 }

@@ -22,6 +22,7 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'SesionAdmin' => \App\Filters\SesionAdmin::class,
+        'SesionInv' => \App\Filters\SesionInv::class
     ];
 
     /**
@@ -62,10 +63,19 @@ class Filters extends BaseConfig
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
     public $filters = [
-		"SesionAdmin" => [
-			"before" => [
-				"/NuevaSolicitud"
-			]
-		]
+        "SesionAdmin" => [
+            "before" => [
+                "/administrador",
+                "/NuevaSolicitudAdmin"
+                
+            ]
+        ],
+        "SesionInv" => [
+            "before" => [
+                "/NuevaSolicitud",
+                "/AyudaUsuario",
+                "/AyudaDocumentacion"
+            ]
+        ]
 	];
 }

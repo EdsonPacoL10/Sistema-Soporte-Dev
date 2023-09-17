@@ -41,6 +41,23 @@ $routes->get('/salir', 'LoginController::salir');
 //rutas administrador
 $routes->get('/administrador', 'AdminController::index');
 $routes->get('/listaSolicitud', 'AdminController::lista');
+//ruta para poder firtar los datos para la consulta 
+
+//listado de solicitud filtrada desde el dashborar a la tabla envio por pos
+$routes->get('/listaajaxItemsEntidad', 'AdminController::getData');
+$routes->get('/listadoNotificaciones', 'AdminController::getDataNotificaciones');
+//esta ruta es para el administardor
+$routes->get('/NuevaSolicitudAdmin', 'SolicitudesController::index');
+
+
+
+
+
+
+
+
+
+
 //ajax creado para la data
 $routes->get('/listaajax', 'Home::getData');
 
@@ -49,7 +66,9 @@ $routes->get('/listaajax', 'Home::getData');
 $routes->get('/NuevaSolicitud', 'SolicitudesController::index');
 $routes->get('/SolicitudesRealizadas', 'SolicitudesController::getData');
 $routes->post('/crear', 'SolicitudesController::crear');
-
+//sector ayuda al usuario 
+$routes->get('/AyudaUsuario', 'SolicitudesController::Ayuda');
+$routes->get('/AyudaDocumentacion', 'SolicitudesController::AyudaDocumentacion');
 
 $routes->get('/obtenerNombre/(:any)', 'Home::obtenerNombre/$1');
 $routes->get('/eliminar/(:any)', 'Home::eliminar/$1');
