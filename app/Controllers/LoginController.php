@@ -43,7 +43,8 @@ class LoginController extends BaseController
               "entidad" => $datosUsuario[0]['entidad'],
               "oficina" => $datosUsuario[0]['oficina'],
               "cargo" => $datosUsuario[0]['cargo'],
-              "dependencia" => $datosUsuario[0]['dependencia']
+              "dependencia" => $datosUsuario[0]['dependencia'],
+              "mensaje" => "",
           ];
 
       

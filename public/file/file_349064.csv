@@ -1,0 +1,409 @@
+-- MySQL dump 10.13  Distrib 8.0.19, for Win64 (x86_64)
+--
+-- Host: localhost    Database: soporte
+-- ------------------------------------------------------
+-- Server version	8.0.30
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `categoria`
+--
+
+DROP TABLE IF EXISTS `categoria`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `categoria` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(150) NOT NULL,
+  `id_clasificacion` int NOT NULL,
+  `estado` tinyint(1) NOT NULL,
+  `id_entidad` int NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `categoria`
+--
+
+LOCK TABLES `categoria` WRITE;
+/*!40000 ALTER TABLE `categoria` DISABLE KEYS */;
+INSERT INTO `categoria` VALUES (1,'Equipos de Computación',1,1,1,'2021-09-14 19:22:24','2021-09-15 19:05:16'),(2,'Impresora',1,1,1,'2021-09-14 19:22:24','2021-09-15 19:05:39'),(3,'Scanner',1,1,1,'2021-09-14 19:30:40','2021-09-15 19:05:39'),(4,'Otros',1,1,1,'2021-09-14 19:30:40','2021-09-15 19:05:39'),(5,'Asignación de Codigo para Llamadas Externas',2,1,1,'2021-09-14 19:31:37','2021-09-15 19:07:02'),(6,'Instalación Y/O Configuración de Equipos Telefonicos',2,1,1,'2021-09-14 19:31:37','2021-09-15 19:07:02'),(7,'Solicitud de Adición de Credito',2,1,1,'2021-09-14 19:32:07','2021-09-15 19:07:02'),(8,'Solicitud de Asignación de Credito Especial',2,1,1,'2021-09-14 19:33:38','2021-09-15 19:07:44'),(9,'Otros',2,1,1,'2021-09-14 19:33:38','2021-09-15 19:07:44'),(10,'Problemas con el Internet - Wifi',3,1,1,'2021-09-14 19:45:42','2021-09-15 19:08:06'),(11,'Correo Institucional',3,1,1,'2021-09-15 19:09:37','2021-09-15 19:09:37'),(12,'CODICE',3,1,1,'2021-09-15 19:10:36','2021-09-15 19:10:36'),(13,'ZOOM',3,1,1,'2021-09-15 19:10:36','2021-09-15 19:10:36'),(14,'Bigant',3,1,1,'2021-09-15 19:10:36','2021-09-15 19:10:36'),(15,'Otros',3,1,1,'2021-09-15 19:10:36','2021-09-15 19:10:36');
+/*!40000 ALTER TABLE `categoria` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `clasificacion`
+--
+
+DROP TABLE IF EXISTS `clasificacion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `clasificacion` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(200) NOT NULL,
+  `descripcion` varchar(250) NOT NULL,
+  `estado` tinyint(1) NOT NULL,
+  `id_entidad` int NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `clasificacion`
+--
+
+LOCK TABLES `clasificacion` WRITE;
+/*!40000 ALTER TABLE `clasificacion` DISABLE KEYS */;
+INSERT INTO `clasificacion` VALUES (1,'HARDWARE Y PERIFERICOS','dasdas asd asd ',1,1,'2021-09-14 14:05:38','2023-08-18 19:33:30'),(2,'TELEFONIA','dasdd asd as',1,1,'2021-09-14 14:05:38','2021-09-15 19:03:43'),(3,'SOFTWARE Y RED','dasdasd',1,1,'2021-09-14 19:15:23','2021-09-15 19:03:43'),(4,'OTROS','CADSC',1,1,'2023-09-06 03:47:57','2023-09-06 03:47:57');
+/*!40000 ALTER TABLE `clasificacion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `entidad`
+--
+
+DROP TABLE IF EXISTS `entidad`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `entidad` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(200) NOT NULL,
+  `direccion` varchar(250) NOT NULL,
+  `logo` varchar(250) NOT NULL,
+  `sigla` varchar(100) NOT NULL,
+  `estado` tinyint(1) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `entidad`
+--
+
+LOCK TABLES `entidad` WRITE;
+/*!40000 ALTER TABLE `entidad` DISABLE KEYS */;
+INSERT INTO `entidad` VALUES (1,'Ministerio de Desarrollo Productivo y Economía Plural','Avenida Arce, Nro. 245','5b02d6439ca3a.png','MDPyEP',1,'2021-09-20 16:07:44','2021-11-18 13:53:17'),(2,'Servicio Nacional de Propiedad Intelectual','Av. Argentina No. 1914 Edif. Angélica María entre calles Villalobos y Díaz Romero Zona Miraflores ','5c3385715c56c.png','SNP',1,'2021-11-18 13:51:55','2021-11-18 13:51:55'),(3,'Instituto Boliviano de Metrologia','Av. Camacho No. 1488 - Edificio Anexo','5c338f196c0f4.png','IBM',1,'2021-11-18 13:53:17','2021-11-18 13:53:17'),(4,'Servicio Nacional de Verificacion de Exportaciones','Av. Camacho Esq. Bueno Nº 1488, Ed. Viceministerio de Comercio Interno y Exportaciones Piso 5','5c339145488e5.png','SNV',1,'2021-11-18 13:54:02','2021-11-18 13:54:02'),(5,'PROBOLIVIA','Av. Camacho Ex. Refo Piso 4','5c33867f4739a.png','PRB',1,'2021-11-18 13:54:02','2021-11-18 13:54:02');
+/*!40000 ALTER TABLE `entidad` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `estado`
+--
+
+DROP TABLE IF EXISTS `estado`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `estado` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(200) NOT NULL,
+  `descripcion` varchar(250) NOT NULL,
+  `estado` tinyint(1) NOT NULL,
+  `id_entidad` int NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `estado`
+--
+
+LOCK TABLES `estado` WRITE;
+/*!40000 ALTER TABLE `estado` DISABLE KEYS */;
+INSERT INTO `estado` VALUES (1,'Activo','dasdasd asd a',1,1,'2021-09-14 14:05:01','2021-09-14 14:05:01'),(2,'Anulado','asdad',1,1,'2021-09-14 14:05:01','2021-09-14 14:05:01');
+/*!40000 ALTER TABLE `estado` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `groups`
+--
+
+DROP TABLE IF EXISTS `groups`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `groups` (
+  `id` mediumint unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `description` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `groups`
+--
+
+LOCK TABLES `groups` WRITE;
+/*!40000 ALTER TABLE `groups` DISABLE KEYS */;
+INSERT INTO `groups` VALUES (1,'Super admin','Administrador de las Entidades'),(2,'Admin Entidad','Administrador de Entidad'),(3,'Tecnico soporte','Tecnico de Soporte de la entidad');
+/*!40000 ALTER TABLE `groups` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `login_attempts`
+--
+
+DROP TABLE IF EXISTS `login_attempts`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `login_attempts` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `ip_address` varchar(45) NOT NULL,
+  `login` varchar(100) NOT NULL,
+  `time` int unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `login_attempts`
+--
+
+LOCK TABLES `login_attempts` WRITE;
+/*!40000 ALTER TABLE `login_attempts` DISABLE KEYS */;
+/*!40000 ALTER TABLE `login_attempts` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `prioridad`
+--
+
+DROP TABLE IF EXISTS `prioridad`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `prioridad` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(200) NOT NULL,
+  `descripcion` varchar(250) NOT NULL,
+  `estado` tinyint(1) NOT NULL,
+  `id_entidad` int NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `prioridad`
+--
+
+LOCK TABLES `prioridad` WRITE;
+/*!40000 ALTER TABLE `prioridad` DISABLE KEYS */;
+INSERT INTO `prioridad` VALUES (1,'Alta','dasd',1,1,'2021-09-14 14:06:22','2021-09-14 14:06:22'),(2,'Media','dad as ',1,1,'2021-09-14 14:06:22','2021-09-14 17:52:52'),(3,'Baja','dasdasd',1,1,'2021-09-14 17:53:42','2021-09-14 17:53:42');
+/*!40000 ALTER TABLE `prioridad` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `solicitud`
+--
+
+DROP TABLE IF EXISTS `solicitud`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `solicitud` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `id_funcionario` int DEFAULT NULL,
+  `funcionario` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `id_entidad` int DEFAULT NULL,
+  `entidad` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `id_oficina` int DEFAULT NULL,
+  `oficina` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `dependencia` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `id_clasificacion` varchar(10) DEFAULT NULL,
+  `id_categoria` varchar(10) DEFAULT NULL,
+  `descripcion_problema` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `id_prioridad` varchar(10) DEFAULT NULL,
+  `id_estado` varchar(10) DEFAULT NULL,
+  `respuesta` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `imagen01` varchar(100) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `delete_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `solicitud`
+--
+
+LOCK TABLES `solicitud` WRITE;
+/*!40000 ALTER TABLE `solicitud` DISABLE KEYS */;
+INSERT INTO `solicitud` VALUES (1,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(2,0,'juan',0,'min',0,'oficina1','min de produccino','0','0','no conecta a internte','1','1',NULL,'','2023-08-20 19:24:18','2023-08-20 19:33:51',NULL),(3,0,'de',0,'de',0,'de','dede','0','0','dede','1','1',NULL,'','2023-08-20 19:27:28','2023-08-20 19:27:28',NULL),(4,1,'prueba05',1,'05',1,'05','05','1','1','05','1','1',NULL,'','2023-08-20 19:28:48','2023-08-20 19:46:12',NULL),(5,1,'prueba06',1,'prueba06',1,'prueba06','prueba06','1','1','prueba06','1','1',NULL,'','2023-08-20 19:38:02','2023-08-20 19:45:55',NULL),(6,1,'prueba07',1,'prueba07',1,'prueba07','prueba07','1','1','no corre','1','1',NULL,'','2023-08-20 19:42:32','2023-08-20 19:45:45',NULL),(7,1,'',1,'',1,'','','1','1','','1','1',NULL,'','2023-08-20 19:47:47','2023-08-20 19:47:47',NULL),(8,1,'maria',1,'min',1,'ofi','min','1','1','no da respuestya','1','1',NULL,'','2023-08-22 01:42:05','2023-08-22 01:42:38',NULL),(9,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(10,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(11,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(12,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(13,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(14,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(15,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(16,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(17,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(18,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(19,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(20,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(21,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(22,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(23,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(24,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(25,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(26,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(27,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(28,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(29,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(30,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(31,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','10','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-09-06 03:50:10',NULL),(32,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(33,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(34,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(35,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(36,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(37,1,'Pedro',1,'administracion',1,'ministerio','MDPyEP','1','1','mal conexino','1','1',NULL,'','2023-08-20 19:12:29','2023-08-20 19:46:05',NULL),(38,1,'1',1,'1',1,'1','1','hardware','opcion1','1','alta','activo','Sin respuesta','SIN NINBRE','2023-09-02 23:51:23','2023-09-02 23:51:23',NULL),(39,1,'1',1,'1',1,'1','1','hardware','opcion1','1','alta','activo','Sin respuesta','sin','2023-09-03 01:15:14','2023-09-03 01:15:14',NULL),(40,1,'1',1,'1',1,'1','1','hardware','opcino2','1','alta','activo','Sin respuesta','uploads/issue_fixed.png','2023-09-03 02:04:19','2023-09-03 02:04:19',NULL),(41,1,'1',1,'1',1,'1','1','hardware','opcion1','1','alta','activo','Sin respuesta','uploads/issue_fixed.png','2023-09-03 02:27:30','2023-09-03 02:27:30',NULL),(42,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/issue_fixed.png','2023-09-03 02:29:12','2023-09-03 02:29:12',NULL),(43,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/issue_fixed.png','2023-09-03 02:30:44','2023-09-03 02:30:44',NULL),(44,1,'1',1,'1',1,'1','1','hardware','opcion1','1','alta','activo','Sin respuesta','uploads/4511397637.png','2023-09-03 02:33:47','2023-09-03 02:33:47',NULL),(45,1,'1',1,'1',1,'1','1','hardware','opcion1','1','alta','activo','Sin respuesta','uploads/6128581822.png','2023-09-03 02:37:10','2023-09-03 02:37:10',NULL),(46,11,'1',1,'1',1,'1','1','hardware','opcino2','1','alta','activo','Sin respuesta','sin imagen','2023-09-03 02:43:04','2023-09-03 02:43:04',NULL),(47,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/8994128236.png','2023-09-03 02:50:39','2023-09-03 02:50:39',NULL),(48,1,'1',1,'1',1,'1','1','hardware','sin','','alta','activo','Sin respuesta','uploads/7200968902.png','2023-09-03 03:15:40','2023-09-03 03:15:40',NULL),(49,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/9044364072.png','2023-09-03 03:33:23','2023-09-03 03:33:23',NULL),(50,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/548508270.png','2023-09-03 03:34:30','2023-09-03 03:34:30',NULL),(51,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/9694608572.png','2023-09-03 04:02:38','2023-09-03 04:02:38',NULL),(52,1,'1',1,'1',1,'1','1','hardware','sin','','alta','activo','Sin respuesta','uploads/4777683008.png','2023-09-03 04:39:43','2023-09-03 04:39:43',NULL),(53,123,'123',1,'123',1,'123','123','hardware','sin','123','alta','activo','Sin respuesta','uploads/9914820216.png','2023-09-03 23:16:02','2023-09-03 23:16:02',NULL),(54,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/5034507564.png','2023-09-03 23:57:56','2023-09-03 23:57:56',NULL),(55,1,'1',1,'1',1,'1','1','hardware','sin','1\n\n','alta','activo','Sin respuesta','uploads/5585572225.png','2023-09-03 23:59:30','2023-09-03 23:59:30',NULL),(56,1,'1',1,'1',1,'1','1','hardware','sin','','alta','activo','Sin respuesta','uploads/4509742513.png','2023-09-04 00:38:24','2023-09-04 00:38:24',NULL),(57,1,'1',1,'1',1,'1','1','hardware','sin','','alta','activo','Sin respuesta','uploads/518585668.png','2023-09-04 00:57:59','2023-09-04 00:57:59',NULL),(58,1,'1',1,'1',1,'1','1','hardware','sin','1','alta','activo','Sin respuesta','uploads/2989852041.png','2023-09-04 02:31:24','2023-09-04 02:31:24',NULL),(59,0,'s',1,'s',1,'s','s','hardware','sin','s','alta','activo','Sin respuesta','uploads/6425456017.png','2023-09-04 02:35:09','2023-09-04 02:35:09',NULL),(60,1,'1',1,'3',1,'1','1','hardware','','','alta','activo','Sin respuesta','uploads/5645313980.png','2023-09-06 01:43:53','2023-09-06 01:43:53',NULL),(61,1,'1',1,'1',1,'11','1','hardware','','','alta','activo','Sin respuesta','uploads/5251690430.png','2023-09-06 01:54:10','2023-09-06 01:54:10',NULL),(62,1,'1',1,'2',1,'1','1','hardware','opcino2','','alta','activo','Sin respuesta','uploads/9349142136.png','2023-09-06 02:11:27','2023-09-06 02:11:27',NULL),(63,1,'1',1,'2',1,'1','1','hardware','opcion1','','alta','activo','Sin respuesta','sin nombre','2023-09-06 02:31:21','2023-09-06 02:31:21',NULL),(64,1,NULL,1,'1',1,'1','1','hardware','','1','alta','activo','Sin respuesta','sin nombre','2023-09-06 02:34:06','2023-09-06 02:34:06',NULL),(65,1,'1',1,'3',1,'1','1','hardware','','1','alta','activo','Sin respuesta','sin nombre','2023-09-06 02:35:21','2023-09-06 02:35:21',NULL),(66,1,'1',1,'1',1,'1','1','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:43:26','2023-09-06 02:43:26',NULL),(67,1,'1',1,'2',1,'1','sdfsdfdsf','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:46:21','2023-09-06 02:46:21',NULL),(68,1,'1',1,'1',1,'1','1','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:48:30','2023-09-06 02:48:30',NULL),(69,1,'1',1,'2',1,'1','1','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:50:21','2023-09-06 02:50:21',NULL),(70,1,'1',1,'4',1,'oficina1','1','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:52:59','2023-09-06 02:52:59',NULL),(71,1,'1',1,'2',1,'1','1','hardware','opcino2','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:54:49','2023-09-06 02:54:49',NULL),(72,1,'1',1,'2',1,'1','1','hardware','opcino2','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:56:21','2023-09-06 02:56:21',NULL),(73,1,'1',1,'2',1,'1','1','hardware','opcino2','1','alta','activo','Sin respuesta','Sin imagen','2023-09-06 02:57:50','2023-09-06 02:57:50',NULL),(74,1,'1',1,'2',1,'1','1','hardware','opcino2','1','alta','activo','Sin respuesta','Sin imagen','2023-09-06 03:00:45','2023-09-06 03:00:45',NULL),(75,1,'qw',1,'1',1,'w','w','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 03:04:18','2023-09-06 03:04:18',NULL),(76,1,'1',1,'2',1,'1','1','hardware','opcino2','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 03:05:39','2023-09-06 03:05:39',NULL),(77,1,'2',1,'2',1,'2','2','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 03:06:40','2023-09-06 03:06:40',NULL),(78,1,'asd',1,'2',1,'1231dsfsasd','fwe','hardware','opcion1','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 03:22:52','2023-09-06 03:22:52',NULL),(79,1,'s',1,'2',1,'d','d','hardware','','sd','media','activo','Sin respuesta','Sin imagen','2023-09-06 04:00:53','2023-09-06 04:00:53',NULL),(80,1,'w',1,'1',1,'w','w','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:05:56','2023-09-06 04:05:56',NULL),(81,1,'s',1,'3',1,'s','s','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:12:32','2023-09-06 04:12:32',NULL),(82,1,'s',1,'1',1,'s','s','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:14:43','2023-09-06 04:14:43',NULL),(83,1,'cds',1,'1',1,'sdc','sc','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:17:08','2023-09-06 04:17:08',NULL),(84,1,'s',1,'1',1,'s','s','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:18:04','2023-09-06 04:18:04',NULL),(85,1,'sd',1,'2',1,'d','d','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:21:39','2023-09-06 04:21:39',NULL),(86,1,'x',1,'3',1,'x','x','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:25:35','2023-09-06 04:25:35',NULL),(87,1,'d',1,'2',1,'d','d','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-06 04:28:20','2023-09-06 04:28:20',NULL),(88,1,'d',1,'2',1,'d','d','hardware','','d','alta','activo','Sin respuesta','Sin imagen','2023-09-07 04:13:30','2023-09-07 04:13:30',NULL),(89,1,'de',1,'1',1,'de','de','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-07 04:21:00','2023-09-07 04:21:00',NULL),(90,1,'d',1,'3',1,'df','d','hardware','','','alta','activo','Sin respuesta','Sin imagen','2023-09-11 01:14:03','2023-09-11 01:14:03',NULL),(91,1,'x',1,'1',1,'x','x','hardware','1','','alta','activo','Sin respuesta','Sin imagen','2023-09-11 01:44:50','2023-09-11 01:44:50',NULL),(92,1,'s',1,'1',1,'s','sccs','hardware','2','saadministrador','alta','activo','Sin respuesta','uploads/8374854984.png','2023-09-11 03:38:49','2023-09-11 03:38:49',NULL),(93,1,'xs',1,'4',1,'xs','xs','hardware','1','','alta','activo','Sin respuesta','Sin imagen','2023-09-12 02:28:39','2023-09-12 02:28:39',NULL),(94,0,'j',1,'j',1,'j','j','hardware','opcion1','','alta','activo','Sin respuesta','Sin imagen','2023-09-13 04:29:27','2023-09-13 04:29:27',NULL),(95,1,'hoy',1,'1',1,'hoy','hy','hardware','','fd','baja','activo','Sin respuesta','uploads/9101233882.png','2023-09-14 01:52:03','2023-09-14 01:52:03',NULL),(96,1,'xs',1,'2',1,'c','hoypruevavdenasdas','hardware','','x','baja','activo','Sin respuesta','uploads/4992392239.png','2023-09-14 02:06:05','2023-09-14 02:06:05',NULL),(97,1,'x',1,'4',1,'x','x','hardware','','x','alta','activo','Sin respuesta','Sin imagen','2023-09-14 02:18:01','2023-09-14 02:18:01',NULL),(98,1,'c',1,'2',1,'c','c','2','6','c','baja','activo','Sin respuesta','uploads/641069659.png','2023-09-14 02:20:32','2023-09-14 02:20:32',NULL),(99,1,'c',1,'1',1,'c','c','3','11','cc','baja','activo','Sin respuesta','Sin imagen','2023-09-14 02:21:24','2023-09-14 02:21:24',NULL);
+/*!40000 ALTER TABLE `solicitud` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `soporte_respuesta`
+--
+
+DROP TABLE IF EXISTS `soporte_respuesta`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `soporte_respuesta` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `id_tecnico` int NOT NULL,
+  `id_entidad` int NOT NULL,
+  `id_solicitud` int NOT NULL,
+  `observacion` text NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `soporte_respuesta`
+--
+
+LOCK TABLES `soporte_respuesta` WRITE;
+/*!40000 ALTER TABLE `soporte_respuesta` DISABLE KEYS */;
+INSERT INTO `soporte_respuesta` VALUES (1,1,1,1,'dasdas','2023-08-20 19:13:23','2023-08-20 19:32:10');
+/*!40000 ALTER TABLE `soporte_respuesta` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `t_personas`
+--
+
+DROP TABLE IF EXISTS `t_personas`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `t_personas` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `usuario` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `type` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `foto` varchar(100) DEFAULT NULL,
+  `funcionario` varchar(100) DEFAULT NULL,
+  `id_entidad` varchar(100) DEFAULT NULL,
+  `oficina` varchar(100) DEFAULT NULL,
+  `cargo` varchar(100) DEFAULT NULL,
+  `dependencia` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `t_personas`
+--
+
+LOCK TABLES `t_personas` WRITE;
+/*!40000 ALTER TABLE `t_personas` DISABLE KEYS */;
+INSERT INTO `t_personas` VALUES (1,'ad@ad.com','ad','administrador',NULL,NULL,NULL,NULL,NULL,NULL),(2,'in@in.com','inv','invitado',NULL,NULL,NULL,NULL,NULL,NULL),(3,'Carlos','Rodríguez','Martínez',NULL,NULL,NULL,NULL,NULL,NULL),(4,'sad','asd','asd',NULL,NULL,NULL,NULL,NULL,NULL),(5,'sad','asd','asd',NULL,NULL,NULL,NULL,NULL,NULL),(6,'sad','asd','asd',NULL,NULL,NULL,NULL,NULL,NULL),(7,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(8,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(9,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(10,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(11,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(12,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(13,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(14,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(15,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(16,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(17,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(18,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(19,'admin','admin','1',NULL,NULL,NULL,NULL,NULL,NULL),(20,'admin','123','admin',NULL,NULL,NULL,NULL,NULL,NULL);
+/*!40000 ALTER TABLE `t_personas` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `users` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `ip_address` varchar(45) NOT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(254) NOT NULL,
+  `activation_selector` varchar(255) DEFAULT NULL,
+  `activation_code` varchar(255) DEFAULT NULL,
+  `forgotten_password_selector` varchar(255) DEFAULT NULL,
+  `forgotten_password_code` varchar(255) DEFAULT NULL,
+  `forgotten_password_time` int unsigned DEFAULT NULL,
+  `remember_selector` varchar(255) DEFAULT NULL,
+  `remember_code` varchar(255) DEFAULT NULL,
+  `created_on` int unsigned NOT NULL,
+  `last_login` int unsigned DEFAULT NULL,
+  `active` tinyint unsigned DEFAULT NULL,
+  `nombre` varchar(100) DEFAULT NULL,
+  `apellido` varchar(100) DEFAULT NULL,
+  `carnet` varchar(20) DEFAULT NULL,
+  `celular` varchar(20) DEFAULT NULL,
+  `cargo` varchar(100) DEFAULT NULL,
+  `mosca` varchar(20) DEFAULT NULL,
+  `id_entidad` int NOT NULL,
+  `pwd` varchar(250) DEFAULT NULL,
+  `estado` tinyint(1) NOT NULL DEFAULT '1',
+  `privilegios` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uc_email` (`email`),
+  UNIQUE KEY `uc_activation_selector` (`activation_selector`),
+  UNIQUE KEY `uc_forgotten_password_selector` (`forgotten_password_selector`),
+  UNIQUE KEY `uc_remember_selector` (`remember_selector`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (1,'127.0.0.1','administrator','$2y$10$xJIKaF8lGDq6m3WOtPAZAOeIA0FKPeXZU1ksDCniRBAOoiexhlksG','luis.quispe@produccion.gob.bo',NULL,'',NULL,NULL,NULL,NULL,NULL,1268889823,1644439378,1,'Admin','istrator','',NULL,'ADMIN','A',1,NULL,1,NULL),(2,'','dora@gmail.com','123456','dora@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,NULL,'alcida','Alanoca Mamani','',NULL,'pasante',NULL,1,NULL,1,NULL),(4,'127.0.0.1',NULL,'$2y$10$vWDEKZ1opBGVneSp.1Sh/OethaUkvWSFzo8GRJqo6efPb2B3esAnq','alci@com.bo',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632259683,1644439552,1,'Dora','Alanoca Mamani','5965677','67061216','tecnico',NULL,1,'12345',1,NULL),(5,'127.0.0.1',NULL,'$2y$10$clx.qkSKKP.OPkUkfyEV7OW1VYKNMcm8MRhuKM0p5u5WRm/OK04BW','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632259691,NULL,1,'goma','','',NULL,'',NULL,1,NULL,1,NULL),(6,'127.0.0.1',NULL,'$2y$10$jGFDtH3G5sSfK8d29RbF0.5yv/GpZ2ZKLf14pQP4RaLxay/ZkXMSG','activo@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632259899,NULL,1,'axd<szd','adsa','',NULL,'asistente',NULL,1,NULL,1,NULL),(7,'127.0.0.1',NULL,'$2y$10$N1gC7hVtddF0zq/firy3l.rto10axPcd7MlsZA5NVUYJQ87sR0Ooy','alci@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632260153,NULL,1,'alcida','Mamani','',NULL,'tecnico',NULL,1,NULL,1,NULL),(8,'127.0.0.1',NULL,'$2y$10$VmXqAnjOLW0DwpWM.BDFHew2HlpmEtq/w8JpVno6suOPlf5aijrFS','123@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632313383,NULL,1,'Pandero realeza','Alanoca Mamani','',NULL,'asistente',NULL,1,NULL,1,NULL),(9,'127.0.0.1',NULL,'$2y$10$TvkbSfgYRxCzOJBsE9.sJ.zw7AHj/xayeSJhttswfBOSJb7LVL2Dm','goma@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632313638,NULL,1,'goma','Alanoca Mamani','',NULL,'pasante',NULL,1,NULL,1,NULL),(10,'127.0.0.1','dor1@gmail.com','$2y$10$cbuVvzlNY2eEtOyVA/865.9wTN93MEY3jBT6aSNlrjdRsiDfeFMTy','dor1@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632313897,NULL,1,'Dora','Mamani','',NULL,'pasante',NULL,1,NULL,1,NULL),(11,'127.0.0.1','adertfgh@gamil.com','$2y$10$J3OU5u3V7fcwe/hRfFsQseQQ8D0GQFbQzC8x/xFPHPPT8BC13QWR2','adertfgh@gamil.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632316130,NULL,1,'alcida','Zapana','',NULL,'pasante',NULL,1,NULL,1,NULL),(12,'127.0.0.1','dora1@gmail.com','$2y$10$9et5EEUZ3Hl8K0WfZuUutONrkePk65zXly9PUWYPO2vNVKCVufab2','dora1@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632316226,1632316385,1,'goma','Alanoca Mamani','',NULL,'pasante',NULL,1,NULL,1,NULL),(13,'127.0.0.1','activo23@gmail.com','$2y$10$v/8I5XHHwQiYBPy0ezVOc.sagg8p.ImkKRaa7YE98oQw6aRBERe8G','activo23@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632318540,1644439612,1,'Pandero realeza','Alanoca Mamani','','','pasante',NULL,1,'12345',1,NULL),(14,'127.0.0.1','dsf@sadsf.com','$2y$10$YgBWSC46g2kk5UTqGJU8POpWYd.x5lEisTTW04FO.nwrvNJz.rO.i','dsf@sadsf.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632318789,NULL,1,'fsd','sdffxd','',NULL,'sdad',NULL,1,NULL,1,NULL),(15,'127.0.0.1','adertsadsfgh@gamil.com','$2y$10$2rq1COF7jZyW/F5aDox59uvFXxPh3nb4ZK.sHclscZRkjOATkAuyO','adertsadsfgh@gamil.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632318947,NULL,1,'alcida','Alanoca Mamani','',NULL,'pasante',NULL,1,NULL,1,NULL),(16,'127.0.0.1','adert1fgh@gamil.com','$2y$10$XvZOaIputYTyPpIcoufDBe706Gag2Fipw6oArA2a6/MDYHJpItcKG','adert1fgh@gamil.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1632319011,NULL,1,'Pandero realeza','Alanoca Mamani','',NULL,'pasante',NULL,1,NULL,1,NULL),(17,'127.0.0.1',NULL,'$2y$10$nHf/1ECfvvFGYZEM9pIbxe5BECuGZPCvzBk/3KCU6OwRLFA2jClOu','betholaqp@gmail.com',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1633630921,NULL,0,'aaaaa','bbb','cccccc','2222222','ddddd',NULL,1,'11111111',1,'1'),(19,'127.0.0.1','adm@adm.com','$2y$10$xJIKaF8lGDq6m3WOtPAZAOeIA0FKPeXZU1ksDCniRBAOoiexhlksG','admin@produccion.gob.bo',NULL,'',NULL,NULL,NULL,NULL,NULL,1268889823,1644439378,1,'Admin','istrator','',NULL,'ADMIN','A',1,NULL,1,NULL);
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `users_groups`
+--
+
+DROP TABLE IF EXISTS `users_groups`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `users_groups` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int unsigned NOT NULL,
+  `group_id` mediumint unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uc_users_groups` (`user_id`,`group_id`),
+  KEY `fk_users_groups_users1_idx` (`user_id`),
+  KEY `fk_users_groups_groups1_idx` (`group_id`),
+  CONSTRAINT `fk_users_groups_groups1` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `fk_users_groups_users1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users_groups`
+--
+
+LOCK TABLES `users_groups` WRITE;
+/*!40000 ALTER TABLE `users_groups` DISABLE KEYS */;
+INSERT INTO `users_groups` VALUES (1,1,1),(3,4,3),(4,5,3),(5,6,3),(6,7,3),(7,8,3),(8,9,3),(9,10,3),(10,11,3),(11,12,3),(12,13,3),(13,14,3),(14,15,3),(15,16,3),(16,17,2);
+/*!40000 ALTER TABLE `users_groups` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping routines for database 'soporte'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-09-14  0:34:44

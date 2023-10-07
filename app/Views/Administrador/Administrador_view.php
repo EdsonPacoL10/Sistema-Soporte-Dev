@@ -13,8 +13,8 @@ License: For each use you must have a valid license purchased only from above li
 <html lang="en">
 	<!--begin::Head-->
 	<head><base href="">
-		<title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
-		<meta charset="utf-8" />
+	<title>MDPyEP &amp; Sistema de Soporte</title>
+	<meta charset="utf-8" />
 		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
 		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,7 +24,8 @@ License: For each use you must have a valid license purchased only from above li
 		<meta property="og:url" content="https://keenthemes.com/metronic" />
 		<meta property="og:site_name" content="Keenthemes | Metronic" />
 		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="recursos/logo/logo2.png" />
+		
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 		<!--end::Fonts-->
@@ -69,779 +70,19 @@ License: For each use you must have a valid license purchased only from above li
 							<!--begin::Logo-->
 							<a href="../../demo19/dist/index.html">
 								<!--begin::Desktop modes-->
-								<img alt="Logo" src="assets/media/logos/default-dark.svg" class="d-none d-lg-inline-block h-30px" />
-								<!--end::Desktop modes-->
-								<!--begin::Table & mobile modes-->
-								<img alt="Logo" src="assets/media/logos/default-small.svg" class="d-lg-none h-25px" />
-								<!--end::Table & mobile modes-->
+								<img alt="Logo" src="recursos/logo/mdpyep-horizontal02.png"
+                                class="d-none d-lg-inline-block h-100px" />
+                            <!--end::Desktop modes-->
+                            <!--begin::Table & mobile modes-->
+                            <img alt="Logo" src="recursos/logo/logo2.png" class="d-lg-none h-25px" />
+                            <!--end::Table & mobile modes-->
 							</a>
 							<!--end::Logo-->
 						</div>
 						<!--end::Header Logo-->
 						<!--begin::Toolbar wrapper-->
 						<div class="topbar d-flex align-items-stretch flex-shrink-0" id="kt_topbar">
-							<!--begin:Search-->
-							<div class="d-flex align-items-center ms-2 ms-lg-3">
-								<!--begin::Search-->
-								<div id="kt_header_search" class="header-search d-flex align-items-center topbar-search w-lg-225px" data-kt-search-keypress="true" data-kt-search-min-length="2" data-kt-search-enter="enter" data-kt-search-layout="menu" data-kt-search-responsive="lg" data-kt-menu-trigger="auto" data-kt-menu-permanent="true" data-kt-menu-placement="bottom-end">
-									<!--begin::Tablet and mobile search toggle-->
-									<div data-kt-search-element="toggle" class="d-flex d-lg-none align-items-center">
-										<div class="btn btn-icon btn-icon-gray-300 w-30px h-30px w-md-40px h-md-40px">
-											<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-											<span class="svg-icon svg-icon-1">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
-													<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</div>
-									</div>
-									<!--end::Tablet and mobile search toggle-->
-									<!--begin::Form(use d-none d-lg-block classes for responsive search)-->
-									<form data-kt-search-element="form" class="d-none d-lg-block w-100 position-relative mb-5 mb-lg-0" autocomplete="off">
-										<!--begin::Hidden input(Added to disable form autocomplete)-->
-										<input type="hidden" />
-										<!--end::Hidden input-->
-										<!--begin::Icon-->
-										<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-lg-3 svg-icon-gray-800 position-absolute top-50 translate-middle-y ms-5">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
-												<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-										<!--end::Icon-->
-										<!--begin::Input-->
-										<input type="text" class="search-input form-control form-control-solid ps-13" name="search" value="" placeholder="Search..." data-kt-search-element="input" />
-										<!--end::Input-->
-										<!--begin::Spinner-->
-										<span class="position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5" data-kt-search-element="spinner">
-											<span class="spinner-border h-15px w-15px align-middle text-gray-400"></span>
-										</span>
-										<!--end::Spinner-->
-										<!--begin::Reset-->
-										<span class="btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-4" data-kt-search-element="clear">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-											<span class="svg-icon svg-icon-2 svg-icon-lg-1 me-0">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-													<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<!--end::Reset-->
-									</form>
-									<!--end::Form-->
-									<!--begin::Menu-->
-									<div data-kt-search-element="content" class="menu menu-sub menu-sub-dropdown w-300px w-md-350px py-7 px-7 overflow-hidden">
-										<!--begin::Wrapper-->
-										<div data-kt-search-element="wrapper">
-											<!--begin::Recently viewed-->
-											<div data-kt-search-element="results" class="d-none">
-												<!--begin::Items-->
-												<div class="scroll-y mh-200px mh-lg-350px">
-													<!--begin::Category title-->
-													<h3 class="fs-5 text-muted m-0 pb-5" data-kt-search-element="category-title">Users</h3>
-													<!--end::Category title-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<img src="assets/media/avatars/300-6.jpg" alt="" />
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Karina Clark</span>
-															<span class="fs-7 fw-semibold text-muted">Marketing Manager</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<img src="assets/media/avatars/300-2.jpg" alt="" />
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Olivia Bold</span>
-															<span class="fs-7 fw-semibold text-muted">Software Engineer</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<img src="assets/media/avatars/300-9.jpg" alt="" />
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Ana Clark</span>
-															<span class="fs-7 fw-semibold text-muted">UI/UX Designer</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<img src="assets/media/avatars/300-14.jpg" alt="" />
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Nick Pitola</span>
-															<span class="fs-7 fw-semibold text-muted">Art Director</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<img src="assets/media/avatars/300-11.jpg" alt="" />
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Edward Kulnic</span>
-															<span class="fs-7 fw-semibold text-muted">System Administrator</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Category title-->
-													<h3 class="fs-5 text-muted m-0 pt-5 pb-5" data-kt-search-element="category-title">Customers</h3>
-													<!--end::Category title-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/volicity-9.svg" alt="" />
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Company Rbranding</span>
-															<span class="fs-7 fw-semibold text-muted">UI Design</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/tvit.svg" alt="" />
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Company Re-branding</span>
-															<span class="fs-7 fw-semibold text-muted">Web Development</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<img class="w-20px h-20px" src="assets/media/svg/misc/infography.svg" alt="" />
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Business Analytics App</span>
-															<span class="fs-7 fw-semibold text-muted">Administration</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/leaf.svg" alt="" />
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">EcoLeaf App Launch</span>
-															<span class="fs-7 fw-semibold text-muted">Marketing</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/tower.svg" alt="" />
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column justify-content-start fw-semibold">
-															<span class="fs-6 fw-semibold">Tower Group Website</span>
-															<span class="fs-7 fw-semibold text-muted">Google Adwords</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Category title-->
-													<h3 class="fs-5 text-muted m-0 pt-5 pb-5" data-kt-search-element="category-title">Projects</h3>
-													<!--end::Category title-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22ZM12.5 18C12.5 17.4 12.6 17.5 12 17.5H8.5C7.9 17.5 8 17.4 8 18C8 18.6 7.9 18.5 8.5 18.5L12 18C12.6 18 12.5 18.6 12.5 18ZM16.5 13C16.5 12.4 16.6 12.5 16 12.5H8.5C7.9 12.5 8 12.4 8 13C8 13.6 7.9 13.5 8.5 13.5H15.5C16.1 13.5 16.5 13.6 16.5 13ZM12.5 8C12.5 7.4 12.6 7.5 12 7.5H8C7.4 7.5 7.5 7.4 7.5 8C7.5 8.6 7.4 8.5 8 8.5H12C12.6 8.5 12.5 8.6 12.5 8Z" fill="currentColor" />
-																		<rect x="7" y="17" width="6" height="2" rx="1" fill="currentColor" />
-																		<rect x="7" y="12" width="10" height="2" rx="1" fill="currentColor" />
-																		<rect x="7" y="7" width="6" height="2" rx="1" fill="currentColor" />
-																		<path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<span class="fs-6 fw-semibold">Si-Fi Project by AU Themes</span>
-															<span class="fs-7 fw-semibold text-muted">#45670</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect x="8" y="9" width="3" height="10" rx="1.5" fill="currentColor" />
-																		<rect opacity="0.5" x="13" y="5" width="3" height="14" rx="1.5" fill="currentColor" />
-																		<rect x="18" y="11" width="3" height="8" rx="1.5" fill="currentColor" />
-																		<rect x="3" y="13" width="3" height="6" rx="1.5" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<span class="fs-6 fw-semibold">Shopix Mobile App Planning</span>
-															<span class="fs-7 fw-semibold text-muted">#45690</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/communication/com012.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path opacity="0.3" d="M20 3H4C2.89543 3 2 3.89543 2 5V16C2 17.1046 2.89543 18 4 18H4.5C5.05228 18 5.5 18.4477 5.5 19V21.5052C5.5 22.1441 6.21212 22.5253 6.74376 22.1708L11.4885 19.0077C12.4741 18.3506 13.6321 18 14.8167 18H20C21.1046 18 22 17.1046 22 16V5C22 3.89543 21.1046 3 20 3Z" fill="currentColor" />
-																		<rect x="6" y="12" width="7" height="2" rx="1" fill="currentColor" />
-																		<rect x="6" y="7" width="12" height="2" rx="1" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<span class="fs-6 fw-semibold">Finance Monitoring SAAS Discussion</span>
-															<span class="fs-7 fw-semibold text-muted">#21090</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/communication/com006.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path opacity="0.3" d="M16.5 9C16.5 13.125 13.125 16.5 9 16.5C4.875 16.5 1.5 13.125 1.5 9C1.5 4.875 4.875 1.5 9 1.5C13.125 1.5 16.5 4.875 16.5 9Z" fill="currentColor" />
-																		<path d="M9 16.5C10.95 16.5 12.75 15.75 14.025 14.55C13.425 12.675 11.4 11.25 9 11.25C6.6 11.25 4.57499 12.675 3.97499 14.55C5.24999 15.75 7.05 16.5 9 16.5Z" fill="currentColor" />
-																		<rect x="7" y="6" width="4" height="4" rx="2" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<span class="fs-6 fw-semibold">Dashboard Analitics Launch</span>
-															<span class="fs-7 fw-semibold text-muted">#34560</span>
-														</div>
-														<!--end::Title-->
-													</a>
-													<!--end::Item-->
-												</div>
-												<!--end::Items-->
-											</div>
-											<!--end::Recently viewed-->
-											<!--begin::Recently viewed-->
-											<div class="" data-kt-search-element="main">
-												<!--begin::Heading-->
-												<div class="d-flex flex-stack fw-semibold mb-4">
-													<!--begin::Label-->
-													<span class="text-muted fs-6 me-2">Recently Searched:</span>
-													<!--end::Label-->
-													<!--begin::Toolbar-->
-													<div class="d-flex" data-kt-search-element="toolbar">
-														<!--begin::Preferences toggle-->
-														<div data-kt-search-element="preferences-show" class="btn btn-icon w-20px btn-sm btn-active-color-primary me-2 data-bs-toggle=" title="Show search preferences">
-															<!--begin::Svg Icon | path: icons/duotune/coding/cod001.svg-->
-															<span class="svg-icon svg-icon-1">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path opacity="0.3" d="M22.1 11.5V12.6C22.1 13.2 21.7 13.6 21.2 13.7L19.9 13.9C19.7 14.7 19.4 15.5 18.9 16.2L19.7 17.2999C20 17.6999 20 18.3999 19.6 18.7999L18.8 19.6C18.4 20 17.8 20 17.3 19.7L16.2 18.9C15.5 19.3 14.7 19.7 13.9 19.9L13.7 21.2C13.6 21.7 13.1 22.1 12.6 22.1H11.5C10.9 22.1 10.5 21.7 10.4 21.2L10.2 19.9C9.4 19.7 8.6 19.4 7.9 18.9L6.8 19.7C6.4 20 5.7 20 5.3 19.6L4.5 18.7999C4.1 18.3999 4.1 17.7999 4.4 17.2999L5.2 16.2C4.8 15.5 4.4 14.7 4.2 13.9L2.9 13.7C2.4 13.6 2 13.1 2 12.6V11.5C2 10.9 2.4 10.5 2.9 10.4L4.2 10.2C4.4 9.39995 4.7 8.60002 5.2 7.90002L4.4 6.79993C4.1 6.39993 4.1 5.69993 4.5 5.29993L5.3 4.5C5.7 4.1 6.3 4.10002 6.8 4.40002L7.9 5.19995C8.6 4.79995 9.4 4.39995 10.2 4.19995L10.4 2.90002C10.5 2.40002 11 2 11.5 2H12.6C13.2 2 13.6 2.40002 13.7 2.90002L13.9 4.19995C14.7 4.39995 15.5 4.69995 16.2 5.19995L17.3 4.40002C17.7 4.10002 18.4 4.1 18.8 4.5L19.6 5.29993C20 5.69993 20 6.29993 19.7 6.79993L18.9 7.90002C19.3 8.60002 19.7 9.39995 19.9 10.2L21.2 10.4C21.7 10.5 22.1 11 22.1 11.5ZM12.1 8.59998C10.2 8.59998 8.6 10.2 8.6 12.1C8.6 14 10.2 15.6 12.1 15.6C14 15.6 15.6 14 15.6 12.1C15.6 10.2 14 8.59998 12.1 8.59998Z" fill="currentColor" />
-																	<path d="M17.1 12.1C17.1 14.9 14.9 17.1 12.1 17.1C9.30001 17.1 7.10001 14.9 7.10001 12.1C7.10001 9.29998 9.30001 7.09998 12.1 7.09998C14.9 7.09998 17.1 9.29998 17.1 12.1ZM12.1 10.1C11 10.1 10.1 11 10.1 12.1C10.1 13.2 11 14.1 12.1 14.1C13.2 14.1 14.1 13.2 14.1 12.1C14.1 11 13.2 10.1 12.1 10.1Z" fill="currentColor" />
-																</svg>
-															</span>
-															<!--end::Svg Icon-->
-														</div>
-														<!--end::Preferences toggle-->
-														<!--begin::Advanced search toggle-->
-														<div data-kt-search-element="advanced-options-form-show" class="btn btn-icon w-20px btn-sm btn-active-color-primary me-n1" data-bs-toggle="tooltip" title="Show more search options">
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-2">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
-																</svg>
-															</span>
-															<!--end::Svg Icon-->
-														</div>
-														<!--end::Advanced search toggle-->
-													</div>
-													<!--end::Toolbar-->
-												</div>
-												<!--end::Heading-->
-												<!--begin::Items-->
-												<div class="scroll-y mh-200px mh-lg-325px">
-													<!--begin::Item-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/electronics/elc004.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M2 16C2 16.6 2.4 17 3 17H21C21.6 17 22 16.6 22 16V15H2V16Z" fill="currentColor" />
-																		<path opacity="0.3" d="M21 3H3C2.4 3 2 3.4 2 4V15H22V4C22 3.4 21.6 3 21 3Z" fill="currentColor" />
-																		<path opacity="0.3" d="M15 17H9V20H15V17Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">BoomApp by Keenthemes</a>
-															<span class="fs-7 text-muted fw-semibold">#45789</span>
-														</div>
-														<!--end::Title-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/graphs/gra001.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path opacity="0.3" d="M14 3V21H10V3C10 2.4 10.4 2 11 2H13C13.6 2 14 2.4 14 3ZM7 14H5C4.4 14 4 14.4 4 15V21H8V15C8 14.4 7.6 14 7 14Z" fill="currentColor" />
-																		<path d="M21 20H20V8C20 7.4 19.6 7 19 7H17C16.4 7 16 7.4 16 8V20H3C2.4 20 2 20.4 2 21C2 21.6 2.4 22 3 22H21C21.6 22 22 21.6 22 21C22 20.4 21.6 20 21 20Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">"Kept API Project Meeting</a>
-															<span class="fs-7 text-muted fw-semibold">#84050</span>
-														</div>
-														<!--end::Title-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="currentColor" />
-																		<path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">"KPI Monitoring App Launch</a>
-															<span class="fs-7 text-muted fw-semibold">#84250</span>
-														</div>
-														<!--end::Title-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/graphs/gra002.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path opacity="0.3" d="M20 8L12.5 5L5 14V19H20V8Z" fill="currentColor" />
-																		<path d="M21 18H6V3C6 2.4 5.6 2 5 2C4.4 2 4 2.4 4 3V18H3C2.4 18 2 18.4 2 19C2 19.6 2.4 20 3 20H4V21C4 21.6 4.4 22 5 22C5.6 22 6 21.6 6 21V20H21C21.6 20 22 19.6 22 19C22 18.4 21.6 18 21 18Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">Project Reference FAQ</a>
-															<span class="fs-7 text-muted fw-semibold">#67945</span>
-														</div>
-														<!--end::Title-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/communication/com010.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725Z" fill="currentColor" />
-																		<path opacity="0.3" d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">"FitPro App Development</a>
-															<span class="fs-7 text-muted fw-semibold">#84250</span>
-														</div>
-														<!--end::Title-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/finance/fin001.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="currentColor" />
-																		<path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">Shopix Mobile App</a>
-															<span class="fs-7 text-muted fw-semibold">#45690</span>
-														</div>
-														<!--end::Title-->
-													</div>
-													<!--end::Item-->
-													<!--begin::Item-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Symbol-->
-														<div class="symbol symbol-40px me-4">
-															<span class="symbol-label bg-light">
-																<!--begin::Svg Icon | path: icons/duotune/graphs/gra002.svg-->
-																<span class="svg-icon svg-icon-2 svg-icon-primary">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path opacity="0.3" d="M20 8L12.5 5L5 14V19H20V8Z" fill="currentColor" />
-																		<path d="M21 18H6V3C6 2.4 5.6 2 5 2C4.4 2 4 2.4 4 3V18H3C2.4 18 2 18.4 2 19C2 19.6 2.4 20 3 20H4V21C4 21.6 4.4 22 5 22C5.6 22 6 21.6 6 21V20H21C21.6 20 22 19.6 22 19C22 18.4 21.6 18 21 18Z" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span>
-														</div>
-														<!--end::Symbol-->
-														<!--begin::Title-->
-														<div class="d-flex flex-column">
-															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">"Landing UI Design" Launch</a>
-															<span class="fs-7 text-muted fw-semibold">#24005</span>
-														</div>
-														<!--end::Title-->
-													</div>
-													<!--end::Item-->
-												</div>
-												<!--end::Items-->
-											</div>
-											<!--end::Recently viewed-->
-											<!--begin::Empty-->
-											<div data-kt-search-element="empty" class="text-center d-none">
-												<!--begin::Icon-->
-												<div class="pt-10 pb-10">
-													<!--begin::Svg Icon | path: icons/duotune/files/fil024.svg-->
-													<span class="svg-icon svg-icon-4x opacity-50">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" fill="currentColor" />
-															<path d="M20 8L14 2V6C14 7.10457 14.8954 8 16 8H20Z" fill="currentColor" />
-															<rect x="13.6993" y="13.6656" width="4.42828" height="1.73089" rx="0.865447" transform="rotate(45 13.6993 13.6656)" fill="currentColor" />
-															<path d="M15 12C15 14.2 13.2 16 11 16C8.8 16 7 14.2 7 12C7 9.8 8.8 8 11 8C13.2 8 15 9.8 15 12ZM11 9.6C9.68 9.6 8.6 10.68 8.6 12C8.6 13.32 9.68 14.4 11 14.4C12.32 14.4 13.4 13.32 13.4 12C13.4 10.68 12.32 9.6 11 9.6Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Icon-->
-												<!--begin::Message-->
-												<div class="pb-15 fw-semibold">
-													<h3 class="text-gray-600 fs-5 mb-2">No result found</h3>
-													<div class="text-muted fs-7">Please try again with a different query</div>
-												</div>
-												<!--end::Message-->
-											</div>
-											<!--end::Empty-->
-										</div>
-										<!--end::Wrapper-->
-										<!--begin::Preferences-->
-										<form data-kt-search-element="advanced-options-form" class="pt-1 d-none">
-											<!--begin::Heading-->
-											<h3 class="fw-semibold text-dark mb-7">Advanced Search</h3>
-											<!--end::Heading-->
-											<!--begin::Input group-->
-											<div class="mb-5">
-												<input type="text" class="form-control form-control-sm form-control-solid" placeholder="Contains the word" name="query" />
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="mb-5">
-												<!--begin::Radio group-->
-												<div class="nav-group nav-group-fluid">
-													<!--begin::Option-->
-													<label>
-														<input type="radio" class="btn-check" name="type" value="has" checked="checked" />
-														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary">All</span>
-													</label>
-													<!--end::Option-->
-													<!--begin::Option-->
-													<label>
-														<input type="radio" class="btn-check" name="type" value="users" />
-														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Users</span>
-													</label>
-													<!--end::Option-->
-													<!--begin::Option-->
-													<label>
-														<input type="radio" class="btn-check" name="type" value="orders" />
-														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Orders</span>
-													</label>
-													<!--end::Option-->
-													<!--begin::Option-->
-													<label>
-														<input type="radio" class="btn-check" name="type" value="projects" />
-														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Projects</span>
-													</label>
-													<!--end::Option-->
-												</div>
-												<!--end::Radio group-->
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="mb-5">
-												<input type="text" name="assignedto" class="form-control form-control-sm form-control-solid" placeholder="Assigned to" value="" />
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="mb-5">
-												<input type="text" name="collaborators" class="form-control form-control-sm form-control-solid" placeholder="Collaborators" value="" />
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="mb-5">
-												<!--begin::Radio group-->
-												<div class="nav-group nav-group-fluid">
-													<!--begin::Option-->
-													<label>
-														<input type="radio" class="btn-check" name="attachment" value="has" checked="checked" />
-														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary">Has attachment</span>
-													</label>
-													<!--end::Option-->
-													<!--begin::Option-->
-													<label>
-														<input type="radio" class="btn-check" name="attachment" value="any" />
-														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Any</span>
-													</label>
-													<!--end::Option-->
-												</div>
-												<!--end::Radio group-->
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="mb-5">
-												<select name="timezone" aria-label="Select a Timezone" data-control="select2" data-placeholder="date_period" class="form-select form-select-sm form-select-solid">
-													<option value="next">Within the next</option>
-													<option value="last">Within the last</option>
-													<option value="between">Between</option>
-													<option value="on">On</option>
-												</select>
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="row mb-8">
-												<!--begin::Col-->
-												<div class="col-6">
-													<input type="number" name="date_number" class="form-control form-control-sm form-control-solid" placeholder="Lenght" value="" />
-												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-6">
-													<select name="date_typer" aria-label="Select a Timezone" data-control="select2" data-placeholder="Period" class="form-select form-select-sm form-select-solid">
-														<option value="days">Days</option>
-														<option value="weeks">Weeks</option>
-														<option value="months">Months</option>
-														<option value="years">Years</option>
-													</select>
-												</div>
-												<!--end::Col-->
-											</div>
-											<!--end::Input group-->
-											<!--begin::Actions-->
-											<div class="d-flex justify-content-end">
-												<button type="reset" class="btn btn-sm btn-light fw-bold btn-active-light-primary me-2" data-kt-search-element="advanced-options-form-cancel">Cancel</button>
-												<a href="../../demo19/dist/pages/search/horizontal.html" class="btn btn-sm fw-bold btn-primary" data-kt-search-element="advanced-options-form-search">Search</a>
-											</div>
-											<!--end::Actions-->
-										</form>
-										<!--end::Preferences-->
-										<!--begin::Preferences-->
-										<form data-kt-search-element="preferences" class="pt-1 d-none">
-											<!--begin::Heading-->
-											<h3 class="fw-semibold text-dark mb-7">Search Preferences</h3>
-											<!--end::Heading-->
-											<!--begin::Input group-->
-											<div class="pb-4 border-bottom">
-												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
-													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">Projects</span>
-													<input class="form-check-input" type="checkbox" value="1" checked="checked" />
-												</label>
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="py-4 border-bottom">
-												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
-													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">Targets</span>
-													<input class="form-check-input" type="checkbox" value="1" checked="checked" />
-												</label>
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="py-4 border-bottom">
-												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
-													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">Affiliate Programs</span>
-													<input class="form-check-input" type="checkbox" value="1" />
-												</label>
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="py-4 border-bottom">
-												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
-													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">Referrals</span>
-													<input class="form-check-input" type="checkbox" value="1" checked="checked" />
-												</label>
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="py-4 border-bottom">
-												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
-													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">Users</span>
-													<input class="form-check-input" type="checkbox" value="1" />
-												</label>
-											</div>
-											<!--end::Input group-->
-											<!--begin::Actions-->
-											<div class="d-flex justify-content-end pt-7">
-												<button type="reset" class="btn btn-sm btn-light fw-bold btn-active-light-primary me-2" data-kt-search-element="preferences-dismiss">Cancel</button>
-												<button type="submit" class="btn btn-sm fw-bold btn-primary">Save Changes</button>
-											</div>
-											<!--end::Actions-->
-										</form>
-										<!--end::Preferences-->
-									</div>
-									<!--end::Menu-->
-								</div>
-								<!--end::Search-->
-							</div>
-							<!--end:Search-->
-							<!--begin::Activities-->
-							<div class="d-flex align-items-center ms-2 ms-lg-3">
-								<!--begin::Drawer toggle-->
-								<div class="btn btn-icon btn-custom w-30px h-30px w-md-40px h-md-40px" id="kt_activities_toggle">
-									<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-									<span class="svg-icon svg-icon-1">
-										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<rect x="8" y="9" width="3" height="10" rx="1.5" fill="currentColor" />
-											<rect opacity="0.5" x="13" y="5" width="3" height="14" rx="1.5" fill="currentColor" />
-											<rect x="18" y="11" width="3" height="8" rx="1.5" fill="currentColor" />
-											<rect x="3" y="13" width="3" height="6" rx="1.5" fill="currentColor" />
-										</svg>
-									</span>
-									<!--end::Svg Icon-->
-								</div>
-								<!--end::Drawer toggle-->
-							</div>
-							<!--end::Activities-->
+							
 							<!--begin::Notifications-->
 							<div class="d-flex align-items-center ms-2 ms-lg-3">
 								<!--begin::Menu- wrapper-->
@@ -862,20 +103,15 @@ License: For each use you must have a valid license purchased only from above li
 									<!--begin::Heading-->
 									<div class="d-flex flex-column bgi-no-repeat rounded-top" style="background-image:url('assets/media/misc/pattern-1.jpg')">
 										<!--begin::Title-->
-										<h3 class="text-white fw-semibold px-9 mt-10 mb-6">Notifications
-										<span class="fs-8 opacity-75 ps-3">24 reports</span></h3>
+										<h3 class="text-white fw-semibold px-9 mt-10 mb-6">Notificaciones
+										<span class="fs-8 opacity-75 ps-3">notificaciones por dia de solictudes nuevas</span></h3>
 										<!--end::Title-->
 										<!--begin::Tabs-->
 										<ul class="nav nav-line-tabs nav-line-tabs-2x nav-stretch fw-semibold px-9">
 											<li class="nav-item">
-												<a class="nav-link text-white opacity-75 opacity-state-100 pb-4" data-bs-toggle="tab" href="#kt_topbar_notifications_1">Alerts</a>
+												<a class="nav-link text-white opacity-75 opacity-state-100 pb-4 active" data-bs-toggle="tab" href="#kt_topbar_notifications_1">Alerts</a>
 											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white opacity-75 opacity-state-100 pb-4 active" data-bs-toggle="tab" href="#kt_topbar_notifications_2">Updates</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white opacity-75 opacity-state-100 pb-4" data-bs-toggle="tab" href="#kt_topbar_notifications_3">Logs</a>
-											</li>
+											
 										</ul>
 										<!--end::Tabs-->
 									</div>
@@ -883,7 +119,7 @@ License: For each use you must have a valid license purchased only from above li
 									<!--begin::Tab content-->
 									<div class="tab-content">
 										<!--begin::Tab panel-->
-										<div class="tab-pane fade" id="kt_topbar_notifications_1" role="tabpanel">
+										<div class="tab-pane fade show active" id="kt_topbar_notifications_1" role="tabpanel">
 											<!--begin::Items-->
 											<div class="scroll-y mh-325px my-5 px-8">
 												<!--begin::Item-->
@@ -1108,274 +344,11 @@ License: For each use you must have a valid license purchased only from above li
 												<!--end::Item-->
 											</div>
 											<!--end::Items-->
-											<!--begin::View more-->
-											<div class="py-3 text-center border-top">
-												<a href="../../demo19/dist/pages/user-profile/activity.html" class="btn btn-color-gray-600 btn-active-color-primary">View All
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-												<span class="svg-icon svg-icon-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor" />
-														<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon--></a>
-											</div>
-											<!--end::View more-->
+											
 										</div>
 										<!--end::Tab panel-->
-										<!--begin::Tab panel-->
-										<div class="tab-pane fade show active" id="kt_topbar_notifications_2" role="tabpanel">
-											<!--begin::Wrapper-->
-											<div class="d-flex flex-column px-9">
-												<!--begin::Section-->
-												<div class="pt-10 pb-0">
-													<!--begin::Title-->
-													<h3 class="text-dark text-center fw-bold">Get Pro Access</h3>
-													<!--end::Title-->
-													<!--begin::Text-->
-													<div class="text-center text-gray-600 fw-semibold pt-1">Outlines keep you honest. They stoping you from amazing poorly about drive</div>
-													<!--end::Text-->
-													<!--begin::Action-->
-													<div class="text-center mt-5 mb-9">
-														<a href="#" class="btn btn-sm btn-primary px-6" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade</a>
-													</div>
-													<!--end::Action-->
-												</div>
-												<!--end::Section-->
-												<!--begin::Illustration-->
-												<div class="text-center px-4">
-													<img class="mw-100 mh-200px" alt="image" src="assets/media/illustrations/sketchy-1/1.png" />
-												</div>
-												<!--end::Illustration-->
-											</div>
-											<!--end::Wrapper-->
-										</div>
-										<!--end::Tab panel-->
-										<!--begin::Tab panel-->
-										<div class="tab-pane fade" id="kt_topbar_notifications_3" role="tabpanel">
-											<!--begin::Items-->
-											<div class="scroll-y mh-325px my-5 px-8">
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-success me-4">200 OK</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">New order</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">Just now</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-danger me-4">500 ERR</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">New customer</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">2 hrs</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-success me-4">200 OK</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">Payment process</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">5 hrs</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-warning me-4">300 WRN</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">Search query</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">2 days</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-success me-4">200 OK</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">API connection</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">1 week</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-success me-4">200 OK</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">Database restore</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">Mar 5</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-warning me-4">300 WRN</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">System update</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">May 15</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-warning me-4">300 WRN</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">Server OS update</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">Apr 3</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-warning me-4">300 WRN</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">API rollback</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">Jun 30</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-danger me-4">500 ERR</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">Refund process</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">Jul 10</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-danger me-4">500 ERR</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">Withdrawal process</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">Sep 10</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex flex-stack py-4">
-													<!--begin::Section-->
-													<div class="d-flex align-items-center me-2">
-														<!--begin::Code-->
-														<span class="w-70px badge badge-light-danger me-4">500 ERR</span>
-														<!--end::Code-->
-														<!--begin::Title-->
-														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">Mail tasks</a>
-														<!--end::Title-->
-													</div>
-													<!--end::Section-->
-													<!--begin::Label-->
-													<span class="badge badge-light fs-8">Dec 10</span>
-													<!--end::Label-->
-												</div>
-												<!--end::Item-->
-											</div>
-											<!--end::Items-->
-											<!--begin::View more-->
-											<div class="py-3 text-center border-top">
-												<a href="../../demo19/dist/pages/user-profile/activity.html" class="btn btn-color-gray-600 btn-active-color-primary">View All
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-												<span class="svg-icon svg-icon-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor" />
-														<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon--></a>
-											</div>
-											<!--end::View more-->
-										</div>
-										<!--end::Tab panel-->
+										
+										
 									</div>
 									<!--end::Tab content-->
 								</div>
@@ -1383,137 +356,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--end::Menu wrapper-->
 							</div>
 							<!--end::Notifications-->
-							<!--begin::Chat-->
-							<div class="d-flex align-items-center ms-2 ms-lg-3">
-								<!--begin::Menu wrapper-->
-								<div class="btn btn-icon btn-custom w-30px h-30px w-md-40px h-md-40px position-relative" id="kt_drawer_chat_toggle">
-									<!--begin::Svg Icon | path: icons/duotune/communication/com012.svg-->
-									<span class="svg-icon svg-icon-1">
-										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path opacity="0.3" d="M20 3H4C2.89543 3 2 3.89543 2 5V16C2 17.1046 2.89543 18 4 18H4.5C5.05228 18 5.5 18.4477 5.5 19V21.5052C5.5 22.1441 6.21212 22.5253 6.74376 22.1708L11.4885 19.0077C12.4741 18.3506 13.6321 18 14.8167 18H20C21.1046 18 22 17.1046 22 16V5C22 3.89543 21.1046 3 20 3Z" fill="currentColor" />
-											<rect x="6" y="12" width="7" height="2" rx="1" fill="currentColor" />
-											<rect x="6" y="7" width="12" height="2" rx="1" fill="currentColor" />
-										</svg>
-									</span>
-									<!--end::Svg Icon-->
-									<span class="bullet bullet-dot bg-success h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
-								</div>
-								<!--end::Menu wrapper-->
-							</div>
-							<!--end::Chat-->
-							<!--begin::Quick links-->
-							<div class="d-flex align-items-center ms-2 ms-lg-3">
-								<!--begin::Menu wrapper-->
-								<div class="btn btn-icon btn-custom w-30px h-30px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-									<!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
-									<span class="svg-icon svg-icon-1">
-										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<rect x="2" y="2" width="9" height="9" rx="2" fill="currentColor" />
-											<rect opacity="0.3" x="13" y="2" width="9" height="9" rx="2" fill="currentColor" />
-											<rect opacity="0.3" x="13" y="13" width="9" height="9" rx="2" fill="currentColor" />
-											<rect opacity="0.3" x="2" y="13" width="9" height="9" rx="2" fill="currentColor" />
-										</svg>
-									</span>
-									<!--end::Svg Icon-->
-								</div>
-								<!--begin::Menu-->
-								<div class="menu menu-sub menu-sub-dropdown menu-column w-250px w-lg-325px" data-kt-menu="true">
-									<!--begin::Heading-->
-									<div class="d-flex flex-column flex-center bgi-no-repeat rounded-top px-9 py-10" style="background-image:url('assets/media/misc/pattern-1.jpg')">
-										<!--begin::Title-->
-										<h3 class="text-white fw-semibold mb-3">Quick Links</h3>
-										<!--end::Title-->
-										<!--begin::Status-->
-										<span class="badge bg-primary py-2 px-3">25 pending tasks</span>
-										<!--end::Status-->
-									</div>
-									<!--end::Heading-->
-									<!--begin:Nav-->
-									<div class="row g-0">
-										<!--begin:Item-->
-										<div class="col-6">
-											<a href="../../demo19/dist/apps/projects/budget.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end border-bottom">
-												<!--begin::Svg Icon | path: icons/duotune/finance/fin009.svg-->
-												<span class="svg-icon svg-icon-3x svg-icon-primary mb-2">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M15.8 11.4H6C5.4 11.4 5 11 5 10.4C5 9.80002 5.4 9.40002 6 9.40002H15.8C16.4 9.40002 16.8 9.80002 16.8 10.4C16.8 11 16.3 11.4 15.8 11.4ZM15.7 13.7999C15.7 13.1999 15.3 12.7999 14.7 12.7999H6C5.4 12.7999 5 13.1999 5 13.7999C5 14.3999 5.4 14.7999 6 14.7999H14.8C15.3 14.7999 15.7 14.2999 15.7 13.7999Z" fill="currentColor" />
-														<path d="M18.8 15.5C18.9 15.7 19 15.9 19.1 16.1C19.2 16.7 18.7 17.2 18.4 17.6C17.9 18.1 17.3 18.4999 16.6 18.7999C15.9 19.0999 15 19.2999 14.1 19.2999C13.4 19.2999 12.7 19.2 12.1 19.1C11.5 19 11 18.7 10.5 18.5C10 18.2 9.60001 17.7999 9.20001 17.2999C8.80001 16.8999 8.49999 16.3999 8.29999 15.7999C8.09999 15.1999 7.80001 14.7 7.70001 14.1C7.60001 13.5 7.5 12.8 7.5 12.2C7.5 11.1 7.7 10.1 8 9.19995C8.3 8.29995 8.79999 7.60002 9.39999 6.90002C9.99999 6.30002 10.7 5.8 11.5 5.5C12.3 5.2 13.2 5 14.1 5C15.2 5 16.2 5.19995 17.1 5.69995C17.8 6.09995 18.7 6.6 18.8 7.5C18.8 7.9 18.6 8.29998 18.3 8.59998C18.2 8.69998 18.1 8.69993 18 8.79993C17.7 8.89993 17.4 8.79995 17.2 8.69995C16.7 8.49995 16.5 7.99995 16 7.69995C15.5 7.39995 14.9 7.19995 14.2 7.19995C13.1 7.19995 12.1 7.6 11.5 8.5C10.9 9.4 10.5 10.6 10.5 12.2C10.5 13.3 10.7 14.2 11 14.9C11.3 15.6 11.7 16.1 12.3 16.5C12.9 16.9 13.5 17 14.2 17C15 17 15.7 16.8 16.2 16.4C16.8 16 17.2 15.2 17.9 15.1C18 15 18.5 15.2 18.8 15.5Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<span class="fs-5 fw-semibold text-gray-800 mb-0">Accounting</span>
-												<span class="fs-7 text-gray-400">eCommerce</span>
-											</a>
-										</div>
-										<!--end:Item-->
-										<!--begin:Item-->
-										<div class="col-6">
-											<a href="../../demo19/dist/apps/projects/settings.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-bottom">
-												<!--begin::Svg Icon | path: icons/duotune/communication/com010.svg-->
-												<span class="svg-icon svg-icon-3x svg-icon-primary mb-2">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725Z" fill="currentColor" />
-														<path opacity="0.3" d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<span class="fs-5 fw-semibold text-gray-800 mb-0">Administration</span>
-												<span class="fs-7 text-gray-400">Console</span>
-											</a>
-										</div>
-										<!--end:Item-->
-										<!--begin:Item-->
-										<div class="col-6">
-											<a href="../../demo19/dist/apps/projects/list.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end">
-												<!--begin::Svg Icon | path: icons/duotune/abstract/abs042.svg-->
-												<span class="svg-icon svg-icon-3x svg-icon-primary mb-2">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M18 21.6C16.6 20.4 9.1 20.3 6.3 21.2C5.7 21.4 5.1 21.2 4.7 20.8L2 18C4.2 15.8 10.8 15.1 15.8 15.8C16.2 18.3 17 20.5 18 21.6ZM18.8 2.8C18.4 2.4 17.8 2.20001 17.2 2.40001C14.4 3.30001 6.9 3.2 5.5 2C6.8 3.3 7.4 5.5 7.7 7.7C9 7.9 10.3 8 11.7 8C15.8 8 19.8 7.2 21.5 5.5L18.8 2.8Z" fill="currentColor" />
-														<path opacity="0.3" d="M21.2 17.3C21.4 17.9 21.2 18.5 20.8 18.9L18 21.6C15.8 19.4 15.1 12.8 15.8 7.8C18.3 7.4 20.4 6.70001 21.5 5.60001C20.4 7.00001 20.2 14.5 21.2 17.3ZM8 11.7C8 9 7.7 4.2 5.5 2L2.8 4.8C2.4 5.2 2.2 5.80001 2.4 6.40001C2.7 7.40001 3.00001 9.2 3.10001 11.7C3.10001 15.5 2.40001 17.6 2.10001 18C3.20001 16.9 5.3 16.2 7.8 15.8C8 14.2 8 12.7 8 11.7Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<span class="fs-5 fw-semibold text-gray-800 mb-0">Projects</span>
-												<span class="fs-7 text-gray-400">Pending Tasks</span>
-											</a>
-										</div>
-										<!--end:Item-->
-										<!--begin:Item-->
-										<div class="col-6">
-											<a href="../../demo19/dist/apps/projects/users.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light">
-												<!--begin::Svg Icon | path: icons/duotune/finance/fin006.svg-->
-												<span class="svg-icon svg-icon-3x svg-icon-primary mb-2">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M20 15H4C2.9 15 2 14.1 2 13V7C2 6.4 2.4 6 3 6H21C21.6 6 22 6.4 22 7V13C22 14.1 21.1 15 20 15ZM13 12H11C10.5 12 10 12.4 10 13V16C10 16.5 10.4 17 11 17H13C13.6 17 14 16.6 14 16V13C14 12.4 13.6 12 13 12Z" fill="currentColor" />
-														<path d="M14 6V5H10V6H8V5C8 3.9 8.9 3 10 3H14C15.1 3 16 3.9 16 5V6H14ZM20 15H14V16C14 16.6 13.5 17 13 17H11C10.5 17 10 16.6 10 16V15H4C3.6 15 3.3 14.9 3 14.7V18C3 19.1 3.9 20 5 20H19C20.1 20 21 19.1 21 18V14.7C20.7 14.9 20.4 15 20 15Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<span class="fs-5 fw-semibold text-gray-800 mb-0">Customers</span>
-												<span class="fs-7 text-gray-400">Latest cases</span>
-											</a>
-										</div>
-										<!--end:Item-->
-									</div>
-									<!--end:Nav-->
-									<!--begin::View more-->
-									<div class="py-2 text-center border-top">
-										<a href="../../demo19/dist/pages/user-profile/activity.html" class="btn btn-color-gray-600 btn-active-color-primary">View All
-										<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-										<span class="svg-icon svg-icon-5">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor" />
-												<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon--></a>
-									</div>
-									<!--end::View more-->
-								</div>
-								<!--end::Menu-->
-								<!--end::Menu wrapper-->
-							</div>
-							<!--end::Quick links-->
+						
 							<!--begin::Theme mode-->
 							<div class="d-flex align-items-center ms-2 ms-lg-3">
 								<!--begin::Menu toggle-->
@@ -1567,7 +410,7 @@ License: For each use you must have a valid license purchased only from above li
 												</span>
 												<!--end::Svg Icon-->
 											</span>
-											<span class="menu-title">Light</span>
+											<span class="menu-title">Claro</span>
 										</a>
 									</div>
 									<!--end::Menu item-->
@@ -1586,7 +429,7 @@ License: For each use you must have a valid license purchased only from above li
 												</span>
 												<!--end::Svg Icon-->
 											</span>
-											<span class="menu-title">Dark</span>
+											<span class="menu-title">Oscuro</span>
 										</a>
 									</div>
 									<!--end::Menu item-->
@@ -1602,7 +445,7 @@ License: For each use you must have a valid license purchased only from above li
 												</span>
 												<!--end::Svg Icon-->
 											</span>
-											<span class="menu-title">System</span>
+											<span class="menu-title">Sistema</span>
 										</a>
 									</div>
 									<!--end::Menu item-->
@@ -1644,67 +487,7 @@ License: For each use you must have a valid license purchased only from above li
 										<a href="../../demo19/dist/account/overview.html" class="menu-link px-5">My Profile</a>
 									</div>
 									<!--end::Menu item-->
-									<!--begin::Menu item-->
-									<div class="menu-item px-5">
-										<a href="../../demo19/dist/apps/projects/list.html" class="menu-link px-5">
-											<span class="menu-text">My Projects</span>
-											<span class="menu-badge">
-												<span class="badge badge-light-danger badge-circle fw-bold fs-7">3</span>
-											</span>
-										</a>
-									</div>
-									<!--end::Menu item-->
-									<!--begin::Menu item-->
-									<div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="left-start">
-										<a href="#" class="menu-link px-5">
-											<span class="menu-title">My Subscription</span>
-											<span class="menu-arrow"></span>
-										</a>
-										<!--begin::Menu sub-->
-										<div class="menu-sub menu-sub-dropdown w-175px py-4">
-											<!--begin::Menu item-->
-											<div class="menu-item px-3">
-												<a href="../../demo19/dist/account/referrals.html" class="menu-link px-5">Referrals</a>
-											</div>
-											<!--end::Menu item-->
-											<!--begin::Menu item-->
-											<div class="menu-item px-3">
-												<a href="../../demo19/dist/account/billing.html" class="menu-link px-5">Billing</a>
-											</div>
-											<!--end::Menu item-->
-											<!--begin::Menu item-->
-											<div class="menu-item px-3">
-												<a href="../../demo19/dist/account/statements.html" class="menu-link px-5">Payments</a>
-											</div>
-											<!--end::Menu item-->
-											<!--begin::Menu item-->
-											<div class="menu-item px-3">
-												<a href="../../demo19/dist/account/statements.html" class="menu-link d-flex flex-stack px-5">Statements
-												<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="View your statements"></i></a>
-											</div>
-											<!--end::Menu item-->
-											<!--begin::Menu separator-->
-											<div class="separator my-2"></div>
-											<!--end::Menu separator-->
-											<!--begin::Menu item-->
-											<div class="menu-item px-3">
-												<div class="menu-content px-3">
-													<label class="form-check form-switch form-check-custom form-check-solid">
-														<input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
-														<span class="form-check-label text-muted fs-7">Notifications</span>
-													</label>
-												</div>
-											</div>
-											<!--end::Menu item-->
-										</div>
-										<!--end::Menu sub-->
-									</div>
-									<!--end::Menu item-->
-									<!--begin::Menu item-->
-									<div class="menu-item px-5">
-										<a href="../../demo19/dist/account/statements.html" class="menu-link px-5">My Statements</a>
-									</div>
-									<!--end::Menu item-->
+								
 									<!--begin::Menu separator-->
 									<div class="separator my-2"></div>
 									<!--end::Menu separator-->
@@ -1761,14 +544,10 @@ License: For each use you must have a valid license purchased only from above li
 										<!--end::Menu sub-->
 									</div>
 									<!--end::Menu item-->
-									<!--begin::Menu item-->
-									<div class="menu-item px-5 my-1">
-										<a href="../../demo19/dist/account/settings.html" class="menu-link px-5">Account Settings</a>
-									</div>
-									<!--end::Menu item-->
+									
 									<!--begin::Menu item-->
 									<div class="menu-item px-5">
-										<a href="../../demo19/dist/authentication/flows/basic/sign-in.html" class="menu-link px-5">Sign Out</a>
+										<a href="../../demo19/dist/authentication/flows/basic/sign-in.html" class="menu-link px-5">Cerrar Sesion</a>
 									</div>
 									<!--end::Menu item-->
 								</div>
@@ -1803,7 +582,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin:Row-->
 											<div class="row">
 												<!--begin:Col-->
-												<div class="col-lg-8 mb-3 mb-lg-0 py-3 px-3 py-lg-6 px-lg-6">
+												<div class="mb-3 mb-lg-0 py-3 px-3 py-lg-6 px-lg-6">
 													<!--begin:Row-->
 													<div class="row">
 														<!--begin:Col-->
@@ -1811,7 +590,7 @@ License: For each use you must have a valid license purchased only from above li
 															<!--begin:Menu item-->
 															<div class="menu-item p-0 m-0">
 																<!--begin:Menu link-->
-																<a href="/listaSolicitud" class="menu-link active">
+																<a href="/administrador" class="menu-link active">
 																	<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
 																		<!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
 																		<span class="svg-icon svg-icon-primary svg-icon-1">
@@ -1825,8 +604,8 @@ License: For each use you must have a valid license purchased only from above li
 																		<!--end::Svg Icon-->
 																	</span>
 																	<span class="d-flex flex-column">
-																		<span class="fs-6 fw-bold text-gray-800">Default</span>
-																		<span class="fs-7 fw-semibold text-muted">Reports &amp; statistics</span>
+																		<span class="fs-6 fw-bold text-gray-800">Graficas</span>
+																		<span class="fs-7 fw-semibold text-muted">Graficas y Datos</span>
 																	</span>
 																</a>
 																<!--end:Menu link-->
@@ -1834,163 +613,7 @@ License: For each use you must have a valid license purchased only from above li
 															<!--end:Menu item-->
 														</div>
 														<!--end:Col-->
-														<!--begin:Col-->
-														<div class="col-lg-6 mb-3">
-															<!--begin:Menu item-->
-															<div class="menu-item p-0 m-0">
-																<!--begin:Menu link-->
-																<a href="../../demo19/dist/dashboards/ecommerce.html" class="menu-link">
-																	<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																		<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
-																		<span class="svg-icon svg-icon-danger svg-icon-1">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M21 10H13V11C13 11.6 12.6 12 12 12C11.4 12 11 11.6 11 11V10H3C2.4 10 2 10.4 2 11V13H22V11C22 10.4 21.6 10 21 10Z" fill="currentColor" />
-																				<path opacity="0.3" d="M12 12C11.4 12 11 11.6 11 11V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V11C13 11.6 12.6 12 12 12Z" fill="currentColor" />
-																				<path opacity="0.3" d="M18.1 21H5.9C5.4 21 4.9 20.6 4.8 20.1L3 13H21L19.2 20.1C19.1 20.6 18.6 21 18.1 21ZM13 18V15C13 14.4 12.6 14 12 14C11.4 14 11 14.4 11 15V18C11 18.6 11.4 19 12 19C12.6 19 13 18.6 13 18ZM17 18V15C17 14.4 16.6 14 16 14C15.4 14 15 14.4 15 15V18C15 18.6 15.4 19 16 19C16.6 19 17 18.6 17 18ZM9 18V15C9 14.4 8.6 14 8 14C7.4 14 7 14.4 7 15V18C7 18.6 7.4 19 8 19C8.6 19 9 18.6 9 18Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</span>
-																	<span class="d-flex flex-column">
-																		<span class="fs-6 fw-bold text-gray-800">eCommerce</span>
-																		<span class="fs-7 fw-semibold text-muted">Sales reports</span>
-																	</span>
-																</a>
-																<!--end:Menu link-->
-															</div>
-															<!--end:Menu item-->
-														</div>
-														<!--end:Col-->
-														<!--begin:Col-->
-														<div class="col-lg-6 mb-3">
-															<!--begin:Menu item-->
-															<div class="menu-item p-0 m-0">
-																<!--begin:Menu link-->
-																<a href="../../demo19/dist/dashboards/projects.html" class="menu-link">
-																	<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																		<!--begin::Svg Icon | path: icons/duotune/abstract/abs045.svg-->
-																		<span class="svg-icon svg-icon-info svg-icon-1">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M2 11.7127L10 14.1127L22 11.7127L14 9.31274L2 11.7127Z" fill="currentColor" />
-																				<path opacity="0.3" d="M20.9 7.91274L2 11.7127V6.81275C2 6.11275 2.50001 5.61274 3.10001 5.51274L20.6 2.01274C21.3 1.91274 22 2.41273 22 3.11273V6.61273C22 7.21273 21.5 7.81274 20.9 7.91274ZM22 16.6127V11.7127L3.10001 15.5127C2.50001 15.6127 2 16.2127 2 16.8127V20.3127C2 21.0127 2.69999 21.6128 3.39999 21.4128L20.9 17.9128C21.5 17.8128 22 17.2127 22 16.6127Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</span>
-																	<span class="d-flex flex-column">
-																		<span class="fs-6 fw-bold text-gray-800">Projects</span>
-																		<span class="fs-7 fw-semibold text-muted">Tasts, graphs &amp; charts</span>
-																	</span>
-																</a>
-																<!--end:Menu link-->
-															</div>
-															<!--end:Menu item-->
-														</div>
-														<!--end:Col-->
-														<!--begin:Col-->
-														<div class="col-lg-6 mb-3">
-															<!--begin:Menu item-->
-															<div class="menu-item p-0 m-0">
-																<!--begin:Menu link-->
-																<a href="../../demo19/dist/dashboards/online-courses.html" class="menu-link">
-																	<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																		<!--begin::Svg Icon | path: icons/duotune/art/art002.svg-->
-																		<span class="svg-icon svg-icon-success svg-icon-1">
-																			<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M8.9 21L7.19999 22.6999C6.79999 23.0999 6.2 23.0999 5.8 22.6999L4.1 21H8.9ZM4 16.0999L2.3 17.8C1.9 18.2 1.9 18.7999 2.3 19.1999L4 20.9V16.0999ZM19.3 9.1999L15.8 5.6999C15.4 5.2999 14.8 5.2999 14.4 5.6999L9 11.0999V21L19.3 10.6999C19.7 10.2999 19.7 9.5999 19.3 9.1999Z" fill="currentColor" />
-																				<path d="M21 15V20C21 20.6 20.6 21 20 21H11.8L18.8 14H20C20.6 14 21 14.4 21 15ZM10 21V4C10 3.4 9.6 3 9 3H4C3.4 3 3 3.4 3 4V21C3 21.6 3.4 22 4 22H9C9.6 22 10 21.6 10 21ZM7.5 18.5C7.5 19.1 7.1 19.5 6.5 19.5C5.9 19.5 5.5 19.1 5.5 18.5C5.5 17.9 5.9 17.5 6.5 17.5C7.1 17.5 7.5 17.9 7.5 18.5Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</span>
-																	<span class="d-flex flex-column">
-																		<span class="fs-6 fw-bold text-gray-800">Online Courses</span>
-																		<span class="fs-7 fw-semibold text-muted">Student progress</span>
-																	</span>
-																</a>
-																<!--end:Menu link-->
-															</div>
-															<!--end:Menu item-->
-														</div>
-														<!--end:Col-->
-														<!--begin:Col-->
-														<div class="col-lg-6 mb-3">
-															<!--begin:Menu item-->
-															<div class="menu-item p-0 m-0">
-																<!--begin:Menu link-->
-																<a href="../../demo19/dist/dashboards/marketing.html" class="menu-link">
-																	<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																		<!--begin::Svg Icon | path: icons/duotune/graphs/gra001.svg-->
-																		<span class="svg-icon svg-icon-dark svg-icon-1">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M14 3V21H10V3C10 2.4 10.4 2 11 2H13C13.6 2 14 2.4 14 3ZM7 14H5C4.4 14 4 14.4 4 15V21H8V15C8 14.4 7.6 14 7 14Z" fill="currentColor" />
-																				<path d="M21 20H20V8C20 7.4 19.6 7 19 7H17C16.4 7 16 7.4 16 8V20H3C2.4 20 2 20.4 2 21C2 21.6 2.4 22 3 22H21C21.6 22 22 21.6 22 21C22 20.4 21.6 20 21 20Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</span>
-																	<span class="d-flex flex-column">
-																		<span class="fs-6 fw-bold text-gray-800">Marketing</span>
-																		<span class="fs-7 fw-semibold text-muted">Campaings &amp; conversions</span>
-																	</span>
-																</a>
-																<!--end:Menu link-->
-															</div>
-															<!--end:Menu item-->
-														</div>
-														<!--end:Col-->
-														<!--begin:Col-->
-														<div class="col-lg-6 mb-3">
-															<!--begin:Menu item-->
-															<div class="menu-item p-0 m-0">
-																<!--begin:Menu link-->
-																<a href="../../demo19/dist/dashboards/bidding.html" class="menu-link">
-																	<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
-																		<span class="svg-icon svg-icon-warning svg-icon-1">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z" fill="currentColor" />
-																				<path opacity="0.3" d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</span>
-																	<span class="d-flex flex-column">
-																		<span class="fs-6 fw-bold text-gray-800">Bidding</span>
-																		<span class="fs-7 fw-semibold text-muted">Campaings &amp; conversions</span>
-																	</span>
-																</a>
-																<!--end:Menu link-->
-															</div>
-															<!--end:Menu item-->
-														</div>
-														<!--end:Col-->
-														<!--begin:Col-->
-														<div class="col-lg-6 mb-3">
-															<!--begin:Menu item-->
-															<div class="menu-item p-0 m-0">
-																<!--begin:Menu link-->
-																<a href="../../demo19/dist/dashboards/pos.html" class="menu-link">
-																	<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																		<!--begin::Svg Icon | path: icons/duotune/abstract/abs043.svg-->
-																		<span class="svg-icon svg-icon-danger svg-icon-1">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M22 8H8L12 4H19C19.6 4 20.2 4.39999 20.5 4.89999L22 8ZM3.5 19.1C3.8 19.7 4.4 20 5 20H12L16 16H2L3.5 19.1ZM19.1 20.5C19.7 20.2 20 19.6 20 19V12L16 8V22L19.1 20.5ZM4.9 3.5C4.3 3.8 4 4.4 4 5V12L8 16V2L4.9 3.5Z" fill="currentColor" />
-																				<path d="M22 8L20 12L16 8H22ZM8 16L4 12L2 16H8ZM16 16L12 20L16 22V16ZM8 8L12 4L8 2V8Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</span>
-																	<span class="d-flex flex-column">
-																		<span class="fs-6 fw-bold text-gray-800">POS System</span>
-																		<span class="fs-7 fw-semibold text-muted">Campaings &amp; conversions</span>
-																	</span>
-																</a>
-																<!--end:Menu link-->
-															</div>
-															<!--end:Menu item-->
-														</div>
-														<!--end:Col-->
+													
 														<!--begin:Col-->
 														<div class="col-lg-6 mb-3">
 															<!--begin:Menu item-->
@@ -2017,106 +640,70 @@ License: For each use you must have a valid license purchased only from above li
 															<!--end:Menu item-->
 														</div>
 														<!--end:Col-->
+														<div class="col-lg-6 mb-3">
+														<!--begin:Menu item-->
+														<div class="menu-item p-0 m-0">
+															<!--begin:Menu link-->
+															<a href="../../demo19/dist/dashboards/bidding.html"
+																class="menu-link">
+																<span
+																	class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
+																	<span class="svg-icon svg-icon-warning svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24"
+																			fill="none"
+																			xmlns="http://www.w3.org/2000/svg">
+																			<path
+																				d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z"
+																				fill="currentColor" />
+																			<path opacity="0.3"
+																				d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z"
+																				fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</span>
+																<span class="d-flex flex-column">
+																	<span
+																		class="fs-6 fw-bold text-gray-800">Area de planificacion</span>
+																	<span class="fs-7 fw-semibold text-muted">Sector donde se realiza la agenda de actividades y otros </span>
+																</span>
+															</a>
+															<!--end:Menu link-->
+														</div>
+														<!--end:Menu item-->
+													</div>
+													<div class="col-lg-6 mb-3">
+													<!--begin:Menu item-->
+													<div class="menu-item p-0 m-0">
+														<!--begin:Menu link-->
+														<a href="../../demo19/dist/dashboards/geospatial.html"
+															class="menu-link">
+															<span
+																class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
+																<!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+																<span class="svg-icon svg-icon-primary svg-icon-1">
+																	<svg width="24" height="24" viewBox="0 0 24 24"
+																		fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M19 5.79702C19 5.45241 18.7893 5.14052 18.4763 5.03467L12.2063 3.20153C12.0213 3.14561 11.8085 3.15269 11.6235 3.22115C11.4386 3.28961 11.2969 3.40782 11.2171 3.55313L2.21712 20.0531C2.08179 20.2893 2 20.5608 2 20.839V21.5C2 21.7761 2.22386 22 2.5 22H4C4.27614 22 4.5 21.7761 4.5 21.5C4.5 21.2239 4.72386 21 5 21H9C9.27614 21 9.5 20.7761 9.5 20.5C9.5 20.2239 9.72386 20 10 20H11.2839C11.5554 20 11.7986 19.886 11.9645 19.6868L19.9645 7.18678C20.2715 6.85359 20.2798 6.34608 19.9798 6.00613C19.6798 5.66618 19.1552 5.60322 18.8452 5.90318L11.8452 12.4032C11.6183 12.6307 11.2665 12.6307 11.0396 12.4032L9.00002 10.3636V5.00002H13C13.2761 5.00002 13.5 4.77616 13.5 4.50002C13.5 4.22387 13.2761 4.00002 13 4.00002H4.99995L19 5.79702Z"
+																			fill="currentColor" />
+																	</svg>
+																</span>
+																<!--end::Svg Icon-->
+															</span>
+															<span class="d-flex flex-column">
+																<span class="fs-6 fw-bold text-gray-800">Datos Geográficos</span>
+																<span class="fs-7 fw-semibold text-muted">Información Geoespacial</span>
+															</span>
+														</a>
+														<!--end:Menu link-->
+													</div>
+													<!--end:Menu item-->
+												</div>
+
 													</div>
 													<!--end:Row-->
-													<div class="separator separator-dashed mx-5 my-5"></div>
-													<!--begin:Landing-->
-													<div class="d-flex flex-stack flex-wrap flex-lg-nowrap gap-2 mx-5">
-														<div class="d-flex flex-column me-5">
-															<div class="fs-6 fw-bold text-gray-800">Landing Page Template</div>
-															<div class="fs-7 fw-semibold text-muted">Onpe page landing template with pricing &amp; others</div>
-														</div>
-														<a href="../../demo19/dist/landing.html" class="btn btn-sm btn-primary fw-bold">Explore</a>
-													</div>
-													<!--end:Landing-->
-												</div>
-												<!--end:Col-->
-												<!--begin:Col-->
-												<div class="menu-more bg-light col-lg-4 py-3 px-3 py-lg-6 px-lg-6 rounded-end">
-													<!--begin:Heading-->
-													<h4 class="fs-6 fs-lg-4 text-gray-800 fw-bold mt-3 mb-3 ms-4">More Dashboards</h4>
-													<!--end:Heading-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/logistics.html" class="menu-link py-2">
-															<span class="menu-title">Logistics</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/website-analytics.html" class="menu-link py-2">
-															<span class="menu-title">Website Analytics</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/finance-performance.html" class="menu-link py-2">
-															<span class="menu-title">Finance Performance</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/store-analytics.html" class="menu-link py-2">
-															<span class="menu-title">Store Analytics</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/social.html" class="menu-link py-2">
-															<span class="menu-title">Social</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/delivery.html" class="menu-link py-2">
-															<span class="menu-title">Delivery</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/crypto.html" class="menu-link py-2">
-															<span class="menu-title">Crypto</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/school.html" class="menu-link py-2">
-															<span class="menu-title">School</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
-													<!--begin:Menu item-->
-													<div class="menu-item p-0 m-0">
-														<!--begin:Menu link-->
-														<a href="../../demo19/dist/dashboards/podcast.html" class="menu-link py-2">
-															<span class="menu-title">Podcast</span>
-														</a>
-														<!--end:Menu link-->
-													</div>
-													<!--end:Menu item-->
 												</div>
 												<!--end:Col-->
 											</div>
@@ -2127,7 +714,6 @@ License: For each use you must have a valid license purchased only from above li
 									<!--end:Menu sub-->
 								</div>
 								<!--end:Menu item-->
-								
 								<!--begin:Menu item-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
 									<!--begin:Menu link-->
@@ -2144,16 +730,12 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin:Menu link-->
 											<span class="menu-link py-3">
 												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm001.svg-->
-													<span class="svg-icon svg-icon-3">
+												<span class="svg-icon svg-icon-3">
 														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M18.041 22.041C18.5932 22.041 19.041 21.5932 19.041 21.041C19.041 20.4887 18.5932 20.041 18.041 20.041C17.4887 20.041 17.041 20.4887 17.041 21.041C17.041 21.5932 17.4887 22.041 18.041 22.041Z" fill="currentColor" />
-															<path opacity="0.3" d="M6.04095 22.041C6.59324 22.041 7.04095 21.5932 7.04095 21.041C7.04095 20.4887 6.59324 20.041 6.04095 20.041C5.48867 20.041 5.04095 20.4887 5.04095 21.041C5.04095 21.5932 5.48867 22.041 6.04095 22.041Z" fill="currentColor" />
-															<path opacity="0.3" d="M7.04095 16.041L19.1409 15.1409C19.7409 15.1409 20.141 14.7409 20.341 14.1409L21.7409 8.34094C21.9409 7.64094 21.4409 7.04095 20.7409 7.04095H5.44095L7.04095 16.041Z" fill="currentColor" />
-															<path d="M19.041 20.041H5.04096C4.74096 20.041 4.34095 19.841 4.14095 19.541C3.94095 19.241 3.94095 18.841 4.14095 18.541L6.04096 14.841L4.14095 4.64095L2.54096 3.84096C2.04096 3.64096 1.84095 3.04097 2.14095 2.54097C2.34095 2.04097 2.94096 1.84095 3.44096 2.14095L5.44096 3.14095C5.74096 3.24095 5.94096 3.54096 5.94096 3.84096L7.94096 14.841C7.94096 15.041 7.94095 15.241 7.84095 15.441L6.54096 18.041H19.041C19.641 18.041 20.041 18.441 20.041 19.041C20.041 19.641 19.641 20.041 19.041 20.041Z" fill="currentColor" />
+															<path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="currentColor" />
+															<path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="currentColor" />
 														</svg>
 													</span>
-													<!--end::Svg Icon-->
 												</span>
 												<span class="menu-title">Tickes Solicitados</span>
 												<span class="menu-arrow"></span>
@@ -2179,15 +761,15 @@ License: For each use you must have a valid license purchased only from above li
 															<!--begin:Menu link-->
 															<!-- Inicio del bucle foreach -->
 															<?php foreach ($datos1 as $dato): ?>
-																<form action="/listaSolicitud?nombre=<?php echo $dato->id ?>" method="get" style="display: inline;">
-																	<input type="hidden" name="nombre" value="<?php echo $dato->id ?>">
-																	<button type="submit" class="menu-link py-3" style="border: none; background: none;">
-																		<span class="menu-bullet">
-																			<span class="bullet bullet-dot"></span>
-																		</span>
-																		<span class="menu-title"><?php echo $dato->nombre ?></span>
-																	</button>
-																</form>
+																	<form action="/listaSolicitud?nombre=<?php echo $dato->id ?>" method="get" style="display: inline;">
+																		<input type="hidden" name="nombre" value="<?php echo $dato->id ?>">
+																		<button type="submit" class="menu-link py-3" style="border: none; background: none;">
+																			<span class="menu-bullet">
+																				<span class="bullet bullet-dot"></span>
+																			</span>
+																			<span class="menu-title"><?php echo $dato->nombre ?></span>
+																		</button>
+																	</form>
 															<?php endforeach; ?>
 																	<!-- Fin del bucle foreach -->
 															<!--end:Menu link-->
@@ -2197,998 +779,20 @@ License: For each use you must have a valid license purchased only from above li
 													<!--end:Menu sub-->
 												</div>
 												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Sales</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-accordion">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/sales/listing.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Orders Listing</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/sales/details.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Order Details</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/sales/add-order.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Add Order</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/sales/edit-order.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Edit Order</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Customers</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-accordion">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/customers/listing.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Customers Listing</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/customers/details.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Customers Details</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Reports</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-accordion">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/reports/view.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Products Viewed</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/reports/sales.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Sales</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/reports/returns.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Returns</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/reports/customer-orders.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Customer Orders</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/reports/shipping.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Shipping</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/ecommerce/settings.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Settings</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
+												
 											</div>
 											<!--end:Menu sub-->
 										</div>
 										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="currentColor" />
-															<path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Support Center</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/overview.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Overview</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Tickets</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/tickets/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Ticket List</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/tickets/view.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Ticket View</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Tutorials</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/tutorials/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Tutorials List</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/tutorials/post.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Tutorials Post</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/faq.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">FAQ</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/licenses.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Licenses</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/support-center/contact.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Contact Us</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen051.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M20.5543 4.37824L12.1798 2.02473C12.0626 1.99176 11.9376 1.99176 11.8203 2.02473L3.44572 4.37824C3.18118 4.45258 3 4.6807 3 4.93945V13.569C3 14.6914 3.48509 15.8404 4.4417 16.984C5.17231 17.8575 6.18314 18.7345 7.446 19.5909C9.56752 21.0295 11.6566 21.912 11.7445 21.9488C11.8258 21.9829 11.9129 22 12.0001 22C12.0872 22 12.1744 21.983 12.2557 21.9488C12.3435 21.912 14.4326 21.0295 16.5541 19.5909C17.8169 18.7345 18.8277 17.8575 19.5584 16.984C20.515 15.8404 21 14.6914 21 13.569V4.93945C21 4.6807 20.8189 4.45258 20.5543 4.37824Z" fill="currentColor" />
-															<path d="M14.854 11.321C14.7568 11.2282 14.6388 11.1818 14.4998 11.1818H14.3333V10.2272C14.3333 9.61741 14.1041 9.09378 13.6458 8.65628C13.1875 8.21876 12.639 8 12 8C11.361 8 10.8124 8.21876 10.3541 8.65626C9.89574 9.09378 9.66663 9.61739 9.66663 10.2272V11.1818H9.49999C9.36115 11.1818 9.24306 11.2282 9.14583 11.321C9.0486 11.4138 9 11.5265 9 11.6591V14.5227C9 14.6553 9.04862 14.768 9.14583 14.8609C9.24306 14.9536 9.36115 15 9.49999 15H14.5C14.6389 15 14.7569 14.9536 14.8542 14.8609C14.9513 14.768 15 14.6553 15 14.5227V11.6591C15.0001 11.5265 14.9513 11.4138 14.854 11.321ZM13.3333 11.1818H10.6666V10.2272C10.6666 9.87594 10.7969 9.57597 11.0573 9.32743C11.3177 9.07886 11.6319 8.9546 12 8.9546C12.3681 8.9546 12.6823 9.07884 12.9427 9.32743C13.2031 9.57595 13.3333 9.87594 13.3333 10.2272V11.1818Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">User Management</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Users</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/user-management/users/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Users List</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/user-management/users/view.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">View User</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Roles</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/user-management/roles/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Roles List</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/user-management/roles/view.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">View Roles</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/user-management/permissions.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Permissions</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/electronics/elc002.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M6 21C6 21.6 6.4 22 7 22H17C17.6 22 18 21.6 18 21V20H6V21Z" fill="currentColor" />
-															<path opacity="0.3" d="M17 2H7C6.4 2 6 2.4 6 3V20H18V3C18 2.4 17.6 2 17 2Z" fill="currentColor" />
-															<path d="M12 4C11.4 4 11 3.6 11 3V2H13V3C13 3.6 12.6 4 12 4Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Contacts</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/contacts/getting-started.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Getting Started</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/contacts/add-contact.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Add Contact</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/contacts/edit-contact.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Edit Contact</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/contacts/view-contact.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">View Contact</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M21 10H13V11C13 11.6 12.6 12 12 12C11.4 12 11 11.6 11 11V10H3C2.4 10 2 10.4 2 11V13H22V11C22 10.4 21.6 10 21 10Z" fill="currentColor" />
-															<path opacity="0.3" d="M12 12C11.4 12 11 11.6 11 11V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V11C13 11.6 12.6 12 12 12Z" fill="currentColor" />
-															<path opacity="0.3" d="M18.1 21H5.9C5.4 21 4.9 20.6 4.8 20.1L3 13H21L19.2 20.1C19.1 20.6 18.6 21 18.1 21ZM13 18V15C13 14.4 12.6 14 12 14C11.4 14 11 14.4 11 15V18C11 18.6 11.4 19 12 19C12.6 19 13 18.6 13 18ZM17 18V15C17 14.4 16.6 14 16 14C15.4 14 15 14.4 15 15V18C15 18.6 15.4 19 16 19C16.6 19 17 18.6 17 18ZM9 18V15C9 14.4 8.6 14 8 14C7.4 14 7 14.4 7 15V18C7 18.6 7.4 19 8 19C8.6 19 9 18.6 9 18Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Subscriptions</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/subscriptions/getting-started.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Getting Started</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/subscriptions/list.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Subscription List</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/subscriptions/add.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Add Subscription</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/subscriptions/view.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">View Subscription</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/finance/fin006.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M20 15H4C2.9 15 2 14.1 2 13V7C2 6.4 2.4 6 3 6H21C21.6 6 22 6.4 22 7V13C22 14.1 21.1 15 20 15ZM13 12H11C10.5 12 10 12.4 10 13V16C10 16.5 10.4 17 11 17H13C13.6 17 14 16.6 14 16V13C14 12.4 13.6 12 13 12Z" fill="currentColor" />
-															<path d="M14 6V5H10V6H8V5C8 3.9 8.9 3 10 3H14C15.1 3 16 3.9 16 5V6H14ZM20 15H14V16C14 16.6 13.5 17 13 17H11C10.5 17 10 16.6 10 16V15H4C3.6 15 3.3 14.9 3 14.7V18C3 19.1 3.9 20 5 20H19C20.1 20 21 19.1 21 18V14.7C20.7 14.9 20.4 15 20 15Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Customers</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/customers/getting-started.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Getting Started</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/customers/list.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Customer Listing</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/customers/view.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Customer Details</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/finance/fin002.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M22 7H2V11H22V7Z" fill="currentColor" />
-															<path opacity="0.3" d="M21 19H3C2.4 19 2 18.6 2 18V6C2 5.4 2.4 5 3 5H21C21.6 5 22 5.4 22 6V18C22 18.6 21.6 19 21 19ZM14 14C14 13.4 13.6 13 13 13H5C4.4 13 4 13.4 4 14C4 14.6 4.4 15 5 15H13C13.6 15 14 14.6 14 14ZM16 15.5C16 16.3 16.7 17 17.5 17H18.5C19.3 17 20 16.3 20 15.5C20 14.7 19.3 14 18.5 14H17.5C16.7 14 16 14.7 16 15.5Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Invoice Management</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-													<!--begin:Menu link-->
-													<span class="menu-link py-3">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Profile</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<!--end:Menu link-->
-													<!--begin:Menu sub-->
-													<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/invoices/view/invoice-1.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Invoice 1</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/invoices/view/invoice-2.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Invoice 2</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-														<!--begin:Menu item-->
-														<div class="menu-item">
-															<!--begin:Menu link-->
-															<a class="menu-link py-3" href="../../demo19/dist/apps/invoices/view/invoice-3.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Invoice 3</span>
-															</a>
-															<!--end:Menu link-->
-														</div>
-														<!--end:Menu item-->
-													</div>
-													<!--end:Menu sub-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/invoices/create.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Create Invoice</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/files/fil025.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" fill="currentColor" />
-															<path d="M20 8L14 2V6C14 7.10457 14.8954 8 16 8H20Z" fill="currentColor" />
-															<path d="M10.3629 14.0084L8.92108 12.6429C8.57518 12.3153 8.03352 12.3153 7.68761 12.6429C7.31405 12.9967 7.31405 13.5915 7.68761 13.9453L10.2254 16.3488C10.6111 16.714 11.215 16.714 11.6007 16.3488L16.3124 11.8865C16.6859 11.5327 16.6859 10.9379 16.3124 10.5841C15.9665 10.2565 15.4248 10.2565 15.0789 10.5841L11.4631 14.0084C11.1546 14.3006 10.6715 14.3006 10.3629 14.0084Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">File Manager</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/file-manager/folders.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Folders</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/file-manager/files.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Files</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/file-manager/blank.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Blank Directory</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/file-manager/settings.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Settings</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/communication/com011.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M21 19H3C2.4 19 2 18.6 2 18V6C2 5.4 2.4 5 3 5H21C21.6 5 22 5.4 22 6V18C22 18.6 21.6 19 21 19Z" fill="currentColor" />
-															<path d="M21 5H2.99999C2.69999 5 2.49999 5.10005 2.29999 5.30005L11.2 13.3C11.7 13.7 12.4 13.7 12.8 13.3L21.7 5.30005C21.5 5.10005 21.3 5 21 5Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Inbox</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/inbox/listing.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Messages</span>
-														<span class="menu-badge">
-															<span class="badge badge-light-success">3</span>
-														</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/inbox/compose.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Compose</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/inbox/reply.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">View &amp; Reply</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-											<!--begin:Menu link-->
-											<span class="menu-link py-3">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/communication/com012.svg-->
-													<span class="svg-icon svg-icon-3">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M20 3H4C2.89543 3 2 3.89543 2 5V16C2 17.1046 2.89543 18 4 18H4.5C5.05228 18 5.5 18.4477 5.5 19V21.5052C5.5 22.1441 6.21212 22.5253 6.74376 22.1708L11.4885 19.0077C12.4741 18.3506 13.6321 18 14.8167 18H20C21.1046 18 22 17.1046 22 16V5C22 3.89543 21.1046 3 20 3Z" fill="currentColor" />
-															<rect x="6" y="12" width="7" height="2" rx="1" fill="currentColor" />
-															<rect x="6" y="7" width="12" height="2" rx="1" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Chat</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<!--end:Menu link-->
-											<!--begin:Menu sub-->
-											<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/chat/private.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Private Chat</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/chat/group.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Group Chat</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-												<!--begin:Menu item-->
-												<div class="menu-item">
-													<!--begin:Menu link-->
-													<a class="menu-link py-3" href="../../demo19/dist/apps/chat/drawer.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Drawer Chat</span>
-													</a>
-													<!--end:Menu link-->
-												</div>
-												<!--end:Menu item-->
-											</div>
-											<!--end:Menu sub-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link py-3" href="../../demo19/dist/apps/calendar.html">
-												<span class="menu-icon">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path opacity="0.3" d="M21 22H3C2.4 22 2 21.6 2 21V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5V21C22 21.6 21.6 22 21 22Z" fill="currentColor" />
-															<path d="M6 6C5.4 6 5 5.6 5 5V3C5 2.4 5.4 2 6 2C6.6 2 7 2.4 7 3V5C7 5.6 6.6 6 6 6ZM11 5V3C11 2.4 10.6 2 10 2C9.4 2 9 2.4 9 3V5C9 5.6 9.4 6 10 6C10.6 6 11 5.6 11 5ZM15 5V3C15 2.4 14.6 2 14 2C13.4 2 13 2.4 13 3V5C13 5.6 13.4 6 14 6C14.6 6 15 5.6 15 5ZM19 5V3C19 2.4 18.6 2 18 2C17.4 2 17 2.4 17 3V5C17 5.6 17.4 6 18 6C18.6 6 19 5.6 19 5Z" fill="currentColor" />
-															<path d="M8.8 13.1C9.2 13.1 9.5 13 9.7 12.8C9.9 12.6 10.1 12.3 10.1 11.9C10.1 11.6 10 11.3 9.8 11.1C9.6 10.9 9.3 10.8 9 10.8C8.8 10.8 8.59999 10.8 8.39999 10.9C8.19999 11 8.1 11.1 8 11.2C7.9 11.3 7.8 11.4 7.7 11.6C7.6 11.8 7.5 11.9 7.5 12.1C7.5 12.2 7.4 12.2 7.3 12.3C7.2 12.4 7.09999 12.4 6.89999 12.4C6.69999 12.4 6.6 12.3 6.5 12.2C6.4 12.1 6.3 11.9 6.3 11.7C6.3 11.5 6.4 11.3 6.5 11.1C6.6 10.9 6.8 10.7 7 10.5C7.2 10.3 7.49999 10.1 7.89999 10C8.29999 9.90003 8.60001 9.80003 9.10001 9.80003C9.50001 9.80003 9.80001 9.90003 10.1 10C10.4 10.1 10.7 10.3 10.9 10.4C11.1 10.5 11.3 10.8 11.4 11.1C11.5 11.4 11.6 11.6 11.6 11.9C11.6 12.3 11.5 12.6 11.3 12.9C11.1 13.2 10.9 13.5 10.6 13.7C10.9 13.9 11.2 14.1 11.4 14.3C11.6 14.5 11.8 14.7 11.9 15C12 15.3 12.1 15.5 12.1 15.8C12.1 16.2 12 16.5 11.9 16.8C11.8 17.1 11.5 17.4 11.3 17.7C11.1 18 10.7 18.2 10.3 18.3C9.9 18.4 9.5 18.5 9 18.5C8.5 18.5 8.1 18.4 7.7 18.2C7.3 18 7 17.8 6.8 17.6C6.6 17.4 6.4 17.1 6.3 16.8C6.2 16.5 6.10001 16.3 6.10001 16.1C6.10001 15.9 6.2 15.7 6.3 15.6C6.4 15.5 6.6 15.4 6.8 15.4C6.9 15.4 7.00001 15.4 7.10001 15.5C7.20001 15.6 7.3 15.6 7.3 15.7C7.5 16.2 7.7 16.6 8 16.9C8.3 17.2 8.6 17.3 9 17.3C9.2 17.3 9.5 17.2 9.7 17.1C9.9 17 10.1 16.8 10.3 16.6C10.5 16.4 10.5 16.1 10.5 15.8C10.5 15.3 10.4 15 10.1 14.7C9.80001 14.4 9.50001 14.3 9.10001 14.3C9.00001 14.3 8.9 14.3 8.7 14.3C8.5 14.3 8.39999 14.3 8.39999 14.3C8.19999 14.3 7.99999 14.2 7.89999 14.1C7.79999 14 7.7 13.8 7.7 13.7C7.7 13.5 7.79999 13.4 7.89999 13.2C7.99999 13 8.2 13 8.5 13H8.8V13.1ZM15.3 17.5V12.2C14.3 13 13.6 13.3 13.3 13.3C13.1 13.3 13 13.2 12.9 13.1C12.8 13 12.7 12.8 12.7 12.6C12.7 12.4 12.8 12.3 12.9 12.2C13 12.1 13.2 12 13.6 11.8C14.1 11.6 14.5 11.3 14.7 11.1C14.9 10.9 15.2 10.6 15.5 10.3C15.8 10 15.9 9.80003 15.9 9.70003C15.9 9.60003 16.1 9.60004 16.3 9.60004C16.5 9.60004 16.7 9.70003 16.8 9.80003C16.9 9.90003 17 10.2 17 10.5V17.2C17 18 16.7 18.4 16.2 18.4C16 18.4 15.8 18.3 15.6 18.2C15.4 18.1 15.3 17.8 15.3 17.5Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</span>
-												<span class="menu-title">Calendar</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end:Menu item-->
+									
 									</div>
 									<!--end:Menu sub-->
 								</div>
-								<!--end:Menu item-->
 								<!--begin:Menu item-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
 									<!--begin:Menu link-->
 									<span class="menu-link py-3">
-										<span class="menu-title">Help</span>
+										<span class="menu-title">Galeria de Soporte</span>
 										<span class="menu-arrow d-lg-none"></span>
 									</span>
 									<!--end:Menu link-->
@@ -3197,7 +801,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link py-3" href="../../demo19/dist/documentation/base/utilities.html" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+											<a class="menu-link py-3" href="/drives" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 												<span class="menu-icon">
 													<!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
 													<span class="svg-icon svg-icon-3">
@@ -3208,7 +812,7 @@ License: For each use you must have a valid license purchased only from above li
 													</span>
 													<!--end::Svg Icon-->
 												</span>
-												<span class="menu-title">Components</span>
+												<span class="menu-title">Drivers</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
@@ -3227,7 +831,99 @@ License: For each use you must have a valid license purchased only from above li
 													</span>
 													<!--end::Svg Icon-->
 												</span>
-												<span class="menu-title">Documentation</span>
+												<span class="menu-title">Documentacion</span>
+											</a>
+											<!--end:Menu link-->
+										</div>
+										<!--end:Menu item-->
+										<!--begin:Menu item-->
+										<div class="menu-item">
+											<!--begin:Menu link-->
+											<a class="menu-link py-3" href="https://preview.keenthemes.com/metronic8/demo19/layout-builder.html" title="Build your layout and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+												<span class="menu-icon">
+													<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
+													<span class="svg-icon svg-icon-3">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z" fill="currentColor" />
+															<path opacity="0.3" d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z" fill="currentColor" />
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</span>
+												<span class="menu-title">Videos Tutoriales</span>
+											</a>
+											<!--end:Menu link-->
+										</div>
+										<!--end:Menu item-->
+										<!--begin:Menu item-->
+										<div class="menu-item">
+											<!--begin:Menu link-->
+											<a class="menu-link py-3" href="../../demo19/dist/documentation/getting-started/changelog.html">
+												<span class="menu-icon">
+													<!--begin::Svg Icon | path: icons/duotune/coding/cod003.svg-->
+													<span class="svg-icon svg-icon-3">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M16.95 18.9688C16.75 18.9688 16.55 18.8688 16.35 18.7688C15.85 18.4688 15.75 17.8688 16.05 17.3688L19.65 11.9688L16.05 6.56876C15.75 6.06876 15.85 5.46873 16.35 5.16873C16.85 4.86873 17.45 4.96878 17.75 5.46878L21.75 11.4688C21.95 11.7688 21.95 12.2688 21.75 12.5688L17.75 18.5688C17.55 18.7688 17.25 18.9688 16.95 18.9688ZM7.55001 18.7688C8.05001 18.4688 8.15 17.8688 7.85 17.3688L4.25001 11.9688L7.85 6.56876C8.15 6.06876 8.05001 5.46873 7.55001 5.16873C7.05001 4.86873 6.45 4.96878 6.15 5.46878L2.15 11.4688C1.95 11.7688 1.95 12.2688 2.15 12.5688L6.15 18.5688C6.35 18.8688 6.65 18.9688 6.95 18.9688C7.15 18.9688 7.35001 18.8688 7.55001 18.7688Z" fill="currentColor" />
+															<path opacity="0.3" d="M10.45 18.9687C10.35 18.9687 10.25 18.9687 10.25 18.9687C9.75 18.8687 9.35 18.2688 9.55 17.7688L12.55 5.76878C12.65 5.26878 13.25 4.8687 13.75 5.0687C14.25 5.1687 14.65 5.76878 14.45 6.26878L11.45 18.2688C11.35 18.6688 10.85 18.9687 10.45 18.9687Z" fill="currentColor" />
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</span>
+												<span class="menu-title">Organizacion</span>
+											</a>
+											<!--end:Menu link-->
+										</div>
+										<!--end:Menu item-->
+									</div>
+									<!--end:Menu sub-->
+								</div>
+								<!--end:Menu item-->
+								<!--end:Menu item-->
+								<!--begin:Menu item-->
+								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+									<!--begin:Menu link-->
+									<span class="menu-link py-3">
+										<span class="menu-title">Ayuda al usuario</span>
+										<span class="menu-arrow d-lg-none"></span>
+									</span>
+									<!--end:Menu link-->
+									<!--begin:Menu sub-->
+									<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-200px">
+									<!--begin:Menu item-->
+										<div class="menu-item">
+											<!--begin:Menu link-->
+											<a class="menu-link py-3" href="/VideoAyudaUsuario" title="Explora nuestra colección de videos tutoriales" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+												<span class="menu-icon">
+													<!-- Nuevo icono para videos tutoriales -->
+													<span class="svg-icon svg-icon-3">
+														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+															<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+															<path d="M12 8v8l-4-4-4 4"></path>
+														</svg>
+													</span>
+													<!--end::Nuevo icono-->
+												</span>
+												<span class="menu-title">Videos Tutoriales</span>
+											</a>
+											<!--end:Menu link-->
+										</div>
+										<!--end:Menu item-->
+
+										<!--begin:Menu item-->
+										<div class="menu-item">
+											<!--begin:Menu link-->
+											<a class="menu-link py-3" href="../../demo19/dist/documentation/getting-started.html" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+												<span class="menu-icon">
+													<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
+													<span class="svg-icon svg-icon-3">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="currentColor" />
+															<path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="currentColor" />
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</span>
+												<span class="menu-title">Documentacion</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
@@ -3274,6 +970,7 @@ License: For each use you must have a valid license purchased only from above li
 									<!--end:Menu sub-->
 								</div>
 								<!--end:Menu item-->
+								
 							</div>
 							<!--end::Menu-->
 						</div>
@@ -3294,7 +991,7 @@ License: For each use you must have a valid license purchased only from above li
 							<span class="h-20px border-gray-400 border-start mx-3"></span>
 							<!--end::Separator-->
 							<!--begin::Description-->
-							<small class="text-gray-500 fs-7 fw-semibold my-1">#XRS-45670</small>
+							<small class="text-gray-500 fs-7 fw-semibold my-1">Panel Principal</small>
 							<!--end::Description--></h1>
 							<!--end::Title-->
 						</div>
@@ -3305,7 +1002,7 @@ License: For each use you must have a valid license purchased only from above li
 							<a href="#" class="btn btn-sm btn-flex btn-light px-5 me-2" id="kt_dashboard_daterangepicker" data-bs-toggle="tooltip" data-bs-dismiss="click" data-bs-trigger="hover" title="Select dashboard daterange">
 								<span class="me-2">
 									<span class="text-gray-600 fw-semibold me-1" id="kt_dashboard_daterangepicker_title">Today</span>
-									<span class="text-info fw-bold" id="kt_dashboard_daterangepicker_date">Jul 5</span>
+									<span class="text-info fw-bold" id="kt_dashboard_daterangepicker_date"></span>
 								</span>
 								<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
 								<span class="svg-icon svg-icon-4 m-0">
@@ -3316,99 +1013,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--end::Svg Icon-->
 							</a>
 							<!--end::Daterange-->
-							<!--begin::Filter-->
-							<div class="me-2">
-								<!--begin::Menu-->
-								<a href="#" class="btn btn-sm btn-flex btn-light" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-								<!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
-								<span class="svg-icon svg-icon-5 svg-icon-gray-400 me-1">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M19.0759 3H4.72777C3.95892 3 3.47768 3.83148 3.86067 4.49814L8.56967 12.6949C9.17923 13.7559 9.5 14.9582 9.5 16.1819V19.5072C9.5 20.2189 10.2223 20.7028 10.8805 20.432L13.8805 19.1977C14.2553 19.0435 14.5 18.6783 14.5 18.273V13.8372C14.5 12.8089 14.8171 11.8056 15.408 10.964L19.8943 4.57465C20.3596 3.912 19.8856 3 19.0759 3Z" fill="currentColor" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->Filter</a>
-								<!--begin::Menu 1-->
-								<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_62c3f3bfb56d8">
-									<!--begin::Header-->
-									<div class="px-7 py-5">
-										<div class="fs-5 text-dark fw-bold">Crear Notificacion</div>
-									</div>
-									<!--end::Header-->
-									<!--begin::Menu separator-->
-									<div class="separator border-gray-200"></div>
-									<!--end::Menu separator-->
-									<!--begin::Form-->
-									<div class="px-7 py-5">
-										<!--begin::Input group-->
-										<div class="mb-10">
-											<!--begin::Label-->
-											<label class="form-label fw-semibold">Destinatario:</label>
-											<!--end::Label-->
-											<!--begin::Input-->
-											<div>
-											<select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_62c3f3bfb56d8" data-allow-clear="true">
-												<option></option>
-												<?php foreach ($datos1 as $opcion): ?>
-													<option value="<?php echo $opcion->id ?>"><?php echo $opcion->nombre ?></option>
-												<?php endforeach; ?>
-											</select>
-
-											</div>
-											<!--end::Input-->
-										</div>
-										<!--end::Input group-->
-										<!--begin::Input group-->
-										<div class="mb-10">
-											<!--begin::Label-->
-											<label class="form-label fw-semibold">Member Type:</label>
-											<!--end::Label-->
-											<!--begin::Options-->
-											<div class="d-flex">
-												<!--begin::Options-->
-												<label class="form-check form-check-sm form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" value="1" />
-													<span class="form-check-label">Author</span>
-												</label>
-												<!--end::Options-->
-												<!--begin::Options-->
-												<label class="form-check form-check-sm form-check-custom form-check-solid">
-													<input class="form-check-input" type="checkbox" value="2" checked="checked" />
-													<span class="form-check-label">Customer</span>
-												</label>
-												<!--end::Options-->
-											</div>
-											<!--end::Options-->
-										</div>
-										<!--end::Input group-->
-										<!--begin::Input group-->
-										<div class="mb-10">
-											<!--begin::Label-->
-											<label class="form-label fw-semibold">Notifications:</label>
-											<!--end::Label-->
-											<!--begin::Switch-->
-											<div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
-												<input class="form-check-input" type="checkbox" value="" name="notifications" checked="checked" />
-												<label class="form-check-label">Enabled</label>
-											</div>
-											<!--end::Switch-->
-										</div>
-										<!--end::Input group-->
-										<!--begin::Actions-->
-										<div class="d-flex justify-content-end">
-											<button type="reset" class="btn btn-sm btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true">Reset</button>
-											<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Apply</button>
-										</div>
-										<!--end::Actions-->
-									</div>
-									<!--end::Form-->
-								</div>
-								<!--end::Menu 1-->
-								<!--end::Menu-->
-							</div>
-							<!--end::Filter-->
-							<!--begin::Button-->
-							<a href="#" class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
-							<!--end::Button-->
+						
 						</div>
 						<!--end::Actions-->
 					</div>
@@ -3420,7 +1025,864 @@ License: For each use you must have a valid license purchased only from above li
 							<!--begin::Row-->
 							<div class="row g-5 g-xl-8">
 								<!--begin::Col-->
-								<div class="col-xl-4">
+								<!--begin::Row-->
+							<div class="row g-5 g-xl-10">
+								<!--begin::Col-->
+								<div class="col-xl-15">
+									<!--begin::Lists Widget 19-->
+									<div class="card card-flush h-xl-100">
+										<!--begin::Heading-->
+										<div class="card-header rounded bgi-no-repeat bgi-size-cover bgi-position-y-top bgi-position-x-center align-items-start h-250px" style="background-image:url('assets/media/svg/shapes/top-green.png" data-theme="light">
+											<!--begin::Title-->
+											<h3 class="card-title align-items-start flex-column text-white pt-15">
+												<span class="fw-bold fs-2x mb-3">Hello, Tyler</span>
+												<div class="fs-4 text-white">
+													<span class="opacity-75">You have</span>
+													<span class="position-relative d-inline-block">
+														<a href="../../demo19/dist/pages/user-profile/projects.html" class="link-white opacity-75-hover fw-bold d-block mb-1">4 tasks</a>
+														<!--begin::Separator-->
+														<span class="position-absolute opacity-50 bottom-0 start-0 border-2 border-body border-bottom w-100"></span>
+														<!--end::Separator-->
+													</span>
+													<span class="opacity-75">to comlete</span>
+												</div>
+											</h3>
+											<!--end::Title-->
+											<!--begin::Toolbar-->
+											<div class="card-toolbar pt-5">
+												<!--begin::Menu-->
+												<button class="btn btn-sm btn-icon btn-active-color-primary btn-color-white bg-white bg-opacity-25 bg-hover-opacity-100 bg-hover-white bg-active-opacity-25 w-20px h-20px" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+													<!--begin::Svg Icon | path: icons/duotune/general/gen052.svg-->
+													<span class="svg-icon svg-icon-4">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect x="10" y="10" width="4" height="4" rx="2" fill="currentColor" />
+															<rect x="17" y="10" width="4" height="4" rx="2" fill="currentColor" />
+															<rect x="3" y="10" width="4" height="4" rx="2" fill="currentColor" />
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</button>
+												<!--begin::Menu 2-->
+												<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
+													<!--begin::Menu item-->
+													<div class="menu-item px-3">
+														<div class="menu-content fs-6 text-dark fw-bold px-3 py-4">Quick Actions</div>
+													</div>
+													<!--end::Menu item-->
+													<!--begin::Menu separator-->
+													<div class="separator mb-3 opacity-75"></div>
+													<!--end::Menu separator-->
+													<!--begin::Menu item-->
+													<div class="menu-item px-3">
+														<a href="#" class="menu-link px-3">New Ticket</a>
+													</div>
+													<!--end::Menu item-->
+													<!--begin::Menu item-->
+													<div class="menu-item px-3">
+														<a href="#" class="menu-link px-3">New Customer</a>
+													</div>
+													<!--end::Menu item-->
+													<!--begin::Menu item-->
+													<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
+														<!--begin::Menu item-->
+														<a href="#" class="menu-link px-3">
+															<span class="menu-title">New Group</span>
+															<span class="menu-arrow"></span>
+														</a>
+														<!--end::Menu item-->
+														<!--begin::Menu sub-->
+														<div class="menu-sub menu-sub-dropdown w-175px py-4">
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<a href="#" class="menu-link px-3">Admin Group</a>
+															</div>
+															<!--end::Menu item-->
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<a href="#" class="menu-link px-3">Staff Group</a>
+															</div>
+															<!--end::Menu item-->
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<a href="#" class="menu-link px-3">Member Group</a>
+															</div>
+															<!--end::Menu item-->
+														</div>
+														<!--end::Menu sub-->
+													</div>
+													<!--end::Menu item-->
+													<!--begin::Menu item-->
+													<div class="menu-item px-3">
+														<a href="#" class="menu-link px-3">New Contact</a>
+													</div>
+													<!--end::Menu item-->
+													<!--begin::Menu separator-->
+													<div class="separator mt-3 opacity-75"></div>
+													<!--end::Menu separator-->
+													<!--begin::Menu item-->
+													<div class="menu-item px-3">
+														<div class="menu-content px-3 py-3">
+															<a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
+														</div>
+													</div>
+													<!--end::Menu item-->
+												</div>
+												<!--end::Menu 2-->
+												<!--end::Menu-->
+											</div>
+											<!--end::Toolbar-->
+										</div>
+										<!--end::Heading-->
+										<!--begin::Body-->
+										<div class="card-body mt-n20">
+											<!--begin::Stats-->
+											<div class="mt-n20 position-relative">
+												<!--begin::Row-->
+												<div class="row g-3 g-lg-6">
+													<!--begin::Col-->
+													<div class="col-6">
+														<!--begin::Items-->
+														<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-30px me-5 mb-8">
+																<span class="symbol-label">
+																	<!--begin::Svg Icon | path: icons/duotune/medicine/med005.svg-->
+																	<span class="svg-icon svg-icon-1 svg-icon-primary">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path opacity="0.3" d="M17.9061 13H11.2061C11.2061 12.4 10.8061 12 10.2061 12C9.60605 12 9.20605 12.4 9.20605 13H6.50606L9.20605 8.40002V4C8.60605 4 8.20605 3.6 8.20605 3C8.20605 2.4 8.60605 2 9.20605 2H15.2061C15.8061 2 16.2061 2.4 16.2061 3C16.2061 3.6 15.8061 4 15.2061 4V8.40002L17.9061 13ZM13.2061 9C12.6061 9 12.2061 9.4 12.2061 10C12.2061 10.6 12.6061 11 13.2061 11C13.8061 11 14.2061 10.6 14.2061 10C14.2061 9.4 13.8061 9 13.2061 9Z" fill="currentColor" />
+																			<path d="M18.9061 22H5.40605C3.60605 22 2.40606 20 3.30606 18.4L6.40605 13H9.10605C9.10605 13.6 9.50605 14 10.106 14C10.706 14 11.106 13.6 11.106 13H17.8061L20.9061 18.4C21.9061 20 20.8061 22 18.9061 22ZM14.2061 15C13.1061 15 12.2061 15.9 12.2061 17C12.2061 18.1 13.1061 19 14.2061 19C15.3061 19 16.2061 18.1 16.2061 17C16.2061 15.9 15.3061 15 14.2061 15Z" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</span>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Stats-->
+															<div class="m-0">
+																<!--begin::Number-->
+																<span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">37</span>
+																<!--end::Number-->
+																<!--begin::Desc-->
+																<span class="text-gray-500 fw-semibold fs-6">Courses</span>
+																<!--end::Desc-->
+															</div>
+															<!--end::Stats-->
+														</div>
+														<!--end::Items-->
+													</div>
+													<!--end::Col-->
+													<!--begin::Col-->
+													<div class="col-6">
+														<!--begin::Items-->
+														<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-30px me-5 mb-8">
+																<span class="symbol-label">
+																	<!--begin::Svg Icon | path: icons/duotune/finance/fin001.svg-->
+																	<span class="svg-icon svg-icon-1 svg-icon-primary">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="currentColor" />
+																			<path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</span>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Stats-->
+															<div class="m-0">
+																<!--begin::Number-->
+																<span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">6</span>
+																<!--end::Number-->
+																<!--begin::Desc-->
+																<span class="text-gray-500 fw-semibold fs-6">Certificates</span>
+																<!--end::Desc-->
+															</div>
+															<!--end::Stats-->
+														</div>
+														<!--end::Items-->
+													</div>
+													<!--end::Col-->
+													<!--begin::Col-->
+													<div class="col-6">
+														<!--begin::Items-->
+														<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-30px me-5 mb-8">
+																<span class="symbol-label">
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen020.svg-->
+																	<span class="svg-icon svg-icon-1 svg-icon-primary">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M14 18V16H10V18L9 20H15L14 18Z" fill="currentColor" />
+																			<path opacity="0.3" d="M20 4H17V3C17 2.4 16.6 2 16 2H8C7.4 2 7 2.4 7 3V4H4C3.4 4 3 4.4 3 5V9C3 11.2 4.8 13 7 13C8.2 14.2 8.8 14.8 10 16H14C15.2 14.8 15.8 14.2 17 13C19.2 13 21 11.2 21 9V5C21 4.4 20.6 4 20 4ZM5 9V6H7V11C5.9 11 5 10.1 5 9ZM19 9C19 10.1 18.1 11 17 11V6H19V9ZM17 21V22H7V21C7 20.4 7.4 20 8 20H16C16.6 20 17 20.4 17 21ZM10 9C9.4 9 9 8.6 9 8V5C9 4.4 9.4 4 10 4C10.6 4 11 4.4 11 5V8C11 8.6 10.6 9 10 9ZM10 13C9.4 13 9 12.6 9 12V11C9 10.4 9.4 10 10 10C10.6 10 11 10.4 11 11V12C11 12.6 10.6 13 10 13Z" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</span>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Stats-->
+															<div class="m-0">
+																<!--begin::Number-->
+																<span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">4,7</span>
+																<!--end::Number-->
+																<!--begin::Desc-->
+																<span class="text-gray-500 fw-semibold fs-6">Avg. Score</span>
+																<!--end::Desc-->
+															</div>
+															<!--end::Stats-->
+														</div>
+														<!--end::Items-->
+													</div>
+													<!--end::Col-->
+													<!--begin::Col-->
+													<div class="col-6">
+														<!--begin::Items-->
+														<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-30px me-5 mb-8">
+																<span class="symbol-label">
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
+																	<span class="svg-icon svg-icon-1 svg-icon-primary">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path opacity="0.3" d="M20.9 12.9C20.3 12.9 19.9 12.5 19.9 11.9C19.9 11.3 20.3 10.9 20.9 10.9H21.8C21.3 6.2 17.6 2.4 12.9 2V2.9C12.9 3.5 12.5 3.9 11.9 3.9C11.3 3.9 10.9 3.5 10.9 2.9V2C6.19999 2.5 2.4 6.2 2 10.9H2.89999C3.49999 10.9 3.89999 11.3 3.89999 11.9C3.89999 12.5 3.49999 12.9 2.89999 12.9H2C2.5 17.6 6.19999 21.4 10.9 21.8V20.9C10.9 20.3 11.3 19.9 11.9 19.9C12.5 19.9 12.9 20.3 12.9 20.9V21.8C17.6 21.3 21.4 17.6 21.8 12.9H20.9Z" fill="currentColor" />
+																			<path d="M16.9 10.9H13.6C13.4 10.6 13.2 10.4 12.9 10.2V5.90002C12.9 5.30002 12.5 4.90002 11.9 4.90002C11.3 4.90002 10.9 5.30002 10.9 5.90002V10.2C10.6 10.4 10.4 10.6 10.2 10.9H9.89999C9.29999 10.9 8.89999 11.3 8.89999 11.9C8.89999 12.5 9.29999 12.9 9.89999 12.9H10.2C10.4 13.2 10.6 13.4 10.9 13.6V13.9C10.9 14.5 11.3 14.9 11.9 14.9C12.5 14.9 12.9 14.5 12.9 13.9V13.6C13.2 13.4 13.4 13.2 13.6 12.9H16.9C17.5 12.9 17.9 12.5 17.9 11.9C17.9 11.3 17.5 10.9 16.9 10.9Z" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</span>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Stats-->
+															<div class="m-0">
+																<!--begin::Number-->
+																<span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">822</span>
+																<!--end::Number-->
+																<!--begin::Desc-->
+																<span class="text-gray-500 fw-semibold fs-6">Hours Learned</span>
+																<!--end::Desc-->
+															</div>
+															<!--end::Stats-->
+														</div>
+														<!--end::Items-->
+													</div>
+													<!--end::Col-->
+												</div>
+												<!--end::Row-->
+											</div>
+											<!--end::Stats-->
+										</div>
+										<!--end::Body-->
+									</div>
+									<!--end::Lists Widget 19-->
+								</div>
+								<!--end::Col-->
+								<!--begin::Col-->
+							
+								<!--end::Col-->
+							</div>
+							<!--end::Row-->
+							
+									<!--begin::Row-->
+									<div class="row g-5 g-xl-10">
+										<!--begin::Col-->
+										<div class="col-xl-6 ">
+											<!--begin::Slider Widget 1-->
+											<div id="kt_sliders_widget_1_slider" class="card card-flush carousel carousel-custom carousel-stretch slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5000">
+												<!--begin::Header-->
+												<div class="card-header pt-5">
+													<!--begin::Title-->
+													<h4 class="card-title d-flex align-items-start flex-column">
+														<span class="card-label fw-bold text-gray-800">Today’s Course</span>
+														<span class="text-gray-400 mt-1 fw-bold fs-7">4 lessons, 3 hours 45 minutes</span>
+													</h4>
+													<!--end::Title-->
+													<!--begin::Toolbar-->
+													<div class="card-toolbar">
+														<!--begin::Carousel Indicators-->
+														<ol class="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-primary">
+															<li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="0" class="active ms-1"></li>
+															<li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="1" class="ms-1"></li>
+															<li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="2" class="ms-1"></li>
+														</ol>
+														<!--end::Carousel Indicators-->
+													</div>
+													<!--end::Toolbar-->
+												</div>
+												<!--end::Header-->
+												<!--begin::Body-->
+												<div class="card-body pt-6">
+													<!--begin::Carousel-->
+													<div class="carousel-inner mt-n5">
+														<!--begin::Item-->
+														<div class="carousel-item active show">
+															<!--begin::Wrapper-->
+															<div class="d-flex align-items-center mb-5">
+																<!--begin::Chart-->
+																<div class="w-80px flex-shrink-0 me-2">
+																	<div class="min-h-auto ms-n3" id="kt_slider_widget_1_chart_1" style="height: 100px"></div>
+																</div>
+																<!--end::Chart-->
+																<!--begin::Info-->
+																<div class="m-0">
+																	<!--begin::Subtitle-->
+																	<h4 class="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+																	<!--end::Subtitle-->
+																	<!--begin::Items-->
+																	<div class="d-flex d-grid gap-5">
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0 me-4">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->3 Topics</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->1 Speakers</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->50 Min</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->72 students</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																	</div>
+																	<!--end::Items-->
+																</div>
+																<!--end::Info-->
+															</div>
+															<!--end::Wrapper-->
+															<!--begin::Action-->
+															<div class="mb-1">
+																<a href="#" class="btn btn-sm btn-light me-2">Skip This</a>
+																<a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
+															</div>
+															<!--end::Action-->
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="carousel-item">
+															<!--begin::Wrapper-->
+															<div class="d-flex align-items-center mb-5">
+																<!--begin::Chart-->
+																<div class="w-80px flex-shrink-0 me-2">
+																	<div class="min-h-auto ms-n3" id="kt_slider_widget_1_chart_2" style="height: 100px"></div>
+																</div>
+																<!--end::Chart-->
+																<!--begin::Info-->
+																<div class="m-0">
+																	<!--begin::Subtitle-->
+																	<h4 class="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+																	<!--end::Subtitle-->
+																	<!--begin::Items-->
+																	<div class="d-flex d-grid gap-5">
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0 me-4">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->3 Topics</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->1 Speakers</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->50 Min</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->72 students</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																	</div>
+																	<!--end::Items-->
+																</div>
+																<!--end::Info-->
+															</div>
+															<!--end::Wrapper-->
+															<!--begin::Action-->
+															<div class="mb-1">
+																<a href="#" class="btn btn-sm btn-light me-2">Skip This</a>
+																<a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
+															</div>
+															<!--end::Action-->
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="carousel-item">
+															<!--begin::Wrapper-->
+															<div class="d-flex align-items-center mb-5">
+																<!--begin::Chart-->
+																<div class="w-80px flex-shrink-0 me-2">
+																	<div class="min-h-auto ms-n3" id="kt_slider_widget_1_chart_3" style="height: 100px"></div>
+																</div>
+																<!--end::Chart-->
+																<!--begin::Info-->
+																<div class="m-0">
+																	<!--begin::Subtitle-->
+																	<h4 class="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+																	<!--end::Subtitle-->
+																	<!--begin::Items-->
+																	<div class="d-flex d-grid gap-5">
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0 me-4">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->3 Topics</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->1 Speakers</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->50 Min</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->72 students</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																	</div>
+																	<!--end::Items-->
+																</div>
+																<!--end::Info-->
+															</div>
+															<!--end::Wrapper-->
+															<!--begin::Action-->
+															<div class="mb-1">
+																<a href="#" class="btn btn-sm btn-light me-2">Skip This</a>
+																<a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
+															</div>
+															<!--end::Action-->
+														</div>
+														<!--end::Item-->
+													</div>
+													<!--end::Carousel-->
+												</div>
+												<!--end::Body-->
+											</div>
+											<!--end::Slider Widget 1-->
+										</div>
+										<!--end::Col-->
+										<!--begin::Col-->
+										<div class="col-xl-6">
+											<!--begin::Slider Widget 2-->
+											<div id="kt_sliders_widget_2_slider" class="card card-flush carousel carousel-custom carousel-stretch slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5500">
+												<!--begin::Header-->
+												<div class="card-header pt-5">
+													<!--begin::Title-->
+													<h4 class="card-title d-flex align-items-start flex-column">
+														<span class="card-label fw-bold text-gray-800">Today’s Events</span>
+														<span class="text-gray-400 mt-1 fw-bold fs-7">24 events on all activities</span>
+													</h4>
+													<!--end::Title-->
+													<!--begin::Toolbar-->
+													<div class="card-toolbar">
+														<!--begin::Carousel Indicators-->
+														<ol class="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-success">
+															<li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="0" class="active ms-1"></li>
+															<li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="1" class="ms-1"></li>
+															<li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="2" class="ms-1"></li>
+														</ol>
+														<!--end::Carousel Indicators-->
+													</div>
+													<!--end::Toolbar-->
+												</div>
+												<!--end::Header-->
+												<!--begin::Body-->
+												<div class="card-body pt-6">
+													<!--begin::Carousel-->
+													<div class="carousel-inner">
+														<!--begin::Item-->
+														<div class="carousel-item active show">
+															<!--begin::Wrapper-->
+															<div class="d-flex align-items-center mb-9">
+																<!--begin::Symbol-->
+																<div class="symbol symbol-70px symbol-circle me-5">
+																	<span class="symbol-label bg-light-success">
+																		<!--begin::Svg Icon | path: icons/duotune/abstract/abs025.svg-->
+																		<span class="svg-icon svg-icon-3x svg-icon-success">
+																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M16.925 3.90078V8.00077L12.025 10.8008V5.10078L15.525 3.10078C16.125 2.80078 16.925 3.20078 16.925 3.90078ZM2.525 13.5008L6.025 15.5008L10.925 12.7008L6.025 9.90078L2.525 11.9008C1.825 12.3008 1.825 13.2008 2.525 13.5008ZM18.025 19.7008V15.6008L13.125 12.8008V18.5008L16.625 20.5008C17.225 20.8008 18.025 20.4008 18.025 19.7008Z" fill="currentColor" />
+																				<path opacity="0.3" d="M8.52499 3.10078L12.025 5.10078V10.8008L7.125 8.00077V3.90078C7.125 3.20078 7.92499 2.80078 8.52499 3.10078ZM7.42499 20.5008L10.925 18.5008V12.8008L6.02499 15.6008V19.7008C6.02499 20.4008 6.82499 20.8008 7.42499 20.5008ZM21.525 11.9008L18.025 9.90078L13.125 12.7008L18.025 15.5008L21.525 13.5008C22.225 13.2008 22.225 12.3008 21.525 11.9008Z" fill="currentColor" />
+																			</svg>
+																		</span>
+																		<!--end::Svg Icon-->
+																	</span>
+																</div>
+																<!--end::Symbol-->
+																<!--begin::Info-->
+																<div class="m-0">
+																	<!--begin::Subtitle-->
+																	<h4 class="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+																	<!--end::Subtitle-->
+																	<!--begin::Items-->
+																	<div class="d-flex d-grid gap-5">
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0 me-4">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->5 Topics</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->1 Speakers</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->60 Min</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->137 students</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																	</div>
+																	<!--end::Items-->
+																</div>
+																<!--end::Info-->
+															</div>
+															<!--end::Wrapper-->
+															<!--begin::Action-->
+															<div class="mb-1">
+																<a href="#" class="btn btn-sm btn-light me-2">Details</a>
+																<a href="#" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
+															</div>
+															<!--end::Action-->
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="carousel-item">
+															<!--begin::Wrapper-->
+															<div class="d-flex align-items-center mb-9">
+																<!--begin::Symbol-->
+																<div class="symbol symbol-70px symbol-circle me-5">
+																	<span class="symbol-label bg-light-danger">
+																		<!--begin::Svg Icon | path: icons/duotune/abstract/abs026.svg-->
+																		<span class="svg-icon svg-icon-3x svg-icon-danger">
+																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path opacity="0.3" d="M7 20.5L2 17.6V11.8L7 8.90002L12 11.8V17.6L7 20.5ZM21 20.8V18.5L19 17.3L17 18.5V20.8L19 22L21 20.8Z" fill="currentColor" />
+																				<path d="M22 14.1V6L15 2L8 6V14.1L15 18.2L22 14.1Z" fill="currentColor" />
+																			</svg>
+																		</span>
+																		<!--end::Svg Icon-->
+																	</span>
+																</div>
+																<!--end::Symbol-->
+																<!--begin::Info-->
+																<div class="m-0">
+																	<!--begin::Subtitle-->
+																	<h4 class="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+																	<!--end::Subtitle-->
+																	<!--begin::Items-->
+																	<div class="d-flex d-grid gap-5">
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0 me-4">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->12 Topics</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->1 Speakers</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->50 Min</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->72 students</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																	</div>
+																	<!--end::Items-->
+																</div>
+																<!--end::Info-->
+															</div>
+															<!--end::Wrapper-->
+															<!--begin::Action-->
+															<div class="mb-1">
+																<a href="#" class="btn btn-sm btn-light me-2">Details</a>
+																<a href="#" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
+															</div>
+															<!--end::Action-->
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="carousel-item">
+															<!--begin::Wrapper-->
+															<div class="d-flex align-items-center mb-9">
+																<!--begin::Symbol-->
+																<div class="symbol symbol-70px symbol-circle me-5">
+																	<span class="symbol-label bg-light-primary">
+																		<!--begin::Svg Icon | path: icons/duotune/abstract/abs038.svg-->
+																		<span class="svg-icon svg-icon-3x svg-icon-primary">
+																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M12.0444 17.9444V12.1444L17.0444 15.0444C18.6444 15.9444 19.1445 18.0444 18.2445 19.6444C17.3445 21.2444 15.2445 21.7444 13.6445 20.8444C12.6445 20.2444 12.0444 19.1444 12.0444 17.9444ZM7.04445 15.0444L12.0444 12.1444L7.04445 9.24445C5.44445 8.34445 3.44444 8.84445 2.44444 10.4444C1.54444 12.0444 2.04445 14.0444 3.64445 15.0444C4.74445 15.6444 6.04445 15.6444 7.04445 15.0444ZM12.0444 6.34444V12.1444L17.0444 9.24445C18.6444 8.34445 19.1445 6.24444 18.2445 4.64444C17.3445 3.04444 15.2445 2.54445 13.6445 3.44445C12.6445 4.04445 12.0444 5.14444 12.0444 6.34444Z" fill="currentColor" />
+																				<path opacity="0.3" d="M7.04443 9.24445C6.04443 8.64445 5.34442 7.54444 5.34442 6.34444C5.34442 4.54444 6.84444 3.04443 8.64444 3.04443C10.4444 3.04443 11.9444 4.54444 11.9444 6.34444V12.1444L7.04443 9.24445ZM17.0444 15.0444C18.0444 15.6444 19.3444 15.6444 20.3444 15.0444C21.9444 14.1444 22.4444 12.0444 21.5444 10.4444C20.6444 8.84444 18.5444 8.34445 16.9444 9.24445L11.9444 12.1444L17.0444 15.0444ZM7.04443 15.0444C6.04443 15.6444 5.34442 16.7444 5.34442 17.9444C5.34442 19.7444 6.84444 21.2444 8.64444 21.2444C10.4444 21.2444 11.9444 19.7444 11.9444 17.9444V12.1444L7.04443 15.0444Z" fill="currentColor" />
+																			</svg>
+																		</span>
+																		<!--end::Svg Icon-->
+																	</span>
+																</div>
+																<!--end::Symbol-->
+																<!--begin::Info-->
+																<div class="m-0">
+																	<!--begin::Subtitle-->
+																	<h4 class="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+																	<!--end::Subtitle-->
+																	<!--begin::Items-->
+																	<div class="d-flex d-grid gap-5">
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0 me-4">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->3 Topics</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->1 Speakers</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																		<!--begin::Item-->
+																		<div class="d-flex flex-column flex-shrink-0">
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->50 Min</span>
+																			<!--end::Section-->
+																			<!--begin::Section-->
+																			<span class="d-flex align-items-center text-gray-400 fw-bold fs-7">
+																			<!--begin::Svg Icon | path: icons/duotune/general/gen057.svg-->
+																			<span class="svg-icon svg-icon-6 svg-icon-gray-600 me-2">
+																				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																					<path d="M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z" fill="currentColor" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->72 students</span>
+																			<!--end::Section-->
+																		</div>
+																		<!--end::Item-->
+																	</div>
+																	<!--end::Items-->
+																</div>
+																<!--end::Info-->
+															</div>
+															<!--end::Wrapper-->
+															<!--begin::Action-->
+															<div class="mb-1">
+																<a href="#" class="btn btn-sm btn-light me-2">Details</a>
+																<a href="#" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
+															</div>
+															<!--end::Action-->
+														</div>
+														<!--end::Item-->
+													</div>
+													<!--end::Carousel-->
+												</div>
+												<!--end::Body-->
+											</div>
+											<!--end::Slider Widget 2-->
+										</div>
+										<!--end::Col-->
+									</div>
+									<!--end::Row-->
+									
+								
+								<div class="col-xl-6">
 									<!--begin::Mixed Widget 12-->
 									<div class="card card-xl-stretch mb-5 mb-xl-8">
 										<!--begin::Header-->
@@ -3570,7 +2032,7 @@ License: For each use you must have a valid license purchased only from above li
 								</div>
 								<!--end::Col-->
 								<!--begin::Col-->
-								<div class="col-xl-4">
+								<div class="col-xl-6">
 									<!--begin::Mixed Widget 5-->
 									<div class="card card-xxl-stretch mb-xl-8">
 										<!--begin::Beader-->
@@ -3762,1788 +2224,39 @@ License: For each use you must have a valid license purchased only from above li
 									<!--end::Mixed Widget 5-->
 								</div>
 								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-xl-4">
-									<!--begin::List Widget 5-->
-									<div class="card card-xl-stretch mb-5 mb-xl-8">
-										<!--begin::Header-->
-										<div class="card-header align-items-center border-0 mt-4">
-											<h3 class="card-title align-items-start flex-column">
-												<span class="fw-bold mb-2 text-dark">Activities</span>
-												<span class="text-muted fw-semibold fs-7">890,344 Sales</span>
-											</h3>
-											<div class="card-toolbar">
-												<!--begin::Menu-->
-												<button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen024.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-															<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																<rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-																<rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-															</g>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</button>
-												<!--begin::Menu 1-->
-												<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_62c3f3bfb77e1">
-													<!--begin::Header-->
-													<div class="px-7 py-5">
-														<div class="fs-5 text-dark fw-bold">Filter Options</div>
-													</div>
-													<!--end::Header-->
-													<!--begin::Menu separator-->
-													<div class="separator border-gray-200"></div>
-													<!--end::Menu separator-->
-													<!--begin::Form-->
-													<div class="px-7 py-5">
-														<!--begin::Input group-->
-														<div class="mb-10">
-															<!--begin::Label-->
-															<label class="form-label fw-semibold">Status:</label>
-															<!--end::Label-->
-															<!--begin::Input-->
-															<div>
-																<select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_62c3f3bfb77e1" data-allow-clear="true">
-																	<option></option>
-																	<option value="1">Approved</option>
-																	<option value="2">Pending</option>
-																	<option value="2">In Process</option>
-																	<option value="2">Rejected</option>
-																</select>
-															</div>
-															<!--end::Input-->
-														</div>
-														<!--end::Input group-->
-														<!--begin::Input group-->
-														<div class="mb-10">
-															<!--begin::Label-->
-															<label class="form-label fw-semibold">Member Type:</label>
-															<!--end::Label-->
-															<!--begin::Options-->
-															<div class="d-flex">
-																<!--begin::Options-->
-																<label class="form-check form-check-sm form-check-custom form-check-solid me-5">
-																	<input class="form-check-input" type="checkbox" value="1" />
-																	<span class="form-check-label">Author</span>
-																</label>
-																<!--end::Options-->
-																<!--begin::Options-->
-																<label class="form-check form-check-sm form-check-custom form-check-solid">
-																	<input class="form-check-input" type="checkbox" value="2" checked="checked" />
-																	<span class="form-check-label">Customer</span>
-																</label>
-																<!--end::Options-->
-															</div>
-															<!--end::Options-->
-														</div>
-														<!--end::Input group-->
-														<!--begin::Input group-->
-														<div class="mb-10">
-															<!--begin::Label-->
-															<label class="form-label fw-semibold">Notifications:</label>
-															<!--end::Label-->
-															<!--begin::Switch-->
-															<div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="" name="notifications" checked="checked" />
-																<label class="form-check-label">Enabled</label>
-															</div>
-															<!--end::Switch-->
-														</div>
-														<!--end::Input group-->
-														<!--begin::Actions-->
-														<div class="d-flex justify-content-end">
-															<button type="reset" class="btn btn-sm btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true">Reset</button>
-															<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Apply</button>
-														</div>
-														<!--end::Actions-->
-													</div>
-													<!--end::Form-->
-												</div>
-												<!--end::Menu 1-->
-												<!--end::Menu-->
-											</div>
-										</div>
-										<!--end::Header-->
-										<!--begin::Body-->
-										<div class="card-body pt-5">
-											<!--begin::Timeline-->
-											<div class="timeline-label">
-												<!--begin::Item-->
-												<div class="timeline-item">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">08:42</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-warning fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Text-->
-													<div class="fw-mormal timeline-content text-muted ps-3">Outlines keep you honest. And keep structure</div>
-													<!--end::Text-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="timeline-item">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">10:00</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-success fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Content-->
-													<div class="timeline-content d-flex">
-														<span class="fw-bold text-gray-800 ps-3">AEOL meeting</span>
-													</div>
-													<!--end::Content-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="timeline-item">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">14:37</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-danger fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Desc-->
-													<div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
-													<a href="#" class="text-primary">USD 700</a>. to ESL</div>
-													<!--end::Desc-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="timeline-item">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">16:50</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-primary fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Text-->
-													<div class="timeline-content fw-mormal text-muted ps-3">Indulging in poorly driving and keep structure keep great</div>
-													<!--end::Text-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="timeline-item">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">21:03</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-danger fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Desc-->
-													<div class="timeline-content fw-semibold text-gray-800 ps-3">New order placed
-													<a href="#" class="text-primary">#XF-2356</a>.</div>
-													<!--end::Desc-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="timeline-item">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">16:50</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-primary fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Text-->
-													<div class="timeline-content fw-mormal text-muted ps-3">Indulging in poorly driving and keep structure keep great</div>
-													<!--end::Text-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="timeline-item">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">21:03</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-danger fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Desc-->
-													<div class="timeline-content fw-semibold text-gray-800 ps-3">New order placed
-													<a href="#" class="text-primary">#XF-2356</a>.</div>
-													<!--end::Desc-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="timeline-item mb-9">
-													<!--begin::Label-->
-													<div class="timeline-label fw-bold text-gray-800 fs-6">10:30</div>
-													<!--end::Label-->
-													<!--begin::Badge-->
-													<div class="timeline-badge">
-														<i class="fa fa-genderless text-success fs-1"></i>
-													</div>
-													<!--end::Badge-->
-													<!--begin::Text-->
-													<div class="timeline-content fw-mormal text-muted ps-3">Finance KPI Mobile app launch preparion meeting</div>
-													<!--end::Text-->
-												</div>
-												<!--end::Item-->
-											</div>
-											<!--end::Timeline-->
-										</div>
-										<!--end: Card Body-->
-									</div>
-									<!--end: List Widget 5-->
-								</div>
-								<!--end::Col-->
+								
+
+
+
 							</div>
 							<!--end::Row-->
-							<!--begin::Row-->
-							<div class="row gy-5 g-xl-8">
-								<!--begin::Col-->
-								<div class="col-xl-4">
-									<!--begin::List Widget 3-->
-									<div class="card card-xl-stretch mb-xl-8">
-										<!--begin::Header-->
-										<div class="card-header border-0">
-											<h3 class="card-title fw-bold text-dark">Todo</h3>
-											<div class="card-toolbar">
-												<!--begin::Menu-->
-												<button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen024.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-															<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																<rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-																<rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-															</g>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</button>
-												<!--begin::Menu 3-->
-												<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true">
-													<!--begin::Heading-->
-													<div class="menu-item px-3">
-														<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
-													</div>
-													<!--end::Heading-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">Create Invoice</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link flex-stack px-3">Create Payment
-														<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">Generate Bill</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-														<a href="#" class="menu-link px-3">
-															<span class="menu-title">Subscription</span>
-															<span class="menu-arrow"></span>
-														</a>
-														<!--begin::Menu sub-->
-														<div class="menu-sub menu-sub-dropdown w-175px py-4">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Plans</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Billing</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Statements</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu separator-->
-															<div class="separator my-2"></div>
-															<!--end::Menu separator-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<div class="menu-content px-3">
-																	<!--begin::Switch-->
-																	<label class="form-check form-switch form-check-custom form-check-solid">
-																		<!--begin::Input-->
-																		<input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
-																		<!--end::Input-->
-																		<!--end::Label-->
-																		<span class="form-check-label text-muted fs-6">Recuring</span>
-																		<!--end::Label-->
-																	</label>
-																	<!--end::Switch-->
-																</div>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu sub-->
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3 my-1">
-														<a href="#" class="menu-link px-3">Settings</a>
-													</div>
-													<!--end::Menu item-->
-												</div>
-												<!--end::Menu 3-->
-												<!--end::Menu-->
-											</div>
-										</div>
-										<!--end::Header-->
-										<!--begin::Body-->
-										<div class="card-body pt-2">
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-8">
-												<!--begin::Bullet-->
-												<span class="bullet bullet-vertical h-40px bg-success"></span>
-												<!--end::Bullet-->
-												<!--begin::Checkbox-->
-												<div class="form-check form-check-custom form-check-solid mx-5">
-													<input class="form-check-input" type="checkbox" value="" />
-												</div>
-												<!--end::Checkbox-->
-												<!--begin::Description-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Create FireStone Logo</a>
-													<span class="text-muted fw-semibold d-block">Due in 2 Days</span>
-												</div>
-												<!--end::Description-->
-												<span class="badge badge-light-success fs-8 fw-bold">New</span>
-											</div>
-											<!--end:Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-8">
-												<!--begin::Bullet-->
-												<span class="bullet bullet-vertical h-40px bg-primary"></span>
-												<!--end::Bullet-->
-												<!--begin::Checkbox-->
-												<div class="form-check form-check-custom form-check-solid mx-5">
-													<input class="form-check-input" type="checkbox" value="" />
-												</div>
-												<!--end::Checkbox-->
-												<!--begin::Description-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Stakeholder Meeting</a>
-													<span class="text-muted fw-semibold d-block">Due in 3 Days</span>
-												</div>
-												<!--end::Description-->
-												<span class="badge badge-light-primary fs-8 fw-bold">New</span>
-											</div>
-											<!--end:Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-8">
-												<!--begin::Bullet-->
-												<span class="bullet bullet-vertical h-40px bg-warning"></span>
-												<!--end::Bullet-->
-												<!--begin::Checkbox-->
-												<div class="form-check form-check-custom form-check-solid mx-5">
-													<input class="form-check-input" type="checkbox" value="" />
-												</div>
-												<!--end::Checkbox-->
-												<!--begin::Description-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Scoping &amp; Estimations</a>
-													<span class="text-muted fw-semibold d-block">Due in 5 Days</span>
-												</div>
-												<!--end::Description-->
-												<span class="badge badge-light-warning fs-8 fw-bold">New</span>
-											</div>
-											<!--end:Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-8">
-												<!--begin::Bullet-->
-												<span class="bullet bullet-vertical h-40px bg-primary"></span>
-												<!--end::Bullet-->
-												<!--begin::Checkbox-->
-												<div class="form-check form-check-custom form-check-solid mx-5">
-													<input class="form-check-input" type="checkbox" value="" />
-												</div>
-												<!--end::Checkbox-->
-												<!--begin::Description-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">KPI App Showcase</a>
-													<span class="text-muted fw-semibold d-block">Due in 2 Days</span>
-												</div>
-												<!--end::Description-->
-												<span class="badge badge-light-primary fs-8 fw-bold">New</span>
-											</div>
-											<!--end:Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-8">
-												<!--begin::Bullet-->
-												<span class="bullet bullet-vertical h-40px bg-danger"></span>
-												<!--end::Bullet-->
-												<!--begin::Checkbox-->
-												<div class="form-check form-check-custom form-check-solid mx-5">
-													<input class="form-check-input" type="checkbox" value="" />
-												</div>
-												<!--end::Checkbox-->
-												<!--begin::Description-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Project Meeting</a>
-													<span class="text-muted fw-semibold d-block">Due in 12 Days</span>
-												</div>
-												<!--end::Description-->
-												<span class="badge badge-light-danger fs-8 fw-bold">New</span>
-											</div>
-											<!--end:Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center">
-												<!--begin::Bullet-->
-												<span class="bullet bullet-vertical h-40px bg-success"></span>
-												<!--end::Bullet-->
-												<!--begin::Checkbox-->
-												<div class="form-check form-check-custom form-check-solid mx-5">
-													<input class="form-check-input" type="checkbox" value="" />
-												</div>
-												<!--end::Checkbox-->
-												<!--begin::Description-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Customers Update</a>
-													<span class="text-muted fw-semibold d-block">Due in 1 week</span>
-												</div>
-												<!--end::Description-->
-												<span class="badge badge-light-success fs-8 fw-bold">New</span>
-											</div>
-											<!--end:Item-->
-										</div>
-										<!--end::Body-->
-									</div>
-									<!--end:List Widget 3-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-xl-8">
-									<!--begin::Tables Widget 9-->
-									<div class="card card-xl-stretch mb-5 mb-xl-8">
-										<!--begin::Header-->
-										<div class="card-header border-0 pt-5">
-											<h3 class="card-title align-items-start flex-column">
-												<span class="card-label fw-bold fs-3 mb-1">Members Statistics</span>
-												<span class="text-muted mt-1 fw-semibold fs-7">Over 500 members</span>
-											</h3>
-											<div class="card-toolbar" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="hover" title="Click to add a user">
-												<a href="#" class="btn btn-sm btn-light btn-active-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_invite_friends">
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-												<span class="svg-icon svg-icon-3">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<rect opacity="0.5" x="11.364" y="20.364" width="16" height="2" rx="1" transform="rotate(-90 11.364 20.364)" fill="currentColor" />
-														<rect x="4.36396" y="11.364" width="16" height="2" rx="1" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->New Member</a>
-											</div>
-										</div>
-										<!--end::Header-->
-										<!--begin::Body-->
-										<div class="card-body py-3">
-											<!--begin::Table container-->
-											<div class="table-responsive">
-												<!--begin::Table-->
-												<table class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
-													<!--begin::Table head-->
-													<thead>
-														<tr class="fw-bold text-muted">
-															<th class="w-25px">
-																<div class="form-check form-check-sm form-check-custom form-check-solid">
-																	<input class="form-check-input" type="checkbox" value="1" data-kt-check="true" data-kt-check-target=".widget-9-check" />
-																</div>
-															</th>
-															<th class="min-w-200px">Authors</th>
-															<th class="min-w-150px">Company</th>
-															<th class="min-w-150px">Progress</th>
-															<th class="min-w-100px text-end">Actions</th>
-														</tr>
-													</thead>
-													<!--end::Table head-->
-													<!--begin::Table body-->
-													<tbody>
-														<tr>
-															<td>
-																<div class="form-check form-check-sm form-check-custom form-check-solid">
-																	<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<div class="symbol symbol-45px me-5">
-																		<img src="assets/media/avatars/300-14.jpg" alt="" />
-																	</div>
-																	<div class="d-flex justify-content-start flex-column">
-																		<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Ana Simmons</a>
-																		<span class="text-muted fw-semibold text-muted d-block fs-7">HTML, JS, ReactJS</span>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">Intertico</a>
-																<span class="text-muted fw-semibold text-muted d-block fs-7">Web, UI/UX Design</span>
-															</td>
-															<td class="text-end">
-																<div class="d-flex flex-column w-100 me-2">
-																	<div class="d-flex flex-stack mb-2">
-																		<span class="text-muted me-2 fs-7 fw-bold">50%</span>
-																	</div>
-																	<div class="progress h-6px w-100">
-																		<div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex justify-content-end flex-shrink-0">
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z" fill="currentColor" />
-																				<path opacity="0.3" d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-																				<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen027.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M5 9C5 8.44772 5.44772 8 6 8H18C18.5523 8 19 8.44772 19 9V18C19 19.6569 17.6569 21 16 21H8C6.34315 21 5 19.6569 5 18V9Z" fill="currentColor" />
-																				<path opacity="0.5" d="M5 5C5 4.44772 5.44772 4 6 4H18C18.5523 4 19 4.44772 19 5V5C19 5.55228 18.5523 6 18 6H6C5.44772 6 5 5.55228 5 5V5Z" fill="currentColor" />
-																				<path opacity="0.5" d="M9 4C9 3.44772 9.44772 3 10 3H14C14.5523 3 15 3.44772 15 4V4H9V4Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																</div>
-															</td>
-														</tr>
-														<tr>
-															<td>
-																<div class="form-check form-check-sm form-check-custom form-check-solid">
-																	<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<div class="symbol symbol-45px me-5">
-																		<img src="assets/media/avatars/300-2.jpg" alt="" />
-																	</div>
-																	<div class="d-flex justify-content-start flex-column">
-																		<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Jessie Clarcson</a>
-																		<span class="text-muted fw-semibold text-muted d-block fs-7">C#, ASP.NET, MS SQL</span>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">Agoda</a>
-																<span class="text-muted fw-semibold text-muted d-block fs-7">Houses &amp; Hotels</span>
-															</td>
-															<td class="text-end">
-																<div class="d-flex flex-column w-100 me-2">
-																	<div class="d-flex flex-stack mb-2">
-																		<span class="text-muted me-2 fs-7 fw-bold">70%</span>
-																	</div>
-																	<div class="progress h-6px w-100">
-																		<div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex justify-content-end flex-shrink-0">
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z" fill="currentColor" />
-																				<path opacity="0.3" d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-																				<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen027.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M5 9C5 8.44772 5.44772 8 6 8H18C18.5523 8 19 8.44772 19 9V18C19 19.6569 17.6569 21 16 21H8C6.34315 21 5 19.6569 5 18V9Z" fill="currentColor" />
-																				<path opacity="0.5" d="M5 5C5 4.44772 5.44772 4 6 4H18C18.5523 4 19 4.44772 19 5V5C19 5.55228 18.5523 6 18 6H6C5.44772 6 5 5.55228 5 5V5Z" fill="currentColor" />
-																				<path opacity="0.5" d="M9 4C9 3.44772 9.44772 3 10 3H14C14.5523 3 15 3.44772 15 4V4H9V4Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																</div>
-															</td>
-														</tr>
-														<tr>
-															<td>
-																<div class="form-check form-check-sm form-check-custom form-check-solid">
-																	<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<div class="symbol symbol-45px me-5">
-																		<img src="assets/media/avatars/300-5.jpg" alt="" />
-																	</div>
-																	<div class="d-flex justify-content-start flex-column">
-																		<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Lebron Wayde</a>
-																		<span class="text-muted fw-semibold text-muted d-block fs-7">PHP, Laravel, VueJS</span>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">RoadGee</a>
-																<span class="text-muted fw-semibold text-muted d-block fs-7">Transportation</span>
-															</td>
-															<td class="text-end">
-																<div class="d-flex flex-column w-100 me-2">
-																	<div class="d-flex flex-stack mb-2">
-																		<span class="text-muted me-2 fs-7 fw-bold">60%</span>
-																	</div>
-																	<div class="progress h-6px w-100">
-																		<div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex justify-content-end flex-shrink-0">
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z" fill="currentColor" />
-																				<path opacity="0.3" d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-																				<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen027.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M5 9C5 8.44772 5.44772 8 6 8H18C18.5523 8 19 8.44772 19 9V18C19 19.6569 17.6569 21 16 21H8C6.34315 21 5 19.6569 5 18V9Z" fill="currentColor" />
-																				<path opacity="0.5" d="M5 5C5 4.44772 5.44772 4 6 4H18C18.5523 4 19 4.44772 19 5V5C19 5.55228 18.5523 6 18 6H6C5.44772 6 5 5.55228 5 5V5Z" fill="currentColor" />
-																				<path opacity="0.5" d="M9 4C9 3.44772 9.44772 3 10 3H14C14.5523 3 15 3.44772 15 4V4H9V4Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																</div>
-															</td>
-														</tr>
-														<tr>
-															<td>
-																<div class="form-check form-check-sm form-check-custom form-check-solid">
-																	<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<div class="symbol symbol-45px me-5">
-																		<img src="assets/media/avatars/300-20.jpg" alt="" />
-																	</div>
-																	<div class="d-flex justify-content-start flex-column">
-																		<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Natali Goodwin</a>
-																		<span class="text-muted fw-semibold text-muted d-block fs-7">Python, PostgreSQL, ReactJS</span>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">The Hill</a>
-																<span class="text-muted fw-semibold text-muted d-block fs-7">Insurance</span>
-															</td>
-															<td class="text-end">
-																<div class="d-flex flex-column w-100 me-2">
-																	<div class="d-flex flex-stack mb-2">
-																		<span class="text-muted me-2 fs-7 fw-bold">50%</span>
-																	</div>
-																	<div class="progress h-6px w-100">
-																		<div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex justify-content-end flex-shrink-0">
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z" fill="currentColor" />
-																				<path opacity="0.3" d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-																				<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen027.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M5 9C5 8.44772 5.44772 8 6 8H18C18.5523 8 19 8.44772 19 9V18C19 19.6569 17.6569 21 16 21H8C6.34315 21 5 19.6569 5 18V9Z" fill="currentColor" />
-																				<path opacity="0.5" d="M5 5C5 4.44772 5.44772 4 6 4H18C18.5523 4 19 4.44772 19 5V5C19 5.55228 18.5523 6 18 6H6C5.44772 6 5 5.55228 5 5V5Z" fill="currentColor" />
-																				<path opacity="0.5" d="M9 4C9 3.44772 9.44772 3 10 3H14C14.5523 3 15 3.44772 15 4V4H9V4Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																</div>
-															</td>
-														</tr>
-														<tr>
-															<td>
-																<div class="form-check form-check-sm form-check-custom form-check-solid">
-																	<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<div class="symbol symbol-45px me-5">
-																		<img src="assets/media/avatars/300-23.jpg" alt="" />
-																	</div>
-																	<div class="d-flex justify-content-start flex-column">
-																		<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Kevin Leonard</a>
-																		<span class="text-muted fw-semibold text-muted d-block fs-7">HTML, JS, ReactJS</span>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">RoadGee</a>
-																<span class="text-muted fw-semibold text-muted d-block fs-7">Art Director</span>
-															</td>
-															<td class="text-end">
-																<div class="d-flex flex-column w-100 me-2">
-																	<div class="d-flex flex-stack mb-2">
-																		<span class="text-muted me-2 fs-7 fw-bold">90%</span>
-																	</div>
-																	<div class="progress h-6px w-100">
-																		<div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex justify-content-end flex-shrink-0">
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z" fill="currentColor" />
-																				<path opacity="0.3" d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-																		<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-																				<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-																		<!--begin::Svg Icon | path: icons/duotune/general/gen027.svg-->
-																		<span class="svg-icon svg-icon-3">
-																			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M5 9C5 8.44772 5.44772 8 6 8H18C18.5523 8 19 8.44772 19 9V18C19 19.6569 17.6569 21 16 21H8C6.34315 21 5 19.6569 5 18V9Z" fill="currentColor" />
-																				<path opacity="0.5" d="M5 5C5 4.44772 5.44772 4 6 4H18C18.5523 4 19 4.44772 19 5V5C19 5.55228 18.5523 6 18 6H6C5.44772 6 5 5.55228 5 5V5Z" fill="currentColor" />
-																				<path opacity="0.5" d="M9 4C9 3.44772 9.44772 3 10 3H14C14.5523 3 15 3.44772 15 4V4H9V4Z" fill="currentColor" />
-																			</svg>
-																		</span>
-																		<!--end::Svg Icon-->
-																	</a>
-																</div>
-															</td>
-														</tr>
-													</tbody>
-													<!--end::Table body-->
-												</table>
-												<!--end::Table-->
-											</div>
-											<!--end::Table container-->
-										</div>
-										<!--begin::Body-->
-									</div>
-									<!--end::Tables Widget 9-->
-								</div>
-								<!--end::Col-->
-							</div>
-							<!--end::Row-->
-							<!--begin::Row-->
-							<div class="row gy-5 g-xl-8">
-								<!--begin::Col-->
-								<div class="col-xl-4">
-									<!--begin::List Widget 2-->
-									<div class="card card-xl-stretch mb-xl-8">
-										<!--begin::Header-->
-										<div class="card-header border-0">
-											<h3 class="card-title fw-bold text-dark">Authors</h3>
-											<div class="card-toolbar">
-												<!--begin::Menu-->
-												<button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen024.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-															<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																<rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-																<rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-															</g>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</button>
-												<!--begin::Menu 2-->
-												<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<div class="menu-content fs-6 text-dark fw-bold px-3 py-4">Quick Actions</div>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu separator-->
-													<div class="separator mb-3 opacity-75"></div>
-													<!--end::Menu separator-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">New Ticket</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">New Customer</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-														<!--begin::Menu item-->
-														<a href="#" class="menu-link px-3">
-															<span class="menu-title">New Group</span>
-															<span class="menu-arrow"></span>
-														</a>
-														<!--end::Menu item-->
-														<!--begin::Menu sub-->
-														<div class="menu-sub menu-sub-dropdown w-175px py-4">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Admin Group</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Staff Group</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Member Group</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu sub-->
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">New Contact</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu separator-->
-													<div class="separator mt-3 opacity-75"></div>
-													<!--end::Menu separator-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<div class="menu-content px-3 py-3">
-															<a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
-														</div>
-													</div>
-													<!--end::Menu item-->
-												</div>
-												<!--end::Menu 2-->
-												<!--end::Menu-->
-											</div>
-										</div>
-										<!--end::Header-->
-										<!--begin::Body-->
-										<div class="card-body pt-2">
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-7">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px me-5">
-													<img src="assets/media/avatars/300-6.jpg" class="" alt="" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Text-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Emma Smith</a>
-													<span class="text-muted d-block fw-bold">Project Manager</span>
-												</div>
-												<!--end::Text-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-7">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px me-5">
-													<img src="assets/media/avatars/300-5.jpg" class="" alt="" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Text-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Sean Bean</a>
-													<span class="text-muted d-block fw-bold">PHP, SQLite, Artisan CLI</span>
-												</div>
-												<!--end::Text-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-7">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px me-5">
-													<img src="assets/media/avatars/300-11.jpg" class="" alt="" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Text-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Brian Cox</a>
-													<span class="text-muted d-block fw-bold">PHP, SQLite, Artisan CLI</span>
-												</div>
-												<!--end::Text-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center mb-7">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px me-5">
-													<img src="assets/media/avatars/300-9.jpg" class="" alt="" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Text-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Francis Mitcham</a>
-													<span class="text-muted d-block fw-bold">PHP, SQLite, Artisan CLI</span>
-												</div>
-												<!--end::Text-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px me-5">
-													<img src="assets/media/avatars/300-23.jpg" class="" alt="" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Text-->
-												<div class="flex-grow-1">
-													<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Dan Wilson</a>
-													<span class="text-muted d-block fw-bold">PHP, SQLite, Artisan CLI</span>
-												</div>
-												<!--end::Text-->
-											</div>
-											<!--end::Item-->
-										</div>
-										<!--end::Body-->
-									</div>
-									<!--end::List Widget 2-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-xl-4">
-									<!--begin::List Widget 6-->
-									<div class="card card-xl-stretch mb-xl-8">
-										<!--begin::Header-->
-										<div class="card-header border-0">
-											<h3 class="card-title fw-bold text-dark">Notifications</h3>
-											<div class="card-toolbar">
-												<!--begin::Menu-->
-												<button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen024.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-															<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																<rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-																<rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-															</g>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</button>
-												<!--begin::Menu 3-->
-												<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true">
-													<!--begin::Heading-->
-													<div class="menu-item px-3">
-														<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
-													</div>
-													<!--end::Heading-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">Create Invoice</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link flex-stack px-3">Create Payment
-														<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">Generate Bill</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-														<a href="#" class="menu-link px-3">
-															<span class="menu-title">Subscription</span>
-															<span class="menu-arrow"></span>
-														</a>
-														<!--begin::Menu sub-->
-														<div class="menu-sub menu-sub-dropdown w-175px py-4">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Plans</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Billing</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Statements</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu separator-->
-															<div class="separator my-2"></div>
-															<!--end::Menu separator-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<div class="menu-content px-3">
-																	<!--begin::Switch-->
-																	<label class="form-check form-switch form-check-custom form-check-solid">
-																		<!--begin::Input-->
-																		<input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
-																		<!--end::Input-->
-																		<!--end::Label-->
-																		<span class="form-check-label text-muted fs-6">Recuring</span>
-																		<!--end::Label-->
-																	</label>
-																	<!--end::Switch-->
-																</div>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu sub-->
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3 my-1">
-														<a href="#" class="menu-link px-3">Settings</a>
-													</div>
-													<!--end::Menu item-->
-												</div>
-												<!--end::Menu 3-->
-												<!--end::Menu-->
-											</div>
-										</div>
-										<!--end::Header-->
-										<!--begin::Body-->
-										<div class="card-body pt-0">
-											<!--begin::Item-->
-											<div class="d-flex align-items-center bg-light-warning rounded p-5 mb-7">
-												<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-												<span class="svg-icon svg-icon-warning svg-icon-1 me-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="currentColor" />
-														<path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--begin::Title-->
-												<div class="flex-grow-1 me-2">
-													<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-6">Group lunch celebration</a>
-													<span class="text-muted fw-semibold d-block">Due in 2 Days</span>
-												</div>
-												<!--end::Title-->
-												<!--begin::Lable-->
-												<span class="fw-bold text-warning py-1">+28%</span>
-												<!--end::Lable-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center bg-light-success rounded p-5 mb-7">
-												<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-												<span class="svg-icon svg-icon-success svg-icon-1 me-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="currentColor" />
-														<path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--begin::Title-->
-												<div class="flex-grow-1 me-2">
-													<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-6">Navigation optimization</a>
-													<span class="text-muted fw-semibold d-block">Due in 2 Days</span>
-												</div>
-												<!--end::Title-->
-												<!--begin::Lable-->
-												<span class="fw-bold text-success py-1">+50%</span>
-												<!--end::Lable-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center bg-light-danger rounded p-5 mb-7">
-												<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-												<span class="svg-icon svg-icon-danger svg-icon-1 me-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="currentColor" />
-														<path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--begin::Title-->
-												<div class="flex-grow-1 me-2">
-													<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-6">Rebrand strategy planning</a>
-													<span class="text-muted fw-semibold d-block">Due in 5 Days</span>
-												</div>
-												<!--end::Title-->
-												<!--begin::Lable-->
-												<span class="fw-bold text-danger py-1">-27%</span>
-												<!--end::Lable-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-center bg-light-info rounded p-5">
-												<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-												<span class="svg-icon svg-icon-info svg-icon-1 me-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="currentColor" />
-														<path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--begin::Title-->
-												<div class="flex-grow-1 me-2">
-													<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-6">Product goals strategy</a>
-													<span class="text-muted fw-semibold d-block">Due in 7 Days</span>
-												</div>
-												<!--end::Title-->
-												<!--begin::Lable-->
-												<span class="fw-bold text-info py-1">+8%</span>
-												<!--end::Lable-->
-											</div>
-											<!--end::Item-->
-										</div>
-										<!--end::Body-->
-									</div>
-									<!--end::List Widget 6-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-xl-4">
-									<!--begin::List Widget 4-->
-									<div class="card card-xl-stretch mb-5 mb-xl-8">
-										<!--begin::Header-->
-										<div class="card-header border-0 pt-5">
-											<h3 class="card-title align-items-start flex-column">
-												<span class="card-label fw-bold text-dark">Trends</span>
-												<span class="text-muted mt-1 fw-semibold fs-7">Latest tech trends</span>
-											</h3>
-											<div class="card-toolbar">
-												<!--begin::Menu-->
-												<button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen024.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-															<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																<rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-																<rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																<rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-															</g>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</button>
-												<!--begin::Menu 3-->
-												<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true">
-													<!--begin::Heading-->
-													<div class="menu-item px-3">
-														<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
-													</div>
-													<!--end::Heading-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">Create Invoice</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link flex-stack px-3">Create Payment
-														<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3">
-														<a href="#" class="menu-link px-3">Generate Bill</a>
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-														<a href="#" class="menu-link px-3">
-															<span class="menu-title">Subscription</span>
-															<span class="menu-arrow"></span>
-														</a>
-														<!--begin::Menu sub-->
-														<div class="menu-sub menu-sub-dropdown w-175px py-4">
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Plans</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Billing</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Statements</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu separator-->
-															<div class="separator my-2"></div>
-															<!--end::Menu separator-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<div class="menu-content px-3">
-																	<!--begin::Switch-->
-																	<label class="form-check form-switch form-check-custom form-check-solid">
-																		<!--begin::Input-->
-																		<input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
-																		<!--end::Input-->
-																		<!--end::Label-->
-																		<span class="form-check-label text-muted fs-6">Recuring</span>
-																		<!--end::Label-->
-																	</label>
-																	<!--end::Switch-->
-																</div>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu sub-->
-													</div>
-													<!--end::Menu item-->
-													<!--begin::Menu item-->
-													<div class="menu-item px-3 my-1">
-														<a href="#" class="menu-link px-3">Settings</a>
-													</div>
-													<!--end::Menu item-->
-												</div>
-												<!--end::Menu 3-->
-												<!--end::Menu-->
-											</div>
-										</div>
-										<!--end::Header-->
-										<!--begin::Body-->
-										<div class="card-body pt-5">
-											<!--begin::Item-->
-											<div class="d-flex align-items-sm-center mb-7">
-												<!--begin::Symbol-->
-												<div class="symbol symbol-50px me-5">
-													<span class="symbol-label">
-														<img src="assets/media/svg/brand-logos/plurk.svg" class="h-50 align-self-center" alt="" />
-													</span>
-												</div>
-												<!--end::Symbol-->
-												<!--begin::Section-->
-												<div class="d-flex align-items-center flex-row-fluid flex-wrap">
-													<div class="flex-grow-1 me-2">
-														<a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Top Authors</a>
-														<span class="text-muted fw-semibold d-block fs-7">Mark, Rowling, Esther</span>
-													</div>
-													<span class="badge badge-light fw-bold my-2">+82$</span>
-												</div>
-												<!--end::Section-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-sm-center mb-7">
-												<!--begin::Symbol-->
-												<div class="symbol symbol-50px me-5">
-													<span class="symbol-label">
-														<img src="assets/media/svg/brand-logos/telegram.svg" class="h-50 align-self-center" alt="" />
-													</span>
-												</div>
-												<!--end::Symbol-->
-												<!--begin::Section-->
-												<div class="d-flex align-items-center flex-row-fluid flex-wrap">
-													<div class="flex-grow-1 me-2">
-														<a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Popular Authors</a>
-														<span class="text-muted fw-semibold d-block fs-7">Randy, Steve, Mike</span>
-													</div>
-													<span class="badge badge-light fw-bold my-2">+280$</span>
-												</div>
-												<!--end::Section-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-sm-center mb-7">
-												<!--begin::Symbol-->
-												<div class="symbol symbol-50px me-5">
-													<span class="symbol-label">
-														<img src="assets/media/svg/brand-logos/vimeo.svg" class="h-50 align-self-center" alt="" />
-													</span>
-												</div>
-												<!--end::Symbol-->
-												<!--begin::Section-->
-												<div class="d-flex align-items-center flex-row-fluid flex-wrap">
-													<div class="flex-grow-1 me-2">
-														<a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">New Users</a>
-														<span class="text-muted fw-semibold d-block fs-7">John, Pat, Jimmy</span>
-													</div>
-													<span class="badge badge-light fw-bold my-2">+4500$</span>
-												</div>
-												<!--end::Section-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-sm-center mb-7">
-												<!--begin::Symbol-->
-												<div class="symbol symbol-50px me-5">
-													<span class="symbol-label">
-														<img src="assets/media/svg/brand-logos/bebo.svg" class="h-50 align-self-center" alt="" />
-													</span>
-												</div>
-												<!--end::Symbol-->
-												<!--begin::Section-->
-												<div class="d-flex align-items-center flex-row-fluid flex-wrap">
-													<div class="flex-grow-1 me-2">
-														<a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Active Customers</a>
-														<span class="text-muted fw-semibold d-block fs-7">Mark, Rowling, Esther</span>
-													</div>
-													<span class="badge badge-light fw-bold my-2">+686$</span>
-												</div>
-												<!--end::Section-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex align-items-sm-center mb-7">
-												<!--begin::Symbol-->
-												<div class="symbol symbol-50px me-5">
-													<span class="symbol-label">
-														<img src="assets/media/svg/brand-logos/kickstarter.svg" class="h-50 align-self-center" alt="" />
-													</span>
-												</div>
-												<!--end::Symbol-->
-												<!--begin::Section-->
-												<div class="d-flex align-items-center flex-row-fluid flex-wrap">
-													<div class="flex-grow-1 me-2">
-														<a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Bestseller Theme</a>
-														<span class="text-muted fw-semibold d-block fs-7">Disco, Retro, Sports</span>
-													</div>
-													<span class="badge badge-light fw-bold my-2">+726$</span>
-												</div>
-												<!--end::Section-->
-											</div>
-											<!--end::Item-->
-										</div>
-										<!--end::Body-->
-									</div>
-									<!--end::List Widget 4-->
-								</div>
-								<!--end::Col-->
-							</div>
-							<!--end::Row-->
-							<!--begin::Calendar Widget 1-->
-							<div class="card">
-								<!--begin::Card header-->
-								<div class="card-header">
-									<h3 class="card-title align-items-start flex-column">
-										<span class="card-label fw-bold text-dark">My Calendar</span>
-										<span class="text-muted mt-1 fw-semibold fs-7">Preview monthly events</span>
-									</h3>
-									<div class="card-toolbar">
-										<a href="../../demo19/dist/apps/calendar.html" class="btn btn-primary">Manage Calendar</a>
-									</div>
-								</div>
-								<!--end::Card header-->
-								<!--begin::Card body-->
-								<div class="card-body">
-									<!--begin::Calendar-->
-									<div id="kt_calendar_widget_1"></div>
-									<!--end::Calendar-->
-								</div>
-								<!--end::Card body-->
-							</div>
-							<!--end::Calendar Widget 1-->
-							<!--begin::Modals-->
-							<!--begin::Modal - New Product-->
-							<div class="modal fade" id="kt_modal_add_event" tabindex="-1" aria-hidden="true">
-								<!--begin::Modal dialog-->
-								<div class="modal-dialog modal-dialog-centered mw-650px">
-									<!--begin::Modal content-->
-									<div class="modal-content">
-										<!--begin::Form-->
-										<form class="form" action="#" id="kt_modal_add_event_form">
-											<!--begin::Modal header-->
-											<div class="modal-header">
-												<!--begin::Modal title-->
-												<h2 class="fw-bold" data-kt-calendar="title">Add Event</h2>
-												<!--end::Modal title-->
-												<!--begin::Close-->
-												<div class="btn btn-icon btn-sm btn-active-icon-primary" id="kt_modal_add_event_close">
-													<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-													<span class="svg-icon svg-icon-1">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-															<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Close-->
-											</div>
-											<!--end::Modal header-->
-											<!--begin::Modal body-->
-											<div class="modal-body py-10 px-lg-17">
-												<!--begin::Input group-->
-												<div class="fv-row mb-9">
-													<!--begin::Label-->
-													<label class="fs-6 fw-semibold required mb-2">Event Name</label>
-													<!--end::Label-->
-													<!--begin::Input-->
-													<input type="text" class="form-control form-control-solid" placeholder="" name="calendar_event_name" />
-													<!--end::Input-->
-												</div>
-												<!--end::Input group-->
-												<!--begin::Input group-->
-												<div class="fv-row mb-9">
-													<!--begin::Label-->
-													<label class="fs-6 fw-semibold mb-2">Event Description</label>
-													<!--end::Label-->
-													<!--begin::Input-->
-													<input type="text" class="form-control form-control-solid" placeholder="" name="calendar_event_description" />
-													<!--end::Input-->
-												</div>
-												<!--end::Input group-->
-												<!--begin::Input group-->
-												<div class="fv-row mb-9">
-													<!--begin::Label-->
-													<label class="fs-6 fw-semibold mb-2">Event Location</label>
-													<!--end::Label-->
-													<!--begin::Input-->
-													<input type="text" class="form-control form-control-solid" placeholder="" name="calendar_event_location" />
-													<!--end::Input-->
-												</div>
-												<!--end::Input group-->
-												<!--begin::Input group-->
-												<div class="fv-row mb-9">
-													<!--begin::Checkbox-->
-													<label class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="checkbox" value="" id="kt_calendar_datepicker_allday" />
-														<span class="form-check-label fw-semibold" for="kt_calendar_datepicker_allday">All Day</span>
-													</label>
-													<!--end::Checkbox-->
-												</div>
-												<!--end::Input group-->
-												<!--begin::Input group-->
-												<div class="row row-cols-lg-2 g-10">
-													<div class="col">
-														<div class="fv-row mb-9">
-															<!--begin::Label-->
-															<label class="fs-6 fw-semibold mb-2 required">Event Start Date</label>
-															<!--end::Label-->
-															<!--begin::Input-->
-															<input class="form-control form-control-solid" name="calendar_event_start_date" placeholder="Pick a start date" id="kt_calendar_datepicker_start_date" />
-															<!--end::Input-->
-														</div>
-													</div>
-													<div class="col" data-kt-calendar="datepicker">
-														<div class="fv-row mb-9">
-															<!--begin::Label-->
-															<label class="fs-6 fw-semibold mb-2">Event Start Time</label>
-															<!--end::Label-->
-															<!--begin::Input-->
-															<input class="form-control form-control-solid" name="calendar_event_start_time" placeholder="Pick a start time" id="kt_calendar_datepicker_start_time" />
-															<!--end::Input-->
-														</div>
-													</div>
-												</div>
-												<!--end::Input group-->
-												<!--begin::Input group-->
-												<div class="row row-cols-lg-2 g-10">
-													<div class="col">
-														<div class="fv-row mb-9">
-															<!--begin::Label-->
-															<label class="fs-6 fw-semibold mb-2 required">Event End Date</label>
-															<!--end::Label-->
-															<!--begin::Input-->
-															<input class="form-control form-control-solid" name="calendar_event_end_date" placeholder="Pick a end date" id="kt_calendar_datepicker_end_date" />
-															<!--end::Input-->
-														</div>
-													</div>
-													<div class="col" data-kt-calendar="datepicker">
-														<div class="fv-row mb-9">
-															<!--begin::Label-->
-															<label class="fs-6 fw-semibold mb-2">Event End Time</label>
-															<!--end::Label-->
-															<!--begin::Input-->
-															<input class="form-control form-control-solid" name="calendar_event_end_time" placeholder="Pick a end time" id="kt_calendar_datepicker_end_time" />
-															<!--end::Input-->
-														</div>
-													</div>
-												</div>
-												<!--end::Input group-->
-											</div>
-											<!--end::Modal body-->
-											<!--begin::Modal footer-->
-											<div class="modal-footer flex-center">
-												<!--begin::Button-->
-												<button type="reset" id="kt_modal_add_event_cancel" class="btn btn-light me-3">Cancel</button>
-												<!--end::Button-->
-												<!--begin::Button-->
-												<button type="button" id="kt_modal_add_event_submit" class="btn btn-primary">
-													<span class="indicator-label">Submit</span>
-													<span class="indicator-progress">Please wait...
-													<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-												</button>
-												<!--end::Button-->
-											</div>
-											<!--end::Modal footer-->
-										</form>
-										<!--end::Form-->
-									</div>
-								</div>
-							</div>
-							<!--end::Modal - New Product-->
-							<!--begin::Modal - New Product-->
-							<div class="modal fade" id="kt_modal_view_event" tabindex="-1" aria-hidden="true">
-								<!--begin::Modal dialog-->
-								<div class="modal-dialog modal-dialog-centered mw-650px">
-									<!--begin::Modal content-->
-									<div class="modal-content">
-										<!--begin::Modal header-->
-										<div class="modal-header border-0 justify-content-end">
-											<!--begin::Edit-->
-											<div class="btn btn-icon btn-sm btn-color-gray-400 btn-active-icon-primary me-2" data-bs-toggle="tooltip" data-bs-dismiss="click" title="Edit Event" id="kt_modal_view_event_edit">
-												<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-												<span class="svg-icon svg-icon-2">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-														<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-											</div>
-											<!--end::Edit-->
-											<!--begin::Edit-->
-											<div class="btn btn-icon btn-sm btn-color-gray-400 btn-active-icon-danger me-2" data-bs-toggle="tooltip" data-bs-dismiss="click" title="Delete Event" id="kt_modal_view_event_delete">
-												<!--begin::Svg Icon | path: icons/duotune/general/gen027.svg-->
-												<span class="svg-icon svg-icon-2">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M5 9C5 8.44772 5.44772 8 6 8H18C18.5523 8 19 8.44772 19 9V18C19 19.6569 17.6569 21 16 21H8C6.34315 21 5 19.6569 5 18V9Z" fill="currentColor" />
-														<path opacity="0.5" d="M5 5C5 4.44772 5.44772 4 6 4H18C18.5523 4 19 4.44772 19 5V5C19 5.55228 18.5523 6 18 6H6C5.44772 6 5 5.55228 5 5V5Z" fill="currentColor" />
-														<path opacity="0.5" d="M9 4C9 3.44772 9.44772 3 10 3H14C14.5523 3 15 3.44772 15 4V4H9V4Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-											</div>
-											<!--end::Edit-->
-											<!--begin::Close-->
-											<div class="btn btn-icon btn-sm btn-color-gray-500 btn-active-icon-primary" data-bs-toggle="tooltip" title="Hide Event" data-bs-dismiss="modal">
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-												<span class="svg-icon svg-icon-1">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-														<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-											</div>
-											<!--end::Close-->
-										</div>
-										<!--end::Modal header-->
-										<!--begin::Modal body-->
-										<div class="modal-body pt-0 pb-20 px-lg-17">
-											<!--begin::Row-->
-											<div class="d-flex">
-												<!--begin::Icon-->
-												<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-												<span class="svg-icon svg-icon-1 svg-icon-muted me-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M21 22H3C2.4 22 2 21.6 2 21V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5V21C22 21.6 21.6 22 21 22Z" fill="currentColor" />
-														<path d="M6 6C5.4 6 5 5.6 5 5V3C5 2.4 5.4 2 6 2C6.6 2 7 2.4 7 3V5C7 5.6 6.6 6 6 6ZM11 5V3C11 2.4 10.6 2 10 2C9.4 2 9 2.4 9 3V5C9 5.6 9.4 6 10 6C10.6 6 11 5.6 11 5ZM15 5V3C15 2.4 14.6 2 14 2C13.4 2 13 2.4 13 3V5C13 5.6 13.4 6 14 6C14.6 6 15 5.6 15 5ZM19 5V3C19 2.4 18.6 2 18 2C17.4 2 17 2.4 17 3V5C17 5.6 17.4 6 18 6C18.6 6 19 5.6 19 5Z" fill="currentColor" />
-														<path d="M8.8 13.1C9.2 13.1 9.5 13 9.7 12.8C9.9 12.6 10.1 12.3 10.1 11.9C10.1 11.6 10 11.3 9.8 11.1C9.6 10.9 9.3 10.8 9 10.8C8.8 10.8 8.59999 10.8 8.39999 10.9C8.19999 11 8.1 11.1 8 11.2C7.9 11.3 7.8 11.4 7.7 11.6C7.6 11.8 7.5 11.9 7.5 12.1C7.5 12.2 7.4 12.2 7.3 12.3C7.2 12.4 7.09999 12.4 6.89999 12.4C6.69999 12.4 6.6 12.3 6.5 12.2C6.4 12.1 6.3 11.9 6.3 11.7C6.3 11.5 6.4 11.3 6.5 11.1C6.6 10.9 6.8 10.7 7 10.5C7.2 10.3 7.49999 10.1 7.89999 10C8.29999 9.90003 8.60001 9.80003 9.10001 9.80003C9.50001 9.80003 9.80001 9.90003 10.1 10C10.4 10.1 10.7 10.3 10.9 10.4C11.1 10.5 11.3 10.8 11.4 11.1C11.5 11.4 11.6 11.6 11.6 11.9C11.6 12.3 11.5 12.6 11.3 12.9C11.1 13.2 10.9 13.5 10.6 13.7C10.9 13.9 11.2 14.1 11.4 14.3C11.6 14.5 11.8 14.7 11.9 15C12 15.3 12.1 15.5 12.1 15.8C12.1 16.2 12 16.5 11.9 16.8C11.8 17.1 11.5 17.4 11.3 17.7C11.1 18 10.7 18.2 10.3 18.3C9.9 18.4 9.5 18.5 9 18.5C8.5 18.5 8.1 18.4 7.7 18.2C7.3 18 7 17.8 6.8 17.6C6.6 17.4 6.4 17.1 6.3 16.8C6.2 16.5 6.10001 16.3 6.10001 16.1C6.10001 15.9 6.2 15.7 6.3 15.6C6.4 15.5 6.6 15.4 6.8 15.4C6.9 15.4 7.00001 15.4 7.10001 15.5C7.20001 15.6 7.3 15.6 7.3 15.7C7.5 16.2 7.7 16.6 8 16.9C8.3 17.2 8.6 17.3 9 17.3C9.2 17.3 9.5 17.2 9.7 17.1C9.9 17 10.1 16.8 10.3 16.6C10.5 16.4 10.5 16.1 10.5 15.8C10.5 15.3 10.4 15 10.1 14.7C9.80001 14.4 9.50001 14.3 9.10001 14.3C9.00001 14.3 8.9 14.3 8.7 14.3C8.5 14.3 8.39999 14.3 8.39999 14.3C8.19999 14.3 7.99999 14.2 7.89999 14.1C7.79999 14 7.7 13.8 7.7 13.7C7.7 13.5 7.79999 13.4 7.89999 13.2C7.99999 13 8.2 13 8.5 13H8.8V13.1ZM15.3 17.5V12.2C14.3 13 13.6 13.3 13.3 13.3C13.1 13.3 13 13.2 12.9 13.1C12.8 13 12.7 12.8 12.7 12.6C12.7 12.4 12.8 12.3 12.9 12.2C13 12.1 13.2 12 13.6 11.8C14.1 11.6 14.5 11.3 14.7 11.1C14.9 10.9 15.2 10.6 15.5 10.3C15.8 10 15.9 9.80003 15.9 9.70003C15.9 9.60003 16.1 9.60004 16.3 9.60004C16.5 9.60004 16.7 9.70003 16.8 9.80003C16.9 9.90003 17 10.2 17 10.5V17.2C17 18 16.7 18.4 16.2 18.4C16 18.4 15.8 18.3 15.6 18.2C15.4 18.1 15.3 17.8 15.3 17.5Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--end::Icon-->
-												<div class="mb-9">
-													<!--begin::Event name-->
-													<div class="d-flex align-items-center mb-2">
-														<span class="fs-3 fw-bold me-3" data-kt-calendar="event_name"></span>
-														<span class="badge badge-light-success" data-kt-calendar="all_day"></span>
-													</div>
-													<!--end::Event name-->
-													<!--begin::Event description-->
-													<div class="fs-6" data-kt-calendar="event_description"></div>
-													<!--end::Event description-->
-												</div>
-											</div>
-											<!--end::Row-->
-											<!--begin::Row-->
-											<div class="d-flex align-items-center mb-2">
-												<!--begin::Icon-->
-												<!--begin::Svg Icon | path: icons/duotune/abstract/abs050.svg-->
-												<span class="svg-icon svg-icon-1 svg-icon-success me-5">
-													<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-														<circle fill="currentColor" cx="12" cy="12" r="8" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--end::Icon-->
-												<!--begin::Event start date/time-->
-												<div class="fs-6">
-													<span class="fw-bold">Starts</span>
-													<span data-kt-calendar="event_start_date"></span>
-												</div>
-												<!--end::Event start date/time-->
-											</div>
-											<!--end::Row-->
-											<!--begin::Row-->
-											<div class="d-flex align-items-center mb-9">
-												<!--begin::Icon-->
-												<!--begin::Svg Icon | path: icons/duotune/abstract/abs050.svg-->
-												<span class="svg-icon svg-icon-1 svg-icon-danger me-5">
-													<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-														<circle fill="currentColor" cx="12" cy="12" r="8" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--end::Icon-->
-												<!--begin::Event end date/time-->
-												<div class="fs-6">
-													<span class="fw-bold">Ends</span>
-													<span data-kt-calendar="event_end_date"></span>
-												</div>
-												<!--end::Event end date/time-->
-											</div>
-											<!--end::Row-->
-											<!--begin::Row-->
-											<div class="d-flex align-items-center">
-												<!--begin::Icon-->
-												<!--begin::Svg Icon | path: icons/duotune/general/gen018.svg-->
-												<span class="svg-icon svg-icon-1 svg-icon-muted me-5">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path opacity="0.3" d="M18.0624 15.3453L13.1624 20.7453C12.5624 21.4453 11.5624 21.4453 10.9624 20.7453L6.06242 15.3453C4.56242 13.6453 3.76242 11.4453 4.06242 8.94534C4.56242 5.34534 7.46242 2.44534 11.0624 2.04534C15.8624 1.54534 19.9624 5.24534 19.9624 9.94534C20.0624 12.0453 19.2624 13.9453 18.0624 15.3453Z" fill="currentColor" />
-														<path d="M12.0624 13.0453C13.7193 13.0453 15.0624 11.7022 15.0624 10.0453C15.0624 8.38849 13.7193 7.04535 12.0624 7.04535C10.4056 7.04535 9.06241 8.38849 9.06241 10.0453C9.06241 11.7022 10.4056 13.0453 12.0624 13.0453Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<!--end::Icon-->
-												<!--begin::Event location-->
-												<div class="fs-6" data-kt-calendar="event_location"></div>
-												<!--end::Event location-->
-											</div>
-											<!--end::Row-->
-										</div>
-										<!--end::Modal body-->
-									</div>
-								</div>
-							</div>
-							<!--end::Modal - New Product-->
+							
+						
 							<!--end::Modals-->
 						</div>
 						<!--end::Content-->
 					</div>
 					<!--end::Main-->
 					<!--begin::Footer-->
-					<div class="footer py-4 d-flex flex-column flex-md-row align-items-center justify-content-between" id="kt_footer">
-						<!--begin::Copyright-->
-						<div class="order-2 order-md-1">
-							<span class="text-white opacity-75 fw-semibold me-1">2022©</span>
-							<a href="https://keenthemes.com" target="_blank" class="text-white text-hover-primary opacity-75">Keenthemes</a>
-						</div>
-						<!--end::Copyright-->
-						<!--begin::Menu-->
-						<ul class="menu menu-white menu-hover-primary fw-semibold order-1 opacity-75">
-							<li class="menu-item">
-								<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-							</li>
-							<li class="menu-item">
-								<a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
-							</li>
-							<li class="menu-item">
-								<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-							</li>
-						</ul>
-						<!--end::Menu-->
-					</div>
-					<!--end::Footer-->
+                <div class="footer py-4 d-flex flex-column flex-md-row align-items-center justify-content-between"
+                    id="kt_footer">
+                    <!--begin::Copyright-->
+                    <div class="order-2 order-md-1">
+                    <p>&copy; 2022 Ministerio de Desarrollo Productivo y Economía Plural (MPDyEP) - Todos los derechos reservados.</p>
+                    
+                   
+</div>
+
+                    <!--end::Copyright-->
+                    <!--begin::Menu-->
+                    <ul class="menu menu-white menu-hover-primary fw-semibold order-1 opacity-75">
+                  
+                    <p><a href="https://produccion.gob.bo/" target="_blank" style="text-decoration: none; color: #3498db; font-weight: bold; font-size: 18px;"><i class="fas fa-globe" style="color: black; font-size: 24px;"></i> MPDyEP</a></p>
+
+                    </ul>
+                    <!--end::Menu-->
+                </div>
+                <!--end::Footer-->
 				</div>
 				<!--end::Wrapper-->
 			</div>
@@ -5551,993 +2264,8 @@ License: For each use you must have a valid license purchased only from above li
 		</div>
 		<!--end::Root-->
 		<!--begin::Drawers-->
-		<!--begin::Activities drawer-->
-		<div id="kt_activities" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="activities" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'lg': '900px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_activities_toggle" data-kt-drawer-close="#kt_activities_close">
-			<div class="card shadow-none border-0 rounded-0">
-				<!--begin::Header-->
-				<div class="card-header" id="kt_activities_header">
-					<h3 class="card-title fw-bold text-dark">Activity Logs</h3>
-					<div class="card-toolbar">
-						<button type="button" class="btn btn-sm btn-icon btn-active-light-primary me-n5" id="kt_activities_close">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-							<span class="svg-icon svg-icon-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->
-						</button>
-					</div>
-				</div>
-				<!--end::Header-->
-				<!--begin::Body-->
-				<div class="card-body position-relative" id="kt_activities_body">
-					<!--begin::Content-->
-					<div id="kt_activities_scroll" class="position-relative scroll-y me-n5 pe-5" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_activities_body" data-kt-scroll-dependencies="#kt_activities_header, #kt_activities_footer" data-kt-scroll-offset="5px">
-						<!--begin::Timeline items-->
-						<div class="timeline">
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px me-4">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/communication/com003.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path opacity="0.3" d="M2 4V16C2 16.6 2.4 17 3 17H13L16.6 20.6C17.1 21.1 18 20.8 18 20V17H21C21.6 17 22 16.6 22 16V4C22 3.4 21.6 3 21 3H3C2.4 3 2 3.4 2 4Z" fill="currentColor" />
-												<path d="M18 9H6C5.4 9 5 8.6 5 8C5 7.4 5.4 7 6 7H18C18.6 7 19 7.4 19 8C19 8.6 18.6 9 18 9ZM16 12C16 11.4 15.6 11 15 11H6C5.4 11 5 11.4 5 12C5 12.6 5.4 13 6 13H15C15.6 13 16 12.6 16 12Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mb-10 mt-n1">
-									<!--begin::Timeline heading-->
-									<div class="pe-3 mb-5">
-										<!--begin::Title-->
-										<div class="fs-5 fw-semibold mb-2">There are 2 new tasks for you in “AirPlus Mobile App” project:</div>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="d-flex align-items-center mt-1 fs-6">
-											<!--begin::Info-->
-											<div class="text-muted me-2 fs-7">Added at 4:23 PM by</div>
-											<!--end::Info-->
-											<!--begin::User-->
-											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-												<img src="assets/media/avatars/300-14.jpg" alt="img" />
-											</div>
-											<!--end::User-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-									<!--begin::Timeline details-->
-									<div class="overflow-auto pb-5">
-										<!--begin::Record-->
-										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-5">
-											<!--begin::Title-->
-											<a href="../../demo19/dist/apps/projects/project.html" class="fs-5 text-dark text-hover-primary fw-semibold w-375px min-w-200px">Meeting with customer</a>
-											<!--end::Title-->
-											<!--begin::Label-->
-											<div class="min-w-175px pe-2">
-												<span class="badge badge-light text-muted">Application Design</span>
-											</div>
-											<!--end::Label-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px pe-2">
-												<!--begin::User-->
-												<div class="symbol symbol-circle symbol-25px">
-													<img src="assets/media/avatars/300-2.jpg" alt="img" />
-												</div>
-												<!--end::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-circle symbol-25px">
-													<img src="assets/media/avatars/300-14.jpg" alt="img" />
-												</div>
-												<!--end::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-circle symbol-25px">
-													<div class="symbol-label fs-8 fw-semibold bg-primary text-inverse-primary">A</div>
-												</div>
-												<!--end::User-->
-											</div>
-											<!--end::Users-->
-											<!--begin::Progress-->
-											<div class="min-w-125px pe-2">
-												<span class="badge badge-light-primary">In Progress</span>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Action-->
-											<a href="../../demo19/dist/apps/projects/project.html" class="btn btn-sm btn-light btn-active-light-primary">View</a>
-											<!--end::Action-->
-										</div>
-										<!--end::Record-->
-										<!--begin::Record-->
-										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-0">
-											<!--begin::Title-->
-											<a href="../../demo19/dist/apps/projects/project.html" class="fs-5 text-dark text-hover-primary fw-semibold w-375px min-w-200px">Project Delivery Preparation</a>
-											<!--end::Title-->
-											<!--begin::Label-->
-											<div class="min-w-175px">
-												<span class="badge badge-light text-muted">CRM System Development</span>
-											</div>
-											<!--end::Label-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px">
-												<!--begin::User-->
-												<div class="symbol symbol-circle symbol-25px">
-													<img src="assets/media/avatars/300-20.jpg" alt="img" />
-												</div>
-												<!--end::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-circle symbol-25px">
-													<div class="symbol-label fs-8 fw-semibold bg-success text-inverse-primary">B</div>
-												</div>
-												<!--end::User-->
-											</div>
-											<!--end::Users-->
-											<!--begin::Progress-->
-											<div class="min-w-125px">
-												<span class="badge badge-light-success">Completed</span>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Action-->
-											<a href="../../demo19/dist/apps/projects/project.html" class="btn btn-sm btn-light btn-active-light-primary">View</a>
-											<!--end::Action-->
-										</div>
-										<!--end::Record-->
-									</div>
-									<!--end::Timeline details-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/communication/com009.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path opacity="0.3" d="M5.78001 21.115L3.28001 21.949C3.10897 22.0059 2.92548 22.0141 2.75004 21.9727C2.57461 21.9312 2.41416 21.8418 2.28669 21.7144C2.15923 21.5869 2.06975 21.4264 2.0283 21.251C1.98685 21.0755 1.99507 20.892 2.05201 20.7209L2.886 18.2209L7.22801 13.879L10.128 16.774L5.78001 21.115Z" fill="currentColor" />
-												<path d="M21.7 8.08899L15.911 2.30005C15.8161 2.2049 15.7033 2.12939 15.5792 2.07788C15.455 2.02637 15.3219 1.99988 15.1875 1.99988C15.0531 1.99988 14.92 2.02637 14.7958 2.07788C14.6717 2.12939 14.5589 2.2049 14.464 2.30005L13.74 3.02295C13.548 3.21498 13.4402 3.4754 13.4402 3.74695C13.4402 4.01849 13.548 4.27892 13.74 4.47095L14.464 5.19397L11.303 8.35498C10.1615 7.80702 8.87825 7.62639 7.62985 7.83789C6.38145 8.04939 5.2293 8.64265 4.332 9.53601C4.14026 9.72817 4.03256 9.98855 4.03256 10.26C4.03256 10.5315 4.14026 10.7918 4.332 10.984L13.016 19.667C13.208 19.859 13.4684 19.9668 13.74 19.9668C14.0115 19.9668 14.272 19.859 14.464 19.667C15.3575 18.77 15.9509 17.618 16.1624 16.3698C16.374 15.1215 16.1932 13.8383 15.645 12.697L18.806 9.53601L19.529 10.26C19.721 10.452 19.9814 10.5598 20.253 10.5598C20.5245 10.5598 20.785 10.452 20.977 10.26L21.7 9.53601C21.7952 9.44108 21.8706 9.32825 21.9221 9.2041C21.9737 9.07995 22.0002 8.94691 22.0002 8.8125C22.0002 8.67809 21.9737 8.54505 21.9221 8.4209C21.8706 8.29675 21.7952 8.18392 21.7 8.08899Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mb-10 mt-n2">
-									<!--begin::Timeline heading-->
-									<div class="overflow-auto pe-3">
-										<!--begin::Title-->
-										<div class="fs-5 fw-semibold mb-2">Invitation for crafting engaging designs that speak human workshop</div>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="d-flex align-items-center mt-1 fs-6">
-											<!--begin::Info-->
-											<div class="text-muted me-2 fs-7">Sent at 4:23 PM by</div>
-											<!--end::Info-->
-											<!--begin::User-->
-											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Alan Nilson">
-												<img src="assets/media/avatars/300-1.jpg" alt="img" />
-											</div>
-											<!--end::User-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/coding/cod008.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M11.2166 8.50002L10.5166 7.80007C10.1166 7.40007 10.1166 6.80005 10.5166 6.40005L13.4166 3.50002C15.5166 1.40002 18.9166 1.50005 20.8166 3.90005C22.5166 5.90005 22.2166 8.90007 20.3166 10.8001L17.5166 13.6C17.1166 14 16.5166 14 16.1166 13.6L15.4166 12.9C15.0166 12.5 15.0166 11.9 15.4166 11.5L18.3166 8.6C19.2166 7.7 19.1166 6.30002 18.0166 5.50002C17.2166 4.90002 16.0166 5.10007 15.3166 5.80007L12.4166 8.69997C12.2166 8.89997 11.6166 8.90002 11.2166 8.50002ZM11.2166 15.6L8.51659 18.3001C7.81659 19.0001 6.71658 19.2 5.81658 18.6C4.81658 17.9 4.71659 16.4 5.51659 15.5L8.31658 12.7C8.71658 12.3 8.71658 11.7001 8.31658 11.3001L7.6166 10.6C7.2166 10.2 6.6166 10.2 6.2166 10.6L3.6166 13.2C1.7166 15.1 1.4166 18.1 3.1166 20.1C5.0166 22.4 8.51659 22.5 10.5166 20.5L13.3166 17.7C13.7166 17.3 13.7166 16.7001 13.3166 16.3001L12.6166 15.6C12.3166 15.2 11.6166 15.2 11.2166 15.6Z" fill="currentColor" />
-												<path opacity="0.3" d="M5.0166 9L2.81659 8.40002C2.31659 8.30002 2.0166 7.79995 2.1166 7.19995L2.31659 5.90002C2.41659 5.20002 3.21659 4.89995 3.81659 5.19995L6.0166 6.40002C6.4166 6.60002 6.6166 7.09998 6.5166 7.59998L6.31659 8.30005C6.11659 8.80005 5.5166 9.1 5.0166 9ZM8.41659 5.69995H8.6166C9.1166 5.69995 9.5166 5.30005 9.5166 4.80005L9.6166 3.09998C9.6166 2.49998 9.2166 2 8.5166 2H7.81659C7.21659 2 6.71659 2.59995 6.91659 3.19995L7.31659 4.90002C7.41659 5.40002 7.91659 5.69995 8.41659 5.69995ZM14.6166 18.2L15.1166 21.3C15.2166 21.8 15.7166 22.2 16.2166 22L17.6166 21.6C18.1166 21.4 18.4166 20.8 18.1166 20.3L16.7166 17.5C16.5166 17.1 16.1166 16.9 15.7166 17L15.2166 17.1C14.8166 17.3 14.5166 17.7 14.6166 18.2ZM18.4166 16.3L19.8166 17.2C20.2166 17.5 20.8166 17.3 21.0166 16.8L21.3166 15.9C21.5166 15.4 21.1166 14.8 20.5166 14.8H18.8166C18.0166 14.8 17.7166 15.9 18.4166 16.3Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mb-10 mt-n1">
-									<!--begin::Timeline heading-->
-									<div class="mb-5 pe-3">
-										<!--begin::Title-->
-										<a href="#" class="fs-5 fw-semibold text-gray-800 text-hover-primary mb-2">3 New Incoming Project Files:</a>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="d-flex align-items-center mt-1 fs-6">
-											<!--begin::Info-->
-											<div class="text-muted me-2 fs-7">Sent at 10:30 PM by</div>
-											<!--end::Info-->
-											<!--begin::User-->
-											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
-												<img src="assets/media/avatars/300-23.jpg" alt="img" />
-											</div>
-											<!--end::User-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-									<!--begin::Timeline details-->
-									<div class="overflow-auto pb-5">
-										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-700px p-5">
-											<!--begin::Item-->
-											<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
-												<!--begin::Icon-->
-												<img alt="" class="w-30px me-3" src="assets/media/svg/files/pdf.svg" />
-												<!--end::Icon-->
-												<!--begin::Info-->
-												<div class="ms-1 fw-semibold">
-													<!--begin::Desc-->
-													<a href="../../demo19/dist/apps/projects/project.html" class="fs-6 text-hover-primary fw-bold">Finance KPI App Guidelines</a>
-													<!--end::Desc-->
-													<!--begin::Number-->
-													<div class="text-gray-400">1.9mb</div>
-													<!--end::Number-->
-												</div>
-												<!--begin::Info-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
-												<!--begin::Icon-->
-												<img alt="../../demo19/dist/apps/projects/project.html" class="w-30px me-3" src="assets/media/svg/files/doc.svg" />
-												<!--end::Icon-->
-												<!--begin::Info-->
-												<div class="ms-1 fw-semibold">
-													<!--begin::Desc-->
-													<a href="#" class="fs-6 text-hover-primary fw-bold">Client UAT Testing Results</a>
-													<!--end::Desc-->
-													<!--begin::Number-->
-													<div class="text-gray-400">18kb</div>
-													<!--end::Number-->
-												</div>
-												<!--end::Info-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="d-flex flex-aligns-center">
-												<!--begin::Icon-->
-												<img alt="../../demo19/dist/apps/projects/project.html" class="w-30px me-3" src="assets/media/svg/files/css.svg" />
-												<!--end::Icon-->
-												<!--begin::Info-->
-												<div class="ms-1 fw-semibold">
-													<!--begin::Desc-->
-													<a href="#" class="fs-6 text-hover-primary fw-bold">Finance Reports</a>
-													<!--end::Desc-->
-													<!--begin::Number-->
-													<div class="text-gray-400">20mb</div>
-													<!--end::Number-->
-												</div>
-												<!--end::Icon-->
-											</div>
-											<!--end::Item-->
-										</div>
-									</div>
-									<!--end::Timeline details-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="currentColor" />
-												<path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mb-10 mt-n1">
-									<!--begin::Timeline heading-->
-									<div class="pe-3 mb-5">
-										<!--begin::Title-->
-										<div class="fs-5 fw-semibold mb-2">Task
-										<a href="#" class="text-primary fw-bold me-1">#45890</a>merged with
-										<a href="#" class="text-primary fw-bold me-1">#45890</a>in “Ads Pro Admin Dashboard project:</div>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="d-flex align-items-center mt-1 fs-6">
-											<!--begin::Info-->
-											<div class="text-muted me-2 fs-7">Initiated at 4:23 PM by</div>
-											<!--end::Info-->
-											<!--begin::User-->
-											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-												<img src="assets/media/avatars/300-14.jpg" alt="img" />
-											</div>
-											<!--end::User-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-												<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mb-10 mt-n1">
-									<!--begin::Timeline heading-->
-									<div class="pe-3 mb-5">
-										<!--begin::Title-->
-										<div class="fs-5 fw-semibold mb-2">3 new application design concepts added:</div>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="d-flex align-items-center mt-1 fs-6">
-											<!--begin::Info-->
-											<div class="text-muted me-2 fs-7">Created at 4:23 PM by</div>
-											<!--end::Info-->
-											<!--begin::User-->
-											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
-												<img src="assets/media/avatars/300-2.jpg" alt="img" />
-											</div>
-											<!--end::User-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-									<!--begin::Timeline details-->
-									<div class="overflow-auto pb-5">
-										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-700px p-7">
-											<!--begin::Item-->
-											<div class="overlay me-10">
-												<!--begin::Image-->
-												<div class="overlay-wrapper">
-													<img alt="img" class="rounded w-150px" src="assets/media/stock/600x400/img-29.jpg" />
-												</div>
-												<!--end::Image-->
-												<!--begin::Link-->
-												<div class="overlay-layer bg-dark bg-opacity-10 rounded">
-													<a href="#" class="btn btn-sm btn-primary btn-shadow">Explore</a>
-												</div>
-												<!--end::Link-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="overlay me-10">
-												<!--begin::Image-->
-												<div class="overlay-wrapper">
-													<img alt="img" class="rounded w-150px" src="assets/media/stock/600x400/img-31.jpg" />
-												</div>
-												<!--end::Image-->
-												<!--begin::Link-->
-												<div class="overlay-layer bg-dark bg-opacity-10 rounded">
-													<a href="#" class="btn btn-sm btn-primary btn-shadow">Explore</a>
-												</div>
-												<!--end::Link-->
-											</div>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<div class="overlay">
-												<!--begin::Image-->
-												<div class="overlay-wrapper">
-													<img alt="img" class="rounded w-150px" src="assets/media/stock/600x400/img-40.jpg" />
-												</div>
-												<!--end::Image-->
-												<!--begin::Link-->
-												<div class="overlay-layer bg-dark bg-opacity-10 rounded">
-													<a href="#" class="btn btn-sm btn-primary btn-shadow">Explore</a>
-												</div>
-												<!--end::Link-->
-											</div>
-											<!--end::Item-->
-										</div>
-									</div>
-									<!--end::Timeline details-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/communication/com010.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725Z" fill="currentColor" />
-												<path opacity="0.3" d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mb-10 mt-n1">
-									<!--begin::Timeline heading-->
-									<div class="pe-3 mb-5">
-										<!--begin::Title-->
-										<div class="fs-5 fw-semibold mb-2">New case
-										<a href="#" class="text-primary fw-bold me-1">#67890</a>is assigned to you in Multi-platform Database Design project</div>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="overflow-auto pb-5">
-											<!--begin::Wrapper-->
-											<div class="d-flex align-items-center mt-1 fs-6">
-												<!--begin::Info-->
-												<div class="text-muted me-2 fs-7">Added at 4:23 PM by</div>
-												<!--end::Info-->
-												<!--begin::User-->
-												<a href="#" class="text-primary fw-bold me-1">Alice Tan</a>
-												<!--end::User-->
-											</div>
-											<!--end::Wrapper-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="currentColor" />
-												<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mb-10 mt-n1">
-									<!--begin::Timeline heading-->
-									<div class="pe-3 mb-5">
-										<!--begin::Title-->
-										<div class="fs-5 fw-semibold mb-2">You have received a new order:</div>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="d-flex align-items-center mt-1 fs-6">
-											<!--begin::Info-->
-											<div class="text-muted me-2 fs-7">Placed at 5:05 AM by</div>
-											<!--end::Info-->
-											<!--begin::User-->
-											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Robert Rich">
-												<img src="assets/media/avatars/300-4.jpg" alt="img" />
-											</div>
-											<!--end::User-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-									<!--begin::Timeline details-->
-									<div class="overflow-auto pb-5">
-										<!--begin::Notice-->
-										<div class="notice d-flex bg-light-primary rounded border-primary border border-dashed min-w-lg-600px flex-shrink-0 p-6">
-											<!--begin::Icon-->
-											<!--begin::Svg Icon | path: icons/duotune/coding/cod004.svg-->
-											<span class="svg-icon svg-icon-2tx svg-icon-primary me-4">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path opacity="0.3" d="M19.0687 17.9688H11.0687C10.4687 17.9688 10.0687 18.3687 10.0687 18.9688V19.9688C10.0687 20.5687 10.4687 20.9688 11.0687 20.9688H19.0687C19.6687 20.9688 20.0687 20.5687 20.0687 19.9688V18.9688C20.0687 18.3687 19.6687 17.9688 19.0687 17.9688Z" fill="currentColor" />
-													<path d="M4.06875 17.9688C3.86875 17.9688 3.66874 17.8688 3.46874 17.7688C2.96874 17.4688 2.86875 16.8688 3.16875 16.3688L6.76874 10.9688L3.16875 5.56876C2.86875 5.06876 2.96874 4.46873 3.46874 4.16873C3.96874 3.86873 4.56875 3.96878 4.86875 4.46878L8.86875 10.4688C9.06875 10.7688 9.06875 11.2688 8.86875 11.5688L4.86875 17.5688C4.66875 17.7688 4.36875 17.9688 4.06875 17.9688Z" fill="currentColor" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-											<!--end::Icon-->
-											<!--begin::Wrapper-->
-											<div class="d-flex flex-stack flex-grow-1 flex-wrap flex-md-nowrap">
-												<!--begin::Content-->
-												<div class="mb-3 mb-md-0 fw-semibold">
-													<h4 class="text-gray-900 fw-bold">Database Backup Process Completed!</h4>
-													<div class="fs-6 text-gray-700 pe-7">Login into Admin Dashboard to make sure the data integrity is OK</div>
-												</div>
-												<!--end::Content-->
-												<!--begin::Action-->
-												<a href="#" class="btn btn-primary px-6 align-self-center text-nowrap">Proceed</a>
-												<!--end::Action-->
-											</div>
-											<!--end::Wrapper-->
-										</div>
-										<!--end::Notice-->
-									</div>
-									<!--end::Timeline details-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-							<!--begin::Timeline item-->
-							<div class="timeline-item">
-								<!--begin::Timeline line-->
-								<div class="timeline-line w-40px"></div>
-								<!--end::Timeline line-->
-								<!--begin::Timeline icon-->
-								<div class="timeline-icon symbol symbol-circle symbol-40px">
-									<div class="symbol-label bg-light">
-										<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
-										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M21 10H13V11C13 11.6 12.6 12 12 12C11.4 12 11 11.6 11 11V10H3C2.4 10 2 10.4 2 11V13H22V11C22 10.4 21.6 10 21 10Z" fill="currentColor" />
-												<path opacity="0.3" d="M12 12C11.4 12 11 11.6 11 11V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V11C13 11.6 12.6 12 12 12Z" fill="currentColor" />
-												<path opacity="0.3" d="M18.1 21H5.9C5.4 21 4.9 20.6 4.8 20.1L3 13H21L19.2 20.1C19.1 20.6 18.6 21 18.1 21ZM13 18V15C13 14.4 12.6 14 12 14C11.4 14 11 14.4 11 15V18C11 18.6 11.4 19 12 19C12.6 19 13 18.6 13 18ZM17 18V15C17 14.4 16.6 14 16 14C15.4 14 15 14.4 15 15V18C15 18.6 15.4 19 16 19C16.6 19 17 18.6 17 18ZM9 18V15C9 14.4 8.6 14 8 14C7.4 14 7 14.4 7 15V18C7 18.6 7.4 19 8 19C8.6 19 9 18.6 9 18Z" fill="currentColor" />
-											</svg>
-										</span>
-										<!--end::Svg Icon-->
-									</div>
-								</div>
-								<!--end::Timeline icon-->
-								<!--begin::Timeline content-->
-								<div class="timeline-content mt-n1">
-									<!--begin::Timeline heading-->
-									<div class="pe-3 mb-5">
-										<!--begin::Title-->
-										<div class="fs-5 fw-semibold mb-2">New order
-										<a href="#" class="text-primary fw-bold me-1">#67890</a>is placed for Workshow Planning &amp; Budget Estimation</div>
-										<!--end::Title-->
-										<!--begin::Description-->
-										<div class="d-flex align-items-center mt-1 fs-6">
-											<!--begin::Info-->
-											<div class="text-muted me-2 fs-7">Placed at 4:23 PM by</div>
-											<!--end::Info-->
-											<!--begin::User-->
-											<a href="#" class="text-primary fw-bold me-1">Jimmy Bold</a>
-											<!--end::User-->
-										</div>
-										<!--end::Description-->
-									</div>
-									<!--end::Timeline heading-->
-								</div>
-								<!--end::Timeline content-->
-							</div>
-							<!--end::Timeline item-->
-						</div>
-						<!--end::Timeline items-->
-					</div>
-					<!--end::Content-->
-				</div>
-				<!--end::Body-->
-				<!--begin::Footer-->
-				<div class="card-footer py-5 text-center" id="kt_activities_footer">
-					<a href="../../demo19/dist/pages/user-profile/activity.html" class="btn btn-bg-body text-primary">View All Activities
-					<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-					<span class="svg-icon svg-icon-3 svg-icon-primary">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor" />
-							<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor" />
-						</svg>
-					</span>
-					<!--end::Svg Icon--></a>
-				</div>
-				<!--end::Footer-->
-			</div>
-		</div>
-		<!--end::Activities drawer-->
-		<!--begin::Chat drawer-->
-		<div id="kt_drawer_chat" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="chat" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'md': '500px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_drawer_chat_toggle" data-kt-drawer-close="#kt_drawer_chat_close">
-			<!--begin::Messenger-->
-			<div class="card w-100 rounded-0 border-0" id="kt_drawer_chat_messenger">
-				<!--begin::Card header-->
-				<div class="card-header pe-5" id="kt_drawer_chat_messenger_header">
-					<!--begin::Title-->
-					<div class="card-title">
-						<!--begin::User-->
-						<div class="d-flex justify-content-center flex-column me-3">
-							<a href="#" class="fs-4 fw-bold text-gray-900 text-hover-primary me-1 mb-2 lh-1">Brian Cox</a>
-							<!--begin::Info-->
-							<div class="mb-0 lh-1">
-								<span class="badge badge-success badge-circle w-10px h-10px me-1"></span>
-								<span class="fs-7 fw-semibold text-muted">Active</span>
-							</div>
-							<!--end::Info-->
-						</div>
-						<!--end::User-->
-					</div>
-					<!--end::Title-->
-					<!--begin::Card toolbar-->
-					<div class="card-toolbar">
-						<!--begin::Menu-->
-						<div class="me-2">
-							<button class="btn btn-sm btn-icon btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-								<i class="bi bi-three-dots fs-3"></i>
-							</button>
-							<!--begin::Menu 3-->
-							<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true">
-								<!--begin::Heading-->
-								<div class="menu-item px-3">
-									<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Contacts</div>
-								</div>
-								<!--end::Heading-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link px-3" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Add Contact</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link flex-stack px-3" data-bs-toggle="modal" data-bs-target="#kt_modal_invite_friends">Invite Contacts
-									<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a contact email to send an invitation"></i></a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-									<a href="#" class="menu-link px-3">
-										<span class="menu-title">Groups</span>
-										<span class="menu-arrow"></span>
-									</a>
-									<!--begin::Menu sub-->
-									<div class="menu-sub menu-sub-dropdown w-175px py-4">
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Create Group</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Invite Members</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Settings</a>
-										</div>
-										<!--end::Menu item-->
-									</div>
-									<!--end::Menu sub-->
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3 my-1">
-									<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Settings</a>
-								</div>
-								<!--end::Menu item-->
-							</div>
-							<!--end::Menu 3-->
-						</div>
-						<!--end::Menu-->
-						<!--begin::Close-->
-						<div class="btn btn-sm btn-icon btn-active-light-primary" id="kt_drawer_chat_close">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-							<span class="svg-icon svg-icon-2">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->
-						</div>
-						<!--end::Close-->
-					</div>
-					<!--end::Card toolbar-->
-				</div>
-				<!--end::Card header-->
-				<!--begin::Card body-->
-				<div class="card-body" id="kt_drawer_chat_messenger_body">
-					<!--begin::Messages-->
-					<div class="scroll-y me-n5 pe-5" data-kt-element="messages" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_drawer_chat_messenger_header, #kt_drawer_chat_messenger_footer" data-kt-scroll-wrappers="#kt_drawer_chat_messenger_body" data-kt-scroll-offset="0px">
-						<!--begin::Message(in)-->
-						<div class="d-flex justify-content-start mb-10">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-start">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Details-->
-									<div class="ms-3">
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-										<span class="text-muted fs-7 mb-1">2 mins</span>
-									</div>
-									<!--end::Details-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">How likely are you to recommend our company to your friends and family ?</div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(in)-->
-						<!--begin::Message(out)-->
-						<div class="d-flex justify-content-end mb-10">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-end">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Details-->
-									<div class="me-3">
-										<span class="text-muted fs-7 mb-1">5 mins</span>
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
-									</div>
-									<!--end::Details-->
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-									</div>
-									<!--end::Avatar-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.</div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(out)-->
-						<!--begin::Message(in)-->
-						<div class="d-flex justify-content-start mb-10">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-start">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Details-->
-									<div class="ms-3">
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-										<span class="text-muted fs-7 mb-1">1 Hour</span>
-									</div>
-									<!--end::Details-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Ok, Understood!</div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(in)-->
-						<!--begin::Message(out)-->
-						<div class="d-flex justify-content-end mb-10">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-end">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Details-->
-									<div class="me-3">
-										<span class="text-muted fs-7 mb-1">2 Hours</span>
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
-									</div>
-									<!--end::Details-->
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-									</div>
-									<!--end::Avatar-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">You’ll receive notifications for all issues, pull requests!</div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(out)-->
-						<!--begin::Message(in)-->
-						<div class="d-flex justify-content-start mb-10">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-start">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Details-->
-									<div class="ms-3">
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-										<span class="text-muted fs-7 mb-1">3 Hours</span>
-									</div>
-									<!--end::Details-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">You can unwatch this repository immediately by clicking here:
-								<a href="https://keenthemes.com">Keenthemes.com</a></div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(in)-->
-						<!--begin::Message(out)-->
-						<div class="d-flex justify-content-end mb-10">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-end">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Details-->
-									<div class="me-3">
-										<span class="text-muted fs-7 mb-1">4 Hours</span>
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
-									</div>
-									<!--end::Details-->
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-									</div>
-									<!--end::Avatar-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Most purchased Business courses during this sale!</div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(out)-->
-						<!--begin::Message(in)-->
-						<div class="d-flex justify-content-start mb-10">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-start">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Details-->
-									<div class="ms-3">
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-										<span class="text-muted fs-7 mb-1">5 Hours</span>
-									</div>
-									<!--end::Details-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided</div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(in)-->
-						<!--begin::Message(template for out)-->
-						<div class="d-flex justify-content-end mb-10 d-none" data-kt-element="template-out">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-end">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Details-->
-									<div class="me-3">
-										<span class="text-muted fs-7 mb-1">Just now</span>
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
-									</div>
-									<!--end::Details-->
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-									</div>
-									<!--end::Avatar-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text"></div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(template for out)-->
-						<!--begin::Message(template for in)-->
-						<div class="d-flex justify-content-start mb-10 d-none" data-kt-element="template-in">
-							<!--begin::Wrapper-->
-							<div class="d-flex flex-column align-items-start">
-								<!--begin::User-->
-								<div class="d-flex align-items-center mb-2">
-									<!--begin::Avatar-->
-									<div class="symbol symbol-35px symbol-circle">
-										<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-									</div>
-									<!--end::Avatar-->
-									<!--begin::Details-->
-									<div class="ms-3">
-										<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-										<span class="text-muted fs-7 mb-1">Just now</span>
-									</div>
-									<!--end::Details-->
-								</div>
-								<!--end::User-->
-								<!--begin::Text-->
-								<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Right before vacation season we have the next Big Deal for you.</div>
-								<!--end::Text-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Message(template for in)-->
-					</div>
-					<!--end::Messages-->
-				</div>
-				<!--end::Card body-->
-				<!--begin::Card footer-->
-				<div class="card-footer pt-4" id="kt_drawer_chat_messenger_footer">
-					<!--begin::Input-->
-					<textarea class="form-control form-control-flush mb-3" rows="1" data-kt-element="input" placeholder="Type a message"></textarea>
-					<!--end::Input-->
-					<!--begin:Toolbar-->
-					<div class="d-flex flex-stack">
-						<!--begin::Actions-->
-						<div class="d-flex align-items-center me-2">
-							<button class="btn btn-sm btn-icon btn-active-light-primary me-1" type="button" data-bs-toggle="tooltip" title="Coming soon">
-								<i class="bi bi-paperclip fs-3"></i>
-							</button>
-							<button class="btn btn-sm btn-icon btn-active-light-primary me-1" type="button" data-bs-toggle="tooltip" title="Coming soon">
-								<i class="bi bi-upload fs-3"></i>
-							</button>
-						</div>
-						<!--end::Actions-->
-						<!--begin::Send-->
-						<button class="btn btn-primary" type="button" data-kt-element="send">Send</button>
-						<!--end::Send-->
-					</div>
-					<!--end::Toolbar-->
-				</div>
-				<!--end::Card footer-->
-			</div>
-			<!--end::Messenger-->
-		</div>
-		<!--end::Chat drawer-->
+		
+	
 		<!--end::Drawers-->
 		<!--end::Main-->
 		<!--begin::Engage drawers-->
@@ -6579,168 +2307,168 @@ License: For each use you must have a valid license purchased only from above li
 						<!--end::Support-->
 						
 						<!--begin::Card toolbar-->
-                                <div class="card-toolbar">
-                                    <!--begin::Toolbar-->
-                                    <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
-                                        <!--begin::Filter-->
-                                        <button type="button" class="btn btn-light-primary me-3"
-                                            data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                            <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
+								<div class="card-toolbar">
+									<!--begin::Toolbar-->
+									<div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
+										<!--begin::Filter-->
+										<button type="button" class="btn btn-light-primary me-3"
+											data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
 											<span class="svg-icon svg-icon-2">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <rect opacity="0.5" x="11.364" y="20.364" width="16" height="2"
-                                                        rx="1" transform="rotate(-90 11.364 20.364)"
-                                                        fill="currentColor" />
-                                                    <rect x="4.36396" y="11.364" width="16" height="2" rx="1"
-                                                        fill="currentColor" />
-                                                </svg>
-                                            </span>
-                                            <!--end::Svg Icon-->Crear Notificacion
-                                        </button>
-                                        <!--begin::Menu 1-->
-                                        <div class="menu menu-sub menu-sub-dropdown w-300px w-md-325px"
-                                            data-kt-menu="true">
-                                            <!--begin::Header-->
-                                            <div class="px-7 py-5">
-                                                <div class="fs-5 text-dark fw-bold">Nueva Notificacion</div>
-                                            </div>
-                                            <!--end::Header-->
-                                            <!--begin::Separator-->
-                                            <div class="separator border-gray-200"></div>
-                                            <!--end::Separator-->
-                                            <!--begin::Content-->
-                                            <div class="px-7 py-5" data-kt-user-table-filter="form">
-                                                <!--begin::Input group-->
-                                                <div class="mb-10">
+												<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<rect opacity="0.5" x="11.364" y="20.364" width="16" height="2"
+														rx="1" transform="rotate(-90 11.364 20.364)"
+														fill="currentColor" />
+													<rect x="4.36396" y="11.364" width="16" height="2" rx="1"
+														fill="currentColor" />
+												</svg>
+											</span>
+											<!--end::Svg Icon-->Crear Notificacion
+										</button>
+										<!--begin::Menu 1-->
+										<div class="menu menu-sub menu-sub-dropdown w-300px w-md-325px"
+											data-kt-menu="true">
+											<!--begin::Header-->
+											<div class="px-7 py-5">
+												<div class="fs-5 text-dark fw-bold">Nueva Notificacion</div>
+											</div>
+											<!--end::Header-->
+											<!--begin::Separator-->
+											<div class="separator border-gray-200"></div>
+											<!--end::Separator-->
+											<!--begin::Content-->
+											<div class="px-7 py-5" data-kt-user-table-filter="form">
+												<!--begin::Input group-->
+												<div class="mb-10">
 												<input type="hidden" class="form-control form-control-lg form-control-solid"
-                                                name="id" id="id"
-                                                placeholder="Id del funcionario campo oculto" value="<?= session()->get('id')?>" />
-                                                    <label class="form-label fs-6 fw-semibold"><i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
-                                                    title="Indicar que entidades podran ver la notificacion"></i>Destinatario:</label>
-                                                    <select class="form-select form-select-solid fw-bold"
-                                                        data-kt-select2="true" data-placeholder="Select option"
-                                                        data-allow-clear="true" data-kt-user-table-filter="role"
-                                                        data-hide-search="true">
+												name="id" id="id"
+												placeholder="Id del funcionario campo oculto" value="<?= session()->get('id') ?>" />
+													<label class="form-label fs-6 fw-semibold"><i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+													title="Indicar que entidades podran ver la notificacion"></i>Destinatario:</label>
+													<select id="destino" name="destino" class="form-select form-select-solid fw-bold"
+														data-kt-select2="true" data-placeholder="Select option"
+														data-allow-clear="true" data-kt-user-table-filter="role"
+														data-hide-search="true">
 														  <?php foreach ($datos1 as $opcion): ?>
-												  	     <option value="<?php echo $opcion->id ?>"><?php echo $opcion->nombre ?></option>
-												          <?php endforeach; ?>
-                                                    </select>
+															   <option value="<?php echo $opcion->id ?>"><?php echo $opcion->nombre ?></option>
+														  <?php endforeach; ?>
+													</select>
 													<label class="form-label fs-6 fw-semibold">
 													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
-                                                    title="Dar un titulo corto para la notificacion"></i>Titulo:
+													title="Dar un titulo corto para la notificacion"></i>Titulo:
 														</label>
 													<input type="text" class="form-control form-control-lg form-control-solid"
-                                                    name="oficina" id="oficina" placeholder="Ingresar oficina" />
-                                            
+													name="titulo" id="titulo" placeholder="Ingresar un titulo a la notificacion" />
+											
 													<label class="form-label fs-6 fw-semibold"><i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
-                                                    title="Dar la descripcion de la notificacion lo mas corto posible "></i>Descripcion:</label>   
+													title="Dar la descripcion de la notificacion lo mas corto posible "></i>Descripcion:</label>   
 													<textarea id="descripcion" name="descripcion" class="form-control"
-                                                      style="resize: vertical; height: 150px;"
-                                                      placeholder="Ingrese una descripción"></textarea>                                          
-                                                </div>
-                                                <!--end::Input group-->
-                                                <!--begin::Input group-->
-                                                <div class="mb-10">
-                                                    <label class="form-label fs-6 fw-semibold"><i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
-                                                    title="Indicar la prioridad de la notificacion"></i>Prioridad</label>
-                                                    <select class="form-select form-select-solid fw-bold"
-                                                        data-kt-select2="true" data-placeholder="Select option"
-                                                        data-allow-clear="true" data-kt-user-table-filter="two-step"
-                                                        data-hide-search="true">
+													  style="resize: vertical; height: 150px;"
+													  placeholder="Ingrese una descripción de la notificacion"></textarea>                                          
+												</div>
+												<!--end::Input group-->
+												<!--begin::Input group-->
+												<div class="mb-10">
+													<label class="form-label fs-6 fw-semibold"><i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+													title="Indicar la prioridad de la notificacion"></i>Prioridad</label>
+													<select id="prioridad" name="prioridad" class="form-select form-select-solid fw-bold"
+														data-kt-select2="true" data-placeholder="Select option"
+														data-allow-clear="true" data-kt-user-table-filter="two-step"
+														data-hide-search="true">
 														<option value="alta">Alta</option>
 														<option value="media">Media</option>
 														<option value="baja">Baja</option>
-                                                    </select>
-                                                </div>
-                                                <!--end::Input group-->
-                                                <!--begin::Actions-->
-                                                <div class="d-flex justify-content-end">
-                                                    <button type="reset"
-                                                        class="btn btn-light btn-active-light-primary fw-semibold me-2 px-6"
-                                                        data-kt-menu-dismiss="true"
-                                                        data-kt-user-table-filter="reset">Reset</button>
-                                                    <button type="submit" class="btn btn-primary fw-semibold px-6"
-                                                        data-kt-menu-dismiss="true"
-                                                        data-kt-user-table-filter="filter">Apply</button>
-                                                </div>
-                                                <!--end::Actions-->
-                                            </div>
-                                            <!--end::Content-->
-                                        </div>
-                                        <!--end::Menu 1-->
-                                        <!--end::Filter-->
-                               
-                                    </div>
-                                </div>
-                                <!--end::Card toolbar-->
+													</select>
+												</div>
+												<!--end::Input group-->
+												<!--begin::Actions-->
+												<div class="d-flex justify-content-end">
+													<button type="reset"
+														class="btn btn-light btn-active-light-primary fw-semibold me-2 px-6"
+														data-kt-menu-dismiss="true"
+														data-kt-user-table-filter="reset">Cerrar</button>
+													<button type="submit" name="enviar" id="enviar" class="btn btn-primary fw-semibold px-6"
+														data-kt-menu-dismiss="true"
+														data-kt-user-table-filter="filter">Enviar</button>
+												</div>
+												<!--end::Actions-->
+											</div>
+											<!--end::Content-->
+										</div>
+										<!--end::Menu 1-->
+										<!--end::Filter-->
+							   
+									</div>
+								</div>
+								<!--end::Card toolbar-->
 								<!--begin::Card-->
-                        <div class="card">
-                            <!--begin::Card header-->
-                            
-                            <div class="card-header border-0 pt-6">
-                              
-                                <!--begin::Card title-->
-                                <div class="card-title">
-                                    <!--begin::Search-->
-                                    <div class="d-flex align-items-center position-relative my-1">
-                                        <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-                                        <span class="svg-icon svg-icon-1 position-absolute ms-6">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2"
-                                                    rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
-                                                <path
-                                                    d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z"
-                                                    fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                        <!--end::Svg Icon-->
-                                        <input id="search-input" type="text" data-kt-user-table-filter="search"
-                                            class="form-control form-control-solid w-250px ps-14"
-                                            placeholder="Buscar Solicitud" />
-                                    </div>
-                                    <!--end::Search-->
-                                </div>
-                                <!--begin::Card title-->
-                              
-                            </div>
-                            <!--end::Card header-->
-                            <!--begin::Card body-->
-                            <div class="card-body py-4">
-                                <!--begin::Table-->
-                                <table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_table_use">
-                                    <!--begin::Table head-->
-                                    <thead>
-                                        <!--begin::Table row-->
-                                        <tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
-                                        <th class="w-10px pe-2">
-                                            <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                                <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_datatable_deposito .form-check-input" value="1" />
-                                            </div>
-                                        </th>
-                                            <th class="min-w-125px">Funcioario</th>
-                                            <th class="min-w-125px">Titulo</th>
-                                            <th class="min-w-125px">Descripcion</th>
+						<div class="card">
+							<!--begin::Card header-->
+							
+							<div class="card-header border-0 pt-6">
+							  
+								<!--begin::Card title-->
+								<div class="card-title">
+									<!--begin::Search-->
+									<div class="d-flex align-items-center position-relative my-1">
+										<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+										<span class="svg-icon svg-icon-1 position-absolute ms-6">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2"
+													rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
+												<path
+													d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z"
+													fill="currentColor" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+										<input id="search-input" type="text" data-kt-user-table-filter="search"
+											class="form-control form-control-solid w-250px ps-14"
+											placeholder="Buscar Solicitud" />
+									</div>
+									<!--end::Search-->
+								</div>
+								<!--begin::Card title-->
+							  
+							</div>
+							<!--end::Card header-->
+							<!--begin::Card body-->
+							<div class="card-body py-4">
+								<!--begin::Table-->
+								<table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_table_use">
+									<!--begin::Table head-->
+									<thead>
+										<!--begin::Table row-->
+										<tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
+										<th class="w-10px pe-2">
+											<div class="form-check form-check-sm form-check-custom form-check-solid me-3">
+												<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_datatable_deposito .form-check-input" value="1" />
+											</div>
+										</th>
+											<th class="min-w-125px">Funcioario</th>
+											<th class="min-w-125px">Titulo</th>
+											<th class="min-w-125px">Descripcion</th>
 											<th class="min-w-125px">Destinatario</th>
 											<th class="min-w-125px">Fecha</th>
-										    <th class="text-end min-w-100px">Actions</th>
+											<th class="text-end min-w-100px">Actions</th>
 
-                                        </tr>
-                                        <!--end::Table row-->
-                                    </thead>
-                                    <!--end::Table head-->
-                                    <!--begin::Table body-->
-                                    <tbody class="text-gray-600 fw-semibold">
+										</tr>
+										<!--end::Table row-->
+									</thead>
+									<!--end::Table head-->
+									<!--begin::Table body-->
+									<tbody class="text-gray-600 fw-semibold">
 
-                                    </tbody>
-                                    <!--end::Table body-->
-                                </table>
-                                <!--end::Table-->
-                            </div>
-                            <!--end::Card body-->
-                        </div>
-                        <!--end::Card-->
+									</tbody>
+									<!--end::Table body-->
+								</table>
+								<!--end::Table-->
+							</div>
+							<!--end::Card body-->
+						</div>
+						<!--end::Card-->
 								</div>
 					<!--end::Content-->
 				</div>
@@ -6754,2715 +2482,11 @@ License: For each use you must have a valid license purchased only from above li
 		<div class="engage-toolbar d-flex position-fixed px-5 fw-bold zindex-2 top-50 end-0 transform-90 mt-5 mt-lg-20 gap-2">
 			
 			<!--begin::Help drawer toggle-->
-			<button id="kt_help_toggle" class="engage-help-toggle btn btn-flex h-35px bg-body btn-color-gray-700 btn-active-color-gray-900 shadow-sm px-5 rounded-top-0" title="Sector de notificaciones" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-dismiss="click" data-bs-trigger="hover">Help</button>
+			<button id="kt_help_toggle" class="engage-help-toggle btn btn-flex h-35px bg-body btn-color-gray-700 btn-active-color-gray-900 shadow-sm px-5 rounded-top-0" title="Sector para notificaciones a los usuarios " data-bs-toggle="tooltip" data-bs-placement="left" data-bs-dismiss="click" data-bs-trigger="hover">Notificaciones</button>
 			<!--end::Help drawer toggle-->
 		</div>
 		<!--end::Engage toolbar-->
-		<!--begin::Scrolltop-->
-		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
-			<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
-			<span class="svg-icon">
-				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
-					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
-				</svg>
-			</span>
-			<!--end::Svg Icon-->
-		</div>
-		<!--end::Scrolltop-->
-		<!--begin::Modals-->
-		<!--begin::Modal - Upgrade plan-->
-		<div class="modal fade" id="kt_modal_upgrade_plan" tabindex="-1" aria-hidden="true">
-			<!--begin::Modal dialog-->
-			<div class="modal-dialog modal-xl">
-				<!--begin::Modal content-->
-				<div class="modal-content rounded">
-					<!--begin::Modal header-->
-					<div class="modal-header justify-content-end border-0 pb-0">
-						<!--begin::Close-->
-						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-							<span class="svg-icon svg-icon-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->
-						</div>
-						<!--end::Close-->
-					</div>
-					<!--end::Modal header-->
-					<!--begin::Modal body-->
-					<div class="modal-body pt-0 pb-15 px-5 px-xl-20">
-						<!--begin::Heading-->
-						<div class="mb-13 text-center">
-							<h1 class="mb-3">Upgrade a Plan</h1>
-							<div class="text-muted fw-semibold fs-5">If you need more info, please check
-							<a href="#" class="link-primary fw-bold">Pricing Guidelines</a>.</div>
-						</div>
-						<!--end::Heading-->
-						<!--begin::Plans-->
-						<div class="d-flex flex-column">
-							<!--begin::Nav group-->
-							<div class="nav-group nav-group-outline mx-auto" data-kt-buttons="true">
-								<button class="btn btn-color-gray-400 btn-active btn-active-secondary px-6 py-3 me-2 active" data-kt-plan="month">Monthly</button>
-								<button class="btn btn-color-gray-400 btn-active btn-active-secondary px-6 py-3" data-kt-plan="annual">Annual</button>
-							</div>
-							<!--end::Nav group-->
-							<!--begin::Row-->
-							<div class="row mt-10">
-								<!--begin::Col-->
-								<div class="col-lg-6 mb-10 mb-lg-0">
-									<!--begin::Tabs-->
-									<div class="nav flex-column">
-										<!--begin::Tab link-->
-										<label class="nav-link btn btn-outline btn-outline-dashed btn-color-dark btn-active btn-active-primary d-flex flex-stack text-start p-6 active mb-6" data-bs-toggle="tab" data-bs-target="#kt_upgrade_plan_startup">
-											<!--end::Description-->
-											<div class="d-flex align-items-center me-2">
-												<!--begin::Radio-->
-												<div class="form-check form-check-custom form-check-solid form-check-success flex-shrink-0 me-6">
-													<input class="form-check-input" type="radio" name="plan" checked="checked" value="startup" />
-												</div>
-												<!--end::Radio-->
-												<!--begin::Info-->
-												<div class="flex-grow-1">
-													<div class="d-flex align-items-center fs-2 fw-bold flex-wrap">Startup</div>
-													<div class="fw-semibold opacity-75">Best for startups</div>
-												</div>
-												<!--end::Info-->
-											</div>
-											<!--end::Description-->
-											<!--begin::Price-->
-											<div class="ms-5">
-												<span class="mb-2">$</span>
-												<span class="fs-3x fw-bold" data-kt-plan-price-month="39" data-kt-plan-price-annual="399">39</span>
-												<span class="fs-7 opacity-50">/
-												<span data-kt-element="period">Mon</span></span>
-											</div>
-											<!--end::Price-->
-										</label>
-										<!--end::Tab link-->
-										<!--begin::Tab link-->
-										<label class="nav-link btn btn-outline btn-outline-dashed btn-color-dark btn-active btn-active-primary d-flex flex-stack text-start p-6 mb-6" data-bs-toggle="tab" data-bs-target="#kt_upgrade_plan_advanced">
-											<!--end::Description-->
-											<div class="d-flex align-items-center me-2">
-												<!--begin::Radio-->
-												<div class="form-check form-check-custom form-check-solid form-check-success flex-shrink-0 me-6">
-													<input class="form-check-input" type="radio" name="plan" value="advanced" />
-												</div>
-												<!--end::Radio-->
-												<!--begin::Info-->
-												<div class="flex-grow-1">
-													<div class="d-flex align-items-center fs-2 fw-bold flex-wrap">Advanced</div>
-													<div class="fw-semibold opacity-75">Best for 100+ team size</div>
-												</div>
-												<!--end::Info-->
-											</div>
-											<!--end::Description-->
-											<!--begin::Price-->
-											<div class="ms-5">
-												<span class="mb-2">$</span>
-												<span class="fs-3x fw-bold" data-kt-plan-price-month="339" data-kt-plan-price-annual="3399">339</span>
-												<span class="fs-7 opacity-50">/
-												<span data-kt-element="period">Mon</span></span>
-											</div>
-											<!--end::Price-->
-										</label>
-										<!--end::Tab link-->
-										<!--begin::Tab link-->
-										<label class="nav-link btn btn-outline btn-outline-dashed btn-color-dark btn-active btn-active-primary d-flex flex-stack text-start p-6 mb-6" data-bs-toggle="tab" data-bs-target="#kt_upgrade_plan_enterprise">
-											<!--end::Description-->
-											<div class="d-flex align-items-center me-2">
-												<!--begin::Radio-->
-												<div class="form-check form-check-custom form-check-solid form-check-success flex-shrink-0 me-6">
-													<input class="form-check-input" type="radio" name="plan" value="enterprise" />
-												</div>
-												<!--end::Radio-->
-												<!--begin::Info-->
-												<div class="flex-grow-1">
-													<div class="d-flex align-items-center fs-2 fw-bold flex-wrap">Enterprise
-													<span class="badge badge-light-success ms-2 py-2 px-3 fs-7">Popular</span></div>
-													<div class="fw-semibold opacity-75">Best value for 1000+ team</div>
-												</div>
-												<!--end::Info-->
-											</div>
-											<!--end::Description-->
-											<!--begin::Price-->
-											<div class="ms-5">
-												<span class="mb-2">$</span>
-												<span class="fs-3x fw-bold" data-kt-plan-price-month="999" data-kt-plan-price-annual="9999">999</span>
-												<span class="fs-7 opacity-50">/
-												<span data-kt-element="period">Mon</span></span>
-											</div>
-											<!--end::Price-->
-										</label>
-										<!--end::Tab link-->
-										<!--begin::Tab link-->
-										<label class="nav-link btn btn-outline btn-outline-dashed btn-color-dark btn-active btn-active-primary d-flex flex-stack text-start p-6 mb-6" data-bs-toggle="tab" data-bs-target="#kt_upgrade_plan_custom">
-											<!--end::Description-->
-											<div class="d-flex align-items-center me-2">
-												<!--begin::Radio-->
-												<div class="form-check form-check-custom form-check-solid form-check-success flex-shrink-0 me-6">
-													<input class="form-check-input" type="radio" name="plan" value="custom" />
-												</div>
-												<!--end::Radio-->
-												<!--begin::Info-->
-												<div class="flex-grow-1">
-													<div class="d-flex align-items-center fs-2 fw-bold flex-wrap">Custom</div>
-													<div class="fw-semibold opacity-75">Requet a custom license</div>
-												</div>
-												<!--end::Info-->
-											</div>
-											<!--end::Description-->
-											<!--begin::Price-->
-											<div class="ms-5">
-												<a href="#" class="btn btn-sm btn-success">Contact Us</a>
-											</div>
-											<!--end::Price-->
-										</label>
-										<!--end::Tab link-->
-									</div>
-									<!--end::Tabs-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-lg-6">
-									<!--begin::Tab content-->
-									<div class="tab-content rounded h-100 bg-light p-10">
-										<!--begin::Tab Pane-->
-										<div class="tab-pane fade show active" id="kt_upgrade_plan_startup">
-											<!--begin::Heading-->
-											<div class="pb-5">
-												<h2 class="fw-bold text-dark">What’s in Startup Plan?</h2>
-												<div class="text-muted fw-semibold">Optimal for 10+ team size and new startup</div>
-											</div>
-											<!--end::Heading-->
-											<!--begin::Body-->
-											<div class="pt-1">
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Up to 10 Active Users</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Up to 30 Project Integrations</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Analytics Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-muted flex-grow-1">Finance Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
-													<span class="svg-icon svg-icon-1">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="currentColor" />
-															<rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-muted flex-grow-1">Accounting Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
-													<span class="svg-icon svg-icon-1">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="currentColor" />
-															<rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-muted flex-grow-1">Network Platform</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
-													<span class="svg-icon svg-icon-1">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="currentColor" />
-															<rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center">
-													<span class="fw-semibold fs-5 text-muted flex-grow-1">Unlimited Cloud Space</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
-													<span class="svg-icon svg-icon-1">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="currentColor" />
-															<rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-											</div>
-											<!--end::Body-->
-										</div>
-										<!--end::Tab Pane-->
-										<!--begin::Tab Pane-->
-										<div class="tab-pane fade" id="kt_upgrade_plan_advanced">
-											<!--begin::Heading-->
-											<div class="pb-5">
-												<h2 class="fw-bold text-dark">What’s in Startup Plan?</h2>
-												<div class="text-muted fw-semibold">Optimal for 100+ team size and grown company</div>
-											</div>
-											<!--end::Heading-->
-											<!--begin::Body-->
-											<div class="pt-1">
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Up to 10 Active Users</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Up to 30 Project Integrations</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Analytics Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Finance Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Accounting Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-muted flex-grow-1">Network Platform</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
-													<span class="svg-icon svg-icon-1">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="currentColor" />
-															<rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center">
-													<span class="fw-semibold fs-5 text-muted flex-grow-1">Unlimited Cloud Space</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
-													<span class="svg-icon svg-icon-1">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="currentColor" />
-															<rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-											</div>
-											<!--end::Body-->
-										</div>
-										<!--end::Tab Pane-->
-										<!--begin::Tab Pane-->
-										<div class="tab-pane fade" id="kt_upgrade_plan_enterprise">
-											<!--begin::Heading-->
-											<div class="pb-5">
-												<h2 class="fw-bold text-dark">What’s in Startup Plan?</h2>
-												<div class="text-muted fw-semibold">Optimal for 1000+ team and enterpise</div>
-											</div>
-											<!--end::Heading-->
-											<!--begin::Body-->
-											<div class="pt-1">
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Up to 10 Active Users</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Up to 30 Project Integrations</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Analytics Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Finance Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Accounting Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Network Platform</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Unlimited Cloud Space</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-											</div>
-											<!--end::Body-->
-										</div>
-										<!--end::Tab Pane-->
-										<!--begin::Tab Pane-->
-										<div class="tab-pane fade" id="kt_upgrade_plan_custom">
-											<!--begin::Heading-->
-											<div class="pb-5">
-												<h2 class="fw-bold text-dark">What’s in Startup Plan?</h2>
-												<div class="text-muted fw-semibold">Optimal for corporations</div>
-											</div>
-											<!--end::Heading-->
-											<!--begin::Body-->
-											<div class="pt-1">
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Unlimited Users</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Unlimited Project Integrations</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Analytics Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Finance Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Accounting Module</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center mb-7">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Network Platform</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<div class="d-flex align-items-center">
-													<span class="fw-semibold fs-5 text-gray-700 flex-grow-1">Unlimited Cloud Space</span>
-													<!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
-													<span class="svg-icon svg-icon-1 svg-icon-success">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor" />
-															<path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-												</div>
-												<!--end::Item-->
-											</div>
-											<!--end::Body-->
-										</div>
-										<!--end::Tab Pane-->
-									</div>
-									<!--end::Tab content-->
-								</div>
-								<!--end::Col-->
-							</div>
-							<!--end::Row-->
-						</div>
-						<!--end::Plans-->
-						<!--begin::Actions-->
-						<div class="d-flex flex-center flex-row-fluid pt-12">
-							<button type="reset" class="btn btn-light me-3" data-bs-dismiss="modal">Cancel</button>
-							<button type="submit" class="btn btn-primary">Upgrade Plan</button>
-						</div>
-						<!--end::Actions-->
-					</div>
-					<!--end::Modal body-->
-				</div>
-				<!--end::Modal content-->
-			</div>
-			<!--end::Modal dialog-->
-		</div>
-		<!--end::Modal - Upgrade plan-->
-		<!--begin::Modal - Create App-->
-		<div class="modal fade" id="kt_modal_create_app" tabindex="-1" aria-hidden="true">
-			<!--begin::Modal dialog-->
-			<div class="modal-dialog modal-dialog-centered mw-900px">
-				<!--begin::Modal content-->
-				<div class="modal-content">
-					<!--begin::Modal header-->
-					<div class="modal-header">
-						<!--begin::Modal title-->
-						<h2>Create App</h2>
-						<!--end::Modal title-->
-						<!--begin::Close-->
-						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-							<span class="svg-icon svg-icon-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->
-						</div>
-						<!--end::Close-->
-					</div>
-					<!--end::Modal header-->
-					<!--begin::Modal body-->
-					<div class="modal-body py-lg-10 px-lg-10">
-						<!--begin::Stepper-->
-						<div class="stepper stepper-pills stepper-column d-flex flex-column flex-xl-row flex-row-fluid" id="kt_modal_create_app_stepper">
-							<!--begin::Aside-->
-							<div class="d-flex justify-content-center justify-content-xl-start flex-row-auto w-100 w-xl-300px">
-								<!--begin::Nav-->
-								<div class="stepper-nav ps-lg-10">
-									<!--begin::Step 1-->
-									<div class="stepper-item current" data-kt-stepper-element="nav">
-										<!--begin::Wrapper-->
-										<div class="stepper-wrapper">
-											<!--begin::Icon-->
-											<div class="stepper-icon w-40px h-40px">
-												<i class="stepper-check fas fa-check"></i>
-												<span class="stepper-number">1</span>
-											</div>
-											<!--end::Icon-->
-											<!--begin::Label-->
-											<div class="stepper-label">
-												<h3 class="stepper-title">Details</h3>
-												<div class="stepper-desc">Name your App</div>
-											</div>
-											<!--end::Label-->
-										</div>
-										<!--end::Wrapper-->
-										<!--begin::Line-->
-										<div class="stepper-line h-40px"></div>
-										<!--end::Line-->
-									</div>
-									<!--end::Step 1-->
-									<!--begin::Step 2-->
-									<div class="stepper-item" data-kt-stepper-element="nav">
-										<!--begin::Wrapper-->
-										<div class="stepper-wrapper">
-											<!--begin::Icon-->
-											<div class="stepper-icon w-40px h-40px">
-												<i class="stepper-check fas fa-check"></i>
-												<span class="stepper-number">2</span>
-											</div>
-											<!--begin::Icon-->
-											<!--begin::Label-->
-											<div class="stepper-label">
-												<h3 class="stepper-title">Frameworks</h3>
-												<div class="stepper-desc">Define your app framework</div>
-											</div>
-											<!--begin::Label-->
-										</div>
-										<!--end::Wrapper-->
-										<!--begin::Line-->
-										<div class="stepper-line h-40px"></div>
-										<!--end::Line-->
-									</div>
-									<!--end::Step 2-->
-									<!--begin::Step 3-->
-									<div class="stepper-item" data-kt-stepper-element="nav">
-										<!--begin::Wrapper-->
-										<div class="stepper-wrapper">
-											<!--begin::Icon-->
-											<div class="stepper-icon w-40px h-40px">
-												<i class="stepper-check fas fa-check"></i>
-												<span class="stepper-number">3</span>
-											</div>
-											<!--end::Icon-->
-											<!--begin::Label-->
-											<div class="stepper-label">
-												<h3 class="stepper-title">Database</h3>
-												<div class="stepper-desc">Select the app database type</div>
-											</div>
-											<!--end::Label-->
-										</div>
-										<!--end::Wrapper-->
-										<!--begin::Line-->
-										<div class="stepper-line h-40px"></div>
-										<!--end::Line-->
-									</div>
-									<!--end::Step 3-->
-									<!--begin::Step 4-->
-									<div class="stepper-item" data-kt-stepper-element="nav">
-										<!--begin::Wrapper-->
-										<div class="stepper-wrapper">
-											<!--begin::Icon-->
-											<div class="stepper-icon w-40px h-40px">
-												<i class="stepper-check fas fa-check"></i>
-												<span class="stepper-number">4</span>
-											</div>
-											<!--end::Icon-->
-											<!--begin::Label-->
-											<div class="stepper-label">
-												<h3 class="stepper-title">Billing</h3>
-												<div class="stepper-desc">Provide payment details</div>
-											</div>
-											<!--end::Label-->
-										</div>
-										<!--end::Wrapper-->
-										<!--begin::Line-->
-										<div class="stepper-line h-40px"></div>
-										<!--end::Line-->
-									</div>
-									<!--end::Step 4-->
-									<!--begin::Step 5-->
-									<div class="stepper-item" data-kt-stepper-element="nav">
-										<!--begin::Wrapper-->
-										<div class="stepper-wrapper">
-											<!--begin::Icon-->
-											<div class="stepper-icon w-40px h-40px">
-												<i class="stepper-check fas fa-check"></i>
-												<span class="stepper-number">5</span>
-											</div>
-											<!--end::Icon-->
-											<!--begin::Label-->
-											<div class="stepper-label">
-												<h3 class="stepper-title">Completed</h3>
-												<div class="stepper-desc">Review and Submit</div>
-											</div>
-											<!--end::Label-->
-										</div>
-										<!--end::Wrapper-->
-									</div>
-									<!--end::Step 5-->
-								</div>
-								<!--end::Nav-->
-							</div>
-							<!--begin::Aside-->
-							<!--begin::Content-->
-							<div class="flex-row-fluid py-lg-5 px-lg-15">
-								<!--begin::Form-->
-								<form class="form" novalidate="novalidate" id="kt_modal_create_app_form">
-									<!--begin::Step 1-->
-									<div class="current" data-kt-stepper-element="content">
-										<div class="w-100">
-											<!--begin::Input group-->
-											<div class="fv-row mb-10">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-5 fw-semibold mb-2">
-													<span class="required">App Name</span>
-													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify your unique app name"></i>
-												</label>
-												<!--end::Label-->
-												<!--begin::Input-->
-												<input type="text" class="form-control form-control-lg form-control-solid" name="name" placeholder="" value="" />
-												<!--end::Input-->
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-5 fw-semibold mb-4">
-													<span class="required">Category</span>
-													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Select your app category"></i>
-												</label>
-												<!--end::Label-->
-												<!--begin:Options-->
-												<div class="fv-row">
-													<!--begin:Option-->
-													<label class="d-flex flex-stack mb-5 cursor-pointer">
-														<!--begin:Label-->
-														<span class="d-flex align-items-center me-2">
-															<!--begin:Icon-->
-															<span class="symbol symbol-50px me-6">
-																<span class="symbol-label bg-light-primary">
-																	<!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-																	<span class="svg-icon svg-icon-1 svg-icon-primary">
-																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																			<path opacity="0.3" d="M18.4 5.59998C21.9 9.09998 21.9 14.8 18.4 18.3C14.9 21.8 9.2 21.8 5.7 18.3L18.4 5.59998Z" fill="currentColor" />
-																			<path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM19.9 11H13V8.8999C14.9 8.6999 16.7 8.00005 18.1 6.80005C19.1 8.00005 19.7 9.4 19.9 11ZM11 19.8999C9.7 19.6999 8.39999 19.2 7.39999 18.5C8.49999 17.7 9.7 17.2001 11 17.1001V19.8999ZM5.89999 6.90002C7.39999 8.10002 9.2 8.8 11 9V11.1001H4.10001C4.30001 9.4001 4.89999 8.00002 5.89999 6.90002ZM7.39999 5.5C8.49999 4.7 9.7 4.19998 11 4.09998V7C9.7 6.8 8.39999 6.3 7.39999 5.5ZM13 17.1001C14.3 17.3001 15.6 17.8 16.6 18.5C15.5 19.3 14.3 19.7999 13 19.8999V17.1001ZM13 4.09998C14.3 4.29998 15.6 4.8 16.6 5.5C15.5 6.3 14.3 6.80002 13 6.90002V4.09998ZM4.10001 13H11V15.1001C9.1 15.3001 7.29999 16 5.89999 17.2C4.89999 16 4.30001 14.6 4.10001 13ZM18.1 17.1001C16.6 15.9001 14.8 15.2 13 15V12.8999H19.9C19.7 14.5999 19.1 16.0001 18.1 17.1001Z" fill="currentColor" />
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																</span>
-															</span>
-															<!--end:Icon-->
-															<!--begin:Info-->
-															<span class="d-flex flex-column">
-																<span class="fw-bold fs-6">Quick Online Courses</span>
-																<span class="fs-7 text-muted">Creating a clear text structure is just one SEO</span>
-															</span>
-															<!--end:Info-->
-														</span>
-														<!--end:Label-->
-														<!--begin:Input-->
-														<span class="form-check form-check-custom form-check-solid">
-															<input class="form-check-input" type="radio" name="category" value="1" />
-														</span>
-														<!--end:Input-->
-													</label>
-													<!--end::Option-->
-													<!--begin:Option-->
-													<label class="d-flex flex-stack mb-5 cursor-pointer">
-														<!--begin:Label-->
-														<span class="d-flex align-items-center me-2">
-															<!--begin:Icon-->
-															<span class="symbol symbol-50px me-6">
-																<span class="symbol-label bg-light-danger">
-																	<!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
-																	<span class="svg-icon svg-icon-1 svg-icon-danger">
-																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																			<rect x="2" y="2" width="9" height="9" rx="2" fill="currentColor" />
-																			<rect opacity="0.3" x="13" y="2" width="9" height="9" rx="2" fill="currentColor" />
-																			<rect opacity="0.3" x="13" y="13" width="9" height="9" rx="2" fill="currentColor" />
-																			<rect opacity="0.3" x="2" y="13" width="9" height="9" rx="2" fill="currentColor" />
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																</span>
-															</span>
-															<!--end:Icon-->
-															<!--begin:Info-->
-															<span class="d-flex flex-column">
-																<span class="fw-bold fs-6">Face to Face Discussions</span>
-																<span class="fs-7 text-muted">Creating a clear text structure is just one aspect</span>
-															</span>
-															<!--end:Info-->
-														</span>
-														<!--end:Label-->
-														<!--begin:Input-->
-														<span class="form-check form-check-custom form-check-solid">
-															<input class="form-check-input" type="radio" name="category" value="2" />
-														</span>
-														<!--end:Input-->
-													</label>
-													<!--end::Option-->
-													<!--begin:Option-->
-													<label class="d-flex flex-stack cursor-pointer">
-														<!--begin:Label-->
-														<span class="d-flex align-items-center me-2">
-															<!--begin:Icon-->
-															<span class="symbol symbol-50px me-6">
-																<span class="symbol-label bg-light-success">
-																	<!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-																	<span class="svg-icon svg-icon-1 svg-icon-success">
-																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																			<path opacity="0.3" d="M20.9 12.9C20.3 12.9 19.9 12.5 19.9 11.9C19.9 11.3 20.3 10.9 20.9 10.9H21.8C21.3 6.2 17.6 2.4 12.9 2V2.9C12.9 3.5 12.5 3.9 11.9 3.9C11.3 3.9 10.9 3.5 10.9 2.9V2C6.19999 2.5 2.4 6.2 2 10.9H2.89999C3.49999 10.9 3.89999 11.3 3.89999 11.9C3.89999 12.5 3.49999 12.9 2.89999 12.9H2C2.5 17.6 6.19999 21.4 10.9 21.8V20.9C10.9 20.3 11.3 19.9 11.9 19.9C12.5 19.9 12.9 20.3 12.9 20.9V21.8C17.6 21.3 21.4 17.6 21.8 12.9H20.9Z" fill="currentColor" />
-																			<path d="M16.9 10.9H13.6C13.4 10.6 13.2 10.4 12.9 10.2V5.90002C12.9 5.30002 12.5 4.90002 11.9 4.90002C11.3 4.90002 10.9 5.30002 10.9 5.90002V10.2C10.6 10.4 10.4 10.6 10.2 10.9H9.89999C9.29999 10.9 8.89999 11.3 8.89999 11.9C8.89999 12.5 9.29999 12.9 9.89999 12.9H10.2C10.4 13.2 10.6 13.4 10.9 13.6V13.9C10.9 14.5 11.3 14.9 11.9 14.9C12.5 14.9 12.9 14.5 12.9 13.9V13.6C13.2 13.4 13.4 13.2 13.6 12.9H16.9C17.5 12.9 17.9 12.5 17.9 11.9C17.9 11.3 17.5 10.9 16.9 10.9Z" fill="currentColor" />
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																</span>
-															</span>
-															<!--end:Icon-->
-															<!--begin:Info-->
-															<span class="d-flex flex-column">
-																<span class="fw-bold fs-6">Full Intro Training</span>
-																<span class="fs-7 text-muted">Creating a clear text structure copywriting</span>
-															</span>
-															<!--end:Info-->
-														</span>
-														<!--end:Label-->
-														<!--begin:Input-->
-														<span class="form-check form-check-custom form-check-solid">
-															<input class="form-check-input" type="radio" name="category" value="3" />
-														</span>
-														<!--end:Input-->
-													</label>
-													<!--end::Option-->
-												</div>
-												<!--end:Options-->
-											</div>
-											<!--end::Input group-->
-										</div>
-									</div>
-									<!--end::Step 1-->
-									<!--begin::Step 2-->
-									<div data-kt-stepper-element="content">
-										<div class="w-100">
-											<!--begin::Input group-->
-											<div class="fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-5 fw-semibold mb-4">
-													<span class="required">Select Framework</span>
-													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify your apps framework"></i>
-												</label>
-												<!--end::Label-->
-												<!--begin:Option-->
-												<label class="d-flex flex-stack cursor-pointer mb-5">
-													<!--begin:Label-->
-													<span class="d-flex align-items-center me-2">
-														<!--begin:Icon-->
-														<span class="symbol symbol-50px me-6">
-															<span class="symbol-label bg-light-warning">
-																<i class="fab fa-html5 text-warning fs-2x"></i>
-															</span>
-														</span>
-														<!--end:Icon-->
-														<!--begin:Info-->
-														<span class="d-flex flex-column">
-															<span class="fw-bold fs-6">HTML5</span>
-															<span class="fs-7 text-muted">Base Web Projec</span>
-														</span>
-														<!--end:Info-->
-													</span>
-													<!--end:Label-->
-													<!--begin:Input-->
-													<span class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="radio" checked="checked" name="framework" value="1" />
-													</span>
-													<!--end:Input-->
-												</label>
-												<!--end::Option-->
-												<!--begin:Option-->
-												<label class="d-flex flex-stack cursor-pointer mb-5">
-													<!--begin:Label-->
-													<span class="d-flex align-items-center me-2">
-														<!--begin:Icon-->
-														<span class="symbol symbol-50px me-6">
-															<span class="symbol-label bg-light-success">
-																<i class="fab fa-react text-success fs-2x"></i>
-															</span>
-														</span>
-														<!--end:Icon-->
-														<!--begin:Info-->
-														<span class="d-flex flex-column">
-															<span class="fw-bold fs-6">ReactJS</span>
-															<span class="fs-7 text-muted">Robust and flexible app framework</span>
-														</span>
-														<!--end:Info-->
-													</span>
-													<!--end:Label-->
-													<!--begin:Input-->
-													<span class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="radio" name="framework" value="2" />
-													</span>
-													<!--end:Input-->
-												</label>
-												<!--end::Option-->
-												<!--begin:Option-->
-												<label class="d-flex flex-stack cursor-pointer mb-5">
-													<!--begin:Label-->
-													<span class="d-flex align-items-center me-2">
-														<!--begin:Icon-->
-														<span class="symbol symbol-50px me-6">
-															<span class="symbol-label bg-light-danger">
-																<i class="fab fa-angular text-danger fs-2x"></i>
-															</span>
-														</span>
-														<!--end:Icon-->
-														<!--begin:Info-->
-														<span class="d-flex flex-column">
-															<span class="fw-bold fs-6">Angular</span>
-															<span class="fs-7 text-muted">Powerful data mangement</span>
-														</span>
-														<!--end:Info-->
-													</span>
-													<!--end:Label-->
-													<!--begin:Input-->
-													<span class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="radio" name="framework" value="3" />
-													</span>
-													<!--end:Input-->
-												</label>
-												<!--end::Option-->
-												<!--begin:Option-->
-												<label class="d-flex flex-stack cursor-pointer">
-													<!--begin:Label-->
-													<span class="d-flex align-items-center me-2">
-														<!--begin:Icon-->
-														<span class="symbol symbol-50px me-6">
-															<span class="symbol-label bg-light-primary">
-																<i class="fab fa-vuejs text-primary fs-2x"></i>
-															</span>
-														</span>
-														<!--end:Icon-->
-														<!--begin:Info-->
-														<span class="d-flex flex-column">
-															<span class="fw-bold fs-6">Vue</span>
-															<span class="fs-7 text-muted">Lightweight and responsive framework</span>
-														</span>
-														<!--end:Info-->
-													</span>
-													<!--end:Label-->
-													<!--begin:Input-->
-													<span class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="radio" name="framework" value="4" />
-													</span>
-													<!--end:Input-->
-												</label>
-												<!--end::Option-->
-											</div>
-											<!--end::Input group-->
-										</div>
-									</div>
-									<!--end::Step 2-->
-									<!--begin::Step 3-->
-									<div data-kt-stepper-element="content">
-										<div class="w-100">
-											<!--begin::Input group-->
-											<div class="fv-row mb-10">
-												<!--begin::Label-->
-												<label class="required fs-5 fw-semibold mb-2">Database Name</label>
-												<!--end::Label-->
-												<!--begin::Input-->
-												<input type="text" class="form-control form-control-lg form-control-solid" name="dbname" placeholder="" value="master_db" />
-												<!--end::Input-->
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-5 fw-semibold mb-4">
-													<span class="required">Select Database Engine</span>
-													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Select your app database engine"></i>
-												</label>
-												<!--end::Label-->
-												<!--begin:Option-->
-												<label class="d-flex flex-stack cursor-pointer mb-5">
-													<!--begin::Label-->
-													<span class="d-flex align-items-center me-2">
-														<!--begin::Icon-->
-														<span class="symbol symbol-50px me-6">
-															<span class="symbol-label bg-light-success">
-																<i class="fas fa-database text-success fs-2x"></i>
-															</span>
-														</span>
-														<!--end::Icon-->
-														<!--begin::Info-->
-														<span class="d-flex flex-column">
-															<span class="fw-bold fs-6">MySQL</span>
-															<span class="fs-7 text-muted">Basic MySQL database</span>
-														</span>
-														<!--end::Info-->
-													</span>
-													<!--end::Label-->
-													<!--begin::Input-->
-													<span class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="radio" name="dbengine" checked="checked" value="1" />
-													</span>
-													<!--end::Input-->
-												</label>
-												<!--end::Option-->
-												<!--begin:Option-->
-												<label class="d-flex flex-stack cursor-pointer mb-5">
-													<!--begin::Label-->
-													<span class="d-flex align-items-center me-2">
-														<!--begin::Icon-->
-														<span class="symbol symbol-50px me-6">
-															<span class="symbol-label bg-light-danger">
-																<i class="fab fa-google text-danger fs-2x"></i>
-															</span>
-														</span>
-														<!--end::Icon-->
-														<!--begin::Info-->
-														<span class="d-flex flex-column">
-															<span class="fw-bold fs-6">Firebase</span>
-															<span class="fs-7 text-muted">Google based app data management</span>
-														</span>
-														<!--end::Info-->
-													</span>
-													<!--end::Label-->
-													<!--begin::Input-->
-													<span class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="radio" name="dbengine" value="2" />
-													</span>
-													<!--end::Input-->
-												</label>
-												<!--end::Option-->
-												<!--begin:Option-->
-												<label class="d-flex flex-stack cursor-pointer">
-													<!--begin::Label-->
-													<span class="d-flex align-items-center me-2">
-														<!--begin::Icon-->
-														<span class="symbol symbol-50px me-6">
-															<span class="symbol-label bg-light-warning">
-																<i class="fab fa-amazon text-warning fs-2x"></i>
-															</span>
-														</span>
-														<!--end::Icon-->
-														<!--begin::Info-->
-														<span class="d-flex flex-column">
-															<span class="fw-bold fs-6">DynamoDB</span>
-															<span class="fs-7 text-muted">Amazon Fast NoSQL Database</span>
-														</span>
-														<!--end::Info-->
-													</span>
-													<!--end::Label-->
-													<!--begin::Input-->
-													<span class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="radio" name="dbengine" value="3" />
-													</span>
-													<!--end::Input-->
-												</label>
-												<!--end::Option-->
-											</div>
-											<!--end::Input group-->
-										</div>
-									</div>
-									<!--end::Step 3-->
-									<!--begin::Step 4-->
-									<div data-kt-stepper-element="content">
-										<div class="w-100">
-											<!--begin::Input group-->
-											<div class="d-flex flex-column mb-7 fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
-													<span class="required">Name On Card</span>
-													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a card holder's name"></i>
-												</label>
-												<!--end::Label-->
-												<input type="text" class="form-control form-control-solid" placeholder="" name="card_name" value="Max Doe" />
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="d-flex flex-column mb-7 fv-row">
-												<!--begin::Label-->
-												<label class="required fs-6 fw-semibold form-label mb-2">Card Number</label>
-												<!--end::Label-->
-												<!--begin::Input wrapper-->
-												<div class="position-relative">
-													<!--begin::Input-->
-													<input type="text" class="form-control form-control-solid" placeholder="Enter card number" name="card_number" value="4111 1111 1111 1111" />
-													<!--end::Input-->
-													<!--begin::Card logos-->
-													<div class="position-absolute translate-middle-y top-50 end-0 me-5">
-														<img src="assets/media/svg/card-logos/visa.svg" alt="" class="h-25px" />
-														<img src="assets/media/svg/card-logos/mastercard.svg" alt="" class="h-25px" />
-														<img src="assets/media/svg/card-logos/american-express.svg" alt="" class="h-25px" />
-													</div>
-													<!--end::Card logos-->
-												</div>
-												<!--end::Input wrapper-->
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="row mb-10">
-												<!--begin::Col-->
-												<div class="col-md-8 fv-row">
-													<!--begin::Label-->
-													<label class="required fs-6 fw-semibold form-label mb-2">Expiration Date</label>
-													<!--end::Label-->
-													<!--begin::Row-->
-													<div class="row fv-row">
-														<!--begin::Col-->
-														<div class="col-6">
-															<select name="card_expiry_month" class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Month">
-																<option></option>
-																<option value="1">1</option>
-																<option value="2">2</option>
-																<option value="3">3</option>
-																<option value="4">4</option>
-																<option value="5">5</option>
-																<option value="6">6</option>
-																<option value="7">7</option>
-																<option value="8">8</option>
-																<option value="9">9</option>
-																<option value="10">10</option>
-																<option value="11">11</option>
-																<option value="12">12</option>
-															</select>
-														</div>
-														<!--end::Col-->
-														<!--begin::Col-->
-														<div class="col-6">
-															<select name="card_expiry_year" class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Year">
-																<option></option>
-																<option value="2022">2022</option>
-																<option value="2023">2023</option>
-																<option value="2024">2024</option>
-																<option value="2025">2025</option>
-																<option value="2026">2026</option>
-																<option value="2027">2027</option>
-																<option value="2028">2028</option>
-																<option value="2029">2029</option>
-																<option value="2030">2030</option>
-																<option value="2031">2031</option>
-																<option value="2032">2032</option>
-															</select>
-														</div>
-														<!--end::Col-->
-													</div>
-													<!--end::Row-->
-												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-md-4 fv-row">
-													<!--begin::Label-->
-													<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
-														<span class="required">CVV</span>
-														<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Enter a card CVV code"></i>
-													</label>
-													<!--end::Label-->
-													<!--begin::Input wrapper-->
-													<div class="position-relative">
-														<!--begin::Input-->
-														<input type="text" class="form-control form-control-solid" minlength="3" maxlength="4" placeholder="CVV" name="card_cvv" />
-														<!--end::Input-->
-														<!--begin::CVV icon-->
-														<div class="position-absolute translate-middle-y top-50 end-0 me-3">
-															<!--begin::Svg Icon | path: icons/duotune/finance/fin002.svg-->
-															<span class="svg-icon svg-icon-2hx">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M22 7H2V11H22V7Z" fill="currentColor" />
-																	<path opacity="0.3" d="M21 19H3C2.4 19 2 18.6 2 18V6C2 5.4 2.4 5 3 5H21C21.6 5 22 5.4 22 6V18C22 18.6 21.6 19 21 19ZM14 14C14 13.4 13.6 13 13 13H5C4.4 13 4 13.4 4 14C4 14.6 4.4 15 5 15H13C13.6 15 14 14.6 14 14ZM16 15.5C16 16.3 16.7 17 17.5 17H18.5C19.3 17 20 16.3 20 15.5C20 14.7 19.3 14 18.5 14H17.5C16.7 14 16 14.7 16 15.5Z" fill="currentColor" />
-																</svg>
-															</span>
-															<!--end::Svg Icon-->
-														</div>
-														<!--end::CVV icon-->
-													</div>
-													<!--end::Input wrapper-->
-												</div>
-												<!--end::Col-->
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="d-flex flex-stack">
-												<!--begin::Label-->
-												<div class="me-5">
-													<label class="fs-6 fw-semibold form-label">Save Card for further billing?</label>
-													<div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
-												</div>
-												<!--end::Label-->
-												<!--begin::Switch-->
-												<label class="form-check form-switch form-check-custom form-check-solid">
-													<input class="form-check-input" type="checkbox" value="1" checked="checked" />
-													<span class="form-check-label fw-semibold text-muted">Save Card</span>
-												</label>
-												<!--end::Switch-->
-											</div>
-											<!--end::Input group-->
-										</div>
-									</div>
-									<!--end::Step 4-->
-									<!--begin::Step 5-->
-									<div data-kt-stepper-element="content">
-										<div class="w-100 text-center">
-											<!--begin::Heading-->
-											<h1 class="fw-bold text-dark mb-3">Release!</h1>
-											<!--end::Heading-->
-											<!--begin::Description-->
-											<div class="text-muted fw-semibold fs-3">Submit your app to kickstart your project.</div>
-											<!--end::Description-->
-											<!--begin::Illustration-->
-											<div class="text-center px-4 py-15">
-												<img src="assets/media/illustrations/sketchy-1/9.png" alt="" class="mw-100 mh-300px" />
-											</div>
-											<!--end::Illustration-->
-										</div>
-									</div>
-									<!--end::Step 5-->
-									<!--begin::Actions-->
-									<div class="d-flex flex-stack pt-10">
-										<!--begin::Wrapper-->
-										<div class="me-2">
-											<button type="button" class="btn btn-lg btn-light-primary me-3" data-kt-stepper-action="previous">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr063.svg-->
-											<span class="svg-icon svg-icon-3 me-1">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<rect opacity="0.5" x="6" y="11" width="13" height="2" rx="1" fill="currentColor" />
-													<path d="M8.56569 11.4343L12.75 7.25C13.1642 6.83579 13.1642 6.16421 12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75L5.70711 11.2929C5.31658 11.6834 5.31658 12.3166 5.70711 12.7071L11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25C13.1642 17.8358 13.1642 17.1642 12.75 16.75L8.56569 12.5657C8.25327 12.2533 8.25327 11.7467 8.56569 11.4343Z" fill="currentColor" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->Back</button>
-										</div>
-										<!--end::Wrapper-->
-										<!--begin::Wrapper-->
-										<div>
-											<button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="submit">
-												<span class="indicator-label">Submit
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-												<span class="svg-icon svg-icon-3 ms-2 me-0">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor" />
-														<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor" />
-													</svg>
-												</span>
-												<!--end::Svg Icon--></span>
-												<span class="indicator-progress">Please wait...
-												<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-											</button>
-											<button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="next">Continue
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-											<span class="svg-icon svg-icon-3 ms-1 me-0">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor" />
-													<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor" />
-												</svg>
-											</span>
-											<!--end::Svg Icon--></button>
-										</div>
-										<!--end::Wrapper-->
-									</div>
-									<!--end::Actions-->
-								</form>
-								<!--end::Form-->
-							</div>
-							<!--end::Content-->
-						</div>
-						<!--end::Stepper-->
-					</div>
-					<!--end::Modal body-->
-				</div>
-				<!--end::Modal content-->
-			</div>
-			<!--end::Modal dialog-->
-		</div>
-		<!--end::Modal - Create App-->
-		<!--begin::Modal - Invite Friends-->
-		<div class="modal fade" id="kt_modal_invite_friends" tabindex="-1" aria-hidden="true">
-			<!--begin::Modal dialog-->
-			<div class="modal-dialog mw-650px">
-				<!--begin::Modal content-->
-				<div class="modal-content">
-					<!--begin::Modal header-->
-					<div class="modal-header pb-0 border-0 justify-content-end">
-						<!--begin::Close-->
-						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-							<span class="svg-icon svg-icon-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->
-						</div>
-						<!--end::Close-->
-					</div>
-					<!--begin::Modal header-->
-					<!--begin::Modal body-->
-					<div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
-						<!--begin::Heading-->
-						<div class="text-center mb-13">
-							<!--begin::Title-->
-							<h1 class="mb-3">Invite a Friend</h1>
-							<!--end::Title-->
-							<!--begin::Description-->
-							<div class="text-muted fw-semibold fs-5">If you need more info, please check out
-							<a href="#" class="link-primary fw-bold">FAQ Page</a>.</div>
-							<!--end::Description-->
-						</div>
-						<!--end::Heading-->
-						<!--begin::Google Contacts Invite-->
-						<div class="btn btn-light-primary fw-bold w-100 mb-8">
-						<img alt="Logo" src="assets/media/svg/brand-logos/google-icon.svg" class="h-20px me-3" />Invite Gmail Contacts</div>
-						<!--end::Google Contacts Invite-->
-						<!--begin::Separator-->
-						<div class="separator d-flex flex-center mb-8">
-							<span class="text-uppercase bg-body fs-7 fw-semibold text-muted px-3">or</span>
-						</div>
-						<!--end::Separator-->
-						<!--begin::Textarea-->
-						<textarea class="form-control form-control-solid mb-8" rows="3" placeholder="Type or paste emails here"></textarea>
-						<!--end::Textarea-->
-						<!--begin::Users-->
-						<div class="mb-10">
-							<!--begin::Heading-->
-							<div class="fs-6 fw-semibold mb-2">Your Invitations</div>
-							<!--end::Heading-->
-							<!--begin::List-->
-							<div class="mh-300px scroll-y me-n7 pe-7">
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-6.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Smith</a>
-											<div class="fw-semibold text-muted">smith@kpmg.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2" selected="selected">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-danger text-danger fw-semibold">M</span>
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Melody Macy</a>
-											<div class="fw-semibold text-muted">melody@altbox.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1" selected="selected">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Max Smith</a>
-											<div class="fw-semibold text-muted">max@kt.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3" selected="selected">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Sean Bean</a>
-											<div class="fw-semibold text-muted">sean@dellito.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2" selected="selected">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Brian Cox</a>
-											<div class="fw-semibold text-muted">brian@exchange.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3" selected="selected">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-warning text-warning fw-semibold">C</span>
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Mikaela Collins</a>
-											<div class="fw-semibold text-muted">mik@pex.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2" selected="selected">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Francis Mitcham</a>
-											<div class="fw-semibold text-muted">f.mit@kpmg.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3" selected="selected">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-danger text-danger fw-semibold">O</span>
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Olivia Wild</a>
-											<div class="fw-semibold text-muted">olivia@corpmail.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2" selected="selected">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-primary text-primary fw-semibold">N</span>
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Neil Owen</a>
-											<div class="fw-semibold text-muted">owen.neil@gmail.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1" selected="selected">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-23.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Dan Wilson</a>
-											<div class="fw-semibold text-muted">dam@consilting.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3" selected="selected">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-danger text-danger fw-semibold">E</span>
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Bold</a>
-											<div class="fw-semibold text-muted">emma@intenso.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2" selected="selected">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-12.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Ana Crown</a>
-											<div class="fw-semibold text-muted">ana.cf@limtel.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1" selected="selected">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-info text-info fw-semibold">A</span>
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
-											<div class="fw-semibold text-muted">robert@benko.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3" selected="selected">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-13.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">John Miller</a>
-											<div class="fw-semibold text-muted">miller@mapple.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3" selected="selected">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<span class="symbol-label bg-light-success text-success fw-semibold">L</span>
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Lucy Kunic</a>
-											<div class="fw-semibold text-muted">lucy.m@fentech.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2" selected="selected">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4 border-bottom border-gray-300 border-bottom-dashed">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-21.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Ethan Wilder</a>
-											<div class="fw-semibold text-muted">ethan@loop.com.au</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1" selected="selected">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-								<!--begin::User-->
-								<div class="d-flex flex-stack py-4">
-									<!--begin::Details-->
-									<div class="d-flex align-items-center">
-										<!--begin::Avatar-->
-										<div class="symbol symbol-35px symbol-circle">
-											<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
-										</div>
-										<!--end::Avatar-->
-										<!--begin::Details-->
-										<div class="ms-5">
-											<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Francis Mitcham</a>
-											<div class="fw-semibold text-muted">f.mit@kpmg.com</div>
-										</div>
-										<!--end::Details-->
-									</div>
-									<!--end::Details-->
-									<!--begin::Access menu-->
-									<div class="ms-2 w-100px">
-										<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-											<option value="1">Guest</option>
-											<option value="2">Owner</option>
-											<option value="3" selected="selected">Can Edit</option>
-										</select>
-									</div>
-									<!--end::Access menu-->
-								</div>
-								<!--end::User-->
-							</div>
-							<!--end::List-->
-						</div>
-						<!--end::Users-->
-						<!--begin::Notice-->
-						<div class="d-flex flex-stack">
-							<!--begin::Label-->
-							<div class="me-5 fw-semibold">
-								<label class="fs-6">Adding Users by Team Members</label>
-								<div class="fs-7 text-muted">If you need more info, please check budget planning</div>
-							</div>
-							<!--end::Label-->
-							<!--begin::Switch-->
-							<label class="form-check form-switch form-check-custom form-check-solid">
-								<input class="form-check-input" type="checkbox" value="1" checked="checked" />
-								<span class="form-check-label fw-semibold text-muted">Allowed</span>
-							</label>
-							<!--end::Switch-->
-						</div>
-						<!--end::Notice-->
-					</div>
-					<!--end::Modal body-->
-				</div>
-				<!--end::Modal content-->
-			</div>
-			<!--end::Modal dialog-->
-		</div>
-		<!--end::Modal - Invite Friend-->
-		<!--begin::Modal - Users Search-->
-		<div class="modal fade" id="kt_modal_users_search" tabindex="-1" aria-hidden="true">
-			<!--begin::Modal dialog-->
-			<div class="modal-dialog modal-dialog-centered mw-650px">
-				<!--begin::Modal content-->
-				<div class="modal-content">
-					<!--begin::Modal header-->
-					<div class="modal-header pb-0 border-0 justify-content-end">
-						<!--begin::Close-->
-						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-							<span class="svg-icon svg-icon-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->
-						</div>
-						<!--end::Close-->
-					</div>
-					<!--begin::Modal header-->
-					<!--begin::Modal body-->
-					<div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
-						<!--begin::Content-->
-						<div class="text-center mb-13">
-							<h1 class="mb-3">Search Users</h1>
-							<div class="text-muted fw-semibold fs-5">Invite Collaborators To Your Project</div>
-						</div>
-						<!--end::Content-->
-						<!--begin::Search-->
-						<div id="kt_modal_users_search_handler" data-kt-search-keypress="true" data-kt-search-min-length="2" data-kt-search-enter="enter" data-kt-search-layout="inline">
-							<!--begin::Form-->
-							<form data-kt-search-element="form" class="w-100 position-relative mb-5" autocomplete="off">
-								<!--begin::Hidden input(Added to disable form autocomplete)-->
-								<input type="hidden" />
-								<!--end::Hidden input-->
-								<!--begin::Icon-->
-								<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-								<span class="svg-icon svg-icon-2 svg-icon-lg-1 svg-icon-gray-500 position-absolute top-50 ms-5 translate-middle-y">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
-										<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-								<!--end::Icon-->
-								<!--begin::Input-->
-								<input type="text" class="form-control form-control-lg form-control-solid px-15" name="search" value="" placeholder="Search by username, full name or email..." data-kt-search-element="input" />
-								<!--end::Input-->
-								<!--begin::Spinner-->
-								<span class="position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5" data-kt-search-element="spinner">
-									<span class="spinner-border h-15px w-15px align-middle text-muted"></span>
-								</span>
-								<!--end::Spinner-->
-								<!--begin::Reset-->
-								<span class="btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 me-5 d-none" data-kt-search-element="clear">
-									<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-									<span class="svg-icon svg-icon-2 svg-icon-lg-1 me-0">
-										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-											<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-										</svg>
-									</span>
-									<!--end::Svg Icon-->
-								</span>
-								<!--end::Reset-->
-							</form>
-							<!--end::Form-->
-							<!--begin::Wrapper-->
-							<div class="py-5">
-								<!--begin::Suggestions-->
-								<div data-kt-search-element="suggestions">
-									<!--begin::Heading-->
-									<h3 class="fw-semibold mb-5">Recently searched:</h3>
-									<!--end::Heading-->
-									<!--begin::Users-->
-									<div class="mh-375px scroll-y me-n7 pe-7">
-										<!--begin::User-->
-										<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
-											<!--begin::Avatar-->
-											<div class="symbol symbol-35px symbol-circle me-5">
-												<img alt="Pic" src="assets/media/avatars/300-6.jpg" />
-											</div>
-											<!--end::Avatar-->
-											<!--begin::Info-->
-											<div class="fw-semibold">
-												<span class="fs-6 text-gray-800 me-2">Emma Smith</span>
-												<span class="badge badge-light">Art Director</span>
-											</div>
-											<!--end::Info-->
-										</a>
-										<!--end::User-->
-										<!--begin::User-->
-										<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
-											<!--begin::Avatar-->
-											<div class="symbol symbol-35px symbol-circle me-5">
-												<span class="symbol-label bg-light-danger text-danger fw-semibold">M</span>
-											</div>
-											<!--end::Avatar-->
-											<!--begin::Info-->
-											<div class="fw-semibold">
-												<span class="fs-6 text-gray-800 me-2">Melody Macy</span>
-												<span class="badge badge-light">Marketing Analytic</span>
-											</div>
-											<!--end::Info-->
-										</a>
-										<!--end::User-->
-										<!--begin::User-->
-										<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
-											<!--begin::Avatar-->
-											<div class="symbol symbol-35px symbol-circle me-5">
-												<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-											</div>
-											<!--end::Avatar-->
-											<!--begin::Info-->
-											<div class="fw-semibold">
-												<span class="fs-6 text-gray-800 me-2">Max Smith</span>
-												<span class="badge badge-light">Software Enginer</span>
-											</div>
-											<!--end::Info-->
-										</a>
-										<!--end::User-->
-										<!--begin::User-->
-										<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
-											<!--begin::Avatar-->
-											<div class="symbol symbol-35px symbol-circle me-5">
-												<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
-											</div>
-											<!--end::Avatar-->
-											<!--begin::Info-->
-											<div class="fw-semibold">
-												<span class="fs-6 text-gray-800 me-2">Sean Bean</span>
-												<span class="badge badge-light">Web Developer</span>
-											</div>
-											<!--end::Info-->
-										</a>
-										<!--end::User-->
-										<!--begin::User-->
-										<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
-											<!--begin::Avatar-->
-											<div class="symbol symbol-35px symbol-circle me-5">
-												<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-											</div>
-											<!--end::Avatar-->
-											<!--begin::Info-->
-											<div class="fw-semibold">
-												<span class="fs-6 text-gray-800 me-2">Brian Cox</span>
-												<span class="badge badge-light">UI/UX Designer</span>
-											</div>
-											<!--end::Info-->
-										</a>
-										<!--end::User-->
-									</div>
-									<!--end::Users-->
-								</div>
-								<!--end::Suggestions-->
-								<!--begin::Results(add d-none to below element to hide the users list by default)-->
-								<div data-kt-search-element="results" class="d-none">
-									<!--begin::Users-->
-									<div class="mh-375px scroll-y me-n7 pe-7">
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="0">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='0']" value="0" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-6.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Smith</a>
-													<div class="fw-semibold text-muted">smith@kpmg.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2" selected="selected">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="1">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='1']" value="1" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-danger text-danger fw-semibold">M</span>
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Melody Macy</a>
-													<div class="fw-semibold text-muted">melody@altbox.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1" selected="selected">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="2">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='2']" value="2" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Max Smith</a>
-													<div class="fw-semibold text-muted">max@kt.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3" selected="selected">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="3">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='3']" value="3" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Sean Bean</a>
-													<div class="fw-semibold text-muted">sean@dellito.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2" selected="selected">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="4">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='4']" value="4" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Brian Cox</a>
-													<div class="fw-semibold text-muted">brian@exchange.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3" selected="selected">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="5">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='5']" value="5" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-warning text-warning fw-semibold">C</span>
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Mikaela Collins</a>
-													<div class="fw-semibold text-muted">mik@pex.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2" selected="selected">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="6">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='6']" value="6" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Francis Mitcham</a>
-													<div class="fw-semibold text-muted">f.mit@kpmg.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3" selected="selected">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="7">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='7']" value="7" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-danger text-danger fw-semibold">O</span>
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Olivia Wild</a>
-													<div class="fw-semibold text-muted">olivia@corpmail.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2" selected="selected">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="8">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='8']" value="8" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-primary text-primary fw-semibold">N</span>
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Neil Owen</a>
-													<div class="fw-semibold text-muted">owen.neil@gmail.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1" selected="selected">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="9">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='9']" value="9" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-23.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Dan Wilson</a>
-													<div class="fw-semibold text-muted">dam@consilting.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3" selected="selected">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="10">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='10']" value="10" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-danger text-danger fw-semibold">E</span>
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Bold</a>
-													<div class="fw-semibold text-muted">emma@intenso.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2" selected="selected">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="11">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='11']" value="11" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-12.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Ana Crown</a>
-													<div class="fw-semibold text-muted">ana.cf@limtel.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1" selected="selected">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="12">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='12']" value="12" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-info text-info fw-semibold">A</span>
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
-													<div class="fw-semibold text-muted">robert@benko.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3" selected="selected">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="13">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='13']" value="13" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-13.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">John Miller</a>
-													<div class="fw-semibold text-muted">miller@mapple.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3" selected="selected">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="14">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='14']" value="14" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<span class="symbol-label bg-light-success text-success fw-semibold">L</span>
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Lucy Kunic</a>
-													<div class="fw-semibold text-muted">lucy.m@fentech.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2" selected="selected">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="15">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='15']" value="15" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-21.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Ethan Wilder</a>
-													<div class="fw-semibold text-muted">ethan@loop.com.au</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1" selected="selected">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-										<!--begin::Separator-->
-										<div class="border-bottom border-gray-300 border-bottom-dashed"></div>
-										<!--end::Separator-->
-										<!--begin::User-->
-										<div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="16">
-											<!--begin::Details-->
-											<div class="d-flex align-items-center">
-												<!--begin::Checkbox-->
-												<label class="form-check form-check-custom form-check-solid me-5">
-													<input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='16']" value="16" />
-												</label>
-												<!--end::Checkbox-->
-												<!--begin::Avatar-->
-												<div class="symbol symbol-35px symbol-circle">
-													<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
-												</div>
-												<!--end::Avatar-->
-												<!--begin::Details-->
-												<div class="ms-5">
-													<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Max Smith</a>
-													<div class="fw-semibold text-muted">max@kt.com</div>
-												</div>
-												<!--end::Details-->
-											</div>
-											<!--end::Details-->
-											<!--begin::Access menu-->
-											<div class="ms-2 w-100px">
-												<select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
-													<option value="1">Guest</option>
-													<option value="2">Owner</option>
-													<option value="3" selected="selected">Can Edit</option>
-												</select>
-											</div>
-											<!--end::Access menu-->
-										</div>
-										<!--end::User-->
-									</div>
-									<!--end::Users-->
-									<!--begin::Actions-->
-									<div class="d-flex flex-center mt-15">
-										<button type="reset" id="kt_modal_users_search_reset" data-bs-dismiss="modal" class="btn btn-active-light me-3">Cancel</button>
-										<button type="submit" id="kt_modal_users_search_submit" class="btn btn-primary">Add Selected Users</button>
-									</div>
-									<!--end::Actions-->
-								</div>
-								<!--end::Results-->
-								<!--begin::Empty-->
-								<div data-kt-search-element="empty" class="text-center d-none">
-									<!--begin::Message-->
-									<div class="fw-semibold py-10">
-										<div class="text-gray-600 fs-3 mb-2">No users found</div>
-										<div class="text-muted fs-6">Try to search by username, full name or email...</div>
-									</div>
-									<!--end::Message-->
-									<!--begin::Illustration-->
-									<div class="text-center px-5">
-										<img src="assets/media/illustrations/sketchy-1/1.png" alt="" class="w-100 h-200px h-sm-325px" />
-									</div>
-									<!--end::Illustration-->
-								</div>
-								<!--end::Empty-->
-							</div>
-							<!--end::Wrapper-->
-						</div>
-						<!--end::Search-->
-					</div>
-					<!--end::Modal body-->
-				</div>
-				<!--end::Modal content-->
-			</div>
-			<!--end::Modal dialog-->
-		</div>
-		<!--end::Modal - Users Search-->
+		
 		<!--end::Modals-->
 		<!--begin::Javascript-->
 		<script>var hostUrl = "assets/";</script>
@@ -9501,113 +2525,156 @@ License: For each use you must have a valid license purchased only from above li
 		<script>
 		var datoAFiltrar = '<?php echo $notificaciones; ?>';
 		console.log("Valor de mensaje:", datoAFiltrar);
-        "use strict";
-        var table;
-        var dt;
+		"use strict";
+		var table;
+		var dt;
 
-        $(document).ready(function () {
+		$(document).ready(function () {
 
-            dt = $('#kt_table_use').DataTable({
+			dt = $('#kt_table_use').DataTable({
 
 
-                searchDelay: 500,
-                processing: true,
-                serverSide: true,
-                order: [[0, 'asc']],
-                stateSave: true,
-                select: {
-                    style: 'multi',
-                    selector: 'td:first-child input[type="checkbox"]',
-                    className: 'row-selected'
-                },
-                ajax: {
-                    // Aquí puedes proporcionar la URL del controlador que maneja la solicitud AJAX
-                    url: "/listadoNotificaciones",
-                    data: function (d) {
-                        // Envía el dato que deseas filtrar como un parámetro GET
-                        d.dato_a_filtrar = datoAFiltrar;
-                    }
-                },
-                columns: [
+				searchDelay: 500,
+				processing: true,
+				serverSide: true,
+				order: [[0, 'asc']],
+				stateSave: true,
+				select: {
+					style: 'multi',
+					selector: 'td:first-child input[type="checkbox"]',
+					className: 'row-selected'
+				},
+				ajax: {
+					// Aquí puedes proporcionar la URL del controlador que maneja la solicitud AJAX
+					url: "/listadoNotificaciones",
+					data: function (d) {
+						// Envía el dato que deseas filtrar como un parámetro GET
+						d.dato_a_filtrar = datoAFiltrar;
+					}
+				},
+				columns: [
 
-                    { data: 'id' },
+					{ data: 'id' },
 					{ data: 'funcionario' },
-                    { data: 'titulo' },
-                    { data: 'descripcion' },
+					{ data: 'titulo' },
+					{ data: 'descripcion' },
 					{ data: 'destinatario' },
 					{ data: 'created_at' },
-                ],
+				],
 			
-                columnDefs: [
-                    {
-                        targets: 6,
-                        orderable: false,
-                        render: function (data) {
-                            return ` <div class="text-end">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-light btn-active-light-primary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Acción
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end">
-                            <a class="dropdown-item" data-bs-toggle="modal" href="#editar_venta_modal" data-id="" data-nombre="" data-url="acevm" id="editar">Editar</a>
-                            <a class="dropdown-item" href="javascript:;" id="eliminar" data-kt-users-table-filter="delete_row" data-id="" data-nombre="">Eliminar</a>
-                        </div>
-                    </div>
-                </div>`;
-                        }
-                    },
-                ],
+				columnDefs: [
+					{
+						targets: 6,
+						orderable: false,
+						render: function (data) {
+							return ` <div class="text-end">
+					<div class="btn-group">
+						<button type="button" class="btn btn-light btn-active-light-primary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Acción
+						</button>
+						<div class="dropdown-menu dropdown-menu-end">
+							<a class="dropdown-item" data-bs-toggle="modal" href="#editar_venta_modal" data-id="" data-nombre="" data-url="acevm" id="editar">Editar</a>
+							<a class="dropdown-item" href="javascript:;" id="eliminar" data-kt-users-table-filter="delete_row" data-id="" data-nombre="">Eliminar</a>
+						</div>
+					</div>
+				</div>`;
+						}
+					},
+				],
 
 
-            });
+			});
 
-            handleSearchDatatable();
-            recargarTabla();
-        });
+			handleSearchDatatable();
+			recargarTabla();
+		});
 
 
 
-        $(document).ready(function () {
-    // Evento de clic para el botón "Editar" en la fila de la tabla
-    $(document).on('click', '#editar', function () {
-        // Captura los datos de la fila
-        var id = $(this).closest('tr').data('id');
-        var entidad = $(this).closest('tr').data('entidad');
-        var respuesta = $(this).closest('tr').data('respuesta');
+		$(document).ready(function () {
+	// Evento de clic para el botón "Editar" en la fila de la tabla
+	$(document).on('click', '#editar', function () {
+		// Captura los datos de la fila
+		var id = $(this).closest('tr').data('id');
+		var entidad = $(this).closest('tr').data('entidad');
+		var respuesta = $(this).closest('tr').data('respuesta');
 
-        // Llena el modal de edición con los datos capturados
-        $('#modal_id').val(id);
-        $('#modal_nombre').val(entidad);
-        $('#modal_descripcion').val(respuesta);
+		// Llena el modal de edición con los datos capturados
+		$('#modal_id').val(id);
+		$('#modal_nombre').val(entidad);
+		$('#modal_descripcion').val(respuesta);
 
-        // Abre el modal de edición
-        $('#editar_venta_modal').modal('show');
-    });
+		// Abre el modal de edición
+		$('#editar_venta_modal').modal('show');
+	});
 
-    // Evento de clic para guardar los cambios en el formulario de edición
-    $(document).on('click', '#guardar_edicion', function () {
-        // Aquí puedes implementar la lógica para guardar los cambios en el elemento editado
-        // Por ejemplo, puedes hacer una solicitud AJAX para enviar los datos al servidor.
+	// Evento de clic para guardar los cambios en el formulario de edición
+	$(document).on('click', '#guardar_edicion', function () {
+		// Aquí puedes implementar la lógica para guardar los cambios en el elemento editado
+		// Por ejemplo, puedes hacer una solicitud AJAX para enviar los datos al servidor.
 
-        // Cierra el modal después de guardar los cambios
-        $('#editar_venta_modal').modal('hide');
-    });
+		// Cierra el modal después de guardar los cambios
+		$('#editar_venta_modal').modal('hide');
+	});
 }); 
 
 
 		var handleSearchDatatable = function () {
-            const filterSearch = document.querySelector("#search-input");
-            filterSearch.addEventListener('keyup', function (e) {
-                dt.search(e.target.value).draw();
-            });
-        }
+			const filterSearch = document.querySelector("#search-input");
+			filterSearch.addEventListener('keyup', function (e) {
+				dt.search(e.target.value).draw();
+			});
+		}
 /********************************************************************************
  *funcion recargar datatables
 ********************************************************************************* */
-        function recargarTabla() {
-            dt.ajax.reload();
-        }
+		function recargarTabla() {
+			dt.ajax.reload();
+		}
 		
+
+/********************************************************************************
+* funcion para armar el json y mandar al controlador y posterior al modelo y BD
+********************************************************************************* */
+
+		$('#enviar').click(function () {
+			// Obtener los valores de los campos de texto, botones de radio, área de texto y el combo
+			var otherData = {
+				id_usuario: document.getElementById("id").value,
+				titulo: document.getElementById("titulo").value,
+				descripcion: document.getElementById("descripcion").value,
+				prioridad: document.getElementById("prioridad").value,
+				destinatario: document.getElementById("destino").value,
+			};
+
+
+			// Combinar los datos en un objeto único
+			var formData = {
+			   
+				otherData: otherData
+			};
+
+			// Convertir el objeto en una cadena JSON
+			var jsonData = JSON.stringify(formData);
+
+			console.log("JSON enviado al servidor:", jsonData);
+
+			// Enviar los datos mediante una solicitud AJAX
+			var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/crearnotificacion", true);
+			xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState === 4 && xhr.status === 200) {
+					// Manejar la respuesta del servidor si es necesario
+					console.log(xhr.responseText);
+				}
+
+			};
+			xhr.send(jsonData);
+		});
+
+
+
 		</script>
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->

@@ -14,7 +14,7 @@ class SolicitudesController extends BaseController
 			$datos = $Crud->DatosUsuarios();
 			$datosEntidad=$Crud->DatosEntidad();
 			$datosCategoria=$Crud->DatosCategoriaEntidad();
-			$mensaje = session('mensaje');
+			$mensaje = "";
 	
 			$datos = [
 						"datos" => $datos,

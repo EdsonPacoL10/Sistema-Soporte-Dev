@@ -13,6 +13,33 @@
 			return $Nombres->getResult();
 		}
 
+		public function insertarDatosNotificacion($datos) {
+			$Nombres = $this->db->table('notificacion');
+			$Nombres->insert($datos);
+			return $this->db->insertID(); 
+		}
+		public function insertarNombreCarpeta($datos) {
+			$Nombres = $this->db->table('carpetas');
+			$Nombres->insert($datos);
+			return $this->db->insertID(); 
+		}
+
+
+		public function insertarDatosUrl($datos) {
+			$Nombres = $this->db->table('urlvideoayudausuario');
+			$Nombres->insert($datos);
+			return $this->db->insertID(); 
+		}
+
+		public function listaUrl() {
+			// Utiliza una sentencia preparada para evitar la inyección de SQL
+			$sql = "select id,url from urlvideoayudausuario u ";
+			// Ejecuta la consulta utilizando CodeIgniter Query Builder
+			$query = $this->db->query($sql);
+		
+			// Devuelve los resultados como un array
+			return $query->getResult();
+		}
         public function DatosCategoriaEntidad() {
 			$Nombres = $this->db->query("SELECT c2.id as idClasificacion ,c.id as idCategoria,c.nombre as nomCat,c2.nombre as nomclas
 			FROM categoria c  
@@ -37,6 +64,9 @@
 			// Devuelve los resultados como un array
 			return $query->getResultArray();
 		}
+
+		//armado de la consulta para mostrar los archivos nesario solo para la entidad que necesita
+
 		public function Armado($entidad){
 			$sql = "SELECT id,nombre 
 			FROM entidad e  
@@ -47,6 +77,30 @@
 		
 			// Devuelve los resultados como un array
 			return $query->getResult();
+		}
+			//armado nombre de la carpeta
+
+			public function ArmadoCarpeta($carpeta){
+				$sql = "select id,nombre from carpetas c WHERE nombre = ?;";
+			
+				// Ejecuta la consulta utilizando CodeIgniter Query Builder
+				$query = $this->db->query($sql, [$carpeta]);
+			
+				// Devuelve los resultados como un array
+				return $query->getResult();
+			}
+		//armado de la consulta para mostrar los documentos que se tiene dentro de la carpeta 
+		public function ArmadoArchivos($archivos){
+					// Utiliza una sentencia preparada para evitar la inyección de SQL
+					$sql = "select a.id ,c.nombre as carpeta ,a.nombre ,a.tipo ,a.tamaño, a.descripcion ,a.created_at 
+					FROM archivos a 
+					INNER JOIN carpetas c  ON a.carpeta  = c.id where a.carpeta =?;";
+		
+			// Ejecuta la consulta utilizando CodeIgniter Query Builder
+			$query = $this->db->query($sql, [$archivos]);
+		
+			// Devuelve los resultados como un array
+			return $query->getResultArray();
 		}
 		
 		public function insertarDatos($datos) {

@@ -12,12 +12,24 @@
 			WHERE imagen01 LIKE '%uploads%';");
 			return $Nombres->getResultArray();
 		}
+		public function listarCarpetas() {
+			$Nombres = $this->db->query("	select id, nombre ,c.created_at as fecha ,cantidad from carpetas c ;");
+			return $Nombres->getResultArray();
+		}
 		public function insertarDatos($datos) {
 			$Nombres = $this->db->table('solicitud');
 			$Nombres->insert($datos);
 
 			return $this->db->insertID(); 
 		}
+		public function insertarArchivos($datos) {
+			$Nombres = $this->db->table('archivos');
+			$Nombres->insert($datos);
+
+			return $this->db->insertID(); 
+		}
+
+
 			public function listarNotificacion($dato_a_filtrar) {
 				// Utiliza una sentencia preparada para evitar la inyección de SQL
 				$sql = "SELECT n.id ,tp.funcionario ,n.titulo ,n.descripcion ,n.destinatario ,n.created_at 

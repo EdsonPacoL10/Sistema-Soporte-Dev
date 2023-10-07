@@ -38,17 +38,45 @@ $routes->get('/', 'LoginController::index');
 $routes->get('/index', 'Home::index');
 $routes->post('/datoLogin', 'LoginController::login');
 $routes->get('/salir', 'LoginController::salir');
+
+/***************************************************************************************
+ * actividades que el administrador realizara 
+ **************************************************************************************/
 //rutas administrador
 $routes->get('/administrador', 'AdminController::index');
 $routes->get('/listaSolicitud', 'AdminController::lista');
-//ruta para poder firtar los datos para la consulta 
+//ruda para manejar la subida de videos para ayudar al usuario videos tutoriales
+$routes->get('/VideoAyudaUsuario', 'AdminController::VideoAyuda');
+$routes->post('/ingresarUrl', 'AdminController::ingresarUrl');
 
 //listado de solicitud filtrada desde el dashborar a la tabla envio por pos
 $routes->get('/listaajaxItemsEntidad', 'AdminController::getData');
 $routes->get('/listadoNotificaciones', 'AdminController::getDataNotificaciones');
+//proceso de envio del json al controlador 
+$routes->post('/crearnotificacion', 'AdminController::crearNotificaciones');
+//proceso de revir el json para mostrar los videos en al vista
+$routes->get('/verUrl', 'AdminController::getDataUrl');
+//ruta para desplegar driver de administrador
+$routes->get('/listadocarpetas', 'AdminController::getDataCarpetas');
+$routes->post('/enviarCarpeta', 'AdminController::crearCarpeta');
+//ruta para ver las carpetas
+$routes->get('/drives', 'AdminController::drives');
+//ruta para ver los archivos dentro de las carpetas
+$routes->post('/listaArchivos', 'AdminController::listaArchivos');
+$routes->get('/listaajaxArchivos', 'AdminController::getDataArchivo');
+//ruta para realizar la insercion de documentos para soporte
+$routes->post('/InsertarDrives', 'AdminController::insertarDrives');
+//ruta para editar arcichivos 
+$routes->get('editarRegistro/(:num)', 'AdminController::editar/$1');
+
 //esta ruta es para el administardor
+
+
+
+
 $routes->get('/NuevaSolicitudAdmin', 'SolicitudesController::index');
 
+/****************************************************************************************/
 
 
 
